@@ -38,7 +38,7 @@ ul.post {
     font-size: 1.2em;
 }
 
-p.post ul li {
+div.post ul li {
     font-size: 1.2em;
     list-style: none;
 }
