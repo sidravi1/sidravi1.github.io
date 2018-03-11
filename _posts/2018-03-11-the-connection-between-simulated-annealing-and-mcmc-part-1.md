@@ -9,28 +9,28 @@ I was going to dive straight into it but thought I should go over Simulated Anne
 
 SA is pretty straight forward. The following is some pseudo-code (though it's similarity to python is uncanny):
 
-~~~
+```python
 # Initialize:
 
 X_old =       # propose some X in the support of f(X)
 E_old = f(X)  # E is for energy
 T = 100       # pick some large value of T
 L = 10        # this is the length of the first epoch
-~~~
+```
 
 
 - X_old is the starting point so pick whatever makes sense or come up with one randomly.
 - T should be large enough. You'll probably end up tweaking this as you go.
 - L can be small. It will grow exponentially as T decreases.
 
-~~~
+```python
 # Stopping condition
 Epoch = 1000
-~~~
+```
 
 - There are a number of ways you could do this (e.g. When T reaches a certain level or when E is not being updated). We'll keep it simple here.
 
-~~~
+```python
 # Let's anneal!
 for e in range(Epoch):
     for l in range(L):
@@ -50,8 +50,8 @@ for e in range(Epoch):
 
      # Let's calculate new L and T
      T = T * 0.85                                  # (4)
-     L = L * 1.1     
-~~~
+     L = L * 1.1  ```   
+```
 
 That's it! Pretty disappointing right?
 
@@ -76,7 +76,7 @@ So if the solution (X) you are suggesting has higher energy (E or f(X)), then ac
 
 ### (4) Reducing T
 
-We want to gradually reduce the temperature. To ensure convergence, we should really do $ T(t) = \frac{T_0}{ln(1 + t)}$ [3] for $ t = 1, 2, ...$ but this takes forever. So something like what we have done is fine.
+We want to gradually reduce the temperature. To ensure convergence, we should really do $ T(t) = \frac{T_0}{ln(1 + t)}$ for $t = 1, 2, ...$ but this takes forever. So something like what we have done is fine.
 
 ### (5) Increasing L
 
