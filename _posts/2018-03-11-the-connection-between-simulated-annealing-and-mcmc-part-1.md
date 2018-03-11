@@ -59,8 +59,8 @@ That's it! Pretty disappointing right?
 
 There are some technical requirements:
 
-1. It's based on the old X: It should be in the neighbourhood of X_old BUT you should be able to get to any value in the X space from any other value using this proposal i.e. the entire space of X that we are interested in should be "communicable". In Markov language, the proposal function must be irreducible.
-2. It should be symmetric: You should be able to get back to X_old from X_new with equal likelihood or the same proposal function. The fancy name for this is "detailed balance".
+- It's based on the old X: It should be in the neighbourhood of X_old BUT you should be able to get to any value in the X space from any other value using this proposal i.e. the entire space of X that we are interested in should be "communicable". In Markov language, the proposal function must be irreducible.
+- It should be symmetric: You should be able to get back to X_old from X_new with equal likelihood or the same proposal function. The fancy name for this is "detailed balance".
 
 That's all you need. But practically, you don't want your proposal to be too narrow and look for things that are too similar else you'll just be stuck around your local minima. You also don't want it to be too wild where you propose something way radical, else you hop around a lot more than you'd like and will have a low acceptance rate. Finding that balance is an art. Or do as I do and try a few different proposals.
 
