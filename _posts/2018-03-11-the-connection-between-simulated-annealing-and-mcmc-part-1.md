@@ -50,7 +50,7 @@ for e in range(Epoch):
 
      # Let's calculate new L and T
      T = T * 0.85                                  # (4)
-     L = L * 1.1  ```   
+     L = L * 1.1   
 ```
 
 That's it! Pretty disappointing right?
