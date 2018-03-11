@@ -1,3 +1,4 @@
 name: Sid Ravinutala
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: minima
