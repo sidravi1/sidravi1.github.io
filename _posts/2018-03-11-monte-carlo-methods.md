@@ -7,7 +7,7 @@ use_math: true
 
 I imagine most of you have some idea of Monte Carlo (MC) methods. Here we'll try and quantify it a little bit.
 
-Here's a common example. How would you be calculate the area of a circle if a gave you a formula for it's circumference - $latex 2 \pi r$. Easy, you say. Just integrate with respect to r and you get $latex \pi r^2$.
+Here's a common example. How would you be calculate the area of a circle if a gave you a formula for it's circumference - $ 2 \pi r$. Easy, you say. Just integrate with respect to r and you get $ \pi r^2$.
 
 What if you couldn't easily take the integral? Say you're working with a gaussian pdf and want to take the integral. Not so easy (or even possible) to do it the standard analytical way (that's not entirely true, check out Box-Muller. But we'll call that 'non-standard' so that we are not wrong.).  We fall back on numerical methods like the trapezoid rule or Simpson's rule. MC is one additional method. It is computationally less expensive that the other ways when you're working in very high dimensions ( d > 6, is where it starts beating Simpson's rule).
 
