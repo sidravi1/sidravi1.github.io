@@ -25,9 +25,10 @@ $$
 
 So the process comes down to:
 
-Draw N samples from a pdf f(x) that has the same support as h(.)
-Calculate h(.) at each of the N samples you drew.
-Take the average of those values
+- Draw N samples from a pdf f(x) that has the same support as h(.)
+- Calculate h(.) at each of the N samples you drew.
+- Take the average of those values
+
 If you're wondering where, the "divide by the integral of f(x) over the support" step is, f(x) is pdf so we know it is one. Easy peasy.
 
 At this stage, it should start looking very familiar to the MCMC rejection/acceptance process. So why do we even need Markov Chains? Let's just take samples from multi-dimensional uniform distribution (or normal if we want), and do the process above.
