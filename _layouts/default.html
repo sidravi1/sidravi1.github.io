@@ -4,9 +4,9 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<script type="text/javascript"
-			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-			</script>
+			{% if page.use_math %}
+			   {% include mathjax_support.html %}
+			{% endif %}
 		</head>
 		<body>
 			<nav>

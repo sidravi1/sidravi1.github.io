@@ -2,6 +2,7 @@
 layout: post
 title: Monte Carlo Methods
 date: '2018-03-11 10:40'
+mathjax: true
 ---
 
 I imagine most of you have some idea of Monte Carlo (MC) methods. Here we'll try and quantify it a little bit.
