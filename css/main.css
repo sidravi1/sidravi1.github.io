@@ -37,3 +37,7 @@ div.post ul {
     margin: 20px auto 40px;
     font-size: 1.2em;
 }
+
+div.post ul li {
+    list-style: none;
+}
