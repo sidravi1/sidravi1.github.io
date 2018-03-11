@@ -1,7 +1,7 @@
 ---
-layout: "post"
-title: "The connection between Simulated Annealing and MCMC (Part 1)"
-date: "2018-03-11 15:15"
+layout: post
+title: The connection between Simulated Annealing and MCMC (Part 1)
+date: '2018-03-11 15:23'
 use_math: true
 ---
 
