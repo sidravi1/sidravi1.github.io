@@ -182,4 +182,4 @@ plt.show()
 
 Not bad for not a tonne of work.
 
-if your map looks a little skewed, I'd go back and play around with your projections and find one that makes sense. Ok hack at it by playing with *xscale* and *yscale*.
+If your map looks a little skewed, I'd go back and play around with your projections and find one that makes sense. Ok hack at it by playing with *xscale* and *yscale*.
