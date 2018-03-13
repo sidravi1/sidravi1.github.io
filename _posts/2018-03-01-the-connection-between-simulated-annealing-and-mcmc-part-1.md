@@ -82,4 +82,4 @@ We want to gradually reduce the temperature. To ensure convergence, we should re
 
 At the start you are bouncing around since T is high and you accept a lot of stuff. Later on, you'll be accepting fewer things so you should spend a lot of time proposing solutions and slowly descending towards your minima. So L is small to start off with but large once the system has cooled.
 
-In [Part 2]({{% post_url 2018-03-02-the-connection-between-simulated-annealing-and-mcmc-part-2 %}}), let's explore this a little more and then move on to connecting this with MCMC.
+In [Part 2]({{ site.baseurl }}{% post_url 2018-03-02-the-connection-between-simulated-annealing-and-mcmc-part-2 %}), let's explore this a little more and then move on to connecting this with MCMC.
