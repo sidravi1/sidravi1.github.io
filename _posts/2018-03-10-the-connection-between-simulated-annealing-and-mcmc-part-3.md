@@ -97,4 +97,4 @@ If you squint hard enough, you'll notice that even in simulated annealing, we're
 
 It may take a little while for the chain to get to that stationary distribution depending on where you start but once you're there you're (by definition) stuck in the stationary distribution. But how do you know that you actually made it to your stationary distribution? The truth is that you don't really. There are signs that you *haven't* made it to the stationary distribution so high dose of paranoia is advised.
 
-We'll talk about 'burnin', 'autocorrelation', Gewecke test, and Gelman-Rubin test, in a future post.
+We'll talk about *burnin*, *autocorrelation*, Gewecke, and Gelman-Rubin test, in a future post.

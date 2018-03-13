@@ -8,7 +8,7 @@ I recently had to create a bunch of maps for work. I did a bunch in d3.js a whil
 
 Though the code can be a little longer and you're converting shapes files to geojson before rendering them, d3.js has so much community support for mapping that it wasn't too hard to learn.
 
-I tried to do it in python and it wasn't as flexible. At least, given the amount of time I was willing to dedicate to it. I did eventually figure it out. Here's my code with some explanations. There are better ways to do it - plotly, geoviews/holoviews, bokeh to name a few. I'll do another blog once I've got the working.
+I tried to do it in python and it wasn't as flexible. At least, given the amount of time I was willing to dedicate to it. I did eventually figure it out. Here's my code with some explanations. There are better ways to do it - plotly, geoviews/holoviews, bokeh to name a few. I'll do another blog once I've got them working.
 
 ## Setup
 If you are coming fresh, there is a bit of work to setup your environment and the files in order to do the maps.
