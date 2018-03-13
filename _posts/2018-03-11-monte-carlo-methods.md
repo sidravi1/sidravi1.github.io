@@ -5,13 +5,13 @@ date: '2018-03-11 10:40'
 use_math: true
 ---
 
-I imagine most of you have some idea of Monte Carlo (MC) methods. Here we'll try and quantify it a little bit.
+I imagine most of you have some idea of Monte Carlo (MC) methods. Here we'll try and quantify   it a little bit.
 
 Here's a common example. How would you be calculate the area of a circle if a gave you a formula for it's circumference - $ 2 \pi r$. Easy, you say. Just integrate with respect to r and you get $ \pi r^2$.
 
 What if you couldn't easily take the integral? Say you're working with a gaussian pdf and want to take the integral. Not so easy (or even possible) to do it the standard analytical way (that's not entirely true, check out Box-Muller. But we'll call that 'non-standard' so that we are not wrong.).  We fall back on numerical methods like the trapezoid rule or Simpson's rule. MC is one additional method. It is computationally less expensive that the other ways when you're working in very high dimensions ( d > 6, is where it starts beating Simpson's rule).
 
-Back to our trivial but oh-so-illuminating circle example. Let's get the area using a MC. We draw a square around it of size 2r x 2r and throw a bunch of darts at it. We calculate the ratio of darts that fall inside the circle to all the darts thrown. This is the ratio of the area of the circle to the area of square, $ 4r^2 $ (which we know to be simply, to be pi).
+Back to our trivial but oh-so-illuminating circle example. Let's get the area using a MC. We draw a square around it of size 2r x 2r and throw a bunch of darts at it. We calculate the ratio of darts that fall inside the circle to all the darts thrown. This is the ratio of the area of the circle to the area of square, $ 4r^2 $ (which we know to be simply, pi).
 
 Let's formalize this a bit. Say we want to integrate some function h(x). If we draw from any "easy" (like uniform) distribution f(x) :
 

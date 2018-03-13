@@ -1,6 +1,7 @@
 name: Sid Ravinutala's blog
 title: Sid Ravinutala
-url: "sidravi1.github.io"
+url: sidravi1.github.io
+baseurl: ""
 twitter_username: sidinusofaiii
 github_username: sidravi1
 description: On machine learning, bayesian inference, and maybe squash
