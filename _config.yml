@@ -10,3 +10,5 @@ email: sid.ravi1@gmail.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: minima
+plugins:
+  - "disqus-for-jekyll"
