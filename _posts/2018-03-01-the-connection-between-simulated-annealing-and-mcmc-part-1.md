@@ -3,6 +3,7 @@ layout: post
 title: The connection between Simulated Annealing and MCMC (Part 1)
 date: '2018-03-01 15:23'
 use_math: true
+comments: true
 ---
 
 I was going to dive straight into it but thought I should go over Simulated Annealing (SA) first before connecting them. SA is an heuristic optimization algorithm to find the global minimum of some complex function $f(X)$ which may have a bunch of local ones. Note that $X$ can be vector of length N: $X = [x_1, x_2, ..., x_n]$
@@ -84,4 +85,28 @@ At the start you are bouncing around since T is high and you accept a lot of stu
 
 In [Part 2]({{ site.baseurl }}{% post_url 2018-03-02-the-connection-between-simulated-annealing-and-mcmc-part-2 %}), let's explore this a little more and then move on to connecting this with MCMC.
 
-{% disqus %}
+{% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+
+var disqus_config = function () {
+this.page.url = "{{site.baseurl}}"
+this.page.identifier = "{{page.url}}"
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://sidravi1-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
