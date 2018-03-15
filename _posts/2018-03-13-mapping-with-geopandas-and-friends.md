@@ -37,7 +37,7 @@ Good luck. If you get an error, drop me an email with it - it might jog my memor
 
 ### Get your shape files
 
-If you don't have one already, go to [Global Administrative Areas](http://gadm.org/country) and download the shape file you want. We'll work with Bulgaria here mainly because it is small. On macOS/\*nix:
+If you don't have one already, go to [Global Administrative Areas](http://gadm.org/country) and download the shape file you want. We'll work with Turkey here mainly because it is small and has delicious food. On macOS/\*nix:
 
 {% highlight bash %}
 > wget http://biogeo.ucdavis.edu/data/gadm2.8/gdb/TUR_adm_gdb.zip
