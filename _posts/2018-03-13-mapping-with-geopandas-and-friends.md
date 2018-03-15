@@ -11,6 +11,8 @@ Though the code can be a little longer and you're converting shapes files to geo
 
 I tried to do it in python and it wasn't as flexible. At least, given the amount of time I was willing to dedicate to it. I did eventually figure it out. Here's my code with some explanations. There are better ways to do it - plotly, geoviews/holoviews, bokeh to name a few. I'll do another blog once I've got them working.
 
+You can get the ![actual notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/Turkish_dolmas.ipynb).
+
 ## Setup
 If you are coming fresh, there is a bit of work to setup your environment and the files in order to do the maps.
 
@@ -181,7 +183,7 @@ plt.show()
 
 ![Turkish Dolma Sales]({{"/assets/20180313_TUR_dolmas.png" | absolute_url}})
 
-Not bad for not a tonne of work.
+Not bad for not a tonne of work. You can get the ![actual notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/Turkish_dolmas.ipynb).
 
 If your map looks a little skewed, I'd go back and play around with your projections and find one that makes sense. Ok hack at it by playing with *xscale* and *yscale*.
 
