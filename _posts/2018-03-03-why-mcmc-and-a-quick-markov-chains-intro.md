@@ -3,6 +3,7 @@ layout: "post"
 title: "Why MCMC and a quick markov chains intro"
 date: "2018-03-03 22:10"
 use_math: True
+comments: true
 ---
 A lot of this material is from Larry Wasserman's All of Statistics. I love how the title makes such a bold claim and then quickly hedges by adding the subtitle "A *Concise* Course in Statistical Inference" (The italic are mine).
 
@@ -63,3 +64,7 @@ Non-null: If mean time taken to get back to state i is less than $\infty $ it is
 - **Detailed balance**: $\pi_{i} p_{ij} = p_{ij} \pi_{j}$ for all i,j.  This takes a minute to get your head around. It saying something very strong: if there is a distribution where, for all the states, the amount going in from another state is equal to the amount going back to that state, then that distribution is a stationary distribution.
 
 Ok. Next time, we'll get back to going from simulated annealing to MCMC.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

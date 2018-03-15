@@ -3,6 +3,7 @@ layout: post
 title: Monte Carlo Methods
 date: '2018-03-11 10:40'
 use_math: true
+comments: true
 ---
 
 I imagine most of you have some idea of Monte Carlo (MC) methods. Here we'll try and quantify   it a little bit.
@@ -34,3 +35,7 @@ If you're wondering where, the "divide by the integral of f(x) over the support
 At this stage, it should start looking very familiar to the MCMC rejection/acceptance process. So why do we even need Markov Chains? Let's just take samples from multi-dimensional uniform distribution (or normal if we want), and do the process above.
 
 This brings us on to the curse of dimensionality which we'll leave for another post.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

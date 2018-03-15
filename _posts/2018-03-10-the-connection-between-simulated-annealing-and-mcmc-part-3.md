@@ -3,6 +3,7 @@ layout: "post"
 title: "The connection between Simulated Annealing and MCMC (Part 3)"
 date: "2018-03-10 15:00"
 use_math: true
+comments: true
 ---
 
 Check out [part 1]({{ site.baseurl }}{% post_url 2018-03-01-the-connection-between-simulated-annealing-and-mcmc-part-1 %}) and [part 2]({{ site.baseurl }}{% post_url 2018-03-02-the-connection-between-simulated-annealing-and-mcmc-part-2 %}). Let's start off by writing the code for the Metropolis algorithm and comparing it to Simulated Annealing.
@@ -98,3 +99,7 @@ If you squint hard enough, you'll notice that even in simulated annealing, we're
 It may take a little while for the chain to get to that stationary distribution depending on where you start but once you're there you're (by definition) stuck in the stationary distribution. But how do you know that you actually made it to your stationary distribution? The truth is that you don't really. There are signs that you *haven't* made it to the stationary distribution so high dose of paranoia is advised.
 
 We'll talk about *burnin*, *autocorrelation*, Gewecke, and Gelman-Rubin test, in a future post.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

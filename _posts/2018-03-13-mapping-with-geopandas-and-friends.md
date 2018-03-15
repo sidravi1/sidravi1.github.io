@@ -2,6 +2,7 @@
 layout: "post"
 title: "Mapping with geopandas and friends"
 date: "2018-03-13 10:02"
+comments: true
 ---
 
 I recently had to create a bunch of maps for work. I did a bunch in d3.js a while back for India for CEA's office and some (in non-interactive form) were included in the Indian Economic Survey.
@@ -183,3 +184,7 @@ plt.show()
 Not bad for not a tonne of work.
 
 If your map looks a little skewed, I'd go back and play around with your projections and find one that makes sense. Ok hack at it by playing with *xscale* and *yscale*.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

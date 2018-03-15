@@ -3,6 +3,7 @@ layout: post
 title: The connection between Simulated Annealing and MCMC (Part 2)
 date: "2018-03-02 20:16"
 use_math: true
+comments: true
 ---
 
 If you didn't see [Part 1]({{ site.baseurl }}{% post_url 2018-03-01-the-connection-between-simulated-annealing-and-mcmc-part-1 %}), check that out first.
@@ -58,3 +59,7 @@ Note that the denominator term just normalizes the distribution and we use k=1.
 Wait, we are drawing from a distribution? So can we draw from any other distribution? That leads us nicely to sampling using Metropolis. You can head on to Part 3 or if you need a little motivation, check out this post on [Monte Carlo methods]({{ site.baseurl }}{% post_url 2018-03-11-monte-carlo-methods %}) and this one on [Why MCMC (and intro to Markov Chains)]({{site.baseurl}}{% post_url 2018-03-03-why-mcmc-and-a-quick-markov-chains-intro %}).
 
 If you want to run this yourself, you can get the notebook from [here](https://github.com/sidravi1/Blog/blob/master/nbs/SA_to_Metropolis_part2.ipynb).
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
