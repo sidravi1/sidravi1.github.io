@@ -182,7 +182,7 @@ Let's say we want a Gaussian Process that can match a bunch of points (Side note
 These were generated from:
 
 $$
-f(x) = x^(\frac{1}{2}) \cdot sin(\frac{x}{2})
+f(x) = x^{\frac{1}{2}} \cdot sin(\frac{x}{2})
 $$
 
 We just go ahead and calculate $$K', K, K''$$ matrices and just plug them into the formula for the conditional distribution above and voila!
