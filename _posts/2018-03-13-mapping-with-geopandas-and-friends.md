@@ -120,7 +120,7 @@ What you might also want to do is transform this data so it's on a scale that ma
 
 ### Let's actually do the plot
 
-What I like to do is to create three subplots. One for the actual figure, one for the header, and one of the scale.
+What I like to do is to create three subplots. One for the actual figure, one for the header, and one of the scale. Note that you can use this framework to make numerous subplots that all share the scale and arrange nicely (this is what actually prompted me to set it up this way)
 
 {% highlight python %}
 

@@ -6,7 +6,10 @@ comments: true
 use_math: true
 ---
 
+This post is an intro to Gaussian Processes. 
+
 A large part of the code and explanation is borrowed from the [course](https://am207.github.io/2018spring/wiki/gp1.html) [website](https://am207.github.io/2018spring/wiki/gp2.html) for [AM207 at Harvard](https://am207.github.io/2018spring).
+The notebook with the code to generate the plots can be found [here.](https://github.com/sidravi1/Blog/blob/master/nbs/Gaussian%20Processes.ipynb).
 
 ## Why Gaussian Processes ##
 You are all probably familiar with linear regression. Since we are all bayesian, this can be written as follows:
@@ -170,7 +173,7 @@ This is pretty handy. Note that the conditional is just the posterior - the fami
 
 #### Calculate the posterior
 
-Let's say we want a Gaussian Process that can match a bunch of points (In the notebook I try to use a 20th order polynomial to model it... and fail)
+Let's say we want a Gaussian Process that can match a bunch of points (In the notebook I try to use a 20th order polynomial to model it... and fail).
 
 ![Some random points]({{"/assets/2014_04_03_random_dot.png" | absolute_url}})
 
