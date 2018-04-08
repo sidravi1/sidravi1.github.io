@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Gaussian Processes Regressions"
+title: "Gaussian Process Regressions"
 date: "2018-04-03 09:36"
 comments: true
 use_math: true
