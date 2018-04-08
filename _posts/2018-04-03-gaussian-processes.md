@@ -6,10 +6,10 @@ comments: true
 use_math: true
 ---
 
-This post is an intro to Gaussian Processes. 
+This post is an intro to Gaussian Processes.
 
 A large part of the code and explanation is borrowed from the [course](https://am207.github.io/2018spring/wiki/gp1.html) [website](https://am207.github.io/2018spring/wiki/gp2.html) for [AM207 at Harvard](https://am207.github.io/2018spring).
-The notebook with the code to generate the plots can be found [here.](https://github.com/sidravi1/Blog/blob/master/nbs/Gaussian%20Processes.ipynb).
+The notebook with the code to generate the plots can be found [here.](https://github.com/sidravi1/Blog/blob/master/nbs/Gaussian%20Processes.ipynb)
 
 ## Why Gaussian Processes ##
 You are all probably familiar with linear regression. Since we are all bayesian, this can be written as follows:
@@ -28,7 +28,7 @@ $$
 p(f(x') | x' , X, y) = N(x'^T\Sigma X^T(X\Sigma X^T + \sigma^2 I)^{-1}y, x'^T\Sigma x' - x'^T\Sigma X^T(X\Sigma X^T + \sigma^2I)^{-1}X\Sigma x')
 $$
 
-$X$ is matrix where each column is a observation of x in the training set.
+$X$ is matrix where each column is a observation of x in the training set. This is pretty stock standard formula found in most bayesian stats books.
 
 But this model can only express a limited family of functions - those that are linear in parameters.
 
@@ -49,13 +49,13 @@ p(f(x') | x' , X, y) = N(\sigma'^T\Sigma \Phi^T(\Phi\Sigma \Phi^T + \sigma^2 I)^
 \end{equation}
 $$
 
-But if you mapped to an even higher polynomial space, you'd probably do even better. Actually, if you used did an infinite basis function expansion, where $\phi(x) = \{x, x^2, x^3, ...\}$ then it can be shown that you can express ANY function (your spider sense should pointing you toward Taylor polynomials). But as you might have guessed, mapping it to high-dimensional space and then taking all those dot products would be computationally expensive. Enter the *kernel trick*.
+But if you mapped to an *even* higher polynomial space, you'd probably do even better. Actually, if you used did an infinite basis function expansion, where $\phi(x) = \{x, x^2, x^3, ...\}$ then it can be shown that you can express ANY function (your spider sense should pointing you toward Taylor polynomials). But as you might have guessed, mapping it to high-dimensional space and then taking all those dot products would be computationally expensive. Enter the *kernel trick*.
 
 ### The kernel trick
 
-A kernel define a dot product at some higher dimensional Hilbert Space (fancy way of saying it possess an inner product and has no "holes" in it). So instead of mapping your $X_1$ and $X_2$ to some high-dimensional space using $\phi(X)$ and then doing a dot product, you can just use the kernel function $\kappa(X_1, X_2)$ to directly calculate this dot product.
+A kernel defines a dot product at some higher dimensional Hilbert Space (fancy way of saying it possess an inner product and has no "holes" in it). So instead of mapping your $X_1$ and $X_2$ to some high-dimensional space using $\phi(X)$ and then doing a dot product, you can just use the kernel function $\kappa(X_1, X_2)$ to directly calculate this dot product.
 
-So, the posterior for the bayesian linear regression we can just replace all those high-dimensional dot products (see equations above) with a kernel function:
+In the posterior for the bayesian linear regression we can just replace all those high-dimensional dot products (see equations above) with a kernel function:
 
 $$
 \begin{equation}
@@ -69,9 +69,9 @@ $$
 \kappa(x_1, x_2) = \phi(x_1)^T \Sigma \phi(x_2)
 $$
 
-There are some properties that make a function a kernel - should be symmetric and the resulting Gram matrix should be positive definite but we won't go into it here.
+There are some properties that make a function a kernel - should be symmetric and the resulting Gram matrix (read: covariance matrix) should be positive definite but we won't go into it here.
 
-The fun bit is that some kernels (see Mercer Theorem) can be used to represent a dot product in an infinite space! So, as we discussed above, this means we can express any functional form. A radial basis function (RBF) is one such kernel:
+The fun bit is that some kernels (see Mercer's Theorem) can be used to represent a dot product in an infinite space! As we discussed above, this means we can express *any* functional form. A radial basis function (RBF) is one such kernel:
 
 $$
 \kappa(x_i, x_j) = \sigma_f^2 exp( \frac{-(x_i-x_j)^2}{2l^2})
@@ -79,12 +79,12 @@ $$
 
 Where $l$ and $\sigma$ are tuning parameters that control the *wiggle* and the *amplitude*.
 
-Though there are a number of kernels found in the wild, for the rest of this post we'll use is the RBF kernel. Mainly because Gaussians have some lovely properties that we'll touch on later.
+Though there are a number of kernels found in the wild, for the rest of this post we'll use the RBF kernel. Mainly because Gaussians have some lovely properties that we'll touch on later.
 
 
 ## Enter Gaussian processes
 
-With a kernel up our sleeve, we abandon the idea of finding weights, $w$, since there are infinite of them anyway. Instead, we'll think of choosing from a infinite set of functions with some mean and some covariance. So now:
+With a kernel up our sleeve, we abandon the idea of finding weights, $w$, since there are an infinity of them anyway. Instead, we'll think of choosing from a infinite set of functions with some mean and some covariance. So now:
 
 $$
 
@@ -94,13 +94,13 @@ $$
 
 ### Random functions
 
-Since we are using an RBF kernel which is basically a multivariate normal distribution with some covariance (What? You didn't notice that?), all we need to do is draw a bunch of point from a multivariate normal.
+For an RBF kernel, each of the $N$ points has a normal distribution around it and can be said to be drawn from an $N$-dimensional multivariate normal distribution with a covariance defined by our kernel. So all we need to do is draw a bunch of point from this multivariate normal.
 
 Let's see what these look like as we vary $l$ and $\sigma$.
 
 ![Gaussian Processes]({{"/assets/2014_04_03_random_gaussian_func.png" | absolute_url}})
 
-So these are a sample from the the family of functions we'll choose from. Exciting!
+These are 10 samples from the the family of functions we'll choose from. Exciting!
 
 ### Tying it down.
 
@@ -108,9 +108,11 @@ Once we have some data, we can refine this infinite set of functions into a smal
 
 We want
 $p(f|y)$
-where $y$ is the data we have observed and $f$ the set of functions. How do we calculate this posterior distribution? Here's where Gaussian magic makes life easy. Let's talk about these incantations.
+where $y$ is the data we have observed and $f$ the set of functions. How do we calculate this posterior distribution? Here's where Gaussian magic makes life easy. Let's talk a little more bout these spells.
 
 #### Properties of Gaussians.
+
+Some of these are obvious and others may take some convincing. You can either do the math yourself or look it up. Though the math convinced me it didn't really build intuition. If you're the same, draw a bunch of samples using numpy from a multivariate normal with some covariance and plot the 3 distributions below. Once you've built up the intuition, go back and review the math to understand how the mean and variance is derived.
 
 **Joint of a Gaussian**
 
@@ -173,7 +175,7 @@ This is pretty handy. Note that the conditional is just the posterior - the fami
 
 #### Calculate the posterior
 
-Let's say we want a Gaussian Process that can match a bunch of points (In the notebook I try to use a 20th order polynomial to model it... and fail).
+Let's say we want a Gaussian Process that can match a bunch of points (Side note: In the notebook I try to use a 20th order polynomial with to model it... and fail. We need a *much* higher order mapping and that gets computationally expensive).
 
 ![Some random points]({{"/assets/2014_04_03_random_dot.png" | absolute_url}})
 
@@ -183,10 +185,11 @@ $$
 f(x) = x^(\frac{1}{2}) \cdot sin(\frac{x}{2})
 $$
 
-We just go ahead and calculate $$K', K, K''$$ matrices and just plug them into the formula for the conditional and voila!
+We just go ahead and calculate $$K', K, K''$$ matrices and just plug them into the formula for the conditional distribution above and voila!
 
 ![Posterior Gaussian Processes]({{"/assets/2014_04_03_conditional_gaussian_func.png" | absolute_url}})
 
+Notice how all the functions in the posterior go through our data points though what they do in between depends on $l$ and $sigma$.
 
 ### Next steps
 
