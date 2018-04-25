@@ -60,6 +60,7 @@ University of Melbourne, Australia
 ## Publications and Presentations
 ---
 <br>
+- Redesigning India's Urea Policy, Harvard Kennedy School, MPA/ID Final Capstone Paper
 -	Economic survey of India, Ministry of Finance, February 2016
 -	An overview of the antiretroviral market, Current Opinion in HIV/AIDS, November 2013 - Volume 8 - Issue 6
 -	HIV Testing – Market Analysis, African Society for Laboratory Medicine, Cape Town, 2012
