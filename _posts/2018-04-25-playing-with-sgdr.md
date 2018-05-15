@@ -60,11 +60,11 @@ Let's compare the mean performance for these (with some RBF smoothing):
 
 ![SGDR vs Step Decay]({{"/assets/2014_04_25_sgdr_hyper2.png" | absolute_url}})
 
-T<sub>i</sub> and T<sub>mult</sub> values of 1 and 2 respectively seems to be the best for our problem; The minima reached on the 59th epoch by these models is the lowest. Going back to the previous figure, we also note that the variation around this is tiny so we have some measure of confidence that these are indeed the hyper-parameters we should go with.
+T<sub>i</sub> and T<sub>mult</sub> values of 1 and 2 respectively seems to be the best for our problem; the minima reached on the 59th epoch by these models is the lowest. Going back to the previous figure, we also note that the variation around this is tiny so we have some measure of confidence that these are indeed the hyper-parameters we should go with.
 
 ## Want to play some more?
 
-Though this specific paper implements this on SGD with momentum optimizer, the same authors showed that you can do it with Adam as well. Give it a go.
+Though this specific paper implements this on a SGD with momentum optimizer, the same authors showed that you can do it with Adam as well. Give it a go.
 
 The advantage of SGDR is that you need fewer epochs to reach the minima. And the minima found at the end of each cycle may be a different one. They show that taking an ensemble of models at these different minima can improve predictive performance. We don't do this here but it's easy enough to save weights at the end of each cycle (the code for keeping the best model is up, it just needs to be tweaked to keep a set of them).
 
