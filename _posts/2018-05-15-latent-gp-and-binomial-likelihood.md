@@ -115,7 +115,7 @@ Now let's look at how this varies across education level:
 
 ![Take 2: using age and education]({{"/assets/2018_05_15_bin_gp_by_sex_ed.png" | absolute_url}})
 
-We see a wage gap in all levels of education. In the lowest categories, the gap in absolute terms is not great but in relative terms it's yuge!
+We see a wage gap in all levels of education. In the lowest categories, the gap in absolute terms is not great but in relative terms it's yuge! The 'plateauing' effect for women is also interesting. The probability of earning over 50k doesn't increase by much after mid-30s/40s for women.
 
 Note that the relationship with age is not linear in any sense. It looks like a quadratic... maybe. If you're a classical economist, you're sure it's quadratic, we're talking about age after all, but it's nice being agnostic.
 
