@@ -9,7 +9,7 @@ use_math: true
 I did a quick [intro to gaussian processes]({{ site.baseurl }}{% post_url 2018-04-03-gaussian-processes %})
 a little while back. Check that out if you haven't.
 
-I came across [this presentation](https://www.youtube.com/watch?v=-sIOMs4MSuA) by Chris Fonnesbeck delivered just a few days back at PyCon 2018 on Bayesian non-parametric model. I found the idea of modeling latent variables using a Gaussian process (GP) very intriguing (and cool). We know that the latent variable has some non-linear form so instead of guessing what it might be, we can just model it using a GP.
+I came across [this presentation](https://www.youtube.com/watch?v=-sIOMs4MSuA) by Chris Fonnesbeck delivered just a few days back at PyCon 2018 on Bayesian non-parametric models. I found the idea of modeling latent variables using a Gaussian process (GP) very intriguing (and cool). We know that the latent variable has some non-linear form so instead of guessing what it might be, we can just model it using a GP.
 
 You can get the [notebook](https://github.com/sidravi1/Blog/blob/master/nbs/Binomial%20Gaussian%20Process.ipynb) with all the code to generate the charts and the analysis here.
 
@@ -23,7 +23,7 @@ Here, we look at a similar dataset but model the latent variable as a GP using p
 
 We'll use [this census data](http://archive.ics.uci.edu/ml/datasets/Census+Income) from 1994 but only look at some of the features. We want to look at the wages for men and women at different ages.
 
-The key outcome variable of interest is the *>50k* i.e. how many people earn over 50k given the other parameters. Or, what percent of people in a given demographic earn over 50k. The key parameters are: *age*, *edu*, and *sex*. There are other interesting variables that you may want to use to extend this model such as *race*, *sector*, and *marital status* but we'll leave this out for now.
+The key outcome variable of interest is *>50k* i.e. how many people earn over 50k given the other parameters. Or, what percent of people in a given demographic earn over 50k. The other variable of interest are: *age*, *edu*, and *sex*. There are other interesting variables that you may want to use to extend this model such as *race*, *sector*, and *marital status* but we'll leave this out for now.
 
 We also group *edu* into sensible buckets so that we end up with just 7 education groups: "Some HS", "HS Grad", "Some College", "Prof School", "Bachelors", "Masters", "Doctorate".
 
@@ -65,7 +65,7 @@ Easy enough. Now let's draw a bunch of samples and see what $p$, the probability
 
 ![Take 1: using age]({{"/assets/2018_05_15_bin_gp_by_sex.png" | absolute_url}})
 
-So it appears that the gap between the wages of men and women start starts pretty early on and is the widest around the age of 50. Also interesting to note is that the peak for men is at 50 years while for women it's around 40 years.
+So it appears that the gap between the wages of men and women starts pretty early on and is the widest around the age of 50. Also interesting to note is that the peak for men is at 50 years while for women it's around 40 years.
 
 But we know that education makes a different. Maybe we just have a bunch of highly educated men in this sample so it makes sense that they would earn more.
 
@@ -75,9 +75,9 @@ Now we include education.
 
 ### The correlation assumption
 
-In addition to the correlation across age assumption we made above, we also assume that the effect of education is correlated i.e. effect of "Masters" is closer to the effect of "Bachelors" than to "Some HS".
+In addition to the 'correlation across ages' assumption we made above, we also assume that the effect of education is correlated i.e. effect of "Masters" is closer to the effect of "Bachelors" than to "Some HS".
 
-We are also assuming one other thing: effect of education is the same across age groups and the effect of age is the same for all levels of education i.e. those two are independant. This might not be true. We can get even smarter and say the education and age together are correlated but we'll leave that for you to work out.
+We are also assuming one other thing: effect of education is the same across age groups and the effect of age is the same for all levels of education i.e. those two are independent. This doesn't sound unreasonable though you can come up with reasons why this might not be true. We can get even smarter and say the education and age together are correlated but we'll leave that for you to work out.
 
 ### Modeling in pymc3
 
@@ -109,7 +109,7 @@ with pm.Model() as admit_m:
                            observed=m_over50k.astype(int))
 {% endhighlight %}
 
-Note that it is a very similar model and took me ~22 minutes to run on a oldish MacBook Pro. You might remember that GP is a 'small data' technique. It involves inverting matrices that are computationally quite expensive.
+Note that it is a very similar model and took me ~22 minutes to run on a oldish MacBook Pro. You might remember that GP is a 'small data' technique. It involves inverting matrices that is computationally quite expensive.
 
 Now let's look at how this varies across education level:
 
