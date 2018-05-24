@@ -18,7 +18,7 @@ date: "2018-05-22 20:59"
 
 Anyone else feel that US mass shootings have increased over the past few years? My wife thinks that it's just availability heuristic at play. Well, luckily there is data out there that we can use to test it. This analysis in this blog uses the dataset from [Mother Jones](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/). I did some minor cleaning that you can see in [the notebook](https://github.com/sidravi1/Blog/blob/master/nbs/US_Shootings_Altair.ipynb).
 
-I have been enjoying visualizations in [Altair](https://altair-viz.github.io/) of late. Once you get accustomed to the declarative style, it's hard to go back to matplotlib and seaborn. There are still some things that can't easily be done in Altair and I had to fall back on seaborn and matplotlib. The map above and the plot below were done with Altair. Run your mouse over the bars in the chart above and select an area (and move it) on the scatter below for some fancy interactions.
+I have been enjoying visualizations in [Altair](https://altair-viz.github.io/) of late. Once you get accustomed to the declarative style, it's hard to go back to matplotlib and seaborn. There are still some things that can't easily be done in Altair and I had to fall back on seaborn and matplotlib. The map above and the plot below were done with Altair. Run your mouse over the bars in the chart above and select an area (and move it) on the scatter below for some fancy interactions. If you use an ad-blocker, the map may not load correctly. So pause it for the site and reload this page. 
 
 <div id="vis2" align="center"></div>
 
