@@ -1,0 +1,26 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "data": {"url": "https://raw.githubusercontent.com/sidravi1/Blog/master/assets/MJ_US_shootings.csv", "format": {"type": "csv"}},
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "color": {"type": "nominal", "field": "venue", "legend": null},
+    "size": {
+      "type": "quantitative",
+      "field": "fatalities",
+      "legend": {"title": "Deaths"},
+      "scale": {"range": [0, 1000]}
+    },
+    "tooltip": {"type": "nominal", "field": "case"},
+    "x": {"type": "ordinal", "axis": {"labelAngle": 0}, "field": "year"},
+    "y": {"type": "nominal", "field": "venue"}
+  },
+  "height": 300,
+  "title": "US Mass Shootings by venue",
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.1.json"
+}

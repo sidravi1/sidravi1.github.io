@@ -1,0 +1,78 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "vconcat": [
+    {
+      "layer": [
+        {
+          "data": {
+            "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+            "format": {"feature": "states", "type": "topojson"}
+          },
+          "mark": {"type": "geoshape", "fill": "#edf5f9", "stroke": "white"},
+          "height": 400,
+          "projection": {"type": "albersUsa"},
+          "title": "US Mass Shootings",
+          "width": 650
+        },
+        {
+          "mark": {"type": "circle", "size": 10},
+          "encoding": {
+            "color": {
+              "type": "nominal",
+              "field": "venue",
+              "legend": {"title": "Venue"},
+              "scale": {
+                "domain": [
+                  "School",
+                  "Other",
+                  "Workplace",
+                  "Religious",
+                  "Airport",
+                  "Military"
+                ]
+              }
+            },
+            "latitude": {"type": "quantitative", "field": "latitude"},
+            "longitude": {"type": "quantitative", "field": "longitude"},
+            "size": {
+              "type": "quantitative",
+              "field": "fatalities",
+              "scale": {"domain": [1, 50]}
+            },
+            "tooltip": {"type": "nominal", "field": "case"}
+          },
+          "transform": [{"filter": {"selection": "selector086"}}]
+        }
+      ]
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "condition": {"value": "steelblue", "selection": "selector086"},
+          "value": "lightgray"
+        },
+        "x": {"type": "nominal", "field": "year"},
+        "y": {
+          "type": "quantitative",
+          "aggregate": "sum",
+          "field": "fatalities",
+          "title": "Total fatalities"
+        }
+      },
+      "height": 100,
+      "selection": {
+        "selector086": {
+          "type": "single",
+          "on": "mouseover",
+          "fields": ["year"],
+          "resolve": "global",
+          "empty": "all"
+        }
+      },
+      "width": 650
+    }
+  ],
+  "data": {"url": "https://raw.githubusercontent.com/sidravi1/Blog/master/assets/MJ_US_shootings.csv", "format": {"type": "csv"}},
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.1.json"
+}

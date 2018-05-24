@@ -1,0 +1,47 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "vconcat": [
+    {
+      "mark": "point",
+      "encoding": {
+        "color": {
+          "condition": {
+            "type": "nominal",
+            "field": "venue",
+            "selection": "selector063"
+          },
+          "value": "lightgray"
+        },
+        "x": {"type": "temporal", "field": "date", "timeUnit": "year"},
+        "y": {"type": "quantitative", "field": "fatalities"}
+      },
+      "selection": {
+        "selector063": {
+          "type": "interval",
+          "on": "[mousedown, window:mouseup] > window:mousemove!",
+          "encodings": ["x", "y"],
+          "translate": "[mousedown, window:mouseup] > window:mousemove!",
+          "zoom": "wheel!",
+          "mark": {"fill": "#333", "fillOpacity": 0.125, "stroke": "white"},
+          "resolve": "global"
+        }
+      }
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {"type": "nominal", "field": "venue", "legend": null},
+        "x": {
+          "type": "quantitative",
+          "aggregate": "sum",
+          "field": "fatalities",
+          "title": "Total fatalities"
+        },
+        "y": {"type": "nominal", "field": "venue"}
+      },
+      "transform": [{"filter": {"selection": "selector063"}}]
+    }
+  ],
+  "data": {"url": "https://raw.githubusercontent.com/sidravi1/Blog/master/assets/MJ_US_shootings.csv", "format": {"type": "csv"}},
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.1.json"
+}
