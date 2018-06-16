@@ -18,7 +18,7 @@
     {
       "lookup": "id",
       "from": {
-        "data": {"url": "https://raw.githubusercontent.com/sidravi1/Blog/master/assets/census_pop2016_m.csv", "format": {"type": "csv"}},
+        "data": {"url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/census_pop2016_m.csv", "format": {"type": "csv"}},
         "key": "id2",
         "fields": ["log_pop", "County", "Population"]
       }
