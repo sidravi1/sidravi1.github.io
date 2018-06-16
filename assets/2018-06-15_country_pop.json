@@ -1,0 +1,29 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "data": {
+    "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+    "format": {"feature": "counties", "type": "topojson"}
+  },
+  "mark": "geoshape",
+  "encoding": {
+    "color": {"type": "quantitative", "field": "log_pop", "legend": null},
+    "tooltip": [
+      {"type": "nominal", "field": "County"},
+      {"type": "quantitative", "field": "Population"}
+    ]
+  },
+  "height": 400,
+  "projection": {"type": "albersUsa"},
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/sidravi1/Blog/master/assets/census_pop2016_m.csv", "format": {"type": "csv"}},
+        "key": "id2",
+        "fields": ["log_pop", "County", "Population"]
+      }
+    }
+  ],
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.3.json"
+}
