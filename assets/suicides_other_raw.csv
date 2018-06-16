@@ -1,0 +1,3143 @@
+County,id2,Population,Deaths,rate,high_rate,low_rate
+"Abbeville County, South Carolina",45001,24872,0.0,0.0,0,1
+"Acadia Parish, Louisiana",22001,62645,24.0,3.831111820576263e-05,0,0
+"Accomack County, Virginia",51001,32947,0.0,0.0,0,1
+"Ada County, Idaho",16001,444028,287.0,6.463556352302107e-05,0,0
+"Adair County, Iowa",19001,7092,0.0,0.0,0,1
+"Adair County, Kentucky",21001,19280,0.0,0.0,0,1
+"Adair County, Missouri",29001,25359,0.0,0.0,0,1
+"Adair County, Oklahoma",40001,22098,0.0,0.0,0,1
+"Adams County, Colorado",8001,498187,388.0,7.788240158815867e-05,1,0
+"Adams County, Idaho",16003,3900,0.0,0.0,0,1
+"Adams County, Illinois",17001,66578,25.0,3.754994142209138e-05,0,0
+"Adams County, Indiana",18001,35232,0.0,0.0,0,1
+"Adams County, Iowa",19003,3693,0.0,0.0,0,1
+"Adams County, Mississippi",28001,31248,0.0,0.0,0,1
+"Adams County, Nebraska",31001,31684,0.0,0.0,0,1
+"Adams County, North Dakota",38001,2305,0.0,0.0,0,1
+"Adams County, Ohio",39001,27907,11.0,3.941663381947182e-05,0,0
+"Adams County, Pennsylvania",42001,102180,47.0,4.599725973771775e-05,0,0
+"Adams County, Washington",53001,19238,0.0,0.0,0,1
+"Adams County, Wisconsin",55001,20069,13.0,6.477652100254123e-05,0,0
+"Addison County, Vermont",50001,36959,10.0,2.7057009118212074e-05,0,0
+"Aiken County, South Carolina",45003,167458,62.0,3.7024209055404935e-05,0,0
+"Aitkin County, Minnesota",27001,15583,0.0,0.0,0,1
+"Alachua County, Florida",12001,263496,110.0,4.174636427118438e-05,0,0
+"Alamance County, North Carolina",37001,159688,54.0,3.381594108511598e-05,0,0
+"Alameda County, California",6001,1647704,929.0,5.6381485995057363e-05,0,0
+"Alamosa County, Colorado",8003,16654,13.0,7.805932508706617e-05,1,0
+"Albany County, New York",36001,308846,186.0,6.022418940183781e-05,0,0
+"Albany County, Wyoming",56001,38256,10.0,2.6139690506064407e-05,0,0
+"Albemarle County, Virginia",51003,106878,14.0,1.309904751211662e-05,0,0
+"Alcona County, Michigan",26001,10352,0.0,0.0,0,1
+"Alcorn County, Mississippi",28003,37304,10.0,2.68067767531632e-05,0,0
+"Aleutians East Borough, Alaska",2013,3296,0.0,0.0,0,1
+"Aleutians West Census Area, Alaska",2016,5647,0.0,0.0,0,1
+"Alexander County, Illinois",17003,6478,0.0,0.0,0,1
+"Alexander County, North Carolina",37003,37428,12.0,3.206155819172812e-05,0,0
+"Alexandria city, Virginia",51510,155810,63.0,4.043386175470124e-05,0,0
+"Alfalfa County, Oklahoma",40003,5827,0.0,0.0,0,1
+"Alger County, Michigan",26003,9219,0.0,0.0,0,1
+"Allamakee County, Iowa",19005,13884,0.0,0.0,0,1
+"Allegan County, Michigan",26005,115548,32.0,2.7694118461591718e-05,0,0
+"Allegany County, Maryland",24001,72130,24.0,3.327325661999168e-05,0,0
+"Allegany County, New York",36003,47077,13.0,2.7614333963506596e-05,0,0
+"Alleghany County, North Carolina",37005,10848,0.0,0.0,0,1
+"Alleghany County, Virginia",51005,15595,0.0,0.0,0,1
+"Allegheny County, Pennsylvania",42003,1225365,804.0,6.561310303460602e-05,0,0
+"Allen County, Indiana",18003,370404,178.0,4.8055636548201424e-05,0,0
+"Allen County, Kansas",20001,12714,0.0,0.0,0,1
+"Allen County, Kentucky",21003,20631,0.0,0.0,0,1
+"Allen County, Ohio",39003,103742,41.0,3.952111970079621e-05,0,0
+"Allen Parish, Louisiana",22003,25684,0.0,0.0,0,1
+"Allendale County, South Carolina",45005,9045,0.0,0.0,0,1
+"Alpena County, Michigan",26007,28704,16.0,5.574136008918618e-05,0,0
+"Alpine County, California",6003,1071,0.0,0.0,0,1
+"Amador County, California",6005,37383,29.0,7.75753684830003e-05,1,0
+"Amelia County, Virginia",51007,12913,0.0,0.0,0,1
+"Amherst County, Virginia",51009,31633,0.0,0.0,0,1
+"Amite County, Mississippi",28005,12458,0.0,0.0,0,1
+"Anchorage Municipality, Alaska",2020,298192,194.0,6.505875409132371e-05,0,0
+"Anderson County, Kansas",20003,7827,0.0,0.0,0,1
+"Anderson County, Kentucky",21005,22158,11.0,4.9643469627222675e-05,0,0
+"Anderson County, South Carolina",45007,196569,89.0,4.527672216880587e-05,0,0
+"Anderson County, Tennessee",47001,75936,39.0,5.13590391908976e-05,0,0
+"Anderson County, Texas",48001,57734,46.0,7.967575432154364e-05,1,0
+"Andrew County, Missouri",29003,17350,0.0,0.0,0,1
+"Andrews County, Texas",48003,17760,0.0,0.0,0,1
+"Androscoggin County, Maine",23001,107319,64.0,5.963529291178636e-05,0,0
+"Angelina County, Texas",48005,87791,22.0,2.505951635133442e-05,0,0
+"Anne Arundel County, Maryland",24003,568346,309.0,5.436828973899702e-05,0,0
+"Anoka County, Minnesota",27003,345957,234.0,6.763846373971332e-05,0,0
+"Anson County, North Carolina",37007,25448,0.0,0.0,0,1
+"Antelope County, Nebraska",31003,6329,0.0,0.0,0,1
+"Antrim County, Michigan",26009,23144,0.0,0.0,0,1
+"Apache County, Arizona",4001,73112,126.0,0.00017233833023306706,1,0
+"Appanoose County, Iowa",19007,12462,0.0,0.0,0,1
+"Appling County, Georgia",13001,18428,0.0,0.0,0,1
+"Appomattox County, Virginia",51011,15475,0.0,0.0,0,1
+"Aransas County, Texas",48007,25721,0.0,0.0,0,1
+"Arapahoe County, Colorado",8005,637068,503.0,7.895546472276115e-05,1,0
+"Archer County, Texas",48009,8703,0.0,0.0,0,1
+"Archuleta County, Colorado",8007,12854,0.0,0.0,0,1
+"Arenac County, Michigan",26011,15122,0.0,0.0,0,1
+"Arkansas County, Arkansas",5001,18214,0.0,0.0,0,1
+"Arlington County, Virginia",51013,230050,99.0,4.303412301673549e-05,0,0
+"Armstrong County, Pennsylvania",42005,66486,24.0,3.609782510603736e-05,0,0
+"Armstrong County, Texas",48011,1876,0.0,0.0,0,1
+"Aroostook County, Maine",23003,67959,45.0,6.621639517944644e-05,0,0
+"Arthur County, Nebraska",31005,469,0.0,0.0,0,1
+"Ascension Parish, Louisiana",22005,121587,16.0,1.3159301570069168e-05,0,0
+"Ashe County, North Carolina",37009,26924,0.0,0.0,0,1
+"Ashland County, Ohio",39005,53652,14.0,2.6094087825244166e-05,0,0
+"Ashland County, Wisconsin",55003,15714,0.0,0.0,0,1
+"Ashley County, Arkansas",5003,20492,0.0,0.0,0,1
+"Ashtabula County, Ohio",39007,98231,57.0,5.802648858303387e-05,0,0
+"Asotin County, Washington",53003,22306,0.0,0.0,0,1
+"Assumption Parish, Louisiana",22007,22695,0.0,0.0,0,1
+"Atascosa County, Texas",48013,48797,18.0,3.68875135766543e-05,0,0
+"Atchison County, Kansas",20005,16380,0.0,0.0,0,1
+"Atchison County, Missouri",29005,5293,0.0,0.0,0,1
+"Athens County, Ohio",39009,66186,13.0,1.9641616051732994e-05,0,0
+"Atkinson County, Georgia",13003,8273,0.0,0.0,0,1
+"Atlantic County, New Jersey",34001,270991,174.0,6.420877446114447e-05,0,0
+"Atoka County, Oklahoma",40005,13810,0.0,0.0,0,1
+"Attala County, Mississippi",28007,18934,0.0,0.0,0,1
+"Audrain County, Missouri",29007,26021,11.0,4.22735482879213e-05,0,0
+"Audubon County, Iowa",19009,5678,0.0,0.0,0,1
+"Auglaize County, Ohio",39011,45894,14.0,3.050507691637251e-05,0,0
+"Augusta County, Virginia",51015,74997,26.0,3.4668053388802216e-05,0,0
+"Aurora County, South Dakota",46003,2736,0.0,0.0,0,1
+"Austin County, Texas",48015,29758,0.0,0.0,0,1
+"Autauga County, Alabama",1001,55416,14.0,2.5263461816081997e-05,0,0
+"Avery County, North Carolina",37011,17516,0.0,0.0,0,1
+"Avoyelles Parish, Louisiana",22009,41117,15.0,3.6481260792372986e-05,0,0
+"Baca County, Colorado",8009,3568,0.0,0.0,0,1
+"Bacon County, Georgia",13005,11372,0.0,0.0,0,1
+"Bailey County, Texas",48017,7181,0.0,0.0,0,1
+"Baker County, Florida",12003,27937,0.0,0.0,0,1
+"Baker County, Georgia",13007,3150,0.0,0.0,0,1
+"Baker County, Oregon",41001,16059,0.0,0.0,0,1
+"Baldwin County, Alabama",1003,208563,106.0,5.082397165364902e-05,0,0
+"Baldwin County, Georgia",13009,45144,0.0,0.0,0,1
+"Ballard County, Kentucky",21007,8054,0.0,0.0,0,1
+"Baltimore County, Maryland",24005,831026,424.0,5.102126768596891e-05,0,0
+"Baltimore city, Maryland",24510,614664,300.0,4.8807153176369526e-05,0,0
+"Bamberg County, South Carolina",45009,14434,0.0,0.0,0,1
+"Bandera County, Texas",48019,21776,0.0,0.0,0,1
+"Banks County, Georgia",13011,18397,0.0,0.0,0,1
+"Banner County, Nebraska",31007,798,0.0,0.0,0,1
+"Bannock County, Idaho",16005,84377,58.0,6.873911136921198e-05,1,0
+"Baraga County, Michigan",26013,8503,0.0,0.0,0,1
+"Barber County, Kansas",20007,4688,0.0,0.0,0,1
+"Barbour County, Alabama",1005,25965,0.0,0.0,0,1
+"Barbour County, West Virginia",54001,16831,0.0,0.0,0,1
+"Barnes County, North Dakota",38003,10926,0.0,0.0,0,1
+"Barnstable County, Massachusetts",25001,214276,201.0,9.380425245944483e-05,1,0
+"Barnwell County, South Carolina",45011,21483,0.0,0.0,0,1
+"Barren County, Kentucky",21009,43993,11.0,2.5003977905575887e-05,0,0
+"Barron County, Wisconsin",55005,45412,0.0,0.0,0,1
+"Barrow County, Georgia",13013,77126,30.0,3.889738868863937e-05,0,0
+"Barry County, Michigan",26015,59702,34.0,5.69495159291146e-05,0,0
+"Barry County, Missouri",29009,35732,10.0,2.7986118885033023e-05,0,0
+"Bartholomew County, Indiana",18005,81402,37.0,4.545342866268642e-05,0,0
+"Barton County, Kansas",20009,26775,15.0,5.6022408963585436e-05,0,0
+"Barton County, Missouri",29011,11908,0.0,0.0,0,1
+"Bartow County, Georgia",13015,103807,52.0,5.009296097565675e-05,0,0
+"Bastrop County, Texas",48021,82733,29.0,3.505251834213675e-05,0,0
+"Bates County, Missouri",29013,16417,0.0,0.0,0,1
+"Bath County, Kentucky",21011,12327,0.0,0.0,0,1
+"Bath County, Virginia",51017,4476,0.0,0.0,0,1
+"Baxter County, Arkansas",5005,41062,23.0,5.601285860406215e-05,0,0
+"Bay County, Florida",12005,183974,109.0,5.9247502364464545e-05,0,0
+"Bay County, Michigan",26017,104747,55.0,5.25074703810133e-05,0,0
+"Bayfield County, Wisconsin",55007,14891,0.0,0.0,0,1
+"Baylor County, Texas",48023,3697,0.0,0.0,0,1
+"Beadle County, South Dakota",46005,18101,0.0,0.0,0,1
+"Bear Lake County, Idaho",16007,5945,0.0,0.0,0,1
+"Beaufort County, North Carolina",37013,47526,0.0,0.0,0,1
+"Beaufort County, South Carolina",45013,183149,56.0,3.0576197522235994e-05,0,0
+"Beauregard Parish, Louisiana",22011,36927,0.0,0.0,0,1
+"Beaver County, Oklahoma",40007,5382,0.0,0.0,0,1
+"Beaver County, Pennsylvania",42007,167429,66.0,3.9419694318188606e-05,0,0
+"Beaver County, Utah",49001,6463,0.0,0.0,0,1
+"Beaverhead County, Montana",30001,9401,0.0,0.0,0,1
+"Becker County, Minnesota",27005,33734,14.0,4.150115610363431e-05,0,0
+"Beckham County, Oklahoma",40009,22519,17.0,7.549180691860207e-05,1,0
+"Bedford County, Pennsylvania",42009,48325,14.0,2.8970512157268495e-05,0,0
+"Bedford County, Tennessee",47003,47484,23.0,4.843736837671637e-05,0,0
+"Bedford County, Virginia",51019,77960,24.0,3.078501795792714e-05,0,0
+"Bee County, Texas",48025,32750,21.0,6.412213740458015e-05,0,0
+"Belknap County, New Hampshire",33001,60779,30.0,4.9359153655045325e-05,0,0
+"Bell County, Kentucky",21013,27117,0.0,0.0,0,1
+"Bell County, Texas",48027,340411,118.0,3.466397971863424e-05,0,0
+"Belmont County, Ohio",39013,68673,30.0,4.36852911624656e-05,0,0
+"Beltrami County, Minnesota",27007,46106,28.0,6.0729623042554114e-05,0,0
+"Ben Hill County, Georgia",13017,17243,0.0,0.0,0,1
+"Benewah County, Idaho",16009,9092,0.0,0.0,0,1
+"Bennett County, South Dakota",46007,3460,0.0,0.0,0,1
+"Bennington County, Vermont",50003,36191,17.0,4.697300433809511e-05,0,0
+"Benson County, North Dakota",38005,6739,13.0,0.0001929069594895385,1,0
+"Bent County, Colorado",8011,5861,0.0,0.0,0,1
+"Benton County, Arkansas",5007,258291,136.0,5.265378971779892e-05,0,0
+"Benton County, Indiana",18007,8650,0.0,0.0,0,1
+"Benton County, Iowa",19011,25699,11.0,4.280322191524962e-05,0,0
+"Benton County, Minnesota",27009,39992,12.0,3.000600120024005e-05,0,0
+"Benton County, Mississippi",28009,8264,0.0,0.0,0,1
+"Benton County, Missouri",29015,18839,0.0,0.0,0,1
+"Benton County, Oregon",41003,89385,27.0,3.020641047155563e-05,0,0
+"Benton County, Tennessee",47005,16014,0.0,0.0,0,1
+"Benton County, Washington",53005,193686,72.0,3.717356959202007e-05,0,0
+"Benzie County, Michigan",26019,17572,0.0,0.0,0,1
+"Bergen County, New Jersey",34003,939151,527.0,5.611451193684509e-05,0,0
+"Berkeley County, South Carolina",45015,210898,76.0,3.603637777503817e-05,0,0
+"Berkeley County, West Virginia",54003,113525,39.0,3.43536665932614e-05,0,0
+"Berks County, Pennsylvania",42011,414812,247.0,5.9545046912818336e-05,0,0
+"Berkshire County, Massachusetts",25003,126903,79.0,6.225227141990338e-05,0,0
+"Bernalillo County, New Mexico",35001,676953,654.0,9.660936579053494e-05,1,0
+"Berrien County, Georgia",13019,18993,0.0,0.0,0,1
+"Berrien County, Michigan",26021,154010,92.0,5.973638075449646e-05,0,0
+"Bertie County, North Carolina",37015,19854,0.0,0.0,0,1
+"Bethel Census Area, Alaska",2050,17968,29.0,0.0001613980409617097,1,0
+"Bexar County, Texas",48029,1928680,858.0,4.4486384470207604e-05,0,0
+"Bibb County, Alabama",1007,22643,12.0,5.299651106302169e-05,0,0
+"Bibb County, Georgia",13021,152760,36.0,2.356637863315004e-05,0,0
+"Bienville Parish, Louisiana",22013,13865,0.0,0.0,0,1
+"Big Horn County, Montana",30003,13343,0.0,0.0,0,1
+"Big Horn County, Wyoming",56003,12005,0.0,0.0,0,1
+"Big Stone County, Minnesota",27011,5050,0.0,0.0,0,1
+"Billings County, North Dakota",38007,934,0.0,0.0,0,1
+"Bingham County, Idaho",16011,45201,20.0,4.424680869892259e-05,0,0
+"Black Hawk County, Iowa",19013,132904,81.0,6.0946246915066513e-05,0,0
+"Blackford County, Indiana",18009,12149,0.0,0.0,0,1
+"Bladen County, North Carolina",37017,33741,0.0,0.0,0,1
+"Blaine County, Idaho",16013,21791,0.0,0.0,0,1
+"Blaine County, Montana",30005,6601,0.0,0.0,0,1
+"Blaine County, Nebraska",31009,484,0.0,0.0,0,1
+"Blaine County, Oklahoma",40011,9643,0.0,0.0,0,1
+"Blair County, Pennsylvania",42013,124650,51.0,4.091456077015644e-05,0,0
+"Blanco County, Texas",48031,11392,0.0,0.0,0,1
+"Bland County, Virginia",51021,6513,0.0,0.0,0,1
+"Bleckley County, Georgia",13023,12970,0.0,0.0,0,1
+"Bledsoe County, Tennessee",47007,14675,0.0,0.0,0,1
+"Blount County, Alabama",1009,57704,15.0,2.59947317343685e-05,0,0
+"Blount County, Tennessee",47009,128670,51.0,3.963627885287946e-05,0,0
+"Blue Earth County, Minnesota",27013,66441,30.0,4.515284237142728e-05,0,0
+"Boise County, Idaho",16015,7124,0.0,0.0,0,1
+"Bolivar County, Mississippi",28011,32737,0.0,0.0,0,1
+"Bollinger County, Missouri",29017,12052,0.0,0.0,0,1
+"Bon Homme County, South Dakota",46009,6984,0.0,0.0,0,1
+"Bond County, Illinois",17005,16824,0.0,0.0,0,1
+"Bonner County, Idaho",16017,42536,16.0,3.761519653940192e-05,0,0
+"Bonneville County, Idaho",16019,112232,64.0,5.702473447858008e-05,0,0
+"Boone County, Arkansas",5009,37304,0.0,0.0,0,1
+"Boone County, Illinois",17007,53503,20.0,3.7381081434685906e-05,0,0
+"Boone County, Indiana",18011,64653,23.0,3.5574528637495556e-05,0,0
+"Boone County, Iowa",19015,26532,10.0,3.769033619779888e-05,0,0
+"Boone County, Kentucky",21015,128536,51.0,3.96776000497915e-05,0,0
+"Boone County, Missouri",29019,176594,54.0,3.057861535499507e-05,0,0
+"Boone County, Nebraska",31011,5332,0.0,0.0,0,1
+"Boone County, West Virginia",54005,22816,0.0,0.0,0,1
+"Borden County, Texas",48033,633,0.0,0.0,0,1
+"Bosque County, Texas",48035,18097,0.0,0.0,0,1
+"Bossier Parish, Louisiana",22015,126057,37.0,2.9351801169312296e-05,0,0
+"Botetourt County, Virginia",51023,33231,10.0,3.009238361770636e-05,0,0
+"Bottineau County, North Dakota",38009,6579,0.0,0.0,0,1
+"Boulder County, Colorado",8013,322226,281.0,8.720587413802735e-05,1,0
+"Boundary County, Idaho",16021,11681,0.0,0.0,0,1
+"Bourbon County, Kansas",20011,14617,0.0,0.0,0,1
+"Bourbon County, Kentucky",21017,20030,0.0,0.0,0,1
+"Bowie County, Texas",48037,93860,37.0,3.942041338163222e-05,0,0
+"Bowman County, North Dakota",38011,3241,0.0,0.0,0,1
+"Box Butte County, Nebraska",31013,11194,0.0,0.0,0,1
+"Box Elder County, Utah",49003,53139,36.0,6.77468525941399e-05,0,0
+"Boyd County, Kentucky",21019,48132,13.0,2.700905842267099e-05,0,0
+"Boyd County, Nebraska",31015,1982,0.0,0.0,0,1
+"Boyle County, Kentucky",21021,30018,0.0,0.0,0,1
+"Bracken County, Kentucky",21023,8400,0.0,0.0,0,1
+"Bradford County, Florida",12007,26926,14.0,5.1994354898611005e-05,0,0
+"Bradford County, Pennsylvania",42015,60770,42.0,6.911304920190884e-05,1,0
+"Bradley County, Arkansas",5011,10996,0.0,0.0,0,1
+"Bradley County, Tennessee",47011,104490,40.0,3.828117523207963e-05,0,0
+"Branch County, Michigan",26023,43427,22.0,5.0659727819098715e-05,0,0
+"Brantley County, Georgia",13025,18355,0.0,0.0,0,1
+"Braxton County, West Virginia",54007,14471,0.0,0.0,0,1
+"Brazoria County, Texas",48039,354195,104.0,2.9362356893801436e-05,0,0
+"Brazos County, Texas",48041,220417,33.0,1.4971621971082086e-05,0,0
+"Breathitt County, Kentucky",21025,13284,0.0,0.0,0,1
+"Breckinridge County, Kentucky",21027,19961,0.0,0.0,0,1
+"Bremer County, Iowa",19017,24798,0.0,0.0,0,1
+"Brevard County, Florida",12009,579130,499.0,8.616372835114741e-05,1,0
+"Brewster County, Texas",48043,9200,0.0,0.0,0,1
+"Briscoe County, Texas",48045,1474,0.0,0.0,0,1
+"Bristol Bay Borough, Alaska",2060,898,0.0,0.0,0,1
+"Bristol County, Massachusetts",25005,558324,429.0,7.683710533668623e-05,1,0
+"Bristol County, Rhode Island",44001,49067,26.0,5.298877045672244e-05,0,0
+"Bristol city, Virginia",51520,16960,0.0,0.0,0,1
+"Broadwater County, Montana",30007,5747,0.0,0.0,0,1
+"Bronx County, New York",36005,1455720,617.0,4.23845244964691e-05,0,0
+"Brooke County, West Virginia",54009,22977,13.0,5.6578317447882664e-05,0,0
+"Brookings County, South Dakota",46011,34135,0.0,0.0,0,1
+"Brooks County, Georgia",13027,15687,0.0,0.0,0,1
+"Brooks County, Texas",48047,7214,0.0,0.0,0,1
+"Broome County, New York",36007,195334,101.0,5.170630816959669e-05,0,0
+"Broomfield County, Colorado",8014,66529,26.0,3.908070164890499e-05,0,0
+"Broward County, Florida",12011,1909632,1254.0,6.56671023527046e-05,0,0
+"Brown County, Illinois",17009,6762,0.0,0.0,0,1
+"Brown County, Indiana",18013,14912,0.0,0.0,0,1
+"Brown County, Kansas",20013,9684,0.0,0.0,0,1
+"Brown County, Minnesota",27015,25331,10.0,3.947732027949943e-05,0,0
+"Brown County, Nebraska",31017,2960,0.0,0.0,0,1
+"Brown County, Ohio",39015,43759,28.0,6.398683699353276e-05,0,0
+"Brown County, South Dakota",46013,39128,0.0,0.0,0,1
+"Brown County, Texas",48049,38271,0.0,0.0,0,1
+"Brown County, Wisconsin",55009,260401,192.0,7.373243574333432e-05,1,0
+"Brule County, South Dakota",46015,5238,0.0,0.0,0,1
+"Brunswick County, North Carolina",37019,126953,60.0,4.726158499602215e-05,0,0
+"Brunswick County, Virginia",51025,16243,0.0,0.0,0,1
+"Bryan County, Georgia",13029,36230,0.0,0.0,0,1
+"Bryan County, Oklahoma",40013,45573,17.0,3.73027889320431e-05,0,0
+"Buchanan County, Iowa",19019,20992,0.0,0.0,0,1
+"Buchanan County, Missouri",29021,88938,50.0,5.621893903618251e-05,0,0
+"Buchanan County, Virginia",51027,22178,0.0,0.0,0,1
+"Buckingham County, Virginia",51029,17048,0.0,0.0,0,1
+"Bucks County, Pennsylvania",42017,626399,448.0,7.151990983382797e-05,1,0
+"Buena Vista County, Iowa",19021,20332,0.0,0.0,0,1
+"Buena Vista city, Virginia",51530,6452,0.0,0.0,0,1
+"Buffalo County, Nebraska",31019,49383,13.0,2.6324848632120367e-05,0,0
+"Buffalo County, South Dakota",46017,2043,10.0,0.0004894762604013706,1,0
+"Buffalo County, Wisconsin",55011,13099,0.0,0.0,0,1
+"Bullitt County, Kentucky",21029,79151,27.0,3.4112013745878135e-05,0,0
+"Bulloch County, Georgia",13031,74722,12.0,1.6059527314579375e-05,0,0
+"Bullock County, Alabama",1011,10362,0.0,0.0,0,1
+"Buncombe County, North Carolina",37021,256088,192.0,7.497422760925931e-05,1,0
+"Bureau County, Illinois",17011,33359,19.0,5.695614376929764e-05,0,0
+"Burke County, Georgia",13033,22688,0.0,0.0,0,1
+"Burke County, North Carolina",37023,88851,41.0,4.614466916523168e-05,0,0
+"Burke County, North Dakota",38013,2198,0.0,0.0,0,1
+"Burleigh County, North Dakota",38015,94487,41.0,4.339221268534296e-05,0,0
+"Burleson County, Texas",48051,17760,0.0,0.0,0,1
+"Burlington County, New Jersey",34005,449284,241.0,5.364090419422904e-05,0,0
+"Burnet County, Texas",48053,46243,13.0,2.811236295223061e-05,0,0
+"Burnett County, Wisconsin",55013,15213,0.0,0.0,0,1
+"Burt County, Nebraska",31021,6546,0.0,0.0,0,1
+"Butler County, Alabama",1013,19998,0.0,0.0,0,1
+"Butler County, Iowa",19023,14791,0.0,0.0,0,1
+"Butler County, Kansas",20015,67025,39.0,5.8187243565833643e-05,0,0
+"Butler County, Kentucky",21031,12845,0.0,0.0,0,1
+"Butler County, Missouri",29023,42739,19.0,4.445588338519853e-05,0,0
+"Butler County, Nebraska",31023,8052,0.0,0.0,0,1
+"Butler County, Ohio",39017,377537,193.0,5.112081729737747e-05,0,0
+"Butler County, Pennsylvania",42019,186847,69.0,3.6928610039229956e-05,0,0
+"Butte County, California",6007,226864,161.0,7.096762818252345e-05,1,0
+"Butte County, Idaho",16023,2501,0.0,0.0,0,1
+"Butte County, South Dakota",46019,10205,0.0,0.0,0,1
+"Butts County, Georgia",13035,23817,0.0,0.0,0,1
+"Cabarrus County, North Carolina",37025,201590,84.0,4.166873356813334e-05,0,0
+"Cabell County, West Virginia",54011,95987,41.0,4.271411753674977e-05,0,0
+"Cache County, Utah",49005,122753,61.0,4.969328651845576e-05,0,0
+"Caddo County, Oklahoma",40015,29557,13.0,4.39828128700477e-05,0,0
+"Caddo Parish, Louisiana",22017,248851,66.0,2.652189462770895e-05,0,0
+"Calaveras County, California",6009,45171,28.0,6.198667286533395e-05,0,0
+"Calcasieu Parish, Louisiana",22019,200601,100.0,4.98502001485536e-05,0,0
+"Caldwell County, Kentucky",21033,12568,0.0,0.0,0,1
+"Caldwell County, Missouri",29025,9062,0.0,0.0,0,1
+"Caldwell County, North Carolina",37027,81449,41.0,5.0338248474505516e-05,0,0
+"Caldwell County, Texas",48055,41161,10.0,2.4294842204999878e-05,0,0
+"Caldwell Parish, Louisiana",22021,10087,0.0,0.0,0,1
+"Caledonia County, Vermont",50005,30333,11.0,3.6264134770711766e-05,0,0
+"Calhoun County, Alabama",1015,114611,29.0,2.530298138922093e-05,0,0
+"Calhoun County, Arkansas",5013,5144,0.0,0.0,0,1
+"Calhoun County, Florida",12013,14423,0.0,0.0,0,1
+"Calhoun County, Georgia",13037,6324,0.0,0.0,0,1
+"Calhoun County, Illinois",17013,4894,0.0,0.0,0,1
+"Calhoun County, Iowa",19025,9846,0.0,0.0,0,1
+"Calhoun County, Michigan",26025,134386,72.0,5.357700950991919e-05,0,0
+"Calhoun County, Mississippi",28013,14610,0.0,0.0,0,1
+"Calhoun County, South Carolina",45017,14796,0.0,0.0,0,1
+"Calhoun County, Texas",48057,21965,0.0,0.0,0,1
+"Calhoun County, West Virginia",54013,7336,0.0,0.0,0,1
+"Callahan County, Texas",48059,13820,0.0,0.0,0,1
+"Callaway County, Missouri",29027,45078,21.0,4.658591774257953e-05,0,0
+"Calloway County, Kentucky",21035,38437,0.0,0.0,0,1
+"Calumet County, Wisconsin",55015,49553,20.0,4.036082578249551e-05,0,0
+"Calvert County, Maryland",24009,91251,42.0,4.60268928559687e-05,0,0
+"Camas County, Idaho",16025,1072,0.0,0.0,0,1
+"Cambria County, Pennsylvania",42021,134732,85.0,6.308820473235758e-05,0,0
+"Camden County, Georgia",13039,53008,10.0,1.8865076969514034e-05,0,0
+"Camden County, Missouri",29029,44497,18.0,4.045216531451559e-05,0,0
+"Camden County, New Jersey",34007,510150,362.0,7.095952170930119e-05,1,0
+"Camden County, North Carolina",37029,10418,0.0,0.0,0,1
+"Cameron County, Pennsylvania",42023,4677,0.0,0.0,0,1
+"Cameron County, Texas",48061,422135,108.0,2.5584232532246792e-05,0,0
+"Cameron Parish, Louisiana",22023,6882,0.0,0.0,0,1
+"Camp County, Texas",48063,12867,0.0,0.0,0,1
+"Campbell County, Kentucky",21037,92211,39.0,4.2294303282688614e-05,0,0
+"Campbell County, South Dakota",46021,1378,0.0,0.0,0,1
+"Campbell County, Tennessee",47013,39714,13.0,3.27340484463917e-05,0,0
+"Campbell County, Virginia",51031,54952,12.0,2.1837239772892707e-05,0,0
+"Campbell County, Wyoming",56005,48803,28.0,5.737352211954183e-05,0,0
+"Canadian County, Oklahoma",40017,136532,62.0,4.5410599712887824e-05,0,0
+"Candler County, Georgia",13043,10910,0.0,0.0,0,1
+"Cannon County, Tennessee",47015,14027,0.0,0.0,0,1
+"Canyon County, Idaho",16027,211698,114.0,5.385029617662897e-05,0,0
+"Cape Girardeau County, Missouri",29031,78913,40.0,5.068873316183645e-05,0,0
+"Cape May County, New Jersey",34009,94430,54.0,5.718521656253309e-05,0,0
+"Carbon County, Montana",30009,10460,0.0,0.0,0,1
+"Carbon County, Pennsylvania",42025,63594,47.0,7.390634336572632e-05,1,0
+"Carbon County, Utah",49007,20399,10.0,4.9022010882886415e-05,0,0
+"Carbon County, Wyoming",56007,15618,0.0,0.0,0,1
+"Caribou County, Idaho",16029,6887,0.0,0.0,0,1
+"Carlisle County, Kentucky",21039,4855,0.0,0.0,0,1
+"Carlton County, Minnesota",27017,35738,14.0,3.917398847165482e-05,0,0
+"Caroline County, Maryland",24011,32850,0.0,0.0,0,1
+"Caroline County, Virginia",51033,30178,0.0,0.0,0,1
+"Carroll County, Arkansas",5015,27646,0.0,0.0,0,1
+"Carroll County, Georgia",13045,116261,45.0,3.870601491471775e-05,0,0
+"Carroll County, Illinois",17015,14539,0.0,0.0,0,1
+"Carroll County, Indiana",18015,19970,0.0,0.0,0,1
+"Carroll County, Iowa",19027,20437,0.0,0.0,0,1
+"Carroll County, Kentucky",21041,10679,0.0,0.0,0,1
+"Carroll County, Maryland",24013,167656,79.0,4.712029393520065e-05,0,0
+"Carroll County, Mississippi",28015,10255,0.0,0.0,0,1
+"Carroll County, Missouri",29033,8913,0.0,0.0,0,1
+"Carroll County, New Hampshire",33003,47289,25.0,5.286641713717778e-05,0,0
+"Carroll County, Ohio",39019,27669,10.0,3.6141530232390037e-05,0,0
+"Carroll County, Tennessee",47017,28092,13.0,4.627652000569557e-05,0,0
+"Carroll County, Virginia",51035,29531,10.0,3.386272053096746e-05,0,0
+"Carson City, Nevada",32510,54742,32.0,5.84560301048555e-05,0,0
+"Carson County, Texas",48065,6057,0.0,0.0,0,1
+"Carter County, Kentucky",21043,27046,0.0,0.0,0,1
+"Carter County, Missouri",29035,6168,0.0,0.0,0,1
+"Carter County, Montana",30011,1203,0.0,0.0,0,1
+"Carter County, Oklahoma",40019,48556,16.0,3.295164346321773e-05,0,0
+"Carter County, Tennessee",47019,56502,18.0,3.185727938834024e-05,0,0
+"Carteret County, North Carolina",37031,68890,54.0,7.83858324865728e-05,1,0
+"Carver County, Minnesota",27019,100262,23.0,2.2939897468632185e-05,0,0
+"Cascade County, Montana",30013,81755,64.0,7.828267384257844e-05,1,0
+"Casey County, Kentucky",21045,15815,0.0,0.0,0,1
+"Cass County, Illinois",17017,12676,0.0,0.0,0,1
+"Cass County, Indiana",18017,37946,16.0,4.21651821008802e-05,0,0
+"Cass County, Iowa",19029,13157,13.0,9.880671885688227e-05,1,0
+"Cass County, Michigan",26027,51599,16.0,3.100835287505572e-05,0,0
+"Cass County, Minnesota",27021,28993,0.0,0.0,0,1
+"Cass County, Missouri",29037,102845,51.0,4.9589187612426465e-05,0,0
+"Cass County, Nebraska",31025,25767,11.0,4.26902627391625e-05,0,0
+"Cass County, North Dakota",38017,175249,80.0,4.5649333234426445e-05,0,0
+"Cass County, Texas",48067,30375,0.0,0.0,0,1
+"Cassia County, Idaho",16031,23504,0.0,0.0,0,1
+"Castro County, Texas",48069,7669,0.0,0.0,0,1
+"Caswell County, North Carolina",37033,22910,0.0,0.0,0,1
+"Catahoula Parish, Louisiana",22025,9921,0.0,0.0,0,1
+"Catawba County, North Carolina",37035,156459,96.0,6.135792763599409e-05,0,0
+"Catoosa County, Georgia",13047,66398,15.0,2.2591041898852376e-05,0,0
+"Catron County, New Mexico",35003,3508,0.0,0.0,0,1
+"Cattaraugus County, New York",36009,77677,28.0,3.604670623221803e-05,0,0
+"Cavalier County, North Dakota",38019,3827,0.0,0.0,0,1
+"Cayuga County, New York",36011,77861,45.0,5.779530188412684e-05,0,0
+"Cecil County, Maryland",24015,102603,50.0,4.873151857158173e-05,0,0
+"Cedar County, Iowa",19031,18454,0.0,0.0,0,1
+"Cedar County, Missouri",29039,14016,0.0,0.0,0,1
+"Cedar County, Nebraska",31027,8671,0.0,0.0,0,1
+"Centre County, Pennsylvania",42027,161464,49.0,3.0347322003666453e-05,0,0
+"Cerro Gordo County, Iowa",19033,43070,28.0,6.50104481077316e-05,0,0
+"Chaffee County, Colorado",8015,19058,0.0,0.0,0,1
+"Chambers County, Alabama",1017,33843,0.0,0.0,0,1
+"Chambers County, Texas",48071,39899,11.0,2.7569613273515626e-05,0,0
+"Champaign County, Illinois",17019,208419,87.0,4.1742835346105684e-05,0,0
+"Champaign County, Ohio",39021,38747,21.0,5.4197744341497404e-05,0,0
+"Chariton County, Missouri",29041,7516,0.0,0.0,0,1
+"Charles City County, Virginia",51036,7071,0.0,0.0,0,1
+"Charles County, Maryland",24017,157705,52.0,3.297295583526204e-05,0,0
+"Charles Mix County, South Dakota",46023,9396,0.0,0.0,0,1
+"Charleston County, South Carolina",45019,396484,208.0,5.2461133362254214e-05,0,0
+"Charlevoix County, Michigan",26029,26174,11.0,4.2026438450370595e-05,0,0
+"Charlotte County, Florida",12015,178465,86.0,4.818872047740453e-05,0,0
+"Charlotte County, Virginia",51037,12129,0.0,0.0,0,1
+"Charlottesville city, Virginia",51540,46912,0.0,0.0,0,1
+"Charlton County, Georgia",13049,12497,0.0,0.0,0,1
+"Chase County, Kansas",20017,2669,0.0,0.0,0,1
+"Chase County, Nebraska",31029,3937,0.0,0.0,0,1
+"Chatham County, Georgia",13051,289082,92.0,3.182488013781557e-05,0,0
+"Chatham County, North Carolina",37037,72243,22.0,3.045277743172349e-05,0,0
+"Chattahoochee County, Georgia",13053,10922,0.0,0.0,0,1
+"Chattooga County, Georgia",13055,24824,10.0,4.0283596519497264e-05,0,0
+"Chautauqua County, Kansas",20019,3374,0.0,0.0,0,1
+"Chautauqua County, New York",36013,129504,53.0,4.092537682233753e-05,0,0
+"Chaves County, New Mexico",35005,65282,33.0,5.054992187739346e-05,0,0
+"Cheatham County, Tennessee",47021,39880,18.0,4.513540621865597e-05,0,0
+"Cheboygan County, Michigan",26031,25401,0.0,0.0,0,1
+"Chelan County, Washington",53007,76338,35.0,4.584872540543373e-05,0,0
+"Chemung County, New York",36015,86322,48.0,5.560575519566275e-05,0,0
+"Chenango County, New York",36017,48579,17.0,3.499454496799028e-05,0,0
+"Cherokee County, Alabama",1019,25725,15.0,5.830903790087464e-05,0,0
+"Cherokee County, Georgia",13057,241689,90.0,3.7237938011245855e-05,0,0
+"Cherokee County, Iowa",19035,11508,0.0,0.0,0,1
+"Cherokee County, Kansas",20021,20246,0.0,0.0,0,1
+"Cherokee County, North Carolina",37039,27905,0.0,0.0,0,1
+"Cherokee County, Oklahoma",40021,48700,30.0,6.160164271047228e-05,0,0
+"Cherokee County, South Carolina",45021,56646,0.0,0.0,0,1
+"Cherokee County, Texas",48073,51668,16.0,3.09669427885732e-05,0,0
+"Cherry County, Nebraska",31031,5832,0.0,0.0,0,1
+"Chesapeake city, Virginia",51550,237940,95.0,3.992603177271581e-05,0,0
+"Cheshire County, New Hampshire",33005,75774,40.0,5.278855544118035e-05,0,0
+"Chester County, Pennsylvania",42029,516312,271.0,5.248764313051023e-05,0,0
+"Chester County, South Carolina",45023,32181,0.0,0.0,0,1
+"Chester County, Tennessee",47023,17453,0.0,0.0,0,1
+"Chesterfield County, South Carolina",45025,46013,0.0,0.0,0,1
+"Chesterfield County, Virginia",51041,339009,143.0,4.2181770985431064e-05,0,0
+"Cheyenne County, Colorado",8017,1848,0.0,0.0,0,1
+"Cheyenne County, Kansas",20023,2661,0.0,0.0,0,1
+"Cheyenne County, Nebraska",31033,10051,0.0,0.0,0,1
+"Chickasaw County, Iowa",19037,12023,0.0,0.0,0,1
+"Chickasaw County, Mississippi",28017,17246,0.0,0.0,0,1
+"Chicot County, Arkansas",5017,10945,0.0,0.0,0,1
+"Childress County, Texas",48075,7052,0.0,0.0,0,1
+"Chilton County, Alabama",1021,43941,11.0,2.5033567738558523e-05,0,0
+"Chippewa County, Michigan",26033,37724,16.0,4.241331778178348e-05,0,0
+"Chippewa County, Minnesota",27023,12133,0.0,0.0,0,1
+"Chippewa County, Wisconsin",55017,63649,33.0,5.1846847554557026e-05,0,0
+"Chisago County, Minnesota",27025,54748,21.0,3.835756557317162e-05,0,0
+"Chittenden County, Vermont",50007,161531,92.0,5.695501173149426e-05,0,0
+"Choctaw County, Alabama",1023,12993,0.0,0.0,0,1
+"Choctaw County, Mississippi",28019,8242,0.0,0.0,0,1
+"Choctaw County, Oklahoma",40023,14885,0.0,0.0,0,1
+"Chouteau County, Montana",30015,5759,0.0,0.0,0,1
+"Chowan County, North Carolina",37041,14383,0.0,0.0,0,1
+"Christian County, Illinois",17021,33309,16.0,4.803506559788646e-05,0,0
+"Christian County, Kentucky",21047,72351,40.0,5.528603612942461e-05,0,0
+"Christian County, Missouri",29043,84401,22.0,2.6066041871541808e-05,0,0
+"Churchill County, Nevada",32001,24198,12.0,4.9590875278948676e-05,0,0
+"Cibola County, New Mexico",35006,27487,23.0,8.367591952559392e-05,1,0
+"Cimarron County, Oklahoma",40025,2162,0.0,0.0,0,1
+"Citrus County, Florida",12017,143621,83.0,5.7790991568085446e-05,0,0
+"Clackamas County, Oregon",41005,408062,268.0,6.567629428861301e-05,0,0
+"Claiborne County, Mississippi",28021,9139,0.0,0.0,0,1
+"Claiborne County, Tennessee",47025,31757,17.0,5.3531504865069116e-05,0,0
+"Claiborne Parish, Louisiana",22027,16132,0.0,0.0,0,1
+"Clallam County, Washington",53009,74570,57.0,7.643824594340888e-05,1,0
+"Clare County, Michigan",26035,30358,13.0,4.2822320310955925e-05,0,0
+"Clarendon County, South Carolina",45027,33951,0.0,0.0,0,1
+"Clarion County, Pennsylvania",42031,38513,0.0,0.0,0,1
+"Clark County, Arkansas",5019,22657,0.0,0.0,0,1
+"Clark County, Idaho",16033,860,0.0,0.0,0,1
+"Clark County, Illinois",17023,15938,0.0,0.0,0,1
+"Clark County, Indiana",18019,116031,54.0,4.653928691470383e-05,0,0
+"Clark County, Kansas",20025,2072,0.0,0.0,0,1
+"Clark County, Kentucky",21049,35819,12.0,3.350177280214411e-05,0,0
+"Clark County, Missouri",29045,6723,0.0,0.0,0,1
+"Clark County, Nevada",32003,2155664,1690.0,7.839811770294443e-05,1,0
+"Clark County, Ohio",39023,134786,73.0,5.415992758891873e-05,0,0
+"Clark County, South Dakota",46025,3656,0.0,0.0,0,1
+"Clark County, Washington",53011,467018,367.0,7.858369484687957e-05,1,0
+"Clark County, Wisconsin",55019,34557,12.0,3.4725236565674104e-05,0,0
+"Clarke County, Alabama",1025,24392,0.0,0.0,0,1
+"Clarke County, Georgia",13059,124707,30.0,2.4056388173879573e-05,0,0
+"Clarke County, Iowa",19039,9309,0.0,0.0,0,1
+"Clarke County, Mississippi",28023,15888,0.0,0.0,0,1
+"Clarke County, Virginia",51043,14374,0.0,0.0,0,1
+"Clatsop County, Oregon",41007,38632,15.0,3.8827914682128805e-05,0,0
+"Clay County, Alabama",1027,13492,0.0,0.0,0,1
+"Clay County, Arkansas",5021,14920,0.0,0.0,0,1
+"Clay County, Florida",12019,208311,108.0,5.184555784380086e-05,0,0
+"Clay County, Georgia",13061,3020,0.0,0.0,0,1
+"Clay County, Illinois",17025,13300,0.0,0.0,0,1
+"Clay County, Indiana",18021,26309,12.0,4.5611767836101715e-05,0,0
+"Clay County, Iowa",19041,16333,10.0,6.122573930080205e-05,0,0
+"Clay County, Kansas",20027,8143,0.0,0.0,0,1
+"Clay County, Kentucky",21051,20766,0.0,0.0,0,1
+"Clay County, Minnesota",27027,62875,19.0,3.021868787276342e-05,0,0
+"Clay County, Mississippi",28025,19850,0.0,0.0,0,1
+"Clay County, Missouri",29047,239085,130.0,5.437396741744568e-05,0,0
+"Clay County, Nebraska",31035,6163,0.0,0.0,0,1
+"Clay County, North Carolina",37043,10915,0.0,0.0,0,1
+"Clay County, South Dakota",46027,14086,0.0,0.0,0,1
+"Clay County, Tennessee",47027,7752,0.0,0.0,0,1
+"Clay County, Texas",48077,10193,0.0,0.0,0,1
+"Clay County, West Virginia",54015,8859,0.0,0.0,0,1
+"Clayton County, Georgia",13063,279462,53.0,1.8965011343223766e-05,0,0
+"Clayton County, Iowa",19043,17590,0.0,0.0,0,1
+"Clear Creek County, Colorado",8019,9436,0.0,0.0,0,1
+"Clearfield County, Pennsylvania",42033,80596,29.0,3.5981934587324434e-05,0,0
+"Clearwater County, Idaho",16035,8497,0.0,0.0,0,1
+"Clearwater County, Minnesota",27029,8827,0.0,0.0,0,1
+"Cleburne County, Alabama",1029,14924,0.0,0.0,0,1
+"Cleburne County, Arkansas",5023,25264,0.0,0.0,0,1
+"Clermont County, Ohio",39025,203022,114.0,5.6151550078316635e-05,0,0
+"Cleveland County, Arkansas",5025,8241,0.0,0.0,0,1
+"Cleveland County, North Carolina",37045,97144,43.0,4.4264185127233796e-05,0,0
+"Cleveland County, Oklahoma",40027,278655,91.0,3.265686960578493e-05,0,0
+"Clinch County, Georgia",13065,6829,0.0,0.0,0,1
+"Clinton County, Illinois",17027,37729,15.0,3.9757215934692143e-05,0,0
+"Clinton County, Indiana",18023,32457,11.0,3.389099423853098e-05,0,0
+"Clinton County, Iowa",19045,47309,25.0,5.28440677249572e-05,0,0
+"Clinton County, Kentucky",21053,10177,0.0,0.0,0,1
+"Clinton County, Michigan",26037,77888,18.0,2.31101068200493e-05,0,0
+"Clinton County, Missouri",29049,20610,10.0,4.8520135856380395e-05,0,0
+"Clinton County, New York",36019,81073,32.0,3.94706005698568e-05,0,0
+"Clinton County, Ohio",39027,41902,0.0,0.0,0,1
+"Clinton County, Pennsylvania",42035,39233,10.0,2.548874671832386e-05,0,0
+"Cloud County, Kansas",20029,9150,0.0,0.0,0,1
+"Coahoma County, Mississippi",28027,23809,0.0,0.0,0,1
+"Coal County, Oklahoma",40029,5651,0.0,0.0,0,1
+"Cobb County, Georgia",13067,748150,261.0,3.4886052262246876e-05,0,0
+"Cochise County, Arizona",4003,125770,56.0,4.452572155521985e-05,0,0
+"Cochran County, Texas",48079,2882,0.0,0.0,0,1
+"Cocke County, Tennessee",47029,35219,19.0,5.394815298560436e-05,0,0
+"Coconino County, Arizona",4005,140908,101.0,7.167797428109121e-05,1,0
+"Codington County, South Dakota",46029,28063,0.0,0.0,0,1
+"Coffee County, Alabama",1031,51226,10.0,1.9521336821145514e-05,0,0
+"Coffee County, Georgia",13069,43012,0.0,0.0,0,1
+"Coffee County, Tennessee",47031,54682,43.0,7.863648001170403e-05,1,0
+"Coffey County, Kansas",20031,8433,0.0,0.0,0,1
+"Coke County, Texas",48081,3264,0.0,0.0,0,1
+"Colbert County, Alabama",1033,54216,14.0,2.582263538438837e-05,0,0
+"Cole County, Missouri",29051,76631,26.0,3.392882775900093e-05,0,0
+"Coleman County, Texas",48083,8420,0.0,0.0,0,1
+"Coles County, Illinois",17029,52343,21.0,4.011997783848843e-05,0,0
+"Colfax County, Nebraska",31037,10414,0.0,0.0,0,1
+"Colfax County, New Mexico",35007,12253,14.0,0.00011425773280013058,1,0
+"Colleton County, South Carolina",45029,37923,0.0,0.0,0,1
+"Collier County, Florida",12021,365136,190.0,5.2035405985714914e-05,0,0
+"Collin County, Texas",48085,939585,312.0,3.3206149523459823e-05,0,0
+"Collingsworth County, Texas",48087,3016,0.0,0.0,0,1
+"Colonial Heights city, Virginia",51570,17772,0.0,0.0,0,1
+"Colorado County, Texas",48089,21019,0.0,0.0,0,1
+"Colquitt County, Georgia",13071,45708,11.0,2.4065809048744202e-05,0,0
+"Columbia County, Arkansas",5027,23901,10.0,4.1839253587715995e-05,0,0
+"Columbia County, Florida",12023,69299,14.0,2.0202311721669867e-05,0,0
+"Columbia County, Georgia",13073,147450,34.0,2.3058663953882673e-05,0,0
+"Columbia County, New York",36021,60989,28.0,4.590991818196724e-05,0,0
+"Columbia County, Oregon",41009,50785,23.0,4.528896327655804e-05,0,0
+"Columbia County, Pennsylvania",42037,66420,18.0,2.7100271002710027e-05,0,0
+"Columbia County, Washington",53013,3938,0.0,0.0,0,1
+"Columbia County, Wisconsin",55021,56927,36.0,6.323888488766315e-05,0,0
+"Columbiana County, Ohio",39029,103685,63.0,6.076095867290351e-05,0,0
+"Columbus County, North Carolina",37047,56505,13.0,2.3006813556322448e-05,0,0
+"Colusa County, California",6011,21588,0.0,0.0,0,1
+"Comal County, Texas",48091,134788,54.0,4.006291361248776e-05,0,0
+"Comanche County, Kansas",20033,1862,0.0,0.0,0,1
+"Comanche County, Oklahoma",40031,122136,49.0,4.011921137093077e-05,0,0
+"Comanche County, Texas",48093,13484,0.0,0.0,0,1
+"Concho County, Texas",48095,4279,0.0,0.0,0,1
+"Concordia Parish, Louisiana",22029,19920,0.0,0.0,0,1
+"Conecuh County, Alabama",1035,12395,0.0,0.0,0,1
+"Conejos County, Colorado",8021,8129,0.0,0.0,0,1
+"Contra Costa County, California",6013,1135127,676.0,5.955280774750314e-05,0,0
+"Converse County, Wyoming",56009,14191,0.0,0.0,0,1
+"Conway County, Arkansas",5029,20937,0.0,0.0,0,1
+"Cook County, Georgia",13075,17167,0.0,0.0,0,1
+"Cook County, Illinois",17031,5203499,2933.0,5.636591839452645e-05,0,0
+"Cook County, Minnesota",27031,5286,0.0,0.0,0,1
+"Cooke County, Texas",48097,39266,17.0,4.32944532165232e-05,0,0
+"Cooper County, Missouri",29053,17712,0.0,0.0,0,1
+"Coos County, New Hampshire",33007,32039,0.0,0.0,0,1
+"Coos County, Oregon",41011,63761,54.0,8.469126895751321e-05,1,0
+"Coosa County, Alabama",1037,10581,0.0,0.0,0,1
+"Copiah County, Mississippi",28029,28482,10.0,3.510989396812022e-05,0,0
+"Corson County, South Dakota",46031,4132,23.0,0.0005566311713455954,1,0
+"Cortland County, New York",36023,48070,17.0,3.536509257333056e-05,0,0
+"Coryell County, Texas",48099,74686,37.0,4.954074391452213e-05,0,0
+"Coshocton County, Ohio",39031,36602,0.0,0.0,0,1
+"Costilla County, Colorado",8023,3721,0.0,0.0,0,1
+"Cottle County, Texas",48101,1402,0.0,0.0,0,1
+"Cotton County, Oklahoma",40033,5941,0.0,0.0,0,1
+"Cottonwood County, Minnesota",27033,11470,0.0,0.0,0,1
+"Covington County, Alabama",1039,37458,0.0,0.0,0,1
+"Covington County, Mississippi",28031,19569,0.0,0.0,0,1
+"Covington city, Virginia",51580,5518,0.0,0.0,0,1
+"Coweta County, Georgia",13077,140526,44.0,3.1310931784865435e-05,0,0
+"Cowley County, Kansas",20035,35753,0.0,0.0,0,1
+"Cowlitz County, Washington",53015,105160,60.0,5.705591479650057e-05,0,0
+"Craig County, Oklahoma",40035,14625,0.0,0.0,0,1
+"Craig County, Virginia",51045,5158,0.0,0.0,0,1
+"Craighead County, Arkansas",5031,105835,32.0,3.0235744318987102e-05,0,0
+"Crane County, Texas",48103,4830,0.0,0.0,0,1
+"Craven County, North Carolina",37049,103445,38.0,3.673449659239209e-05,0,0
+"Crawford County, Arkansas",5033,62267,34.0,5.4603562079432123e-05,0,0
+"Crawford County, Georgia",13079,12322,0.0,0.0,0,1
+"Crawford County, Illinois",17033,19308,0.0,0.0,0,1
+"Crawford County, Indiana",18025,10539,0.0,0.0,0,1
+"Crawford County, Iowa",19047,16940,10.0,5.90318772136954e-05,0,0
+"Crawford County, Kansas",20037,39164,13.0,3.319374936165867e-05,0,0
+"Crawford County, Michigan",26039,13744,0.0,0.0,0,1
+"Crawford County, Missouri",29055,24302,14.0,5.760842728993498e-05,0,0
+"Crawford County, Ohio",39033,42083,11.0,2.6138820901551697e-05,0,0
+"Crawford County, Pennsylvania",42039,86257,43.0,4.985102658334976e-05,0,0
+"Crawford County, Wisconsin",55023,16321,0.0,0.0,0,1
+"Creek County, Oklahoma",40037,71312,33.0,4.6275521651334975e-05,0,0
+"Crenshaw County, Alabama",1041,13913,0.0,0.0,0,1
+"Crisp County, Georgia",13081,22721,0.0,0.0,0,1
+"Crittenden County, Arkansas",5035,49235,0.0,0.0,0,1
+"Crittenden County, Kentucky",21055,9188,0.0,0.0,0,1
+"Crockett County, Tennessee",47033,14411,0.0,0.0,0,1
+"Crockett County, Texas",48105,3675,0.0,0.0,0,1
+"Crook County, Oregon",41013,22570,10.0,4.4306601683650866e-05,0,0
+"Crook County, Wyoming",56011,7464,0.0,0.0,0,1
+"Crosby County, Texas",48107,5992,0.0,0.0,0,1
+"Cross County, Arkansas",5037,17037,0.0,0.0,0,1
+"Crow Wing County, Minnesota",27035,63940,31.0,4.848295276822021e-05,0,0
+"Crowley County, Colorado",8025,5694,0.0,0.0,0,1
+"Culberson County, Texas",48109,2198,0.0,0.0,0,1
+"Cullman County, Alabama",1043,82471,32.0,3.8801518109396033e-05,0,0
+"Culpeper County, Virginia",51047,50083,14.0,2.7953597028931974e-05,0,0
+"Cumberland County, Illinois",17035,10858,0.0,0.0,0,1
+"Cumberland County, Kentucky",21057,6738,0.0,0.0,0,1
+"Cumberland County, Maine",23005,292041,193.0,6.60866111265199e-05,0,0
+"Cumberland County, New Jersey",34011,153797,61.0,3.96626722237755e-05,0,0
+"Cumberland County, North Carolina",37051,327127,137.0,4.187975923723814e-05,0,0
+"Cumberland County, Pennsylvania",42041,248506,127.0,5.110540590569242e-05,0,0
+"Cumberland County, Tennessee",47035,58655,17.0,2.8983036399283947e-05,0,0
+"Cumberland County, Virginia",51049,9652,0.0,0.0,0,1
+"Cuming County, Nebraska",31039,9016,0.0,0.0,0,1
+"Currituck County, North Carolina",37053,25809,0.0,0.0,0,1
+"Curry County, New Mexico",35009,50280,17.0,3.381066030230708e-05,0,0
+"Curry County, Oregon",41015,22713,12.0,5.283317923656056e-05,0,0
+"Custer County, Colorado",8027,4602,0.0,0.0,0,1
+"Custer County, Idaho",16037,4096,0.0,0.0,0,1
+"Custer County, Montana",30017,11924,0.0,0.0,0,1
+"Custer County, Nebraska",31041,10807,0.0,0.0,0,1
+"Custer County, Oklahoma",40039,29293,0.0,0.0,0,1
+"Custer County, South Dakota",46033,8596,0.0,0.0,0,1
+"Cuyahoga County, Ohio",39035,1249352,739.0,5.915066370406419e-05,0,0
+"Dade County, Georgia",13083,16257,0.0,0.0,0,1
+"Dade County, Missouri",29057,7631,0.0,0.0,0,1
+"Daggett County, Utah",49009,1095,0.0,0.0,0,1
+"Dakota County, Minnesota",27037,417486,245.0,5.868460259745237e-05,0,0
+"Dakota County, Nebraska",31043,20465,0.0,0.0,0,1
+"Dale County, Alabama",1045,49226,13.0,2.640880835330923e-05,0,0
+"Dallam County, Texas",48111,7056,0.0,0.0,0,1
+"Dallas County, Alabama",1047,40008,0.0,0.0,0,1
+"Dallas County, Arkansas",5039,7469,0.0,0.0,0,1
+"Dallas County, Iowa",19049,84516,18.0,2.1297742439301433e-05,0,0
+"Dallas County, Missouri",29059,16448,0.0,0.0,0,1
+"Dallas County, Texas",48113,2574984,1090.0,4.2330360110975446e-05,0,0
+"Dane County, Wisconsin",55025,531273,335.0,6.305609357147831e-05,0,0
+"Daniels County, Montana",30019,1755,0.0,0.0,0,1
+"Danville city, Virginia",51590,41898,17.0,4.057472910401451e-05,0,0
+"Dare County, North Carolina",37055,35964,14.0,3.8927816705594485e-05,0,0
+"Darke County, Ohio",39037,51778,22.0,4.2489088029665106e-05,0,0
+"Darlington County, South Carolina",45031,67234,0.0,0.0,0,1
+"Dauphin County, Pennsylvania",42043,273707,111.0,4.0554315381046154e-05,0,0
+"Davidson County, North Carolina",37057,164926,58.0,3.516728714696288e-05,0,0
+"Davidson County, Tennessee",47037,684410,346.0,5.055449219035374e-05,0,0
+"Davie County, North Carolina",37059,42013,16.0,3.808345036060267e-05,0,0
+"Daviess County, Indiana",18027,32969,0.0,0.0,0,1
+"Daviess County, Kentucky",21059,99674,54.0,5.4176615767401726e-05,0,0
+"Daviess County, Missouri",29061,8209,0.0,0.0,0,1
+"Davis County, Iowa",19051,8860,0.0,0.0,0,1
+"Davis County, Utah",49011,342281,219.0,6.398251728842676e-05,0,0
+"Davison County, South Dakota",46035,19903,0.0,0.0,0,1
+"Dawes County, Nebraska",31045,8979,0.0,0.0,0,1
+"Dawson County, Georgia",13085,23604,14.0,5.931198102016607e-05,0,0
+"Dawson County, Montana",30021,9327,0.0,0.0,0,1
+"Dawson County, Nebraska",31047,23640,10.0,4.230118443316413e-05,0,0
+"Dawson County, Texas",48115,13111,0.0,0.0,0,1
+"Day County, South Dakota",46037,5571,0.0,0.0,0,1
+"De Baca County, New Mexico",35011,1793,0.0,0.0,0,1
+"De Soto Parish, Louisiana",22031,27149,0.0,0.0,0,1
+"De Witt County, Illinois",17039,16226,0.0,0.0,0,1
+"DeKalb County, Alabama",1049,70900,28.0,3.949224259520451e-05,0,0
+"DeKalb County, Georgia",13089,740321,219.0,2.958176250572387e-05,0,0
+"DeKalb County, Illinois",17037,104528,31.0,2.9657125363538958e-05,0,0
+"DeKalb County, Indiana",18033,42746,18.0,4.210920320029944e-05,0,0
+"DeKalb County, Missouri",29063,12613,0.0,0.0,0,1
+"DeKalb County, Tennessee",47041,19361,11.0,5.6815247146325084e-05,0,0
+"DeSoto County, Florida",12027,35800,13.0,3.6312849162011175e-05,0,0
+"DeSoto County, Mississippi",28033,175611,54.0,3.0749782189042825e-05,0,0
+"DeWitt County, Texas",48123,20865,0.0,0.0,0,1
+"Deaf Smith County, Texas",48117,18830,0.0,0.0,0,1
+"Dearborn County, Indiana",18029,49331,14.0,2.8379720662463767e-05,0,0
+"Decatur County, Georgia",13087,26822,0.0,0.0,0,1
+"Decatur County, Indiana",18031,26598,0.0,0.0,0,1
+"Decatur County, Iowa",19053,8141,0.0,0.0,0,1
+"Decatur County, Kansas",20039,2832,0.0,0.0,0,1
+"Decatur County, Tennessee",47039,11769,0.0,0.0,0,1
+"Deer Lodge County, Montana",30023,9085,0.0,0.0,0,1
+"Defiance County, Ohio",39039,38158,13.0,3.406887153414749e-05,0,0
+"Del Norte County, California",6015,27540,12.0,4.3572984749455335e-05,0,0
+"Delaware County, Indiana",18035,115603,50.0,4.3251472712645865e-05,0,0
+"Delaware County, Iowa",19055,17327,0.0,0.0,0,1
+"Delaware County, New York",36025,45523,14.0,3.07536849504646e-05,0,0
+"Delaware County, Ohio",39041,196463,44.0,2.2396074578928347e-05,0,0
+"Delaware County, Oklahoma",40041,41598,17.0,4.086734939179768e-05,0,0
+"Delaware County, Pennsylvania",42045,563402,502.0,8.910156513466405e-05,1,0
+"Delta County, Colorado",8029,30442,15.0,4.9274029301622756e-05,0,0
+"Delta County, Michigan",26041,36202,11.0,3.0385061598806694e-05,0,0
+"Delta County, Texas",48119,5215,0.0,0.0,0,1
+"Denali Borough, Alaska",2068,1953,0.0,0.0,0,1
+"Dent County, Missouri",29065,15387,0.0,0.0,0,1
+"Denton County, Texas",48121,806180,256.0,3.175469498126969e-05,0,0
+"Denver County, Colorado",8031,693060,599.0,8.64283034657894e-05,1,0
+"Des Moines County, Iowa",19057,39739,25.0,6.29104909534714e-05,0,0
+"Deschutes County, Oregon",41017,181307,114.0,6.287677806151997e-05,0,0
+"Desha County, Arkansas",5041,11876,0.0,0.0,0,1
+"Deuel County, Nebraska",31049,1873,0.0,0.0,0,1
+"Deuel County, South Dakota",46039,4231,0.0,0.0,0,1
+"Dewey County, Oklahoma",40043,4819,0.0,0.0,0,1
+"Dewey County, South Dakota",46041,5742,15.0,0.00026123301985370953,1,0
+"Dickens County, Texas",48125,2184,0.0,0.0,0,1
+"Dickenson County, Virginia",51051,14968,0.0,0.0,0,1
+"Dickey County, North Dakota",38021,5064,0.0,0.0,0,1
+"Dickinson County, Iowa",19059,17243,0.0,0.0,0,1
+"Dickinson County, Kansas",20041,19064,0.0,0.0,0,1
+"Dickinson County, Michigan",26043,25535,19.0,7.440767573918151e-05,1,0
+"Dickson County, Tennessee",47043,52170,24.0,4.600345025876941e-05,0,0
+"Dillingham Census Area, Alaska",2070,4954,0.0,0.0,0,1
+"Dillon County, South Carolina",45033,30858,0.0,0.0,0,1
+"Dimmit County, Texas",48127,10794,0.0,0.0,0,1
+"Dinwiddie County, Virginia",51053,28144,0.0,0.0,0,1
+"District of Columbia, District of Columbia",11001,681170,254.0,3.728878253593082e-05,0,0
+"Divide County, North Dakota",38023,2413,0.0,0.0,0,1
+"Dixie County, Florida",12029,16300,0.0,0.0,0,1
+"Dixon County, Nebraska",31051,5762,0.0,0.0,0,1
+"Doddridge County, West Virginia",54017,8413,0.0,0.0,0,1
+"Dodge County, Georgia",13091,20563,0.0,0.0,0,1
+"Dodge County, Minnesota",27039,20506,13.0,6.339607919633277e-05,0,0
+"Dodge County, Nebraska",31053,36757,17.0,4.624969393584895e-05,0,0
+"Dodge County, Wisconsin",55027,88068,62.0,7.040014534223555e-05,1,0
+"Dolores County, Colorado",8033,2056,0.0,0.0,0,1
+"Doniphan County, Kansas",20043,7664,0.0,0.0,0,1
+"Donley County, Texas",48129,3405,0.0,0.0,0,1
+"Dooly County, Georgia",13093,13763,0.0,0.0,0,1
+"Door County, Wisconsin",55029,27587,13.0,4.712364519520064e-05,0,0
+"Dorchester County, Maryland",24019,32258,0.0,0.0,0,1
+"Dorchester County, South Carolina",45035,153773,74.0,4.812288243059575e-05,0,0
+"Dougherty County, Georgia",13095,90017,13.0,1.44417165646489e-05,0,0
+"Douglas County, Colorado",8035,328632,189.0,5.7511137077338784e-05,0,0
+"Douglas County, Georgia",13097,142224,32.0,2.249971875351558e-05,0,0
+"Douglas County, Illinois",17041,19630,0.0,0.0,0,1
+"Douglas County, Kansas",20045,119440,47.0,3.935030140656397e-05,0,0
+"Douglas County, Minnesota",27041,37456,0.0,0.0,0,1
+"Douglas County, Missouri",29067,13358,0.0,0.0,0,1
+"Douglas County, Nebraska",31055,554995,262.0,4.7207632501193704e-05,0,0
+"Douglas County, Nevada",32005,48020,20.0,4.1649312786339026e-05,0,0
+"Douglas County, Oregon",41019,108457,70.0,6.45417077735877e-05,0,0
+"Douglas County, South Dakota",46043,2932,0.0,0.0,0,1
+"Douglas County, Washington",53017,41327,0.0,0.0,0,1
+"Douglas County, Wisconsin",55031,43509,19.0,4.3669125927968924e-05,0,0
+"DoÃ±a Ana County, New Mexico",35013,214207,113.0,5.2752711162567046e-05,0,0
+"Drew County, Arkansas",5043,18651,0.0,0.0,0,1
+"DuPage County, Illinois",17043,929368,522.0,5.6167201797350456e-05,0,0
+"Dubois County, Indiana",18037,42552,16.0,3.760105282947922e-05,0,0
+"Dubuque County, Iowa",19061,97003,55.0,5.669927734193788e-05,0,0
+"Duchesne County, Utah",49013,20337,13.0,6.392289914933373e-05,0,0
+"Dukes County, Massachusetts",25007,17246,0.0,0.0,0,1
+"Dundy County, Nebraska",31057,1831,0.0,0.0,0,1
+"Dunklin County, Missouri",29069,30535,11.0,3.602423448501719e-05,0,0
+"Dunn County, North Dakota",38025,4366,0.0,0.0,0,1
+"Dunn County, Wisconsin",55033,44704,11.0,2.4606299212598425e-05,0,0
+"Duplin County, North Carolina",37061,58969,13.0,2.2045481524190675e-05,0,0
+"Durham County, North Carolina",37063,306212,100.0,3.265711337243478e-05,0,0
+"Dutchess County, New York",36027,294473,153.0,5.19572252804162e-05,0,0
+"Duval County, Florida",12031,926255,564.0,6.089035956621017e-05,0,0
+"Duval County, Texas",48131,11428,0.0,0.0,0,1
+"Dyer County, Tennessee",47045,37708,14.0,3.7127400021215654e-05,0,0
+"Eagle County, Colorado",8037,53989,16.0,2.963566652466243e-05,0,0
+"Early County, Georgia",13099,10339,0.0,0.0,0,1
+"East Baton Rouge Parish, Louisiana",22033,447037,117.0,2.617233025454269e-05,0,0
+"East Carroll Parish, Louisiana",22035,7271,0.0,0.0,0,1
+"East Feliciana Parish, Louisiana",22037,19683,0.0,0.0,0,1
+"Eastland County, Texas",48133,18274,0.0,0.0,0,1
+"Eaton County, Michigan",26045,109160,49.0,4.488823744961524e-05,0,0
+"Eau Claire County, Wisconsin",55035,102965,50.0,4.85601903559462e-05,0,0
+"Echols County, Georgia",13101,3962,0.0,0.0,0,1
+"Ector County, Texas",48135,157462,69.0,4.382009627719704e-05,0,0
+"Eddy County, New Mexico",35015,57621,23.0,3.991600284618455e-05,0,0
+"Eddy County, North Dakota",38027,2358,0.0,0.0,0,1
+"Edgar County, Illinois",17045,17566,14.0,7.9699419332802e-05,1,0
+"Edgecombe County, North Carolina",37065,53318,0.0,0.0,0,1
+"Edgefield County, South Carolina",45037,26358,0.0,0.0,0,1
+"Edmonson County, Kentucky",21061,12114,0.0,0.0,0,1
+"Edmunds County, South Dakota",46045,3952,0.0,0.0,0,1
+"Edwards County, Illinois",17047,6523,0.0,0.0,0,1
+"Edwards County, Kansas",20047,2938,0.0,0.0,0,1
+"Edwards County, Texas",48137,1911,0.0,0.0,0,1
+"Effingham County, Georgia",13103,58712,14.0,2.38452105191443e-05,0,0
+"Effingham County, Illinois",17049,34386,12.0,3.4897923573547374e-05,0,0
+"El Dorado County, California",6017,185625,115.0,6.195286195286196e-05,0,0
+"El Paso County, Colorado",8041,688284,630.0,9.153198389037083e-05,1,0
+"El Paso County, Texas",48141,837918,286.0,3.413221818841462e-05,0,0
+"Elbert County, Colorado",8039,25231,11.0,4.3597162221077245e-05,0,0
+"Elbert County, Georgia",13105,19143,0.0,0.0,0,1
+"Elk County, Kansas",20049,2547,0.0,0.0,0,1
+"Elk County, Pennsylvania",42047,30480,0.0,0.0,0,1
+"Elkhart County, Indiana",18039,203781,74.0,3.631349340713805e-05,0,0
+"Elko County, Nevada",32007,52168,13.0,2.491949087563257e-05,0,0
+"Elliott County, Kentucky",21063,7588,0.0,0.0,0,1
+"Ellis County, Kansas",20051,28893,10.0,3.461045928079466e-05,0,0
+"Ellis County, Oklahoma",40045,4080,0.0,0.0,0,1
+"Ellis County, Texas",48139,168499,29.0,1.72107846337367e-05,0,0
+"Ellsworth County, Kansas",20053,6328,0.0,0.0,0,1
+"Elmore County, Alabama",1051,81799,19.0,2.32276678199e-05,0,0
+"Elmore County, Idaho",16039,26018,0.0,0.0,0,1
+"Emanuel County, Georgia",13107,22635,0.0,0.0,0,1
+"Emery County, Utah",49015,10216,0.0,0.0,0,1
+"Emmet County, Iowa",19063,9658,0.0,0.0,0,1
+"Emmet County, Michigan",26047,33182,10.0,3.013682116810319e-05,0,0
+"Emmons County, North Dakota",38029,3346,0.0,0.0,0,1
+"Emporia city, Virginia",51595,5305,0.0,0.0,0,1
+"Erath County, Texas",48143,41659,13.0,3.1205741856501594e-05,0,0
+"Erie County, New York",36029,921046,634.0,6.883478132471125e-05,1,0
+"Erie County, Ohio",39043,75107,16.0,2.130294113731077e-05,0,0
+"Erie County, Pennsylvania",42049,276207,175.0,6.335827839265478e-05,0,0
+"Escambia County, Alabama",1053,37728,0.0,0.0,0,1
+"Escambia County, Florida",12033,315187,180.0,5.710895436677274e-05,0,0
+"Esmeralda County, Nevada",32009,790,0.0,0.0,0,1
+"Essex County, Massachusetts",25009,779018,472.0,6.058910063695576e-05,0,0
+"Essex County, New Jersey",34013,796914,300.0,3.7645216422349215e-05,0,0
+"Essex County, New York",36031,38102,0.0,0.0,0,1
+"Essex County, Vermont",50009,6176,0.0,0.0,0,1
+"Essex County, Virginia",51057,11123,0.0,0.0,0,1
+"Estill County, Kentucky",21065,14307,0.0,0.0,0,1
+"Etowah County, Alabama",1055,102564,33.0,3.217503217503217e-05,0,0
+"Eureka County, Nevada",32011,1917,0.0,0.0,0,1
+"Evangeline Parish, Louisiana",22039,33709,10.0,2.9665667922513276e-05,0,0
+"Evans County, Georgia",13109,10670,0.0,0.0,0,1
+"Fairbanks North Star Borough, Alaska",2090,100605,32.0,3.180756423636996e-05,0,0
+"Fairfax County, Virginia",51059,1138652,560.0,4.9180961347277304e-05,0,0
+"Fairfax city, Virginia",51600,24164,0.0,0.0,0,1
+"Fairfield County, Connecticut",9001,944177,502.0,5.316799710223825e-05,0,0
+"Fairfield County, Ohio",39045,152597,37.0,2.4246872481110377e-05,0,0
+"Fairfield County, South Carolina",45039,22653,0.0,0.0,0,1
+"Fall River County, South Dakota",46047,6849,0.0,0.0,0,1
+"Fallon County, Montana",30025,3120,0.0,0.0,0,1
+"Falls Church city, Virginia",51610,14014,0.0,0.0,0,1
+"Falls County, Texas",48145,17273,0.0,0.0,0,1
+"Fannin County, Georgia",13111,24900,0.0,0.0,0,1
+"Fannin County, Texas",48147,34031,17.0,4.995445329258617e-05,0,0
+"Faribault County, Minnesota",27043,13935,0.0,0.0,0,1
+"Faulk County, South Dakota",46049,2354,0.0,0.0,0,1
+"Faulkner County, Arkansas",5045,122227,47.0,3.845304229016502e-05,0,0
+"Fauquier County, Virginia",51061,69069,25.0,3.6195688369601414e-05,0,0
+"Fayette County, Alabama",1057,16546,0.0,0.0,0,1
+"Fayette County, Georgia",13113,111627,20.0,1.7916812240766124e-05,0,0
+"Fayette County, Illinois",17051,21789,0.0,0.0,0,1
+"Fayette County, Indiana",18041,23331,14.0,6.000600060006001e-05,0,0
+"Fayette County, Iowa",19065,20054,15.0,7.479804527775008e-05,1,0
+"Fayette County, Kentucky",21067,318449,125.0,3.925275318810861e-05,0,0
+"Fayette County, Ohio",39047,28676,0.0,0.0,0,1
+"Fayette County, Pennsylvania",42051,132733,64.0,4.821709748141005e-05,0,0
+"Fayette County, Tennessee",47047,39590,0.0,0.0,0,1
+"Fayette County, Texas",48149,25149,0.0,0.0,0,1
+"Fayette County, West Virginia",54019,44323,16.0,3.609863953252262e-05,0,0
+"Fentress County, Tennessee",47049,18033,10.0,5.545389009038984e-05,0,0
+"Fergus County, Montana",30027,11413,0.0,0.0,0,1
+"Ferry County, Washington",53019,7614,0.0,0.0,0,1
+"Fillmore County, Minnesota",27045,21003,0.0,0.0,0,1
+"Fillmore County, Nebraska",31059,5720,0.0,0.0,0,1
+"Finney County, Kansas",20055,36722,12.0,3.267795871684549e-05,0,0
+"Fisher County, Texas",48151,3854,0.0,0.0,0,1
+"Flagler County, Florida",12035,108310,63.0,5.816637429600222e-05,0,0
+"Flathead County, Montana",30029,98082,49.0,4.9958198242287066e-05,0,0
+"Fleming County, Kentucky",21069,14507,0.0,0.0,0,1
+"Florence County, South Carolina",45041,138742,25.0,1.8019056954635223e-05,0,0
+"Florence County, Wisconsin",55037,4456,0.0,0.0,0,1
+"Floyd County, Georgia",13115,96560,31.0,3.2104391052195525e-05,0,0
+"Floyd County, Indiana",18043,76990,25.0,3.247174957786725e-05,0,0
+"Floyd County, Iowa",19067,15873,0.0,0.0,0,1
+"Floyd County, Kentucky",21071,37110,0.0,0.0,0,1
+"Floyd County, Texas",48153,5917,0.0,0.0,0,1
+"Floyd County, Virginia",51063,15731,0.0,0.0,0,1
+"Fluvanna County, Virginia",51065,26271,0.0,0.0,0,1
+"Foard County, Texas",48155,1183,0.0,0.0,0,1
+"Fond du Lac County, Wisconsin",55039,102144,36.0,3.524436090225564e-05,0,0
+"Ford County, Illinois",17053,13575,0.0,0.0,0,1
+"Ford County, Kansas",20057,33971,13.0,3.826793441464779e-05,0,0
+"Forest County, Pennsylvania",42053,7321,0.0,0.0,0,1
+"Forest County, Wisconsin",55041,9064,0.0,0.0,0,1
+"Forrest County, Mississippi",28035,75979,16.0,2.105845036128404e-05,0,0
+"Forsyth County, Georgia",13117,221009,56.0,2.533833463795592e-05,0,0
+"Forsyth County, North Carolina",37067,371511,179.0,4.818161508003801e-05,0,0
+"Fort Bend County, Texas",48157,741237,156.0,2.1045900299094623e-05,0,0
+"Foster County, North Dakota",38031,3303,0.0,0.0,0,1
+"Fountain County, Indiana",18045,16486,0.0,0.0,0,1
+"Franklin County, Alabama",1059,31628,0.0,0.0,0,1
+"Franklin County, Arkansas",5047,17626,14.0,7.942811755361398e-05,1,0
+"Franklin County, Florida",12037,11901,0.0,0.0,0,1
+"Franklin County, Georgia",13119,22320,0.0,0.0,0,1
+"Franklin County, Idaho",16041,13406,0.0,0.0,0,1
+"Franklin County, Illinois",17055,39156,17.0,4.3416079272652975e-05,0,0
+"Franklin County, Indiana",18047,22715,10.0,4.402377283733216e-05,0,0
+"Franklin County, Iowa",19069,10170,0.0,0.0,0,1
+"Franklin County, Kansas",20059,25560,0.0,0.0,0,1
+"Franklin County, Kentucky",21073,50560,13.0,2.5712025316455696e-05,0,0
+"Franklin County, Maine",23007,30001,0.0,0.0,0,1
+"Franklin County, Massachusetts",25011,70382,27.0,3.836208121394675e-05,0,0
+"Franklin County, Mississippi",28037,7782,0.0,0.0,0,1
+"Franklin County, Missouri",29071,102838,57.0,5.542698224391762e-05,0,0
+"Franklin County, Nebraska",31061,3014,0.0,0.0,0,1
+"Franklin County, New York",36033,50409,20.0,3.967545477990041e-05,0,0
+"Franklin County, North Carolina",37069,64705,22.0,3.400046364268604e-05,0,0
+"Franklin County, Ohio",39049,1264518,628.0,4.966319182486924e-05,0,0
+"Franklin County, Pennsylvania",42055,153851,83.0,5.39483006285302e-05,0,0
+"Franklin County, Tennessee",47051,41700,0.0,0.0,0,1
+"Franklin County, Texas",48159,10607,0.0,0.0,0,1
+"Franklin County, Vermont",50011,48915,12.0,2.4532352039251762e-05,0,0
+"Franklin County, Virginia",51067,56069,16.0,2.8536267812873423e-05,0,0
+"Franklin County, Washington",53021,90160,22.0,2.4401064773735582e-05,0,0
+"Franklin Parish, Louisiana",22041,20330,0.0,0.0,0,1
+"Franklin city, Virginia",51620,8306,0.0,0.0,0,1
+"Frederick County, Maryland",24021,247591,91.0,3.675416311578369e-05,0,0
+"Frederick County, Virginia",51069,84421,38.0,4.5012496890584094e-05,0,0
+"Fredericksburg city, Virginia",51630,28297,0.0,0.0,0,1
+"Freeborn County, Minnesota",27047,30446,11.0,3.6129540826381135e-05,0,0
+"Freestone County, Texas",48161,19624,0.0,0.0,0,1
+"Fremont County, Colorado",8043,47446,49.0,0.00010327530244910003,1,0
+"Fremont County, Idaho",16043,12943,0.0,0.0,0,1
+"Fremont County, Iowa",19071,6950,0.0,0.0,0,1
+"Fremont County, Wyoming",56013,40242,26.0,6.460911485512649e-05,0,0
+"Fresno County, California",6019,979915,491.0,5.010638677844507e-05,0,0
+"Frio County, Texas",48163,18956,0.0,0.0,0,1
+"Frontier County, Nebraska",31063,2621,0.0,0.0,0,1
+"Fulton County, Arkansas",5049,12123,0.0,0.0,0,1
+"Fulton County, Georgia",13121,1023336,457.0,4.4657864083741804e-05,0,0
+"Fulton County, Illinois",17057,35536,22.0,6.190904997748762e-05,0,0
+"Fulton County, Indiana",18049,20139,0.0,0.0,0,1
+"Fulton County, Kentucky",21075,6179,0.0,0.0,0,1
+"Fulton County, New York",36035,53828,22.0,4.0870922196626294e-05,0,0
+"Fulton County, Ohio",39051,42514,21.0,4.939549324928259e-05,0,0
+"Fulton County, Pennsylvania",42057,14640,0.0,0.0,0,1
+"Furnas County, Nebraska",31065,4787,0.0,0.0,0,1
+"Gadsden County, Florida",12039,46006,10.0,2.173629526583489e-05,0,0
+"Gage County, Nebraska",31067,21799,10.0,4.587366392953805e-05,0,0
+"Gaines County, Texas",48165,20478,0.0,0.0,0,1
+"Galax city, Virginia",51640,6775,0.0,0.0,0,1
+"Gallatin County, Illinois",17059,5212,0.0,0.0,0,1
+"Gallatin County, Kentucky",21077,8609,0.0,0.0,0,1
+"Gallatin County, Montana",30031,104502,34.0,3.253526248301468e-05,0,0
+"Gallia County, Ohio",39053,30015,10.0,3.3316674995835414e-05,0,0
+"Galveston County, Texas",48167,329431,142.0,4.3104625854883115e-05,0,0
+"Garden County, Nebraska",31069,1930,0.0,0.0,0,1
+"Garfield County, Colorado",8045,58887,38.0,6.453037172890451e-05,0,0
+"Garfield County, Montana",30033,1310,0.0,0.0,0,1
+"Garfield County, Nebraska",31071,2011,0.0,0.0,0,1
+"Garfield County, Oklahoma",40047,62603,28.0,4.472629107231283e-05,0,0
+"Garfield County, Utah",49017,4986,0.0,0.0,0,1
+"Garfield County, Washington",53023,2247,0.0,0.0,0,1
+"Garland County, Arkansas",5051,97477,86.0,8.822594047826667e-05,1,0
+"Garrard County, Kentucky",21079,17292,0.0,0.0,0,1
+"Garrett County, Maryland",24023,29425,0.0,0.0,0,1
+"Garvin County, Oklahoma",40049,27838,14.0,5.0290969178820316e-05,0,0
+"Garza County, Texas",48169,6442,0.0,0.0,0,1
+"Gasconade County, Missouri",29073,14808,0.0,0.0,0,1
+"Gaston County, North Carolina",37071,216965,115.0,5.300394072776715e-05,0,0
+"Gates County, North Carolina",37073,11478,0.0,0.0,0,1
+"Geary County, Kansas",20061,35586,15.0,4.2151407857022424e-05,0,0
+"Geauga County, Ohio",39055,94060,47.0,4.9968105464597064e-05,0,0
+"Gem County, Idaho",16045,17184,0.0,0.0,0,1
+"Genesee County, Michigan",26049,408615,209.0,5.1148391517687796e-05,0,0
+"Genesee County, New York",36037,58482,16.0,2.7358845456721727e-05,0,0
+"Geneva County, Alabama",1061,26614,0.0,0.0,0,1
+"Gentry County, Missouri",29075,6661,0.0,0.0,0,1
+"George County, Mississippi",28039,23695,0.0,0.0,0,1
+"Georgetown County, South Carolina",45043,61399,18.0,2.931643837847522e-05,0,0
+"Gibson County, Indiana",18051,33703,16.0,4.7473518677862505e-05,0,0
+"Gibson County, Tennessee",47053,49401,17.0,3.4412258861156653e-05,0,0
+"Gila County, Arizona",4007,53556,33.0,6.161774591082232e-05,0,0
+"Gilchrist County, Florida",12041,17212,0.0,0.0,0,1
+"Giles County, Tennessee",47055,29307,11.0,3.753369502166718e-05,0,0
+"Giles County, Virginia",51071,16857,0.0,0.0,0,1
+"Gillespie County, Texas",48171,26521,10.0,3.7705968854869723e-05,0,0
+"Gilliam County, Oregon",41021,1854,0.0,0.0,0,1
+"Gilmer County, Georgia",13123,29733,0.0,0.0,0,1
+"Gilmer County, West Virginia",54021,8249,0.0,0.0,0,1
+"Gilpin County, Colorado",8047,5931,0.0,0.0,0,1
+"Glacier County, Montana",30035,13694,0.0,0.0,0,1
+"Glades County, Florida",12043,13970,0.0,0.0,0,1
+"Gladwin County, Michigan",26051,25122,0.0,0.0,0,1
+"Glascock County, Georgia",13125,3006,0.0,0.0,0,1
+"Glasscock County, Texas",48173,1314,0.0,0.0,0,1
+"Glenn County, California",6021,28085,11.0,3.9166815025814495e-05,0,0
+"Gloucester County, New Jersey",34015,292330,175.0,5.9863852495467453e-05,0,0
+"Gloucester County, Virginia",51073,37214,25.0,6.717901864889558e-05,0,0
+"Glynn County, Georgia",13127,84502,18.0,2.130127097583489e-05,0,0
+"Gogebic County, Michigan",26053,15243,0.0,0.0,0,1
+"Golden Valley County, Montana",30037,831,0.0,0.0,0,1
+"Golden Valley County, North Dakota",38033,1817,0.0,0.0,0,1
+"Goliad County, Texas",48175,7517,0.0,0.0,0,1
+"Gonzales County, Texas",48177,20876,0.0,0.0,0,1
+"Goochland County, Virginia",51075,22668,10.0,4.411505205576143e-05,0,0
+"Goodhue County, Minnesota",27049,46676,19.0,4.070614448538864e-05,0,0
+"Gooding County, Idaho",16047,15185,0.0,0.0,0,1
+"Gordon County, Georgia",13129,56904,23.0,4.041895121608323e-05,0,0
+"Goshen County, Wyoming",56015,13390,0.0,0.0,0,1
+"Gosper County, Nebraska",31073,1971,0.0,0.0,0,1
+"Gove County, Kansas",20063,2589,0.0,0.0,0,1
+"Grady County, Georgia",13131,24808,0.0,0.0,0,1
+"Grady County, Oklahoma",40051,54655,21.0,3.842283414143262e-05,0,0
+"Grafton County, New Hampshire",33009,88888,25.0,2.812528125281253e-05,0,0
+"Graham County, Arizona",4009,37599,28.0,7.447006569323652e-05,1,0
+"Graham County, Kansas",20065,2564,0.0,0.0,0,1
+"Graham County, North Carolina",37075,8558,0.0,0.0,0,1
+"Grainger County, Tennessee",47057,23072,10.0,4.334257975034674e-05,0,0
+"Grand County, Colorado",8049,15008,0.0,0.0,0,1
+"Grand County, Utah",49019,9579,0.0,0.0,0,1
+"Grand Forks County, North Dakota",38035,71083,27.0,3.798376545728233e-05,0,0
+"Grand Isle County, Vermont",50013,6919,0.0,0.0,0,1
+"Grand Traverse County, Michigan",26055,92084,56.0,6.081403935537118e-05,0,0
+"Granite County, Montana",30039,3368,0.0,0.0,0,1
+"Grant County, Arkansas",5053,18082,0.0,0.0,0,1
+"Grant County, Indiana",18053,66937,21.0,3.1372783363461166e-05,0,0
+"Grant County, Kansas",20067,7646,0.0,0.0,0,1
+"Grant County, Kentucky",21081,24923,15.0,6.018537094250291e-05,0,0
+"Grant County, Minnesota",27051,5956,0.0,0.0,0,1
+"Grant County, Nebraska",31075,641,0.0,0.0,0,1
+"Grant County, New Mexico",35017,28280,34.0,0.00012022630834512023,1,0
+"Grant County, North Dakota",38037,2377,0.0,0.0,0,1
+"Grant County, Oklahoma",40053,4465,0.0,0.0,0,1
+"Grant County, Oregon",41023,7158,0.0,0.0,0,1
+"Grant County, South Dakota",46051,7148,0.0,0.0,0,1
+"Grant County, Washington",53025,93546,21.0,2.2448848694759797e-05,0,0
+"Grant County, West Virginia",54023,11732,0.0,0.0,0,1
+"Grant County, Wisconsin",55043,52214,0.0,0.0,0,1
+"Grant Parish, Louisiana",22043,22365,0.0,0.0,0,1
+"Granville County, North Carolina",37077,59031,12.0,2.0328302078568888e-05,0,0
+"Gratiot County, Michigan",26057,41202,10.0,2.4270666472501336e-05,0,0
+"Graves County, Kentucky",21083,37182,0.0,0.0,0,1
+"Gray County, Kansas",20069,6034,0.0,0.0,0,1
+"Gray County, Texas",48179,22725,0.0,0.0,0,1
+"Grays Harbor County, Washington",53027,71628,35.0,4.886357290445077e-05,0,0
+"Grayson County, Kentucky",21085,26184,0.0,0.0,0,1
+"Grayson County, Texas",48181,128235,62.0,4.834873474480446e-05,0,0
+"Grayson County, Virginia",51077,15107,0.0,0.0,0,1
+"Greeley County, Kansas",20071,1296,0.0,0.0,0,1
+"Greeley County, Nebraska",31077,2399,0.0,0.0,0,1
+"Green County, Kentucky",21087,11060,0.0,0.0,0,1
+"Green County, Wisconsin",55045,37075,10.0,2.6972353337828724e-05,0,0
+"Green Lake County, Wisconsin",55047,18719,0.0,0.0,0,1
+"Greenbrier County, West Virginia",54025,35279,12.0,3.4014569573967516e-05,0,0
+"Greene County, Alabama",1063,8422,0.0,0.0,0,1
+"Greene County, Arkansas",5055,44598,11.0,2.466478317413337e-05,0,0
+"Greene County, Georgia",13133,17003,0.0,0.0,0,1
+"Greene County, Illinois",17061,13093,0.0,0.0,0,1
+"Greene County, Indiana",18055,32211,0.0,0.0,0,1
+"Greene County, Iowa",19073,9011,0.0,0.0,0,1
+"Greene County, Mississippi",28041,13408,0.0,0.0,0,1
+"Greene County, Missouri",29077,288690,169.0,5.8540302746891127e-05,0,0
+"Greene County, New York",36039,47508,25.0,5.262271617411804e-05,0,0
+"Greene County, North Carolina",37079,21168,0.0,0.0,0,1
+"Greene County, Ohio",39057,164765,74.0,4.4912451066670715e-05,0,0
+"Greene County, Pennsylvania",42059,37197,15.0,4.032583272844584e-05,0,0
+"Greene County, Tennessee",47059,68615,22.0,3.206295999417037e-05,0,0
+"Greene County, Virginia",51079,19371,0.0,0.0,0,1
+"Greenlee County, Arizona",4011,9613,0.0,0.0,0,1
+"Greensville County, Virginia",51081,11706,0.0,0.0,0,1
+"Greenup County, Kentucky",21089,35893,0.0,0.0,0,1
+"Greenville County, South Carolina",45045,498766,275.0,5.513607583516118e-05,0,0
+"Greenwood County, Kansas",20073,6151,0.0,0.0,0,1
+"Greenwood County, South Carolina",45047,70133,26.0,3.7072419545720275e-05,0,0
+"Greer County, Oklahoma",40055,5998,0.0,0.0,0,1
+"Gregg County, Texas",48183,123745,51.0,4.121378641561275e-05,0,0
+"Gregory County, South Dakota",46053,4171,0.0,0.0,0,1
+"Grenada County, Mississippi",28043,21275,0.0,0.0,0,1
+"Griggs County, North Dakota",38039,2277,0.0,0.0,0,1
+"Grimes County, Texas",48185,27671,0.0,0.0,0,1
+"Grundy County, Illinois",17063,50437,16.0,3.172274322422031e-05,0,0
+"Grundy County, Iowa",19075,12313,0.0,0.0,0,1
+"Grundy County, Missouri",29079,10165,0.0,0.0,0,1
+"Grundy County, Tennessee",47061,13389,0.0,0.0,0,1
+"Guadalupe County, New Mexico",35019,4376,0.0,0.0,0,1
+"Guadalupe County, Texas",48187,155265,43.0,2.7694586674395387e-05,0,0
+"Guernsey County, Ohio",39059,39063,18.0,4.607941018354965e-05,0,0
+"Guilford County, North Carolina",37081,521330,191.0,3.663706289682159e-05,0,0
+"Gulf County, Florida",12045,15990,0.0,0.0,0,1
+"Gunnison County, Colorado",8051,16408,0.0,0.0,0,1
+"Guthrie County, Iowa",19077,10625,0.0,0.0,0,1
+"Gwinnett County, Georgia",13135,907135,357.0,3.935467157589554e-05,0,0
+"Haakon County, South Dakota",46055,1892,0.0,0.0,0,1
+"Habersham County, Georgia",13137,44246,13.0,2.93811869999548e-05,0,0
+"Haines Borough, Alaska",2100,2496,0.0,0.0,0,1
+"Hale County, Alabama",1065,14952,0.0,0.0,0,1
+"Hale County, Texas",48189,34263,11.0,3.2104602632577415e-05,0,0
+"Halifax County, North Carolina",37083,51766,0.0,0.0,0,1
+"Halifax County, Virginia",51083,34992,0.0,0.0,0,1
+"Hall County, Georgia",13139,196637,63.0,3.2038731266241856e-05,0,0
+"Hall County, Nebraska",31079,61705,20.0,3.2412284255732926e-05,0,0
+"Hall County, Texas",48191,3138,0.0,0.0,0,1
+"Hamblen County, Tennessee",47063,63785,43.0,6.741396880144235e-05,0,0
+"Hamilton County, Florida",12047,14361,0.0,0.0,0,1
+"Hamilton County, Illinois",17065,8061,0.0,0.0,0,1
+"Hamilton County, Indiana",18057,316373,117.0,3.698166404844914e-05,0,0
+"Hamilton County, Iowa",19079,15076,0.0,0.0,0,1
+"Hamilton County, Kansas",20075,2536,0.0,0.0,0,1
+"Hamilton County, Nebraska",31081,9186,0.0,0.0,0,1
+"Hamilton County, New York",36041,4542,0.0,0.0,0,1
+"Hamilton County, Ohio",39061,809099,470.0,5.808930674738196e-05,0,0
+"Hamilton County, Tennessee",47065,357738,131.0,3.661897813483611e-05,0,0
+"Hamilton County, Texas",48193,8304,0.0,0.0,0,1
+"Hamlin County, South Dakota",46057,6028,0.0,0.0,0,1
+"Hampden County, Massachusetts",25013,468467,312.0,6.660020876603902e-05,0,0
+"Hampshire County, Massachusetts",25015,161816,71.0,4.387699609432936e-05,0,0
+"Hampshire County, West Virginia",54027,23301,0.0,0.0,0,1
+"Hampton County, South Carolina",45049,19922,0.0,0.0,0,1
+"Hampton city, Virginia",51650,135410,40.0,2.953991581123994e-05,0,0
+"Hancock County, Georgia",13141,8640,0.0,0.0,0,1
+"Hancock County, Illinois",17067,18508,0.0,0.0,0,1
+"Hancock County, Indiana",18059,73717,34.0,4.61223327048035e-05,0,0
+"Hancock County, Iowa",19081,10835,0.0,0.0,0,1
+"Hancock County, Kentucky",21091,8810,0.0,0.0,0,1
+"Hancock County, Maine",23009,54419,29.0,5.329021113949172e-05,0,0
+"Hancock County, Mississippi",28045,46791,31.0,6.62520570195123e-05,0,0
+"Hancock County, Ohio",39063,75872,20.0,2.6360185575706452e-05,0,0
+"Hancock County, Tennessee",47067,6577,11.0,0.0001672495058537327,1,0
+"Hancock County, West Virginia",54029,29590,0.0,0.0,0,1
+"Hand County, South Dakota",46059,3319,0.0,0.0,0,1
+"Hanover County, Virginia",51085,104392,31.0,2.969576212736608e-05,0,0
+"Hansford County, Texas",48195,5538,0.0,0.0,0,1
+"Hanson County, South Dakota",46061,3374,0.0,0.0,0,1
+"Haralson County, Georgia",13143,29042,13.0,4.476275738585497e-05,0,0
+"Hardee County, Florida",12049,27360,0.0,0.0,0,1
+"Hardeman County, Tennessee",47069,25435,0.0,0.0,0,1
+"Hardeman County, Texas",48197,3906,0.0,0.0,0,1
+"Hardin County, Illinois",17069,4024,0.0,0.0,0,1
+"Hardin County, Iowa",19083,17226,0.0,0.0,0,1
+"Hardin County, Kentucky",21093,107316,48.0,4.472772000447277e-05,0,0
+"Hardin County, Ohio",39065,31474,0.0,0.0,0,1
+"Hardin County, Tennessee",47071,25679,0.0,0.0,0,1
+"Hardin County, Texas",48199,56322,23.0,4.083661801782607e-05,0,0
+"Harding County, New Mexico",35021,665,0.0,0.0,0,1
+"Harding County, South Dakota",46063,1278,0.0,0.0,0,1
+"Hardy County, West Virginia",54031,13889,0.0,0.0,0,1
+"Harford County, Maryland",24025,251032,132.0,5.258293763344912e-05,0,0
+"Harlan County, Kentucky",21095,27168,0.0,0.0,0,1
+"Harlan County, Nebraska",31083,3473,0.0,0.0,0,1
+"Harmon County, Oklahoma",40057,2704,0.0,0.0,0,1
+"Harnett County, North Carolina",37085,130881,33.0,2.521374378252e-05,0,0
+"Harney County, Oregon",41025,7292,0.0,0.0,0,1
+"Harper County, Kansas",20077,5685,0.0,0.0,0,1
+"Harper County, Oklahoma",40059,3717,0.0,0.0,0,1
+"Harris County, Georgia",13145,33652,0.0,0.0,0,1
+"Harris County, Texas",48201,4589928,1872.0,4.07849534894665e-05,0,0
+"Harrison County, Indiana",18061,39826,0.0,0.0,0,1
+"Harrison County, Iowa",19085,14149,0.0,0.0,0,1
+"Harrison County, Kentucky",21097,18646,11.0,5.899388608816904e-05,0,0
+"Harrison County, Mississippi",28047,203234,113.0,5.56009329147682e-05,0,0
+"Harrison County, Missouri",29081,8556,0.0,0.0,0,1
+"Harrison County, Ohio",39067,15307,0.0,0.0,0,1
+"Harrison County, Texas",48203,66534,21.0,3.156280999188385e-05,0,0
+"Harrison County, West Virginia",54033,68400,18.0,2.6315789473684212e-05,0,0
+"Harrisonburg city, Virginia",51660,53078,12.0,2.260823693432307e-05,0,0
+"Hart County, Georgia",13147,25553,14.0,5.4788087504402614e-05,0,0
+"Hart County, Kentucky",21099,18627,0.0,0.0,0,1
+"Hartford County, Connecticut",9003,892389,568.0,6.364937263906212e-05,0,0
+"Hartley County, Texas",48205,5747,0.0,0.0,0,1
+"Harvey County, Kansas",20079,34913,15.0,4.296393893392146e-05,0,0
+"Haskell County, Kansas",20081,4006,0.0,0.0,0,1
+"Haskell County, Oklahoma",40061,12747,0.0,0.0,0,1
+"Haskell County, Texas",48207,5681,0.0,0.0,0,1
+"Hawaii County, Hawaii",15001,198449,209.0,0.00010531673125085034,1,0
+"Hawkins County, Tennessee",47073,56563,26.0,4.5966444495518273e-05,0,0
+"Hayes County, Nebraska",31085,897,0.0,0.0,0,1
+"Hays County, Texas",48209,204470,59.0,2.8855088766078154e-05,0,0
+"Haywood County, North Carolina",37087,60682,24.0,3.9550443294551924e-05,0,0
+"Haywood County, Tennessee",47075,17853,0.0,0.0,0,1
+"Heard County, Georgia",13149,11487,0.0,0.0,0,1
+"Hemphill County, Texas",48211,4129,0.0,0.0,0,1
+"Hempstead County, Arkansas",5057,21974,0.0,0.0,0,1
+"Henderson County, Illinois",17071,6869,0.0,0.0,0,1
+"Henderson County, Kentucky",21101,46253,18.0,3.8916394612241366e-05,0,0
+"Henderson County, North Carolina",37089,114209,59.0,5.1659676557889486e-05,0,0
+"Henderson County, Tennessee",47077,27822,0.0,0.0,0,1
+"Henderson County, Texas",48213,79901,24.0,3.00371709991114e-05,0,0
+"Hendricks County, Indiana",18063,160610,55.0,3.4244443060830584e-05,0,0
+"Hendry County, Florida",12051,39290,11.0,2.7996945787732248e-05,0,0
+"Hennepin County, Minnesota",27053,1232483,719.0,5.833751865137288e-05,0,0
+"Henrico County, Virginia",51087,326501,123.0,3.767216639458991e-05,0,0
+"Henry County, Alabama",1067,17164,0.0,0.0,0,1
+"Henry County, Georgia",13151,221768,53.0,2.389884924786263e-05,0,0
+"Henry County, Illinois",17073,49280,32.0,6.493506493506494e-05,0,0
+"Henry County, Indiana",18065,48521,23.0,4.740215576760578e-05,0,0
+"Henry County, Iowa",19087,19773,0.0,0.0,0,1
+"Henry County, Kentucky",21103,15818,0.0,0.0,0,1
+"Henry County, Missouri",29083,21594,0.0,0.0,0,1
+"Henry County, Ohio",39069,27629,0.0,0.0,0,1
+"Henry County, Tennessee",47079,32310,24.0,7.428040854224699e-05,1,0
+"Henry County, Virginia",51089,51445,20.0,3.88764700165225e-05,0,0
+"Herkimer County, New York",36043,62613,25.0,3.9927810518582405e-05,0,0
+"Hernando County, Florida",12053,182835,123.0,6.72737714332595e-05,0,0
+"Hertford County, North Carolina",37091,24136,0.0,0.0,0,1
+"Hettinger County, North Dakota",38041,2629,0.0,0.0,0,1
+"Hickman County, Kentucky",21105,4627,0.0,0.0,0,1
+"Hickman County, Tennessee",47081,24295,0.0,0.0,0,1
+"Hickory County, Missouri",29085,9269,0.0,0.0,0,1
+"Hidalgo County, New Mexico",35023,4302,0.0,0.0,0,1
+"Hidalgo County, Texas",48215,849843,200.0,2.3533758588351023e-05,0,0
+"Highland County, Ohio",39071,43029,19.0,4.4156266703850894e-05,0,0
+"Highland County, Virginia",51091,2216,0.0,0.0,0,1
+"Highlands County, Florida",12055,100917,53.0,5.2518406215008375e-05,0,0
+"Hill County, Montana",30041,16542,0.0,0.0,0,1
+"Hill County, Texas",48217,35077,11.0,3.135958035179747e-05,0,0
+"Hillsborough County, Florida",12057,1376238,814.0,5.914674642031393e-05,0,0
+"Hillsborough County, New Hampshire",33011,407761,323.0,7.921306843960065e-05,1,0
+"Hillsdale County, Michigan",26059,45774,15.0,3.2769694586446455e-05,0,0
+"Hinds County, Mississippi",28049,241229,56.0,2.3214455973369703e-05,0,0
+"Hinsdale County, Colorado",8053,788,0.0,0.0,0,1
+"Hitchcock County, Nebraska",31087,2825,0.0,0.0,0,1
+"Hocking County, Ohio",39073,28340,11.0,3.881439661256175e-05,0,0
+"Hockley County, Texas",48219,23275,20.0,8.592910848549946e-05,1,0
+"Hodgeman County, Kansas",20083,1870,0.0,0.0,0,1
+"Hoke County, North Carolina",37093,53262,0.0,0.0,0,1
+"Holmes County, Florida",12059,19487,0.0,0.0,0,1
+"Holmes County, Mississippi",28051,17999,0.0,0.0,0,1
+"Holmes County, Ohio",39075,43936,0.0,0.0,0,1
+"Holt County, Missouri",29087,4448,0.0,0.0,0,1
+"Holt County, Nebraska",31089,10250,0.0,0.0,0,1
+"Honolulu County, Hawaii",15003,992605,854.0,8.603623797986108e-05,1,0
+"Hood County, Texas",48221,56857,14.0,2.462317744516946e-05,0,0
+"Hood River County, Oregon",41027,23232,0.0,0.0,0,1
+"Hooker County, Nebraska",31091,708,0.0,0.0,0,1
+"Hoonah-Angoon Census Area, Alaska",2105,2078,0.0,0.0,0,1
+"Hopewell city, Virginia",51670,22735,0.0,0.0,0,1
+"Hopkins County, Kentucky",21107,45904,10.0,2.178459393516905e-05,0,0
+"Hopkins County, Texas",48223,36400,0.0,0.0,0,1
+"Horry County, South Carolina",45051,322342,133.0,4.126052453605177e-05,0,0
+"Hot Spring County, Arkansas",5059,33374,18.0,5.393420027566369e-05,0,0
+"Hot Springs County, Wyoming",56017,4679,0.0,0.0,0,1
+"Houghton County, Michigan",26061,36555,13.0,3.556285049924771e-05,0,0
+"Houston County, Alabama",1069,104056,19.0,1.825939878526947e-05,0,0
+"Houston County, Georgia",13153,152122,56.0,3.68125583413313e-05,0,0
+"Houston County, Minnesota",27055,18814,0.0,0.0,0,1
+"Houston County, Tennessee",47083,8134,0.0,0.0,0,1
+"Houston County, Texas",48225,22754,0.0,0.0,0,1
+"Howard County, Arkansas",5061,13377,0.0,0.0,0,1
+"Howard County, Indiana",18067,82568,28.0,3.391144268966185e-05,0,0
+"Howard County, Iowa",19089,9332,0.0,0.0,0,1
+"Howard County, Maryland",24027,317233,128.0,4.0348891823990566e-05,0,0
+"Howard County, Missouri",29089,10058,0.0,0.0,0,1
+"Howard County, Nebraska",31093,6429,0.0,0.0,0,1
+"Howard County, Texas",48227,36708,19.0,5.175983436853002e-05,0,0
+"Howell County, Missouri",29091,40210,11.0,2.7356379010196468e-05,0,0
+"Hubbard County, Minnesota",27057,20718,0.0,0.0,0,1
+"Hudson County, New Jersey",34017,677983,273.0,4.0266496357578286e-05,0,0
+"Hudspeth County, Texas",48229,4053,0.0,0.0,0,1
+"Huerfano County, Colorado",8055,6677,0.0,0.0,0,1
+"Hughes County, Oklahoma",40063,13566,0.0,0.0,0,1
+"Hughes County, South Dakota",46065,17600,0.0,0.0,0,1
+"Humboldt County, California",6023,136646,152.0,0.00011123633329918182,1,0
+"Humboldt County, Iowa",19091,9487,0.0,0.0,0,1
+"Humboldt County, Nevada",32013,16842,11.0,6.531290820567629e-05,0,0
+"Humphreys County, Mississippi",28053,8513,0.0,0.0,0,1
+"Humphreys County, Tennessee",47085,18347,0.0,0.0,0,1
+"Hunt County, Texas",48231,92073,30.0,3.258284187546838e-05,0,0
+"Hunterdon County, New Jersey",34019,124676,64.0,5.13330552792839e-05,0,0
+"Huntingdon County, Pennsylvania",42061,45634,13.0,2.8487531226716923e-05,0,0
+"Huntington County, Indiana",18069,36400,13.0,3.571428571428572e-05,0,0
+"Huron County, Michigan",26063,31481,11.0,3.494171087322512e-05,0,0
+"Huron County, Ohio",39077,58439,22.0,3.7646092506716404e-05,0,0
+"Hutchinson County, South Dakota",46067,7368,0.0,0.0,0,1
+"Hutchinson County, Texas",48233,21511,14.0,6.508298080052066e-05,0,0
+"Hyde County, North Carolina",37095,5517,0.0,0.0,0,1
+"Hyde County, South Dakota",46069,1352,0.0,0.0,0,1
+"Iberia Parish, Louisiana",22045,73273,12.0,1.6377110258894817e-05,0,0
+"Iberville Parish, Louisiana",22047,32920,0.0,0.0,0,1
+"Ida County, Iowa",19093,6985,0.0,0.0,0,1
+"Idaho County, Idaho",16049,16156,0.0,0.0,0,1
+"Imperial County, California",6025,180883,58.0,3.206492594660637e-05,0,0
+"Independence County, Arkansas",5063,37168,12.0,3.228583727938011e-05,0,0
+"Indian River County, Florida",12061,151563,74.0,4.882458119725791e-05,0,0
+"Indiana County, Pennsylvania",42063,86364,44.0,5.0947153906720395e-05,0,0
+"Ingham County, Michigan",26065,288051,153.0,5.3115594113542395e-05,0,0
+"Inyo County, California",6027,18144,0.0,0.0,0,1
+"Ionia County, Michigan",26067,64232,22.0,3.425084070245361e-05,0,0
+"Iosco County, Michigan",26069,25327,10.0,3.948355509930114e-05,0,0
+"Iowa County, Iowa",19095,16311,0.0,0.0,0,1
+"Iowa County, Wisconsin",55049,23654,10.0,4.22761477974127e-05,0,0
+"Iredell County, North Carolina",37097,172916,63.0,3.643387540771241e-05,0,0
+"Irion County, Texas",48235,1557,0.0,0.0,0,1
+"Iron County, Michigan",26071,11195,0.0,0.0,0,1
+"Iron County, Missouri",29093,10022,0.0,0.0,0,1
+"Iron County, Utah",49021,49937,26.0,5.206560265935078e-05,0,0
+"Iron County, Wisconsin",55051,5726,0.0,0.0,0,1
+"Iroquois County, Illinois",17075,28334,16.0,5.646925954683419e-05,0,0
+"Irwin County, Georgia",13155,9422,0.0,0.0,0,1
+"Isabella County, Michigan",26073,71282,12.0,1.6834544485283803e-05,0,0
+"Isanti County, Minnesota",27059,39025,14.0,3.587443946188341e-05,0,0
+"Island County, Washington",53029,82636,31.0,3.751391645287768e-05,0,0
+"Isle of Wight County, Virginia",51093,36596,10.0,2.7325390753087768e-05,0,0
+"Issaquena County, Mississippi",28055,1294,0.0,0.0,0,1
+"Itasca County, Minnesota",27061,45242,22.0,4.862738163653243e-05,0,0
+"Itawamba County, Mississippi",28057,23529,0.0,0.0,0,1
+"Izard County, Arkansas",5065,13433,10.0,7.444353457902182e-05,1,0
+"Jack County, Texas",48237,8744,0.0,0.0,0,1
+"Jackson County, Alabama",1071,52138,0.0,0.0,0,1
+"Jackson County, Arkansas",5067,17221,0.0,0.0,0,1
+"Jackson County, Colorado",8057,1357,0.0,0.0,0,1
+"Jackson County, Florida",12063,48229,17.0,3.524850193866761e-05,0,0
+"Jackson County, Georgia",13157,64615,21.0,3.250019345353246e-05,0,0
+"Jackson County, Illinois",17077,58870,14.0,2.3781212841854935e-05,0,0
+"Jackson County, Indiana",18071,44013,22.0,4.9985231636107515e-05,0,0
+"Jackson County, Iowa",19097,19472,0.0,0.0,0,1
+"Jackson County, Kansas",20085,13291,0.0,0.0,0,1
+"Jackson County, Kentucky",21109,13368,0.0,0.0,0,1
+"Jackson County, Michigan",26075,158460,84.0,5.3010223400227187e-05,0,0
+"Jackson County, Minnesota",27063,9944,0.0,0.0,0,1
+"Jackson County, Mississippi",28059,141241,45.0,3.186043712519736e-05,0,0
+"Jackson County, Missouri",29095,691801,551.0,7.964718177626225e-05,1,0
+"Jackson County, North Carolina",37099,42241,14.0,3.3143154754859024e-05,0,0
+"Jackson County, Ohio",39079,32505,0.0,0.0,0,1
+"Jackson County, Oklahoma",40065,25497,0.0,0.0,0,1
+"Jackson County, Oregon",41029,216527,186.0,8.590152729220837e-05,1,0
+"Jackson County, South Dakota",46071,3326,0.0,0.0,0,1
+"Jackson County, Tennessee",47087,11566,0.0,0.0,0,1
+"Jackson County, Texas",48239,14869,0.0,0.0,0,1
+"Jackson County, West Virginia",54035,29152,0.0,0.0,0,1
+"Jackson County, Wisconsin",55053,20562,0.0,0.0,0,1
+"Jackson Parish, Louisiana",22049,15808,0.0,0.0,0,1
+"James City County, Virginia",51095,74404,26.0,3.494435783022418e-05,0,0
+"Jasper County, Georgia",13159,13654,0.0,0.0,0,1
+"Jasper County, Illinois",17079,9536,0.0,0.0,0,1
+"Jasper County, Indiana",18073,33433,10.0,2.9910567403463644e-05,0,0
+"Jasper County, Iowa",19099,36708,14.0,3.813882532418002e-05,0,0
+"Jasper County, Mississippi",28061,16578,0.0,0.0,0,1
+"Jasper County, Missouri",29097,119111,77.0,6.46455826917749e-05,0,0
+"Jasper County, South Carolina",45053,28465,0.0,0.0,0,1
+"Jasper County, Texas",48241,35648,0.0,0.0,0,1
+"Jay County, Indiana",18075,21046,0.0,0.0,0,1
+"Jeff Davis County, Georgia",13161,14877,0.0,0.0,0,1
+"Jeff Davis County, Texas",48243,2200,0.0,0.0,0,1
+"Jefferson County, Alabama",1073,659521,258.0,3.9119300219401655e-05,0,0
+"Jefferson County, Arkansas",5069,70016,16.0,2.2851919561243146e-05,0,0
+"Jefferson County, Colorado",8059,571837,524.0,9.163450423809583e-05,1,0
+"Jefferson County, Florida",12065,13906,0.0,0.0,0,1
+"Jefferson County, Georgia",13163,15916,0.0,0.0,0,1
+"Jefferson County, Idaho",16051,27839,0.0,0.0,0,1
+"Jefferson County, Illinois",17081,38460,19.0,4.940197607904316e-05,0,0
+"Jefferson County, Indiana",18077,32418,11.0,3.393176630267135e-05,0,0
+"Jefferson County, Iowa",19101,18090,0.0,0.0,0,1
+"Jefferson County, Kansas",20087,18897,0.0,0.0,0,1
+"Jefferson County, Kentucky",21111,765352,487.0,6.363085220917957e-05,0,0
+"Jefferson County, Mississippi",28063,7297,0.0,0.0,0,1
+"Jefferson County, Missouri",29099,224226,149.0,6.64508130190076e-05,0,0
+"Jefferson County, Montana",30043,11853,0.0,0.0,0,1
+"Jefferson County, Nebraska",31095,7177,0.0,0.0,0,1
+"Jefferson County, New York",36045,114006,52.0,4.561163447537849e-05,0,0
+"Jefferson County, Ohio",39081,66704,15.0,2.2487407052050852e-05,0,0
+"Jefferson County, Oklahoma",40067,6230,0.0,0.0,0,1
+"Jefferson County, Oregon",41031,23080,13.0,5.632582322357019e-05,0,0
+"Jefferson County, Pennsylvania",42065,44073,0.0,0.0,0,1
+"Jefferson County, Tennessee",47089,53535,20.0,3.735873727468011e-05,0,0
+"Jefferson County, Texas",48245,254679,103.0,4.044306754777583e-05,0,0
+"Jefferson County, Washington",53031,31139,18.0,5.7805324512669e-05,0,0
+"Jefferson County, West Virginia",54037,56368,19.0,3.370706783990917e-05,0,0
+"Jefferson County, Wisconsin",55055,84625,21.0,2.481536189069424e-05,0,0
+"Jefferson Davis County, Mississippi",28065,11385,0.0,0.0,0,1
+"Jefferson Davis Parish, Louisiana",22053,31413,0.0,0.0,0,1
+"Jefferson Parish, Louisiana",22051,436523,204.0,4.673293274352096e-05,0,0
+"Jenkins County, Georgia",13165,8849,0.0,0.0,0,1
+"Jennings County, Indiana",18079,27758,0.0,0.0,0,1
+"Jerauld County, South Dakota",46073,2004,0.0,0.0,0,1
+"Jerome County, Idaho",16053,22994,10.0,4.348960598416978e-05,0,0
+"Jersey County, Illinois",17083,22025,0.0,0.0,0,1
+"Jessamine County, Kentucky",21113,52357,0.0,0.0,0,1
+"Jewell County, Kansas",20089,2901,0.0,0.0,0,1
+"Jim Hogg County, Texas",48247,5146,0.0,0.0,0,1
+"Jim Wells County, Texas",48249,41149,22.0,5.3464239714209334e-05,0,0
+"Jo Daviess County, Illinois",17085,21770,0.0,0.0,0,1
+"Johnson County, Arkansas",5071,26176,13.0,4.966381418092909e-05,0,0
+"Johnson County, Georgia",13167,9505,0.0,0.0,0,1
+"Johnson County, Illinois",17087,12902,0.0,0.0,0,1
+"Johnson County, Indiana",18081,151982,49.0,3.224066007816715e-05,0,0
+"Johnson County, Iowa",19103,146547,76.0,5.1860495267729804e-05,0,0
+"Johnson County, Kansas",20091,584451,359.0,6.142516652379755e-05,0,0
+"Johnson County, Kentucky",21115,22978,0.0,0.0,0,1
+"Johnson County, Missouri",29101,53942,12.0,2.2246116198880277e-05,0,0
+"Johnson County, Nebraska",31097,5171,0.0,0.0,0,1
+"Johnson County, Tennessee",47091,17754,0.0,0.0,0,1
+"Johnson County, Texas",48251,163274,57.0,3.49106410083663e-05,0,0
+"Johnson County, Wyoming",56019,8486,0.0,0.0,0,1
+"Johnston County, North Carolina",37101,191450,65.0,3.3951423348132674e-05,0,0
+"Johnston County, Oklahoma",40069,11087,0.0,0.0,0,1
+"Jones County, Georgia",13169,28623,12.0,4.192432659050414e-05,0,0
+"Jones County, Iowa",19105,20439,0.0,0.0,0,1
+"Jones County, Mississippi",28067,67953,19.0,2.7960502111753712e-05,0,0
+"Jones County, North Carolina",37103,9845,0.0,0.0,0,1
+"Jones County, South Dakota",46075,927,0.0,0.0,0,1
+"Jones County, Texas",48253,20009,16.0,7.996401619271328e-05,1,0
+"Josephine County, Oregon",41033,85904,37.0,4.30713354442168e-05,0,0
+"Juab County, Utah",49023,11010,0.0,0.0,0,1
+"Judith Basin County, Montana",30045,1940,0.0,0.0,0,1
+"Juneau City and Borough, Alaska",2110,32468,0.0,0.0,0,1
+"Juneau County, Wisconsin",55057,26274,0.0,0.0,0,1
+"Juniata County, Pennsylvania",42067,24863,0.0,0.0,0,1
+"Kalamazoo County, Michigan",26077,261654,148.0,5.656324764765683e-05,0,0
+"Kalawao County, Hawaii",15005,88,0.0,0.0,0,1
+"Kalkaska County, Michigan",26079,17263,0.0,0.0,0,1
+"Kanabec County, Minnesota",27065,15830,0.0,0.0,0,1
+"Kanawha County, West Virginia",54039,186241,102.0,5.4767747166306025e-05,0,0
+"Kandiyohi County, Minnesota",27067,42495,11.0,2.588539828215084e-05,0,0
+"Kane County, Illinois",17089,531715,247.0,4.6453457209219226e-05,0,0
+"Kane County, Utah",49025,7334,0.0,0.0,0,1
+"Kankakee County, Illinois",17091,110008,32.0,2.9088793542287833e-05,0,0
+"Karnes County, Texas",48255,15254,11.0,7.211223285695555e-05,1,0
+"Kauai County, Hawaii",15007,72029,73.0,0.0001013480681392217,1,0
+"Kaufman County, Texas",48257,118350,29.0,2.4503591043515e-05,0,0
+"Kay County, Oklahoma",40071,44943,26.0,5.785105578176802e-05,0,0
+"Kearney County, Nebraska",31099,6552,0.0,0.0,0,1
+"Kearny County, Kansas",20093,3917,0.0,0.0,0,1
+"Keith County, Nebraska",31101,8018,0.0,0.0,0,1
+"Kemper County, Mississippi",28069,9896,0.0,0.0,0,1
+"Kenai Peninsula Borough, Alaska",2122,58506,24.0,4.102143369910778e-05,0,0
+"Kendall County, Illinois",17093,124695,41.0,3.2880227755723966e-05,0,0
+"Kendall County, Texas",48259,42540,0.0,0.0,0,1
+"Kenedy County, Texas",48261,404,0.0,0.0,0,1
+"Kennebec County, Maine",23011,120569,63.0,5.2252237308097435e-05,0,0
+"Kenosha County, Wisconsin",55059,168183,123.0,7.313462121617524e-05,1,0
+"Kent County, Delaware",10001,174827,75.0,4.289955212867578e-05,0,0
+"Kent County, Maryland",24029,19730,10.0,5.0684237202230105e-05,0,0
+"Kent County, Michigan",26081,642173,342.0,5.325667693908028e-05,0,0
+"Kent County, Rhode Island",44003,164614,108.0,6.560802847874421e-05,0,0
+"Kent County, Texas",48263,769,0.0,0.0,0,1
+"Kenton County, Kentucky",21117,164945,74.0,4.486343932826094e-05,0,0
+"Keokuk County, Iowa",19107,10119,0.0,0.0,0,1
+"Kern County, California",6029,884788,519.0,5.865811923308182e-05,0,0
+"Kerr County, Texas",48265,51504,26.0,5.048151599875738e-05,0,0
+"Kershaw County, South Carolina",45055,64097,21.0,3.276284381484313e-05,0,0
+"Ketchikan Gateway Borough, Alaska",2130,13746,0.0,0.0,0,1
+"Kewaunee County, Wisconsin",55061,20405,0.0,0.0,0,1
+"Keweenaw County, Michigan",26083,2199,0.0,0.0,0,1
+"Keya Paha County, Nebraska",31103,791,0.0,0.0,0,1
+"Kidder County, North Dakota",38043,2414,0.0,0.0,0,1
+"Kimball County, Nebraska",31105,3679,0.0,0.0,0,1
+"Kimble County, Texas",48267,4423,0.0,0.0,0,1
+"King County, Texas",48269,289,0.0,0.0,0,1
+"King County, Washington",53033,2149970,1398.0,6.50241631278576e-05,0,0
+"King George County, Virginia",51099,25984,0.0,0.0,0,1
+"King William County, Virginia",51101,16334,0.0,0.0,0,1
+"King and Queen County, Virginia",51097,7159,0.0,0.0,0,1
+"Kingfisher County, Oklahoma",40073,15638,0.0,0.0,0,1
+"Kingman County, Kansas",20095,7467,0.0,0.0,0,1
+"Kings County, California",6031,149785,50.0,3.338117969089028e-05,0,0
+"Kings County, New York",36047,2629150,1059.0,4.0279177680999564e-05,0,0
+"Kingsbury County, South Dakota",46077,5001,0.0,0.0,0,1
+"Kinney County, Texas",48271,3590,0.0,0.0,0,1
+"Kiowa County, Colorado",8061,1373,0.0,0.0,0,1
+"Kiowa County, Kansas",20097,2483,0.0,0.0,0,1
+"Kiowa County, Oklahoma",40075,9077,0.0,0.0,0,1
+"Kit Carson County, Colorado",8063,8195,0.0,0.0,0,1
+"Kitsap County, Washington",53035,264811,166.0,6.268621771754194e-05,0,0
+"Kittitas County, Washington",53037,44866,13.0,2.8975170507734142e-05,0,0
+"Kittson County, Minnesota",27069,4333,0.0,0.0,0,1
+"Klamath County, Oregon",41035,66443,38.0,5.7191878753217045e-05,0,0
+"Kleberg County, Texas",48273,31690,0.0,0.0,0,1
+"Klickitat County, Washington",53039,21301,0.0,0.0,0,1
+"Knott County, Kentucky",21119,15544,0.0,0.0,0,1
+"Knox County, Illinois",17095,50938,31.0,6.085829832345204e-05,0,0
+"Knox County, Indiana",18083,37744,17.0,4.50402713013989e-05,0,0
+"Knox County, Kentucky",21121,31687,11.0,3.4714551708902704e-05,0,0
+"Knox County, Maine",23013,39744,21.0,5.283816425120773e-05,0,0
+"Knox County, Missouri",29103,3934,0.0,0.0,0,1
+"Knox County, Nebraska",31107,8571,0.0,0.0,0,1
+"Knox County, Ohio",39083,60814,20.0,3.288716413983622e-05,0,0
+"Knox County, Tennessee",47093,456132,277.0,6.0728034867099874e-05,0,0
+"Knox County, Texas",48275,3806,0.0,0.0,0,1
+"Kodiak Island Borough, Alaska",2150,13732,0.0,0.0,0,1
+"Koochiching County, Minnesota",27071,12628,0.0,0.0,0,1
+"Kootenai County, Idaho",16055,154311,85.0,5.508356500832734e-05,0,0
+"Kosciusko County, Indiana",18085,79092,24.0,3.0344409042633894e-05,0,0
+"Kossuth County, Iowa",19109,15114,0.0,0.0,0,1
+"Kusilvak Census Area, Alaska",2158,8049,0.0,0.0,0,1
+"La Crosse County, Wisconsin",55063,118122,54.0,4.5715446741504546e-05,0,0
+"La Paz County, Arizona",4012,20317,0.0,0.0,0,1
+"La Plata County, Colorado",8067,55623,35.0,6.29236107365658e-05,0,0
+"La Salle County, Texas",48283,7613,0.0,0.0,0,1
+"LaGrange County, Indiana",18087,39110,0.0,0.0,0,1
+"LaMoure County, North Dakota",38045,4111,0.0,0.0,0,1
+"LaPorte County, Indiana",18091,110015,44.0,3.9994546198245694e-05,0,0
+"LaSalle County, Illinois",17099,110642,77.0,6.959382512969758e-05,1,0
+"LaSalle Parish, Louisiana",22059,15052,0.0,0.0,0,1
+"Labette County, Kansas",20099,20444,0.0,0.0,0,1
+"Lac qui Parle County, Minnesota",27073,6715,0.0,0.0,0,1
+"Lackawanna County, Pennsylvania",42069,211321,111.0,5.252672474576592e-05,0,0
+"Laclede County, Missouri",29105,35490,16.0,4.508312200619893e-05,0,0
+"Lafayette County, Arkansas",5073,6847,0.0,0.0,0,1
+"Lafayette County, Florida",12067,8617,0.0,0.0,0,1
+"Lafayette County, Mississippi",28071,53796,10.0,1.858874265744665e-05,0,0
+"Lafayette County, Missouri",29107,32618,11.0,3.372371083450855e-05,0,0
+"Lafayette County, Wisconsin",55065,16753,0.0,0.0,0,1
+"Lafayette Parish, Louisiana",22055,241398,79.0,3.272603749823942e-05,0,0
+"Lafourche Parish, Louisiana",22057,98305,41.0,4.1706932505976296e-05,0,0
+"Lake County, California",6033,64116,79.0,0.0001232141743090648,1,0
+"Lake County, Colorado",8065,7618,0.0,0.0,0,1
+"Lake County, Florida",12069,335396,132.0,3.935646221183317e-05,0,0
+"Lake County, Illinois",17097,703047,422.0,6.0024436488598913e-05,0,0
+"Lake County, Indiana",18089,485846,287.0,5.907221629899186e-05,0,0
+"Lake County, Michigan",26085,11496,0.0,0.0,0,1
+"Lake County, Minnesota",27075,10625,0.0,0.0,0,1
+"Lake County, Montana",30047,29758,19.0,6.384837690705021e-05,0,0
+"Lake County, Ohio",39085,228614,138.0,6.0363757250212146e-05,0,0
+"Lake County, Oregon",41037,7837,0.0,0.0,0,1
+"Lake County, South Dakota",46079,12909,0.0,0.0,0,1
+"Lake County, Tennessee",47095,7560,0.0,0.0,0,1
+"Lake and Peninsula Borough, Alaska",2164,1562,0.0,0.0,0,1
+"Lake of the Woods County, Minnesota",27077,3814,0.0,0.0,0,1
+"Lamar County, Alabama",1075,13918,0.0,0.0,0,1
+"Lamar County, Georgia",13171,18469,0.0,0.0,0,1
+"Lamar County, Mississippi",28073,60914,11.0,1.805824605181075e-05,0,0
+"Lamar County, Texas",48277,49791,11.0,2.209234600630636e-05,0,0
+"Lamb County, Texas",48279,13275,0.0,0.0,0,1
+"Lamoille County, Vermont",50015,25333,0.0,0.0,0,1
+"Lampasas County, Texas",48281,20760,0.0,0.0,0,1
+"Lancaster County, Nebraska",31109,309637,148.0,4.7797905289096586e-05,0,0
+"Lancaster County, Pennsylvania",42071,538500,232.0,4.308263695450325e-05,0,0
+"Lancaster County, South Carolina",45057,89594,19.0,2.1206777239547293e-05,0,0
+"Lancaster County, Virginia",51103,10972,0.0,0.0,0,1
+"Lander County, Nevada",32015,5702,0.0,0.0,0,1
+"Lane County, Kansas",20101,1636,0.0,0.0,0,1
+"Lane County, Oregon",41039,369519,245.0,6.63024093483691e-05,0,0
+"Langlade County, Wisconsin",55067,19221,12.0,6.243171531137818e-05,0,0
+"Lanier County, Georgia",13173,10399,0.0,0.0,0,1
+"Lapeer County, Michigan",26087,88340,36.0,4.075164138555581e-05,0,0
+"Laramie County, Wyoming",56021,98136,83.0,8.457650607320453e-05,1,0
+"Larimer County, Colorado",8069,339993,234.0,6.88249463959552e-05,1,0
+"Larue County, Kentucky",21123,14096,0.0,0.0,0,1
+"Las Animas County, Colorado",8071,14103,0.0,0.0,0,1
+"Lassen County, California",6035,30870,19.0,6.154842889536767e-05,0,0
+"Latah County, Idaho",16057,39196,0.0,0.0,0,1
+"Latimer County, Oklahoma",40077,10414,0.0,0.0,0,1
+"Lauderdale County, Alabama",1077,92318,19.0,2.0581035117745187e-05,0,0
+"Lauderdale County, Mississippi",28075,77755,11.0,1.414700019291364e-05,0,0
+"Lauderdale County, Tennessee",47097,26773,0.0,0.0,0,1
+"Laurel County, Kentucky",21125,60250,17.0,2.8215767634854773e-05,0,0
+"Laurens County, Georgia",13175,47516,11.0,2.315009680949575e-05,0,0
+"Laurens County, South Carolina",45059,66777,12.0,1.7970259220989264e-05,0,0
+"Lavaca County, Texas",48285,19809,0.0,0.0,0,1
+"Lawrence County, Alabama",1079,33244,11.0,3.30886776561184e-05,0,0
+"Lawrence County, Arkansas",5075,16735,0.0,0.0,0,1
+"Lawrence County, Illinois",17101,16377,11.0,6.716736887097759e-05,0,0
+"Lawrence County, Indiana",18093,45518,23.0,5.052946087262182e-05,0,0
+"Lawrence County, Kentucky",21127,15863,0.0,0.0,0,1
+"Lawrence County, Mississippi",28077,12749,0.0,0.0,0,1
+"Lawrence County, Missouri",29109,38381,0.0,0.0,0,1
+"Lawrence County, Ohio",39087,60872,15.0,2.4641871467998422e-05,0,0
+"Lawrence County, Pennsylvania",42073,87294,30.0,3.436662313561069e-05,0,0
+"Lawrence County, South Dakota",46081,25281,0.0,0.0,0,1
+"Lawrence County, Tennessee",47099,43081,13.0,3.0175715512638984e-05,0,0
+"Le Flore County, Oklahoma",40079,49873,20.0,4.010185872115172e-05,0,0
+"Le Sueur County, Minnesota",27079,27591,0.0,0.0,0,1
+"Lea County, New Mexico",35025,69749,29.0,4.157765702734089e-05,0,0
+"Leake County, Mississippi",28079,22620,10.0,4.420866489832007e-05,0,0
+"Leavenworth County, Kansas",20103,80204,35.0,4.3638721260784995e-05,0,0
+"Lebanon County, Pennsylvania",42075,138863,56.0,4.032751704917797e-05,0,0
+"Lee County, Alabama",1081,158991,25.0,1.5724160487071597e-05,0,0
+"Lee County, Arkansas",5077,9310,0.0,0.0,0,1
+"Lee County, Florida",12071,722336,526.0,7.281929739068798e-05,1,0
+"Lee County, Georgia",13177,29337,0.0,0.0,0,1
+"Lee County, Illinois",17103,34251,14.0,4.087471898630697e-05,0,0
+"Lee County, Iowa",19111,34615,14.0,4.044489383215369e-05,0,0
+"Lee County, Kentucky",21129,6580,0.0,0.0,0,1
+"Lee County, Mississippi",28081,85381,18.0,2.1081973741230484e-05,0,0
+"Lee County, North Carolina",37105,59616,0.0,0.0,0,1
+"Lee County, South Carolina",45061,17635,0.0,0.0,0,1
+"Lee County, Texas",48287,17055,0.0,0.0,0,1
+"Lee County, Virginia",51105,24179,0.0,0.0,0,1
+"Leelanau County, Michigan",26089,21765,0.0,0.0,0,1
+"Leflore County, Mississippi",28083,29856,0.0,0.0,0,1
+"Lehigh County, Pennsylvania",42077,363147,240.0,6.608893918991483e-05,0,0
+"Lemhi County, Idaho",16059,7723,0.0,0.0,0,1
+"Lenawee County, Michigan",26091,98504,47.0,4.7713798424429465e-05,0,0
+"Lenoir County, North Carolina",37107,57307,13.0,2.2684837803409705e-05,0,0
+"Leon County, Florida",12073,287822,99.0,3.439625879884095e-05,0,0
+"Leon County, Texas",48289,17299,0.0,0.0,0,1
+"Leslie County, Kentucky",21131,10538,0.0,0.0,0,1
+"Letcher County, Kentucky",21133,22773,0.0,0.0,0,1
+"Levy County, Florida",12075,39961,12.0,3.0029278546582918e-05,0,0
+"Lewis County, Idaho",16061,3853,0.0,0.0,0,1
+"Lewis County, Kentucky",21135,13442,0.0,0.0,0,1
+"Lewis County, Missouri",29111,10134,0.0,0.0,0,1
+"Lewis County, New York",36049,26865,13.0,4.839009864135492e-05,0,0
+"Lewis County, Tennessee",47101,11904,0.0,0.0,0,1
+"Lewis County, Washington",53041,77066,24.0,3.114213790776737e-05,0,0
+"Lewis County, West Virginia",54041,16309,0.0,0.0,0,1
+"Lewis and Clark County, Montana",30049,67282,16.0,2.3780505930263666e-05,0,0
+"Lexington County, South Carolina",45063,286196,116.0,4.0531663615144866e-05,0,0
+"Lexington city, Virginia",51678,7045,0.0,0.0,0,1
+"Liberty County, Florida",12077,8202,0.0,0.0,0,1
+"Liberty County, Georgia",13179,62570,29.0,4.634809013904427e-05,0,0
+"Liberty County, Montana",30051,2409,0.0,0.0,0,1
+"Liberty County, Texas",48291,81704,29.0,3.549397826299814e-05,0,0
+"Licking County, Ohio",39089,172198,81.0,4.7038873854516315e-05,0,0
+"Limestone County, Alabama",1083,92753,20.0,2.1562644874020247e-05,0,0
+"Limestone County, Texas",48293,23468,0.0,0.0,0,1
+"Lincoln County, Arkansas",5079,13705,0.0,0.0,0,1
+"Lincoln County, Colorado",8073,5643,0.0,0.0,0,1
+"Lincoln County, Georgia",13181,7828,0.0,0.0,0,1
+"Lincoln County, Idaho",16063,5271,0.0,0.0,0,1
+"Lincoln County, Kansas",20105,3073,0.0,0.0,0,1
+"Lincoln County, Kentucky",21137,24372,12.0,4.9236829148202856e-05,0,0
+"Lincoln County, Maine",23015,34216,0.0,0.0,0,1
+"Lincoln County, Minnesota",27081,5783,0.0,0.0,0,1
+"Lincoln County, Mississippi",28085,34523,14.0,4.0552675028242044e-05,0,0
+"Lincoln County, Missouri",29113,55267,19.0,3.437856225233865e-05,0,0
+"Lincoln County, Montana",30053,19259,0.0,0.0,0,1
+"Lincoln County, Nebraska",31111,35550,12.0,3.3755274261603375e-05,0,0
+"Lincoln County, Nevada",32017,5055,0.0,0.0,0,1
+"Lincoln County, New Mexico",35027,19429,0.0,0.0,0,1
+"Lincoln County, North Carolina",37109,81168,13.0,1.6016164005519415e-05,0,0
+"Lincoln County, Oklahoma",40081,35129,12.0,3.415981098237923e-05,0,0
+"Lincoln County, Oregon",41041,47806,28.0,5.8570053968121154e-05,0,0
+"Lincoln County, South Dakota",46083,54469,0.0,0.0,0,1
+"Lincoln County, Tennessee",47103,33645,11.0,3.2694308218160205e-05,0,0
+"Lincoln County, Washington",53043,10350,0.0,0.0,0,1
+"Lincoln County, West Virginia",54043,21232,0.0,0.0,0,1
+"Lincoln County, Wisconsin",55069,27902,10.0,3.583972475091391e-05,0,0
+"Lincoln County, Wyoming",56023,19110,0.0,0.0,0,1
+"Lincoln Parish, Louisiana",22061,47745,0.0,0.0,0,1
+"Linn County, Iowa",19113,221661,119.0,5.3685582939714246e-05,0,0
+"Linn County, Kansas",20107,9558,0.0,0.0,0,1
+"Linn County, Missouri",29115,12164,0.0,0.0,0,1
+"Linn County, Oregon",41043,122849,64.0,5.209647616179212e-05,0,0
+"Lipscomb County, Texas",48295,3487,0.0,0.0,0,1
+"Litchfield County, Connecticut",9005,182571,114.0,6.244146113019045e-05,0,0
+"Little River County, Arkansas",5081,12451,0.0,0.0,0,1
+"Live Oak County, Texas",48297,12056,0.0,0.0,0,1
+"Livingston County, Illinois",17105,36526,19.0,5.201774078738433e-05,0,0
+"Livingston County, Kentucky",21139,9269,0.0,0.0,0,1
+"Livingston County, Michigan",26093,188624,89.0,4.718381542115531e-05,0,0
+"Livingston County, Missouri",29117,15235,0.0,0.0,0,1
+"Livingston County, New York",36051,64257,16.0,2.4900010893754766e-05,0,0
+"Livingston Parish, Louisiana",22063,140138,53.0,3.781986327762634e-05,0,0
+"Llano County, Texas",48299,20362,0.0,0.0,0,1
+"Logan County, Arkansas",5083,21792,12.0,5.506607929515419e-05,0,0
+"Logan County, Colorado",8075,21919,10.0,4.562251927551439e-05,0,0
+"Logan County, Illinois",17107,29527,13.0,4.402750025400481e-05,0,0
+"Logan County, Kansas",20109,2831,0.0,0.0,0,1
+"Logan County, Kentucky",21141,26593,0.0,0.0,0,1
+"Logan County, Nebraska",31113,772,0.0,0.0,0,1
+"Logan County, North Dakota",38047,1941,0.0,0.0,0,1
+"Logan County, Ohio",39091,45165,14.0,3.099745378058231e-05,0,0
+"Logan County, Oklahoma",40083,46588,13.0,2.7904181334249163e-05,0,0
+"Logan County, West Virginia",54045,33700,14.0,4.1543026706231456e-05,0,0
+"Long County, Georgia",13183,18437,0.0,0.0,0,1
+"Lonoke County, Arkansas",5085,72228,33.0,4.5688652600099686e-05,0,0
+"Lorain County, Ohio",39093,306365,171.0,5.581577530070341e-05,0,0
+"Los Alamos County, New Mexico",35028,18147,0.0,0.0,0,1
+"Los Angeles County, California",6037,10137915,5026.0,4.9576268887636164e-05,0,0
+"Loudon County, Tennessee",47105,51454,19.0,3.692618649667664e-05,0,0
+"Loudoun County, Virginia",51107,385945,146.0,3.782922437134825e-05,0,0
+"Louisa County, Iowa",19115,11142,0.0,0.0,0,1
+"Louisa County, Virginia",51109,35236,0.0,0.0,0,1
+"Loup County, Nebraska",31115,591,0.0,0.0,0,1
+"Love County, Oklahoma",40085,9997,0.0,0.0,0,1
+"Loving County, Texas",48301,113,0.0,0.0,0,1
+"Lowndes County, Alabama",1085,10358,0.0,0.0,0,1
+"Lowndes County, Georgia",13185,114628,29.0,2.5299228809714905e-05,0,0
+"Lowndes County, Mississippi",28087,59602,15.0,2.5166940706687696e-05,0,0
+"Lubbock County, Texas",48303,303137,131.0,4.321478407452736e-05,0,0
+"Lucas County, Iowa",19117,8647,0.0,0.0,0,1
+"Lucas County, Ohio",39095,432488,254.0,5.872995320101367e-05,0,0
+"Luce County, Michigan",26095,6358,0.0,0.0,0,1
+"Lumpkin County, Georgia",13187,31445,0.0,0.0,0,1
+"Luna County, New Mexico",35029,24450,0.0,0.0,0,1
+"Lunenburg County, Virginia",51111,12273,0.0,0.0,0,1
+"Luzerne County, Pennsylvania",42079,316383,195.0,6.163415859891334e-05,0,0
+"Lycoming County, Pennsylvania",42081,115248,62.0,5.379702901568791e-05,0,0
+"Lyman County, South Dakota",46085,3894,0.0,0.0,0,1
+"Lynchburg city, Virginia",51680,80212,21.0,2.6180621353413454e-05,0,0
+"Lynn County, Texas",48305,5711,0.0,0.0,0,1
+"Lyon County, Iowa",19119,11754,0.0,0.0,0,1
+"Lyon County, Kansas",20111,33510,22.0,6.565204416592062e-05,0,0
+"Lyon County, Kentucky",21143,8069,0.0,0.0,0,1
+"Lyon County, Minnesota",27083,25699,0.0,0.0,0,1
+"Lyon County, Nevada",32019,53179,26.0,4.889147971943813e-05,0,0
+"Mackinac County, Michigan",26097,10820,10.0,9.242144177449168e-05,1,0
+"Macomb County, Michigan",26099,867730,629.0,7.248798589422977e-05,1,0
+"Macon County, Alabama",1087,18963,0.0,0.0,0,1
+"Macon County, Georgia",13193,13450,0.0,0.0,0,1
+"Macon County, Illinois",17115,106550,62.0,5.818864382918818e-05,0,0
+"Macon County, Missouri",29121,15170,0.0,0.0,0,1
+"Macon County, North Carolina",37113,34376,12.0,3.4908075401442867e-05,0,0
+"Macon County, Tennessee",47111,23450,14.0,5.9701492537313435e-05,0,0
+"Macoupin County, Illinois",17117,45908,19.0,4.138712207022741e-05,0,0
+"Madera County, California",6039,154697,65.0,4.201762154405063e-05,0,0
+"Madison County, Alabama",1089,356967,142.0,3.977958746886967e-05,0,0
+"Madison County, Arkansas",5087,16072,10.0,6.222000995520159e-05,0,0
+"Madison County, Florida",12079,18224,0.0,0.0,0,1
+"Madison County, Georgia",13195,28824,0.0,0.0,0,1
+"Madison County, Idaho",16065,39048,0.0,0.0,0,1
+"Madison County, Illinois",17119,265759,167.0,6.283888786456903e-05,0,0
+"Madison County, Indiana",18095,129296,96.0,7.424823660438064e-05,1,0
+"Madison County, Iowa",19121,15848,0.0,0.0,0,1
+"Madison County, Kentucky",21151,89547,26.0,2.9035031882698473e-05,0,0
+"Madison County, Mississippi",28089,105114,18.0,1.7124265083623496e-05,0,0
+"Madison County, Missouri",29123,12443,0.0,0.0,0,1
+"Madison County, Montana",30057,7924,0.0,0.0,0,1
+"Madison County, Nebraska",31119,35015,0.0,0.0,0,1
+"Madison County, New York",36053,71329,36.0,5.047035567581208e-05,0,0
+"Madison County, North Carolina",37115,21340,0.0,0.0,0,1
+"Madison County, Ohio",39097,43419,10.0,2.3031391787005687e-05,0,0
+"Madison County, Tennessee",47113,97663,25.0,2.559823065029745e-05,0,0
+"Madison County, Texas",48313,13987,11.0,7.86444555658826e-05,1,0
+"Madison County, Virginia",51113,13078,0.0,0.0,0,1
+"Madison Parish, Louisiana",22065,11528,0.0,0.0,0,1
+"Magoffin County, Kentucky",21153,12684,0.0,0.0,0,1
+"Mahaska County, Iowa",19123,22181,0.0,0.0,0,1
+"Mahnomen County, Minnesota",27087,5465,0.0,0.0,0,1
+"Mahoning County, Ohio",39099,230008,106.0,4.60853535529199e-05,0,0
+"Major County, Oklahoma",40093,7772,0.0,0.0,0,1
+"Malheur County, Oregon",41045,30439,15.0,4.927888564013272e-05,0,0
+"Manassas Park city, Virginia",51685,15915,0.0,0.0,0,1
+"Manassas city, Virginia",51683,41483,12.0,2.8927512474989754e-05,0,0
+"Manatee County, Florida",12081,375888,294.0,7.821478738347593e-05,1,0
+"Manistee County, Michigan",26101,24373,10.0,4.102900750830838e-05,0,0
+"Manitowoc County, Wisconsin",55071,79536,56.0,7.040836853751761e-05,1,0
+"Marathon County, Wisconsin",55073,135603,69.0,5.088383000376098e-05,0,0
+"Marengo County, Alabama",1091,19673,0.0,0.0,0,1
+"Maricopa County, Arizona",4013,4242997,2646.0,6.236158074116008e-05,0,0
+"Maries County, Missouri",29125,8858,0.0,0.0,0,1
+"Marin County, California",6041,260651,245.0,9.399541916202125e-05,1,0
+"Marinette County, Wisconsin",55075,40491,15.0,3.704526931910795e-05,0,0
+"Marion County, Alabama",1093,29998,10.0,3.333555570371358e-05,0,0
+"Marion County, Arkansas",5089,16325,0.0,0.0,0,1
+"Marion County, Florida",12083,349020,209.0,5.9881955188814395e-05,0,0
+"Marion County, Georgia",13197,8524,0.0,0.0,0,1
+"Marion County, Illinois",17121,38140,38.0,9.963293130571578e-05,1,0
+"Marion County, Indiana",18097,941229,597.0,6.342770994093892e-05,0,0
+"Marion County, Iowa",19125,33189,0.0,0.0,0,1
+"Marion County, Kansas",20115,12112,0.0,0.0,0,1
+"Marion County, Kentucky",21155,19205,0.0,0.0,0,1
+"Marion County, Mississippi",28091,25251,0.0,0.0,0,1
+"Marion County, Missouri",29127,28894,0.0,0.0,0,1
+"Marion County, Ohio",39101,65096,26.0,3.994101020031953e-05,0,0
+"Marion County, Oregon",41047,336316,177.0,5.262907503657275e-05,0,0
+"Marion County, South Carolina",45067,31726,0.0,0.0,0,1
+"Marion County, Tennessee",47115,28446,0.0,0.0,0,1
+"Marion County, Texas",48315,10147,0.0,0.0,0,1
+"Marion County, West Virginia",54049,56538,11.0,1.945594113693445e-05,0,0
+"Mariposa County, California",6043,17410,0.0,0.0,0,1
+"Marlboro County, South Carolina",45069,26945,0.0,0.0,0,1
+"Marquette County, Michigan",26103,66435,25.0,3.763076691502973e-05,0,0
+"Marquette County, Wisconsin",55077,15067,0.0,0.0,0,1
+"Marshall County, Alabama",1095,95157,37.0,3.888310896728564e-05,0,0
+"Marshall County, Illinois",17123,11939,0.0,0.0,0,1
+"Marshall County, Indiana",18099,46556,16.0,3.4367213678151045e-05,0,0
+"Marshall County, Iowa",19127,40312,11.0,2.7287160150823577e-05,0,0
+"Marshall County, Kansas",20117,9836,0.0,0.0,0,1
+"Marshall County, Kentucky",21157,31365,16.0,5.1012274828630636e-05,0,0
+"Marshall County, Minnesota",27089,9324,0.0,0.0,0,1
+"Marshall County, Mississippi",28093,35801,12.0,3.351861679841345e-05,0,0
+"Marshall County, Oklahoma",40095,16191,0.0,0.0,0,1
+"Marshall County, South Dakota",46091,4801,0.0,0.0,0,1
+"Marshall County, Tennessee",47117,31915,0.0,0.0,0,1
+"Marshall County, West Virginia",54051,31793,0.0,0.0,0,1
+"Martin County, Florida",12085,158701,95.0,5.986099646505063e-05,0,0
+"Martin County, Indiana",18101,10171,0.0,0.0,0,1
+"Martin County, Kentucky",21159,12002,0.0,0.0,0,1
+"Martin County, Minnesota",27091,19829,0.0,0.0,0,1
+"Martin County, North Carolina",37117,23172,0.0,0.0,0,1
+"Martin County, Texas",48317,5723,0.0,0.0,0,1
+"Martinsville city, Virginia",51690,13445,0.0,0.0,0,1
+"Mason County, Illinois",17125,13507,10.0,7.403568520026653e-05,1,0
+"Mason County, Kentucky",21161,17190,0.0,0.0,0,1
+"Mason County, Michigan",26105,28876,12.0,4.15570023548968e-05,0,0
+"Mason County, Texas",48319,4111,0.0,0.0,0,1
+"Mason County, Washington",53045,62198,21.0,3.3763143509437605e-05,0,0
+"Mason County, West Virginia",54053,26825,0.0,0.0,0,1
+"Massac County, Illinois",17127,14658,0.0,0.0,0,1
+"Matagorda County, Texas",48321,37187,0.0,0.0,0,1
+"Matanuska-Susitna Borough, Alaska",2170,104365,40.0,3.832702534374551e-05,0,0
+"Mathews County, Virginia",51115,8782,0.0,0.0,0,1
+"Maui County, Hawaii",15009,165386,162.0,9.795266830324212e-05,1,0
+"Maury County, Tennessee",47119,89981,41.0,4.556517487025039e-05,0,0
+"Maverick County, Texas",48323,57685,16.0,2.7736846667244517e-05,0,0
+"Mayes County, Oklahoma",40097,40920,14.0,3.421309872922776e-05,0,0
+"McClain County, Oklahoma",40087,38682,0.0,0.0,0,1
+"McCone County, Montana",30055,1700,0.0,0.0,0,1
+"McCook County, South Dakota",46087,5625,0.0,0.0,0,1
+"McCormick County, South Carolina",45065,9643,0.0,0.0,0,1
+"McCracken County, Kentucky",21145,65162,40.0,6.138547005923697e-05,0,0
+"McCreary County, Kentucky",21147,17511,0.0,0.0,0,1
+"McCulloch County, Texas",48307,8172,0.0,0.0,0,1
+"McCurtain County, Oklahoma",40089,32822,12.0,3.65608433367863e-05,0,0
+"McDonald County, Missouri",29119,22620,10.0,4.420866489832007e-05,0,0
+"McDonough County, Illinois",17109,30996,11.0,3.5488450122596466e-05,0,0
+"McDowell County, North Carolina",37111,45075,12.0,2.6622296173044925e-05,0,0
+"McDowell County, West Virginia",54047,19141,0.0,0.0,0,1
+"McDuffie County, Georgia",13189,21490,0.0,0.0,0,1
+"McHenry County, Illinois",17111,307004,178.0,5.797970059022032e-05,0,0
+"McHenry County, North Dakota",38049,5963,0.0,0.0,0,1
+"McIntosh County, Georgia",13191,13927,0.0,0.0,0,1
+"McIntosh County, North Dakota",38051,2656,0.0,0.0,0,1
+"McIntosh County, Oklahoma",40091,19815,0.0,0.0,0,1
+"McKean County, Pennsylvania",42083,41883,17.0,4.0589260559176754e-05,0,0
+"McKenzie County, North Dakota",38053,12621,0.0,0.0,0,1
+"McKinley County, New Mexico",35031,74923,133.0,0.00017751558266486926,1,0
+"McLean County, Illinois",17113,172418,98.0,5.683861313783944e-05,0,0
+"McLean County, Kentucky",21149,9475,0.0,0.0,0,1
+"McLean County, North Dakota",38055,9729,0.0,0.0,0,1
+"McLennan County, Texas",48309,247934,84.0,3.3879984189340714e-05,0,0
+"McLeod County, Minnesota",27085,35842,15.0,4.185034317281402e-05,0,0
+"McMinn County, Tennessee",47107,52850,22.0,4.162724692526017e-05,0,0
+"McMullen County, Texas",48311,804,0.0,0.0,0,1
+"McNairy County, Tennessee",47109,25935,0.0,0.0,0,1
+"McPherson County, Kansas",20113,28804,12.0,4.166088043327316e-05,0,0
+"McPherson County, Nebraska",31117,493,0.0,0.0,0,1
+"McPherson County, South Dakota",46089,2438,0.0,0.0,0,1
+"Meade County, Kansas",20119,4216,0.0,0.0,0,1
+"Meade County, Kentucky",21163,28126,17.0,6.0442295385052974e-05,0,0
+"Meade County, South Dakota",46093,27693,14.0,5.0554291698263096e-05,0,0
+"Meagher County, Montana",30059,1827,0.0,0.0,0,1
+"Mecklenburg County, North Carolina",37119,1054835,425.0,4.029066157266302e-05,0,0
+"Mecklenburg County, Virginia",51117,30892,0.0,0.0,0,1
+"Mecosta County, Michigan",26107,43221,0.0,0.0,0,1
+"Medina County, Ohio",39103,177221,74.0,4.175577386427116e-05,0,0
+"Medina County, Texas",48325,49283,0.0,0.0,0,1
+"Meeker County, Minnesota",27093,23110,11.0,4.7598442232799656e-05,0,0
+"Meigs County, Ohio",39105,23125,10.0,4.324324324324324e-05,0,0
+"Meigs County, Tennessee",47121,12005,0.0,0.0,0,1
+"Mellette County, South Dakota",46095,2102,0.0,0.0,0,1
+"Menard County, Illinois",17129,12516,0.0,0.0,0,1
+"Menard County, Texas",48327,2123,0.0,0.0,0,1
+"Mendocino County, California",6045,87628,68.0,7.760076687816679e-05,1,0
+"Menifee County, Kentucky",21165,6408,0.0,0.0,0,1
+"Menominee County, Michigan",26109,23281,0.0,0.0,0,1
+"Menominee County, Wisconsin",55078,4533,0.0,0.0,0,1
+"Merced County, California",6047,268672,147.0,5.471355407336827e-05,0,0
+"Mercer County, Illinois",17131,15730,0.0,0.0,0,1
+"Mercer County, Kentucky",21167,21477,11.0,5.1217581598919776e-05,0,0
+"Mercer County, Missouri",29129,3699,0.0,0.0,0,1
+"Mercer County, New Jersey",34021,371023,151.0,4.069828555103053e-05,0,0
+"Mercer County, North Dakota",38057,8694,0.0,0.0,0,1
+"Mercer County, Ohio",39107,40909,10.0,2.4444498765552813e-05,0,0
+"Mercer County, Pennsylvania",42085,112913,60.0,5.313825688804655e-05,0,0
+"Mercer County, West Virginia",54055,60468,33.0,5.4574320301647154e-05,0,0
+"Meriwether County, Georgia",13199,21074,0.0,0.0,0,1
+"Merrick County, Nebraska",31121,7828,0.0,0.0,0,1
+"Merrimack County, New Hampshire",33013,148582,104.0,6.99950195851449e-05,1,0
+"Mesa County, Colorado",8077,150083,108.0,7.196018203260863e-05,1,0
+"Metcalfe County, Kentucky",21169,10018,0.0,0.0,0,1
+"Miami County, Indiana",18103,35883,0.0,0.0,0,1
+"Miami County, Kansas",20121,32964,14.0,4.247057395947094e-05,0,0
+"Miami County, Ohio",39109,104679,43.0,4.107796215095673e-05,0,0
+"Miami-Dade County, Florida",12086,2712945,1382.0,5.0940951622683096e-05,0,0
+"Middlesex County, Connecticut",9007,163329,91.0,5.5715763887613345e-05,0,0
+"Middlesex County, Massachusetts",25017,1589774,966.0,6.07633537848776e-05,0,0
+"Middlesex County, New Jersey",34023,837073,404.0,4.82634131073395e-05,0,0
+"Middlesex County, Virginia",51119,10778,0.0,0.0,0,1
+"Midland County, Michigan",26111,83462,31.0,3.714265174570463e-05,0,0
+"Midland County, Texas",48329,162565,34.0,2.091471103866146e-05,0,0
+"Mifflin County, Pennsylvania",42087,46342,11.0,2.373656726080014e-05,0,0
+"Milam County, Texas",48331,24871,0.0,0.0,0,1
+"Millard County, Utah",49027,12694,0.0,0.0,0,1
+"Mille Lacs County, Minnesota",27095,25866,0.0,0.0,0,1
+"Miller County, Arkansas",5091,43787,0.0,0.0,0,1
+"Miller County, Georgia",13201,5926,0.0,0.0,0,1
+"Miller County, Missouri",29131,25206,0.0,0.0,0,1
+"Mills County, Iowa",19129,14972,0.0,0.0,0,1
+"Mills County, Texas",48333,4907,0.0,0.0,0,1
+"Milwaukee County, Wisconsin",55079,951448,556.0,5.8437245125324765e-05,0,0
+"Miner County, South Dakota",46097,2281,0.0,0.0,0,1
+"Mineral County, Colorado",8079,732,0.0,0.0,0,1
+"Mineral County, Montana",30061,4184,0.0,0.0,0,1
+"Mineral County, Nevada",32021,4449,0.0,0.0,0,1
+"Mineral County, West Virginia",54057,27411,10.0,3.6481704425230744e-05,0,0
+"Mingo County, West Virginia",54059,24647,10.0,4.057288919543961e-05,0,0
+"Minidoka County, Idaho",16067,20616,0.0,0.0,0,1
+"Minnehaha County, South Dakota",46099,187318,128.0,6.833299522736736e-05,1,0
+"Missaukee County, Michigan",26113,15102,0.0,0.0,0,1
+"Mississippi County, Arkansas",5093,42835,14.0,3.268355316913739e-05,0,0
+"Mississippi County, Missouri",29133,13799,0.0,0.0,0,1
+"Missoula County, Montana",30063,116130,64.0,5.511065185567898e-05,0,0
+"Mitchell County, Georgia",13205,22459,0.0,0.0,0,1
+"Mitchell County, Iowa",19131,10763,0.0,0.0,0,1
+"Mitchell County, Kansas",20123,6243,0.0,0.0,0,1
+"Mitchell County, North Carolina",37121,15126,0.0,0.0,0,1
+"Mitchell County, Texas",48335,8720,0.0,0.0,0,1
+"Mobile County, Alabama",1097,414836,194.0,4.6765468763559575e-05,0,0
+"Modoc County, California",6049,8795,0.0,0.0,0,1
+"Moffat County, Colorado",8081,13109,0.0,0.0,0,1
+"Mohave County, Arizona",4015,205249,254.0,0.00012375212546711554,1,0
+"Moniteau County, Missouri",29135,16018,0.0,0.0,0,1
+"Monmouth County, New Jersey",34025,625846,373.0,5.9599326351850136e-05,0,0
+"Mono County, California",6051,13981,0.0,0.0,0,1
+"Monona County, Iowa",19133,8898,0.0,0.0,0,1
+"Monongalia County, West Virginia",54061,104622,16.0,1.52931505801839e-05,0,0
+"Monroe County, Alabama",1099,21530,0.0,0.0,0,1
+"Monroe County, Arkansas",5095,7169,0.0,0.0,0,1
+"Monroe County, Florida",12087,79077,75.0,9.484426571569482e-05,1,0
+"Monroe County, Georgia",13207,27306,0.0,0.0,0,1
+"Monroe County, Illinois",17133,34068,0.0,0.0,0,1
+"Monroe County, Indiana",18105,145496,79.0,5.4297025347775886e-05,0,0
+"Monroe County, Iowa",19135,7870,0.0,0.0,0,1
+"Monroe County, Kentucky",21171,10588,0.0,0.0,0,1
+"Monroe County, Michigan",26115,149208,66.0,4.423355316068843e-05,0,0
+"Monroe County, Mississippi",28095,35873,0.0,0.0,0,1
+"Monroe County, Missouri",29137,8558,0.0,0.0,0,1
+"Monroe County, New York",36055,747727,413.0,5.523406269935418e-05,0,0
+"Monroe County, Ohio",39111,14210,0.0,0.0,0,1
+"Monroe County, Pennsylvania",42089,166098,100.0,6.0205420896097486e-05,0,0
+"Monroe County, Tennessee",47123,45970,18.0,3.915597128562106e-05,0,0
+"Monroe County, West Virginia",54063,13370,0.0,0.0,0,1
+"Monroe County, Wisconsin",55081,45623,16.0,3.507003046708897e-05,0,0
+"Montague County, Texas",48337,19414,0.0,0.0,0,1
+"Montcalm County, Michigan",26117,62974,26.0,4.1286880299806266e-05,0,0
+"Monterey County, California",6053,435232,207.0,4.7560841114623926e-05,0,0
+"Montezuma County, Colorado",8083,26999,32.0,0.00011852290825586132,1,0
+"Montgomery County, Alabama",1101,226349,32.0,1.4137460293617378e-05,0,0
+"Montgomery County, Arkansas",5097,8879,0.0,0.0,0,1
+"Montgomery County, Georgia",13209,9060,0.0,0.0,0,1
+"Montgomery County, Illinois",17135,28952,15.0,5.180989223542415e-05,0,0
+"Montgomery County, Indiana",18107,38074,0.0,0.0,0,1
+"Montgomery County, Iowa",19137,10225,0.0,0.0,0,1
+"Montgomery County, Kansas",20125,32746,0.0,0.0,0,1
+"Montgomery County, Kentucky",21173,27771,13.0,4.681142198696482e-05,0,0
+"Montgomery County, Maryland",24031,1043863,448.0,4.29175092900122e-05,0,0
+"Montgomery County, Mississippi",28097,10187,0.0,0.0,0,1
+"Montgomery County, Missouri",29139,11620,0.0,0.0,0,1
+"Montgomery County, New York",36057,49276,17.0,3.4499553535189544e-05,0,0
+"Montgomery County, North Carolina",37123,27418,0.0,0.0,0,1
+"Montgomery County, Ohio",39113,531239,375.0,7.058969691607732e-05,1,0
+"Montgomery County, Pennsylvania",42091,821725,591.0,7.192187167239649e-05,1,0
+"Montgomery County, Tennessee",47125,195734,72.0,3.6784615856213024e-05,0,0
+"Montgomery County, Texas",48339,556203,215.0,3.865495151949918e-05,0,0
+"Montgomery County, Virginia",51121,98602,23.0,2.3326098862092046e-05,0,0
+"Montmorency County, Michigan",26119,9173,0.0,0.0,0,1
+"Montour County, Pennsylvania",42093,18343,0.0,0.0,0,1
+"Montrose County, Colorado",8085,41471,13.0,3.1347206481637774e-05,0,0
+"Moody County, South Dakota",46101,6505,0.0,0.0,0,1
+"Moore County, North Carolina",37125,95776,35.0,3.654360173738724e-05,0,0
+"Moore County, Tennessee",47127,6323,0.0,0.0,0,1
+"Moore County, Texas",48341,22120,0.0,0.0,0,1
+"Mora County, New Mexico",35033,4504,0.0,0.0,0,1
+"Morehouse Parish, Louisiana",22067,26071,0.0,0.0,0,1
+"Morgan County, Alabama",1103,119012,51.0,4.2852821564212016e-05,0,0
+"Morgan County, Colorado",8087,28274,0.0,0.0,0,1
+"Morgan County, Georgia",13211,18170,0.0,0.0,0,1
+"Morgan County, Illinois",17137,34277,11.0,3.2091489920354754e-05,0,0
+"Morgan County, Indiana",18109,69698,41.0,5.8825217366351975e-05,0,0
+"Morgan County, Kentucky",21175,13298,0.0,0.0,0,1
+"Morgan County, Missouri",29141,20213,0.0,0.0,0,1
+"Morgan County, Ohio",39115,14804,0.0,0.0,0,1
+"Morgan County, Tennessee",47129,21554,0.0,0.0,0,1
+"Morgan County, Utah",49029,11437,0.0,0.0,0,1
+"Morgan County, West Virginia",54065,17632,0.0,0.0,0,1
+"Morrill County, Nebraska",31123,4787,0.0,0.0,0,1
+"Morris County, Kansas",20127,5573,0.0,0.0,0,1
+"Morris County, New Jersey",34027,498423,245.0,4.915503498032795e-05,0,0
+"Morris County, Texas",48343,12593,0.0,0.0,0,1
+"Morrison County, Minnesota",27097,32821,11.0,3.351512750982603e-05,0,0
+"Morrow County, Ohio",39117,35036,0.0,0.0,0,1
+"Morrow County, Oregon",41049,11274,0.0,0.0,0,1
+"Morton County, Kansas",20129,2848,0.0,0.0,0,1
+"Morton County, North Dakota",38059,30809,13.0,4.219546236489337e-05,0,0
+"Motley County, Texas",48345,1160,0.0,0.0,0,1
+"Moultrie County, Illinois",17139,14827,0.0,0.0,0,1
+"Mountrail County, North Dakota",38061,10242,0.0,0.0,0,1
+"Mower County, Minnesota",27099,39163,0.0,0.0,0,1
+"Muhlenberg County, Kentucky",21177,31028,0.0,0.0,0,1
+"Multnomah County, Oregon",41051,799766,672.0,8.402457718882773e-05,1,0
+"Murray County, Georgia",13213,39315,13.0,3.306625969731655e-05,0,0
+"Murray County, Minnesota",27101,8329,0.0,0.0,0,1
+"Murray County, Oklahoma",40099,13918,0.0,0.0,0,1
+"Muscatine County, Iowa",19139,42940,20.0,4.6576618537494175e-05,0,0
+"Muscogee County, Georgia",13215,197485,56.0,2.83565840443578e-05,0,0
+"Muskegon County, Michigan",26121,173408,100.0,5.766746632219967e-05,0,0
+"Muskingum County, Ohio",39119,86068,45.0,5.228424036808105e-05,0,0
+"Muskogee County, Oklahoma",40101,69477,26.0,3.7422456352461965e-05,0,0
+"Musselshell County, Montana",30065,4589,0.0,0.0,0,1
+"Nacogdoches County, Texas",48347,65806,15.0,2.279427407835152e-05,0,0
+"Nance County, Nebraska",31125,3576,0.0,0.0,0,1
+"Nantucket County, Massachusetts",25019,11008,0.0,0.0,0,1
+"Napa County, California",6055,142166,57.0,4.009397464935357e-05,0,0
+"Nash County, North Carolina",37127,94005,20.0,2.127546407106005e-05,0,0
+"Nassau County, Florida",12089,80622,23.0,2.8528193297114933e-05,0,0
+"Nassau County, New York",36059,1361500,622.0,4.5684906353286814e-05,0,0
+"Natchitoches Parish, Louisiana",22069,39162,0.0,0.0,0,1
+"Natrona County, Wyoming",56025,81039,63.0,7.774034724021767e-05,1,0
+"Navajo County, Arizona",4017,110026,123.0,0.00011179175831167178,1,0
+"Navarro County, Texas",48349,48523,16.0,3.297405354161944e-05,0,0
+"Nelson County, Kentucky",21179,45559,15.0,3.292433986698567e-05,0,0
+"Nelson County, North Dakota",38063,2960,0.0,0.0,0,1
+"Nelson County, Virginia",51125,14869,0.0,0.0,0,1
+"Nemaha County, Kansas",20131,10241,0.0,0.0,0,1
+"Nemaha County, Nebraska",31127,6971,0.0,0.0,0,1
+"Neosho County, Kansas",20133,16146,0.0,0.0,0,1
+"Neshoba County, Mississippi",28099,29403,0.0,0.0,0,1
+"Ness County, Kansas",20135,2962,0.0,0.0,0,1
+"Nevada County, Arkansas",5099,8398,0.0,0.0,0,1
+"Nevada County, California",6057,99107,56.0,5.6504585952556325e-05,0,0
+"New Castle County, Delaware",10003,556987,360.0,6.463346541301682e-05,0,0
+"New Hanover County, North Carolina",37129,223483,140.0,6.264458594166e-05,0,0
+"New Haven County, Connecticut",9009,856875,561.0,6.547045951859956e-05,0,0
+"New Kent County, Virginia",51127,21147,0.0,0.0,0,1
+"New London County, Connecticut",9011,269801,189.0,7.005163064629115e-05,1,0
+"New Madrid County, Missouri",29143,17915,0.0,0.0,0,1
+"New York County, New York",36061,1643734,1094.0,6.655578092319074e-05,0,0
+"Newaygo County, Michigan",26123,47938,28.0,5.8408778004923025e-05,0,0
+"Newberry County, South Carolina",45071,38079,11.0,2.8887313217258858e-05,0,0
+"Newport County, Rhode Island",44005,82784,40.0,4.831851565519907e-05,0,0
+"Newport News city, Virginia",51700,181825,61.0,3.354874192217792e-05,0,0
+"Newton County, Arkansas",5101,7936,0.0,0.0,0,1
+"Newton County, Georgia",13217,106999,13.0,1.2149646258376246e-05,0,0
+"Newton County, Indiana",18111,13924,0.0,0.0,0,1
+"Newton County, Mississippi",28101,21558,0.0,0.0,0,1
+"Newton County, Missouri",29145,58694,28.0,4.770504651242035e-05,0,0
+"Newton County, Texas",48351,14003,0.0,0.0,0,1
+"Nez Perce County, Idaho",16069,40369,11.0,2.7248631375560453e-05,0,0
+"Niagara County, New York",36063,211758,132.0,6.233530728473068e-05,0,0
+"Nicholas County, Kentucky",21181,7084,0.0,0.0,0,1
+"Nicholas County, West Virginia",54067,25311,0.0,0.0,0,1
+"Nicollet County, Minnesota",27103,33575,10.0,2.9784065524944155e-05,0,0
+"Niobrara County, Wyoming",56027,2480,0.0,0.0,0,1
+"Noble County, Indiana",18113,47638,23.0,4.828078424786935e-05,0,0
+"Noble County, Ohio",39121,14294,0.0,0.0,0,1
+"Noble County, Oklahoma",40103,11384,0.0,0.0,0,1
+"Nobles County, Minnesota",27105,21848,0.0,0.0,0,1
+"Nodaway County, Missouri",29147,22670,0.0,0.0,0,1
+"Nolan County, Texas",48353,14993,0.0,0.0,0,1
+"Nome Census Area, Alaska",2180,9917,25.0,0.00025209236664313804,1,0
+"Norfolk County, Massachusetts",25021,697181,409.0,5.866482305168959e-05,0,0
+"Norfolk city, Virginia",51710,245115,85.0,3.4677600310058546e-05,0,0
+"Norman County, Minnesota",27107,6579,0.0,0.0,0,1
+"North Slope Borough, Alaska",2185,9606,10.0,0.00010410160316468874,1,0
+"Northampton County, North Carolina",37131,20000,0.0,0.0,0,1
+"Northampton County, Pennsylvania",42095,302294,177.0,5.855227030639047e-05,0,0
+"Northampton County, Virginia",51131,12139,0.0,0.0,0,1
+"Northumberland County, Pennsylvania",42097,92541,53.0,5.727191190931587e-05,0,0
+"Northumberland County, Virginia",51133,12222,0.0,0.0,0,1
+"Northwest Arctic Borough, Alaska",2188,7673,20.0,0.00026065424214779094,1,0
+"Norton County, Kansas",20137,5493,0.0,0.0,0,1
+"Norton city, Virginia",51720,3864,0.0,0.0,0,1
+"Nottoway County, Virginia",51135,15595,0.0,0.0,0,1
+"Nowata County, Oklahoma",40105,10419,0.0,0.0,0,1
+"Noxubee County, Mississippi",28103,11038,0.0,0.0,0,1
+"Nuckolls County, Nebraska",31129,4265,0.0,0.0,0,1
+"Nueces County, Texas",48355,361350,165.0,4.5662100456621006e-05,0,0
+"Nye County, Nevada",32023,43423,53.0,0.00012205513207286462,1,0
+"O'Brien County, Iowa",19141,14020,0.0,0.0,0,1
+"Oakland County, Michigan",26125,1243970,776.0,6.238092558502214e-05,0,0
+"Obion County, Tennessee",47131,30578,0.0,0.0,0,1
+"Ocean County, New Jersey",34029,592497,325.0,5.485259840978098e-05,0,0
+"Oceana County, Michigan",26127,26027,12.0,4.610596688054712e-05,0,0
+"Ochiltree County, Texas",48357,10306,0.0,0.0,0,1
+"Oconee County, Georgia",13219,36838,0.0,0.0,0,1
+"Oconee County, South Carolina",45073,76355,24.0,3.143212625237378e-05,0,0
+"Oconto County, Wisconsin",55083,37430,18.0,4.808976756612343e-05,0,0
+"Ogemaw County, Michigan",26129,20904,0.0,0.0,0,1
+"Oglala Lakota County, South Dakota",46102,14415,0.0,0.0,0,1
+"Ogle County, Illinois",17141,51273,30.0,5.851032707272834e-05,0,0
+"Oglethorpe County, Georgia",13221,14921,0.0,0.0,0,1
+"Ohio County, Indiana",18115,5932,0.0,0.0,0,1
+"Ohio County, Kentucky",21183,24378,0.0,0.0,0,1
+"Ohio County, West Virginia",54069,42516,21.0,4.939316963025684e-05,0,0
+"Okaloosa County, Florida",12091,201170,122.0,6.064522543122732e-05,0,0
+"Okanogan County, Washington",53047,41554,11.0,2.647157915002166e-05,0,0
+"Okeechobee County, Florida",12093,40314,11.0,2.7285806419606094e-05,0,0
+"Okfuskee County, Oklahoma",40107,12167,0.0,0.0,0,1
+"Oklahoma County, Oklahoma",40109,782970,476.0,6.079415558705953e-05,0,0
+"Okmulgee County, Oklahoma",40111,39213,17.0,4.3352969678422974e-05,0,0
+"Oktibbeha County, Mississippi",28105,49833,0.0,0.0,0,1
+"Oldham County, Kentucky",21185,65560,0.0,0.0,0,1
+"Oldham County, Texas",48359,2076,0.0,0.0,0,1
+"Oliver County, North Dakota",38065,1870,0.0,0.0,0,1
+"Olmsted County, Minnesota",27109,153102,46.0,3.0045329257619102e-05,0,0
+"Oneida County, Idaho",16071,4343,0.0,0.0,0,1
+"Oneida County, New York",36065,231190,99.0,4.282192136338077e-05,0,0
+"Oneida County, Wisconsin",55085,35601,0.0,0.0,0,1
+"Onondaga County, New York",36067,466194,292.0,6.263486874562951e-05,0,0
+"Onslow County, North Carolina",37133,187136,75.0,4.007780437756498e-05,0,0
+"Ontario County, New York",36069,109828,51.0,4.6436245766107004e-05,0,0
+"Ontonagon County, Michigan",26131,5911,0.0,0.0,0,1
+"Orange County, California",6059,3172532,1986.0,6.25998413885187e-05,0,0
+"Orange County, Florida",12095,1314367,652.0,4.960562765194196e-05,0,0
+"Orange County, Indiana",18117,19335,10.0,5.17196793379881e-05,0,0
+"Orange County, New York",36071,379210,137.0,3.612773924738272e-05,0,0
+"Orange County, North Carolina",37135,141796,60.0,4.2314310699878696e-05,0,0
+"Orange County, Texas",48361,84964,31.0,3.648604114683866e-05,0,0
+"Orange County, Vermont",50017,28919,0.0,0.0,0,1
+"Orange County, Virginia",51137,35533,12.0,3.3771423746939467e-05,0,0
+"Orangeburg County, South Carolina",45075,87903,18.0,2.047711682195147e-05,0,0
+"Oregon County, Missouri",29149,10789,0.0,0.0,0,1
+"Orleans County, New York",36073,41346,12.0,2.902336380786533e-05,0,0
+"Orleans County, Vermont",50019,26863,0.0,0.0,0,1
+"Orleans Parish, Louisiana",22071,391495,138.0,3.524949233068111e-05,0,0
+"Osage County, Kansas",20139,15843,0.0,0.0,0,1
+"Osage County, Missouri",29151,13664,0.0,0.0,0,1
+"Osage County, Oklahoma",40113,47806,19.0,3.974396519265364e-05,0,0
+"Osborne County, Kansas",20141,3642,0.0,0.0,0,1
+"Osceola County, Florida",12097,336015,117.0,3.4819874112762824e-05,0,0
+"Osceola County, Iowa",19143,6064,0.0,0.0,0,1
+"Osceola County, Michigan",26133,23110,0.0,0.0,0,1
+"Oscoda County, Michigan",26135,8264,0.0,0.0,0,1
+"Oswego County, New York",36075,118987,85.0,7.143637540235488e-05,1,0
+"Otero County, Colorado",8089,18295,0.0,0.0,0,1
+"Otero County, New Mexico",35035,65410,66.0,0.0001009020027518728,1,0
+"Otoe County, Nebraska",31131,16081,0.0,0.0,0,1
+"Otsego County, Michigan",26137,24470,10.0,4.086636697997548e-05,0,0
+"Otsego County, New York",36077,60097,21.0,3.4943507995407425e-05,0,0
+"Ottawa County, Kansas",20143,5920,0.0,0.0,0,1
+"Ottawa County, Michigan",26139,282250,123.0,4.357838795394154e-05,0,0
+"Ottawa County, Ohio",39123,40636,0.0,0.0,0,1
+"Ottawa County, Oklahoma",40115,31691,15.0,4.7332050108863714e-05,0,0
+"Otter Tail County, Minnesota",27111,58085,21.0,3.6153912369802874e-05,0,0
+"Ouachita County, Arkansas",5103,24098,0.0,0.0,0,1
+"Ouachita Parish, Louisiana",22073,156983,38.0,2.4206442735837637e-05,0,0
+"Ouray County, Colorado",8091,4857,0.0,0.0,0,1
+"Outagamie County, Wisconsin",55087,184526,124.0,6.719920228043744e-05,0,0
+"Overton County, Tennessee",47133,22051,0.0,0.0,0,1
+"Owen County, Indiana",18119,20840,0.0,0.0,0,1
+"Owen County, Kentucky",21187,10642,0.0,0.0,0,1
+"Owsley County, Kentucky",21189,4491,0.0,0.0,0,1
+"Owyhee County, Idaho",16073,11389,0.0,0.0,0,1
+"Oxford County, Maine",23017,57217,18.0,3.145918171172903e-05,0,0
+"Ozark County, Missouri",29153,9237,0.0,0.0,0,1
+"Ozaukee County, Wisconsin",55089,88314,21.0,2.3778789319926624e-05,0,0
+"Pacific County, Washington",53049,21249,0.0,0.0,0,1
+"Page County, Iowa",19145,15391,0.0,0.0,0,1
+"Page County, Virginia",51139,23654,0.0,0.0,0,1
+"Palm Beach County, Florida",12099,1443810,1147.0,7.944258593582258e-05,1,0
+"Palo Alto County, Iowa",19147,9047,0.0,0.0,0,1
+"Palo Pinto County, Texas",48363,28053,13.0,4.63408548105372e-05,0,0
+"Pamlico County, North Carolina",37137,12821,0.0,0.0,0,1
+"Panola County, Mississippi",28107,34164,0.0,0.0,0,1
+"Panola County, Texas",48365,23492,0.0,0.0,0,1
+"Park County, Colorado",8093,17166,0.0,0.0,0,1
+"Park County, Montana",30067,16114,13.0,8.067518927640561e-05,1,0
+"Park County, Wyoming",56029,29353,0.0,0.0,0,1
+"Parke County, Indiana",18121,16800,0.0,0.0,0,1
+"Parker County, Texas",48367,129441,46.0,3.5537426317781846e-05,0,0
+"Parmer County, Texas",48369,9776,0.0,0.0,0,1
+"Pasco County, Florida",12101,512368,433.0,8.450957124566717e-05,1,0
+"Pasquotank County, North Carolina",37139,39864,0.0,0.0,0,1
+"Passaic County, New Jersey",34031,507945,177.0,3.484629241354871e-05,0,0
+"Patrick County, Virginia",51141,17923,0.0,0.0,0,1
+"Paulding County, Georgia",13223,155825,46.0,2.952029520295203e-05,0,0
+"Paulding County, Ohio",39125,18865,0.0,0.0,0,1
+"Pawnee County, Kansas",20145,6743,0.0,0.0,0,1
+"Pawnee County, Nebraska",31133,2652,0.0,0.0,0,1
+"Pawnee County, Oklahoma",40117,16485,0.0,0.0,0,1
+"Payette County, Idaho",16075,23026,0.0,0.0,0,1
+"Payne County, Oklahoma",40119,81131,24.0,2.9581787479508448e-05,0,0
+"Peach County, Georgia",13225,26655,0.0,0.0,0,1
+"Pearl River County, Mississippi",28109,55310,20.0,3.615982643283312e-05,0,0
+"Pecos County, Texas",48371,15970,0.0,0.0,0,1
+"Pembina County, North Dakota",38067,7069,0.0,0.0,0,1
+"Pemiscot County, Missouri",29155,17073,0.0,0.0,0,1
+"Pend Oreille County, Washington",53051,13123,0.0,0.0,0,1
+"Pender County, North Carolina",37141,59090,18.0,3.046200710780166e-05,0,0
+"Pendleton County, Kentucky",21191,14560,0.0,0.0,0,1
+"Pendleton County, West Virginia",54071,7051,0.0,0.0,0,1
+"Pennington County, Minnesota",27113,14235,0.0,0.0,0,1
+"Pennington County, South Dakota",46103,109372,59.0,5.3944336758951105e-05,0,0
+"Penobscot County, Maine",23019,151806,72.0,4.7428955377257815e-05,0,0
+"Peoria County, Illinois",17143,185006,92.0,4.9728116925937535e-05,0,0
+"Pepin County, Wisconsin",55091,7307,0.0,0.0,0,1
+"Perkins County, Nebraska",31135,2898,0.0,0.0,0,1
+"Perkins County, South Dakota",46105,2983,0.0,0.0,0,1
+"Perquimans County, North Carolina",37143,13335,0.0,0.0,0,1
+"Perry County, Alabama",1105,9574,0.0,0.0,0,1
+"Perry County, Arkansas",5105,10132,0.0,0.0,0,1
+"Perry County, Illinois",17145,21357,11.0,5.1505361239874516e-05,0,0
+"Perry County, Indiana",18123,18966,0.0,0.0,0,1
+"Perry County, Kentucky",21193,27343,0.0,0.0,0,1
+"Perry County, Mississippi",28111,12245,0.0,0.0,0,1
+"Perry County, Missouri",29157,19285,0.0,0.0,0,1
+"Perry County, Ohio",39127,35927,14.0,3.8967907145044115e-05,0,0
+"Perry County, Pennsylvania",42099,45820,0.0,0.0,0,1
+"Perry County, Tennessee",47135,7964,0.0,0.0,0,1
+"Pershing County, Nevada",32027,6560,0.0,0.0,0,1
+"Person County, North Carolina",37145,39284,0.0,0.0,0,1
+"Petersburg Borough, Alaska",2195,3149,0.0,0.0,0,1
+"Petersburg city, Virginia",51730,31882,0.0,0.0,0,1
+"Petroleum County, Montana",30069,489,0.0,0.0,0,1
+"Pettis County, Missouri",29159,42213,13.0,3.079620022268022e-05,0,0
+"Phelps County, Missouri",29161,44608,0.0,0.0,0,1
+"Phelps County, Nebraska",31137,9266,0.0,0.0,0,1
+"Philadelphia County, Pennsylvania",42101,1567872,955.0,6.0910584537513267e-05,0,0
+"Phillips County, Arkansas",5107,18975,0.0,0.0,0,1
+"Phillips County, Colorado",8095,4288,0.0,0.0,0,1
+"Phillips County, Kansas",20147,5428,0.0,0.0,0,1
+"Phillips County, Montana",30071,4133,0.0,0.0,0,1
+"Piatt County, Illinois",17147,16560,0.0,0.0,0,1
+"Pickaway County, Ohio",39129,57565,15.0,2.6057500217145836e-05,0,0
+"Pickens County, Alabama",1107,20324,0.0,0.0,0,1
+"Pickens County, Georgia",13227,30832,10.0,3.243383497664764e-05,0,0
+"Pickens County, South Carolina",45077,122863,90.0,7.325232169164028e-05,1,0
+"Pickett County, Tennessee",47137,5142,0.0,0.0,0,1
+"Pierce County, Georgia",13229,19171,0.0,0.0,0,1
+"Pierce County, Nebraska",31139,7159,0.0,0.0,0,1
+"Pierce County, North Dakota",38069,4267,0.0,0.0,0,1
+"Pierce County, Washington",53053,861312,695.0,8.069085302422351e-05,1,0
+"Pierce County, Wisconsin",55093,41238,0.0,0.0,0,1
+"Pike County, Alabama",1109,33286,0.0,0.0,0,1
+"Pike County, Arkansas",5109,10832,0.0,0.0,0,1
+"Pike County, Georgia",13231,17941,0.0,0.0,0,1
+"Pike County, Illinois",17149,15950,0.0,0.0,0,1
+"Pike County, Indiana",18125,12431,0.0,0.0,0,1
+"Pike County, Kentucky",21195,60555,12.0,1.9816695566014367e-05,0,0
+"Pike County, Mississippi",28113,39667,0.0,0.0,0,1
+"Pike County, Missouri",29163,18438,0.0,0.0,0,1
+"Pike County, Ohio",39131,28160,13.0,4.6164772727272726e-05,0,0
+"Pike County, Pennsylvania",42103,55562,28.0,5.039415427810374e-05,0,0
+"Pima County, Arizona",4019,1016206,719.0,7.075337087165398e-05,1,0
+"Pinal County, Arizona",4021,418540,232.0,5.543078319873847e-05,0,0
+"Pine County, Minnesota",27115,28874,12.0,4.155988086167486e-05,0,0
+"Pinellas County, Florida",12103,960730,905.0,9.419920268962143e-05,1,0
+"Pipestone County, Minnesota",27117,9202,0.0,0.0,0,1
+"Piscataquis County, Maine",23021,16843,0.0,0.0,0,1
+"Pitkin County, Colorado",8097,17752,10.0,5.633168093735917e-05,0,0
+"Pitt County, North Carolina",37147,177220,41.0,2.313508633337095e-05,0,0
+"Pittsburg County, Oklahoma",40121,44173,29.0,6.565096325809884e-05,0,0
+"Pittsylvania County, Virginia",51143,61687,17.0,2.7558480717168935e-05,0,0
+"Piute County, Utah",49031,1466,0.0,0.0,0,1
+"Placer County, California",6061,380531,229.0,6.01790655689024e-05,0,0
+"Plaquemines Parish, Louisiana",22075,23464,0.0,0.0,0,1
+"Platte County, Missouri",29165,98309,32.0,3.255042773296443e-05,0,0
+"Platte County, Nebraska",31141,32861,10.0,3.0431210249231613e-05,0,0
+"Platte County, Wyoming",56031,8680,0.0,0.0,0,1
+"Pleasants County, West Virginia",54073,7591,0.0,0.0,0,1
+"Plumas County, California",6063,18627,0.0,0.0,0,1
+"Plymouth County, Iowa",19149,25200,10.0,3.968253968253968e-05,0,0
+"Plymouth County, Massachusetts",25023,513565,321.0,6.250425944135601e-05,0,0
+"Pocahontas County, Iowa",19151,6886,0.0,0.0,0,1
+"Pocahontas County, West Virginia",54075,8501,0.0,0.0,0,1
+"Poinsett County, Arkansas",5111,24023,11.0,4.578945177538193e-05,0,0
+"Pointe Coupee Parish, Louisiana",22077,22159,0.0,0.0,0,1
+"Polk County, Arkansas",5113,20173,0.0,0.0,0,1
+"Polk County, Florida",12105,666149,361.0,5.419208015023666e-05,0,0
+"Polk County, Georgia",13233,41776,13.0,3.1118345461509e-05,0,0
+"Polk County, Iowa",19153,474045,341.0,7.193409908342035e-05,1,0
+"Polk County, Minnesota",27119,31660,12.0,3.790271636133923e-05,0,0
+"Polk County, Missouri",29167,31285,10.0,3.19642000958926e-05,0,0
+"Polk County, Nebraska",31143,5203,0.0,0.0,0,1
+"Polk County, North Carolina",37149,20334,12.0,5.901445854234287e-05,0,0
+"Polk County, Oregon",41053,81823,28.0,3.422020703225254e-05,0,0
+"Polk County, Tennessee",47139,16772,0.0,0.0,0,1
+"Polk County, Texas",48373,47916,18.0,3.756574004507889e-05,0,0
+"Polk County, Wisconsin",55095,43481,15.0,3.4497826636921876e-05,0,0
+"Pondera County, Montana",30073,6084,0.0,0.0,0,1
+"Pontotoc County, Mississippi",28115,31550,0.0,0.0,0,1
+"Pontotoc County, Oklahoma",40123,38330,0.0,0.0,0,1
+"Pope County, Arkansas",5115,63779,21.0,3.2926198278430204e-05,0,0
+"Pope County, Illinois",17151,4157,0.0,0.0,0,1
+"Pope County, Minnesota",27121,11049,0.0,0.0,0,1
+"Poquoson city, Virginia",51735,12017,0.0,0.0,0,1
+"Portage County, Ohio",39133,161921,42.0,2.5938574984097184e-05,0,0
+"Portage County, Wisconsin",55097,70447,23.0,3.2648657856260735e-05,0,0
+"Porter County, Indiana",18127,167791,83.0,4.946630033792039e-05,0,0
+"Portsmouth city, Virginia",51740,95252,29.0,3.0445554948977448e-05,0,0
+"Posey County, Indiana",18129,25476,0.0,0.0,0,1
+"Pottawatomie County, Kansas",20149,23661,0.0,0.0,0,1
+"Pottawatomie County, Oklahoma",40125,72290,33.0,4.564946742288007e-05,0,0
+"Pottawattamie County, Iowa",19155,93582,55.0,5.87719860656964e-05,0,0
+"Potter County, Pennsylvania",42105,16885,0.0,0.0,0,1
+"Potter County, South Dakota",46107,2299,0.0,0.0,0,1
+"Potter County, Texas",48375,120832,85.0,7.034560381355932e-05,1,0
+"Powder River County, Montana",30075,1746,0.0,0.0,0,1
+"Powell County, Kentucky",21197,12308,0.0,0.0,0,1
+"Powell County, Montana",30077,6858,0.0,0.0,0,1
+"Power County, Idaho",16077,7654,0.0,0.0,0,1
+"Poweshiek County, Iowa",19157,18533,13.0,7.014514649544056e-05,1,0
+"Powhatan County, Virginia",51145,28443,0.0,0.0,0,1
+"Prairie County, Arkansas",5117,8251,0.0,0.0,0,1
+"Prairie County, Montana",30079,1182,0.0,0.0,0,1
+"Pratt County, Kansas",20151,9584,0.0,0.0,0,1
+"Preble County, Ohio",39135,41247,18.0,4.363953742090334e-05,0,0
+"Prentiss County, Mississippi",28117,25256,0.0,0.0,0,1
+"Presidio County, Texas",48377,6958,0.0,0.0,0,1
+"Presque Isle County, Michigan",26141,12762,0.0,0.0,0,1
+"Preston County, West Virginia",54077,33758,0.0,0.0,0,1
+"Price County, Wisconsin",55099,13517,0.0,0.0,0,1
+"Prince Edward County, Virginia",51147,23142,0.0,0.0,0,1
+"Prince George County, Virginia",51149,37845,11.0,2.9065926806711587e-05,0,0
+"Prince George's County, Maryland",24033,908049,245.0,2.698092283566195e-05,0,0
+"Prince William County, Virginia",51153,455210,164.0,3.602732804639617e-05,0,0
+"Prince of Wales-Hyder Census Area, Alaska",2198,6347,0.0,0.0,0,1
+"Providence County, Rhode Island",44007,633673,449.0,7.08567352561968e-05,1,0
+"Prowers County, Colorado",8099,11922,0.0,0.0,0,1
+"Pueblo County, Colorado",8101,165123,136.0,8.236284466730861e-05,1,0
+"Pulaski County, Arkansas",5119,393250,214.0,5.441830896376351e-05,0,0
+"Pulaski County, Georgia",13235,11251,0.0,0.0,0,1
+"Pulaski County, Illinois",17153,5619,0.0,0.0,0,1
+"Pulaski County, Indiana",18131,12660,0.0,0.0,0,1
+"Pulaski County, Kentucky",21199,63956,19.0,2.9707924197886046e-05,0,0
+"Pulaski County, Missouri",29169,52654,12.0,2.279029133589091e-05,0,0
+"Pulaski County, Virginia",51155,34203,16.0,4.6779522264128876e-05,0,0
+"Pushmataha County, Oklahoma",40127,11057,0.0,0.0,0,1
+"Putnam County, Florida",12107,72277,30.0,4.1506980090485216e-05,0,0
+"Putnam County, Georgia",13237,21477,0.0,0.0,0,1
+"Putnam County, Illinois",17155,5611,0.0,0.0,0,1
+"Putnam County, Indiana",18133,37436,14.0,3.7397157816005985e-05,0,0
+"Putnam County, Missouri",29171,4853,0.0,0.0,0,1
+"Putnam County, New York",36079,98900,28.0,2.8311425682507585e-05,0,0
+"Putnam County, Ohio",39137,34056,12.0,3.5236081747709655e-05,0,0
+"Putnam County, Tennessee",47141,75931,18.0,2.3705732836390934e-05,0,0
+"Putnam County, West Virginia",54079,56941,10.0,1.7562037898877784e-05,0,0
+"Quay County, New Mexico",35037,8365,0.0,0.0,0,1
+"Queen Anne's County, Maryland",24035,48929,13.0,2.6569110343559033e-05,0,0
+"Queens County, New York",36081,2333054,1182.0,5.0663207966896606e-05,0,0
+"Quitman County, Georgia",13239,2335,0.0,0.0,0,1
+"Quitman County, Mississippi",28119,7349,0.0,0.0,0,1
+"Rabun County, Georgia",13241,16559,0.0,0.0,0,1
+"Racine County, Wisconsin",55101,195140,123.0,6.303166957056472e-05,0,0
+"Radford city, Virginia",51750,17483,0.0,0.0,0,1
+"Rains County, Texas",48379,11314,0.0,0.0,0,1
+"Raleigh County, West Virginia",54081,76601,36.0,4.699677549901437e-05,0,0
+"Ralls County, Missouri",29173,10224,0.0,0.0,0,1
+"Ramsey County, Minnesota",27123,540649,324.0,5.992797545172561e-05,0,0
+"Ramsey County, North Dakota",38071,11547,0.0,0.0,0,1
+"Randall County, Texas",48381,132501,80.0,6.0376902815827806e-05,0,0
+"Randolph County, Alabama",1111,22652,0.0,0.0,0,1
+"Randolph County, Arkansas",5121,17448,0.0,0.0,0,1
+"Randolph County, Georgia",13243,7177,0.0,0.0,0,1
+"Randolph County, Illinois",17157,32621,14.0,4.291713926611692e-05,0,0
+"Randolph County, Indiana",18135,25082,0.0,0.0,0,1
+"Randolph County, Missouri",29175,24989,10.0,4.001760774740886e-05,0,0
+"Randolph County, North Carolina",37151,143416,70.0,4.880905896134323e-05,0,0
+"Randolph County, West Virginia",54083,29006,0.0,0.0,0,1
+"Rankin County, Mississippi",28121,150228,49.0,3.2617088691855045e-05,0,0
+"Ransom County, North Dakota",38073,5404,0.0,0.0,0,1
+"Rapides Parish, Louisiana",22079,132424,54.0,4.07781066876095e-05,0,0
+"Rappahannock County, Virginia",51157,7388,0.0,0.0,0,1
+"Ravalli County, Montana",30081,42088,16.0,3.8015586390420075e-05,0,0
+"Rawlins County, Kansas",20153,2549,0.0,0.0,0,1
+"Ray County, Missouri",29177,22754,11.0,4.834314845741408e-05,0,0
+"Reagan County, Texas",48383,3608,0.0,0.0,0,1
+"Real County, Texas",48385,3389,0.0,0.0,0,1
+"Red Lake County, Minnesota",27125,4007,0.0,0.0,0,1
+"Red River County, Texas",48387,12207,0.0,0.0,0,1
+"Red River Parish, Louisiana",22081,8550,0.0,0.0,0,1
+"Red Willow County, Nebraska",31145,10722,0.0,0.0,0,1
+"Redwood County, Minnesota",27127,15263,12.0,7.862150298106532e-05,1,0
+"Reeves County, Texas",48389,14921,0.0,0.0,0,1
+"Refugio County, Texas",48391,7321,0.0,0.0,0,1
+"Reno County, Kansas",20155,63220,21.0,3.3217336285985445e-05,0,0
+"Rensselaer County, New York",36083,160070,54.0,3.373524083213594e-05,0,0
+"Renville County, Minnesota",27129,14660,0.0,0.0,0,1
+"Renville County, North Dakota",38075,2550,0.0,0.0,0,1
+"Republic County, Kansas",20157,4699,0.0,0.0,0,1
+"Reynolds County, Missouri",29179,6455,0.0,0.0,0,1
+"Rhea County, Tennessee",47143,32442,10.0,3.0824240182479504e-05,0,0
+"Rice County, Kansas",20159,9831,0.0,0.0,0,1
+"Rice County, Minnesota",27131,65622,14.0,2.1334308616012922e-05,0,0
+"Rich County, Utah",49033,2319,0.0,0.0,0,1
+"Richardson County, Nebraska",31147,8060,0.0,0.0,0,1
+"Richland County, Illinois",17159,15930,0.0,0.0,0,1
+"Richland County, Montana",30083,11482,0.0,0.0,0,1
+"Richland County, North Dakota",38077,16353,0.0,0.0,0,1
+"Richland County, Ohio",39139,121107,51.0,4.211152121677525e-05,0,0
+"Richland County, South Carolina",45079,409549,150.0,3.662565407313899e-05,0,0
+"Richland County, Wisconsin",55103,17476,0.0,0.0,0,1
+"Richland Parish, Louisiana",22083,20430,0.0,0.0,0,1
+"Richmond County, Georgia",13245,201647,82.0,4.066512271444653e-05,0,0
+"Richmond County, New York",36085,476015,186.0,3.9074398916000546e-05,0,0
+"Richmond County, North Carolina",37153,44939,20.0,4.450477313691893e-05,0,0
+"Richmond County, Virginia",51159,8774,0.0,0.0,0,1
+"Richmond city, Virginia",51760,223170,82.0,3.674328986870995e-05,0,0
+"Riley County, Kansas",20161,73343,17.0,2.3178762799449162e-05,0,0
+"Ringgold County, Iowa",19159,5068,0.0,0.0,0,1
+"Rio Arriba County, New Mexico",35039,40040,31.0,7.742257742257742e-05,1,0
+"Rio Blanco County, Colorado",8103,6545,0.0,0.0,0,1
+"Rio Grande County, Colorado",8105,11479,0.0,0.0,0,1
+"Ripley County, Indiana",18137,28846,10.0,3.4666851556541634e-05,0,0
+"Ripley County, Missouri",29181,13817,0.0,0.0,0,1
+"Ritchie County, West Virginia",54085,9875,0.0,0.0,0,1
+"Riverside County, California",6065,2387741,1331.0,5.574306426031969e-05,0,0
+"Roane County, Tennessee",47145,52874,23.0,4.349964065514241e-05,0,0
+"Roane County, West Virginia",54087,14208,0.0,0.0,0,1
+"Roanoke County, Virginia",51161,94031,46.0,4.892003700907148e-05,0,0
+"Roanoke city, Virginia",51770,99660,54.0,5.418422636965683e-05,0,0
+"Roberts County, South Dakota",46109,10255,14.0,0.00013651877133105802,1,0
+"Roberts County, Texas",48393,916,0.0,0.0,0,1
+"Robertson County, Kentucky",21201,2155,0.0,0.0,0,1
+"Robertson County, Tennessee",47147,69165,34.0,4.915781103159112e-05,0,0
+"Robertson County, Texas",48395,16751,0.0,0.0,0,1
+"Robeson County, North Carolina",37155,133235,40.0,3.0022141329230306e-05,0,0
+"Rock County, Minnesota",27133,9564,0.0,0.0,0,1
+"Rock County, Nebraska",31149,1390,0.0,0.0,0,1
+"Rock County, Wisconsin",55105,161620,125.0,7.734191312956318e-05,1,0
+"Rock Island County, Illinois",17161,144784,97.0,6.69963531881976e-05,0,0
+"Rockbridge County, Virginia",51163,22392,0.0,0.0,0,1
+"Rockcastle County, Kentucky",21203,16850,0.0,0.0,0,1
+"Rockdale County, Georgia",13247,89355,31.0,3.469307817133904e-05,0,0
+"Rockingham County, New Hampshire",33015,303251,200.0,6.595196718230113e-05,0,0
+"Rockingham County, North Carolina",37157,91393,45.0,4.923790662304553e-05,0,0
+"Rockingham County, Virginia",51165,79744,22.0,2.7588282504012843e-05,0,0
+"Rockland County, New York",36087,326780,110.0,3.366179080727095e-05,0,0
+"Rockwall County, Texas",48397,93978,20.0,2.1281576539190024e-05,0,0
+"Roger Mills County, Oklahoma",40129,3640,0.0,0.0,0,1
+"Rogers County, Oklahoma",40131,91766,25.0,2.724320554453719e-05,0,0
+"Rolette County, North Dakota",38079,14659,11.0,7.503922504945768e-05,1,0
+"Rooks County, Kansas",20163,5076,0.0,0.0,0,1
+"Roosevelt County, Montana",30085,11305,19.0,0.0001680672268907563,1,0
+"Roosevelt County, New Mexico",35041,19082,0.0,0.0,0,1
+"Roscommon County, Michigan",26143,23700,0.0,0.0,0,1
+"Roseau County, Minnesota",27135,15626,0.0,0.0,0,1
+"Rosebud County, Montana",30087,9287,11.0,0.0001184451383654571,1,0
+"Ross County, Ohio",39141,77000,32.0,4.1558441558441555e-05,0,0
+"Routt County, Colorado",8107,24648,14.0,5.679974034404414e-05,0,0
+"Rowan County, Kentucky",21205,24451,0.0,0.0,0,1
+"Rowan County, North Carolina",37159,139933,63.0,4.502154602559797e-05,0,0
+"Runnels County, Texas",48399,10448,0.0,0.0,0,1
+"Rush County, Indiana",18139,16649,0.0,0.0,0,1
+"Rush County, Kansas",20165,3058,0.0,0.0,0,1
+"Rusk County, Texas",48401,52732,15.0,2.844572555563984e-05,0,0
+"Rusk County, Wisconsin",55107,14127,0.0,0.0,0,1
+"Russell County, Alabama",1113,58172,20.0,3.438080176029705e-05,0,0
+"Russell County, Kansas",20167,6988,0.0,0.0,0,1
+"Russell County, Kentucky",21207,17722,0.0,0.0,0,1
+"Russell County, Virginia",51167,27370,11.0,4.01899890390939e-05,0,0
+"Rutherford County, North Carolina",37161,66421,38.0,5.7210821878622725e-05,0,0
+"Rutherford County, Tennessee",47149,308251,86.0,2.7899341770180795e-05,0,0
+"Rutland County, Vermont",50021,59310,27.0,4.5523520485584216e-05,0,0
+"Sabine County, Texas",48403,10303,0.0,0.0,0,1
+"Sabine Parish, Louisiana",22085,23977,0.0,0.0,0,1
+"Sac County, Iowa",19161,9876,0.0,0.0,0,1
+"Sacramento County, California",6067,1514460,1113.0,7.349154153955866e-05,1,0
+"Sagadahoc County, Maine",23023,35273,16.0,4.5360474016953476e-05,0,0
+"Saginaw County, Michigan",26145,192326,73.0,3.795638655200025e-05,0,0
+"Saguache County, Colorado",8109,6389,0.0,0.0,0,1
+"Salem County, New Jersey",34033,63436,24.0,3.783340689829119e-05,0,0
+"Salem city, Virginia",51775,25549,0.0,0.0,0,1
+"Saline County, Arkansas",5125,118703,33.0,2.7800476820299402e-05,0,0
+"Saline County, Illinois",17165,24307,18.0,7.405274200847493e-05,1,0
+"Saline County, Kansas",20169,55142,19.0,3.4456494142396e-05,0,0
+"Saline County, Missouri",29195,22980,0.0,0.0,0,1
+"Saline County, Nebraska",31151,14331,0.0,0.0,0,1
+"Salt Lake County, Utah",49035,1121354,1071.0,9.550953579333556e-05,1,0
+"Saluda County, South Carolina",45081,20197,0.0,0.0,0,1
+"Sampson County, North Carolina",37163,63124,11.0,1.74260186299981e-05,0,0
+"San Augustine County, Texas",48405,8320,0.0,0.0,0,1
+"San Benito County, California",6069,59414,0.0,0.0,0,1
+"San Bernardino County, California",6071,2140096,1098.0,5.1306109632465086e-05,0,0
+"San Diego County, California",6073,3317749,2437.0,7.34534167593751e-05,1,0
+"San Francisco County, California",6075,870887,732.0,8.405223639806313e-05,1,0
+"San Jacinto County, Texas",48407,27707,10.0,3.6091962319991336e-05,0,0
+"San Joaquin County, California",6077,733709,372.0,5.0701299834130426e-05,0,0
+"San Juan County, Colorado",8111,694,0.0,0.0,0,1
+"San Juan County, New Mexico",35045,115079,119.0,0.00010340722460222977,1,0
+"San Juan County, Utah",49037,16895,10.0,5.918910920390648e-05,0,0
+"San Juan County, Washington",53055,16339,0.0,0.0,0,1
+"San Luis Obispo County, California",6079,282887,222.0,7.847656484744792e-05,1,0
+"San Mateo County, California",6081,764797,390.0,5.099392387783948e-05,0,0
+"San Miguel County, Colorado",8113,8017,0.0,0.0,0,1
+"San Miguel County, New Mexico",35047,27760,16.0,5.7636887608069166e-05,0,0
+"San Patricio County, Texas",48409,67655,26.0,3.8430271229029636e-05,0,0
+"San Saba County, Texas",48411,5944,0.0,0.0,0,1
+"Sanborn County, South Dakota",46111,2396,0.0,0.0,0,1
+"Sanders County, Montana",30089,11534,0.0,0.0,0,1
+"Sandoval County, New Mexico",35043,142025,81.0,5.703221263861996e-05,0,0
+"Sandusky County, Ohio",39143,59330,26.0,4.3822686667790325e-05,0,0
+"Sangamon County, Illinois",17167,197499,115.0,5.822814292730596e-05,0,0
+"Sanilac County, Michigan",26151,41409,0.0,0.0,0,1
+"Sanpete County, Utah",49039,29409,13.0,4.420415519058792e-05,0,0
+"Santa Barbara County, California",6083,446170,282.0,6.320460810901674e-05,0,0
+"Santa Clara County, California",6085,1919402,1005.0,5.236005797639056e-05,0,0
+"Santa Cruz County, Arizona",4023,45985,12.0,2.609546591279765e-05,0,0
+"Santa Cruz County, California",6087,274673,236.0,8.592034892399326e-05,1,0
+"Santa Fe County, New Mexico",35049,148651,130.0,8.74531621045267e-05,1,0
+"Santa Rosa County, Florida",12113,170497,97.0,5.6892496642169654e-05,0,0
+"Sarasota County, Florida",12115,412569,373.0,9.040911944426266e-05,1,0
+"Saratoga County, New York",36091,227053,116.0,5.108939322537029e-05,0,0
+"Sargent County, North Dakota",38081,3890,0.0,0.0,0,1
+"Sarpy County, Nebraska",31153,179023,47.0,2.625360987135731e-05,0,0
+"Sauk County, Wisconsin",55111,63949,27.0,4.2221144974901876e-05,0,0
+"Saunders County, Nebraska",31155,21038,0.0,0.0,0,1
+"Sawyer County, Wisconsin",55113,16369,0.0,0.0,0,1
+"Schenectady County, New York",36093,154553,73.0,4.7232988036466456e-05,0,0
+"Schleicher County, Texas",48413,3056,0.0,0.0,0,1
+"Schley County, Georgia",13249,5098,0.0,0.0,0,1
+"Schoharie County, New York",36095,31317,12.0,3.831784653702462e-05,0,0
+"Schoolcraft County, Michigan",26153,8001,0.0,0.0,0,1
+"Schuyler County, Illinois",17169,6923,0.0,0.0,0,1
+"Schuyler County, Missouri",29197,4394,0.0,0.0,0,1
+"Schuyler County, New York",36097,18099,0.0,0.0,0,1
+"Schuylkill County, Pennsylvania",42107,143573,93.0,6.477541041839343e-05,0,0
+"Scioto County, Ohio",39145,76088,31.0,4.074229839133635e-05,0,0
+"Scotland County, Missouri",29199,4932,0.0,0.0,0,1
+"Scotland County, North Carolina",37165,35244,0.0,0.0,0,1
+"Scott County, Arkansas",5127,10277,0.0,0.0,0,1
+"Scott County, Illinois",17171,5053,0.0,0.0,0,1
+"Scott County, Indiana",18143,23730,0.0,0.0,0,1
+"Scott County, Iowa",19163,172474,87.0,5.044238551897677e-05,0,0
+"Scott County, Kansas",20171,5032,0.0,0.0,0,1
+"Scott County, Kentucky",21209,53972,0.0,0.0,0,1
+"Scott County, Minnesota",27139,143680,40.0,2.7839643652561248e-05,0,0
+"Scott County, Mississippi",28123,28207,0.0,0.0,0,1
+"Scott County, Missouri",29201,38745,33.0,8.517228029423151e-05,1,0
+"Scott County, Tennessee",47151,21947,0.0,0.0,0,1
+"Scott County, Virginia",51169,21930,0.0,0.0,0,1
+"Scotts Bluff County, Nebraska",31157,36422,0.0,0.0,0,1
+"Screven County, Georgia",13251,14044,0.0,0.0,0,1
+"Scurry County, Texas",48415,17333,0.0,0.0,0,1
+"Searcy County, Arkansas",5129,7967,0.0,0.0,0,1
+"Sebastian County, Arkansas",5131,127793,73.0,5.712362961977573e-05,0,0
+"Sedgwick County, Colorado",8115,2407,0.0,0.0,0,1
+"Sedgwick County, Kansas",20173,511995,318.0,6.21099815427885e-05,0,0
+"Seminole County, Florida",12117,455479,263.0,5.7741410690723395e-05,0,0
+"Seminole County, Georgia",13253,8468,0.0,0.0,0,1
+"Seminole County, Oklahoma",40133,25207,0.0,0.0,0,1
+"Seneca County, New York",36099,34777,0.0,0.0,0,1
+"Seneca County, Ohio",39147,55353,18.0,3.2518562679529566e-05,0,0
+"Sequatchie County, Tennessee",47153,14897,0.0,0.0,0,1
+"Sequoyah County, Oklahoma",40135,41294,23.0,5.5698164382234706e-05,0,0
+"Sevier County, Arkansas",5133,16910,0.0,0.0,0,1
+"Sevier County, Tennessee",47155,96673,55.0,5.689282426323793e-05,0,0
+"Sevier County, Utah",49041,21267,0.0,0.0,0,1
+"Seward County, Kansas",20175,22709,0.0,0.0,0,1
+"Seward County, Nebraska",31159,17284,0.0,0.0,0,1
+"Shackelford County, Texas",48417,3315,0.0,0.0,0,1
+"Shannon County, Missouri",29203,8168,0.0,0.0,0,1
+"Sharkey County, Mississippi",28125,4552,0.0,0.0,0,1
+"Sharp County, Arkansas",5135,17157,0.0,0.0,0,1
+"Shasta County, California",6089,179631,158.0,8.79580918661033e-05,1,0
+"Shawano County, Wisconsin",55115,41062,12.0,2.922410014124982e-05,0,0
+"Shawnee County, Kansas",20177,178146,110.0,6.174710630606356e-05,0,0
+"Sheboygan County, Wisconsin",55117,115427,72.0,6.237708681677597e-05,0,0
+"Shelby County, Alabama",1117,210622,66.0,3.1335757898035344e-05,0,0
+"Shelby County, Illinois",17173,21717,10.0,4.6046875719482436e-05,0,0
+"Shelby County, Indiana",18145,44324,19.0,4.2866167313419364e-05,0,0
+"Shelby County, Iowa",19165,11800,0.0,0.0,0,1
+"Shelby County, Kentucky",21211,46408,0.0,0.0,0,1
+"Shelby County, Missouri",29205,6082,0.0,0.0,0,1
+"Shelby County, Ohio",39149,48623,19.0,3.907615737408223e-05,0,0
+"Shelby County, Tennessee",47157,934603,312.0,3.338315841057647e-05,0,0
+"Shelby County, Texas",48419,25579,0.0,0.0,0,1
+"Shenandoah County, Virginia",51171,43175,22.0,5.0955414012738855e-05,0,0
+"Sherburne County, Minnesota",27141,93528,29.0,3.100675733470191e-05,0,0
+"Sheridan County, Kansas",20179,2509,0.0,0.0,0,1
+"Sheridan County, Montana",30091,3648,0.0,0.0,0,1
+"Sheridan County, Nebraska",31161,5234,0.0,0.0,0,1
+"Sheridan County, North Dakota",38083,1322,0.0,0.0,0,1
+"Sheridan County, Wyoming",56033,30200,0.0,0.0,0,1
+"Sherman County, Kansas",20181,5965,0.0,0.0,0,1
+"Sherman County, Nebraska",31163,3054,0.0,0.0,0,1
+"Sherman County, Oregon",41055,1710,0.0,0.0,0,1
+"Sherman County, Texas",48421,3068,0.0,0.0,0,1
+"Shiawassee County, Michigan",26155,68554,31.0,4.521982670595443e-05,0,0
+"Shoshone County, Idaho",16079,12452,0.0,0.0,0,1
+"Sibley County, Minnesota",27143,14827,0.0,0.0,0,1
+"Sierra County, California",6091,2947,0.0,0.0,0,1
+"Sierra County, New Mexico",35051,11191,0.0,0.0,0,1
+"Silver Bow County, Montana",30093,34553,27.0,7.814082713512575e-05,1,0
+"Simpson County, Kentucky",21213,18083,0.0,0.0,0,1
+"Simpson County, Mississippi",28127,26912,0.0,0.0,0,1
+"Sioux County, Iowa",19167,34898,0.0,0.0,0,1
+"Sioux County, Nebraska",31165,1242,0.0,0.0,0,1
+"Sioux County, North Dakota",38085,4469,17.0,0.000380398299395838,1,0
+"Siskiyou County, California",6093,43603,25.0,5.7335504437768045e-05,0,0
+"Sitka City and Borough, Alaska",2220,8830,0.0,0.0,0,1
+"Skagit County, Washington",53057,123681,73.0,5.9022808677161406e-05,0,0
+"Skagway Municipality, Alaska",2230,1088,0.0,0.0,0,1
+"Skamania County, Washington",53059,11510,0.0,0.0,0,1
+"Slope County, North Dakota",38087,763,0.0,0.0,0,1
+"Smith County, Kansas",20183,3632,0.0,0.0,0,1
+"Smith County, Mississippi",28129,15909,0.0,0.0,0,1
+"Smith County, Tennessee",47159,19447,0.0,0.0,0,1
+"Smith County, Texas",48423,225290,90.0,3.994851080829154e-05,0,0
+"Smyth County, Virginia",51173,31062,0.0,0.0,0,1
+"Snohomish County, Washington",53061,787620,500.0,6.348238998501816e-05,0,0
+"Snyder County, Pennsylvania",42109,40468,11.0,2.7181970940001975e-05,0,0
+"Socorro County, New Mexico",35053,17027,0.0,0.0,0,1
+"Solano County, California",6095,440207,270.0,6.133478113705598e-05,0,0
+"Somerset County, Maine",23025,50915,18.0,3.535303937935775e-05,0,0
+"Somerset County, Maryland",24039,25928,0.0,0.0,0,1
+"Somerset County, New Jersey",34035,333751,110.0,3.295870274545994e-05,0,0
+"Somerset County, Pennsylvania",42111,75061,19.0,2.5312745633551377e-05,0,0
+"Somervell County, Texas",48425,8775,0.0,0.0,0,1
+"Sonoma County, California",6097,503070,397.0,7.891545908124117e-05,1,0
+"Southampton County, Virginia",51175,18057,0.0,0.0,0,1
+"Southeast Fairbanks Census Area, Alaska",2240,6876,0.0,0.0,0,1
+"Spalding County, Georgia",13255,64806,14.0,2.1602937999567942e-05,0,0
+"Spartanburg County, South Carolina",45083,301463,118.0,3.9142448658707705e-05,0,0
+"Spencer County, Indiana",18147,20648,0.0,0.0,0,1
+"Spencer County, Kentucky",21215,18274,0.0,0.0,0,1
+"Spink County, South Dakota",46115,6420,0.0,0.0,0,1
+"Spokane County, Washington",53063,499072,376.0,7.533983072582714e-05,1,0
+"Spotsylvania County, Virginia",51177,132010,27.0,2.045299598515264e-05,0,0
+"St. Bernard Parish, Louisiana",22087,45688,11.0,2.40763438977412e-05,0,0
+"St. Charles County, Missouri",29183,390918,205.0,5.244066530576745e-05,0,0
+"St. Charles Parish, Louisiana",22089,52923,12.0,2.2674451561702852e-05,0,0
+"St. Clair County, Alabama",1115,88019,40.0,4.54447335234438e-05,0,0
+"St. Clair County, Illinois",17163,262759,110.0,4.186345662755605e-05,0,0
+"St. Clair County, Michigan",26147,159587,91.0,5.7022188524127906e-05,0,0
+"St. Clair County, Missouri",29185,9272,0.0,0.0,0,1
+"St. Croix County, Wisconsin",55109,88029,41.0,4.6575560326710514e-05,0,0
+"St. Francis County, Arkansas",5123,26196,10.0,3.817376698732631e-05,0,0
+"St. Francois County, Missouri",29187,66627,30.0,4.5026790940609664e-05,0,0
+"St. Helena Parish, Louisiana",22091,10512,0.0,0.0,0,1
+"St. James Parish, Louisiana",22093,21557,0.0,0.0,0,1
+"St. John the Baptist Parish, Louisiana",22095,43631,11.0,2.5211432238545987e-05,0,0
+"St. Johns County, Florida",12109,235087,115.0,4.891806012242276e-05,0,0
+"St. Joseph County, Indiana",18141,269141,141.0,5.238889652635608e-05,0,0
+"St. Joseph County, Michigan",26149,60853,27.0,4.436921762279592e-05,0,0
+"St. Landry Parish, Louisiana",22097,83883,34.0,4.05326466626134e-05,0,0
+"St. Lawrence County, New York",36089,110038,43.0,3.907740962213054e-05,0,0
+"St. Louis County, Minnesota",27137,199980,126.0,6.300630063006301e-05,0,0
+"St. Louis County, Missouri",29189,998581,600.0,6.00852609853382e-05,0,0
+"St. Louis city, Missouri",29510,311404,169.0,5.427033692566569e-05,0,0
+"St. Lucie County, Florida",12111,306507,169.0,5.513740306094151e-05,0,0
+"St. Martin Parish, Louisiana",22099,54007,16.0,2.9625789249541727e-05,0,0
+"St. Mary Parish, Louisiana",22101,52093,13.0,2.4955368283646554e-05,0,0
+"St. Mary's County, Maryland",24037,112587,32.0,2.8422464405304343e-05,0,0
+"St. Tammany Parish, Louisiana",22103,253602,114.0,4.4952326874393735e-05,0,0
+"Stafford County, Kansas",20185,4208,0.0,0.0,0,1
+"Stafford County, Virginia",51179,144361,36.0,2.493748311524581e-05,0,0
+"Stanislaus County, California",6099,541560,293.0,5.410296181401876e-05,0,0
+"Stanley County, South Dakota",46117,2993,0.0,0.0,0,1
+"Stanly County, North Carolina",37167,60791,14.0,2.3029724794788704e-05,0,0
+"Stanton County, Kansas",20187,2062,0.0,0.0,0,1
+"Stanton County, Nebraska",31167,5944,0.0,0.0,0,1
+"Stark County, Illinois",17175,5776,0.0,0.0,0,1
+"Stark County, North Dakota",38089,31199,0.0,0.0,0,1
+"Stark County, Ohio",39151,373612,225.0,6.022290504587647e-05,0,0
+"Starke County, Indiana",18149,23009,0.0,0.0,0,1
+"Starr County, Texas",48427,64122,20.0,3.1190543027354106e-05,0,0
+"Staunton city, Virginia",51790,24363,0.0,0.0,0,1
+"Ste. Genevieve County, Missouri",29186,18030,0.0,0.0,0,1
+"Stearns County, Minnesota",27145,155652,74.0,4.754195256084085e-05,0,0
+"Steele County, Minnesota",27147,36805,15.0,4.075533215595707e-05,0,0
+"Steele County, North Dakota",38091,1962,0.0,0.0,0,1
+"Stephens County, Georgia",13257,25751,0.0,0.0,0,1
+"Stephens County, Oklahoma",40137,44090,30.0,6.80426400544341e-05,1,0
+"Stephens County, Texas",48429,9906,12.0,0.00012113870381586917,1,0
+"Stephenson County, Illinois",17177,45624,14.0,3.0685604068034365e-05,0,0
+"Sterling County, Texas",48431,1367,0.0,0.0,0,1
+"Steuben County, Indiana",18151,34116,0.0,0.0,0,1
+"Steuben County, New York",36101,96940,37.0,3.816793893129771e-05,0,0
+"Stevens County, Kansas",20189,5584,0.0,0.0,0,1
+"Stevens County, Minnesota",27149,9693,0.0,0.0,0,1
+"Stevens County, Washington",53065,44439,15.0,3.3754134881522986e-05,0,0
+"Stewart County, Georgia",13259,5705,0.0,0.0,0,1
+"Stewart County, Tennessee",47161,13182,0.0,0.0,0,1
+"Stillwater County, Montana",30095,9406,0.0,0.0,0,1
+"Stoddard County, Missouri",29207,29588,10.0,3.379748546708125e-05,0,0
+"Stokes County, North Carolina",37169,46097,16.0,3.47094170987266e-05,0,0
+"Stone County, Arkansas",5137,12539,0.0,0.0,0,1
+"Stone County, Mississippi",28131,18012,0.0,0.0,0,1
+"Stone County, Missouri",29209,31047,13.0,4.18720005153477e-05,0,0
+"Stonewall County, Texas",48433,1426,0.0,0.0,0,1
+"Storey County, Nevada",32029,4051,0.0,0.0,0,1
+"Story County, Iowa",19169,97090,21.0,2.1629416005767844e-05,0,0
+"Strafford County, New Hampshire",33017,127428,64.0,5.022444046834291e-05,0,0
+"Stutsman County, North Dakota",38093,21128,0.0,0.0,0,1
+"Sublette County, Wyoming",56035,9769,0.0,0.0,0,1
+"Suffolk County, Massachusetts",25025,784230,364.0,4.641495479642452e-05,0,0
+"Suffolk County, New York",36103,1492583,884.0,5.922618708641329e-05,0,0
+"Suffolk city, Virginia",51800,89273,22.0,2.4643509235715165e-05,0,0
+"Sullivan County, Indiana",18153,20802,0.0,0.0,0,1
+"Sullivan County, Missouri",29211,6262,0.0,0.0,0,1
+"Sullivan County, New Hampshire",33019,43004,15.0,3.4880476234768856e-05,0,0
+"Sullivan County, New York",36105,74801,47.0,6.283338458042005e-05,0,0
+"Sullivan County, Pennsylvania",42113,6137,0.0,0.0,0,1
+"Sullivan County, Tennessee",47163,156667,78.0,4.9787128112493375e-05,0,0
+"Sully County, South Dakota",46119,1421,0.0,0.0,0,1
+"Summers County, West Virginia",54089,12872,0.0,0.0,0,1
+"Summit County, Colorado",8117,30374,13.0,4.279976295515902e-05,0,0
+"Summit County, Ohio",39153,540300,387.0,7.162687395891172e-05,1,0
+"Summit County, Utah",49043,40307,12.0,2.977150370903317e-05,0,0
+"Sumner County, Kansas",20191,23272,0.0,0.0,0,1
+"Sumner County, Tennessee",47165,180063,65.0,3.609847664428561e-05,0,0
+"Sumter County, Alabama",1119,13040,0.0,0.0,0,1
+"Sumter County, Florida",12119,123996,38.0,3.064614987580245e-05,0,0
+"Sumter County, Georgia",13261,30389,0.0,0.0,0,1
+"Sumter County, South Carolina",45085,107396,23.0,2.14160676375284e-05,0,0
+"Sunflower County, Mississippi",28133,26407,0.0,0.0,0,1
+"Surry County, North Carolina",37171,72113,24.0,3.328110049505637e-05,0,0
+"Surry County, Virginia",51181,6544,0.0,0.0,0,1
+"Susquehanna County, Pennsylvania",42115,40862,16.0,3.91561842298468e-05,0,0
+"Sussex County, Delaware",10005,220251,91.0,4.1316497995468805e-05,0,0
+"Sussex County, New Jersey",34037,142522,99.0,6.946296010440493e-05,1,0
+"Sussex County, Virginia",51183,11504,0.0,0.0,0,1
+"Sutter County, California",6101,96651,42.0,4.345531862060403e-05,0,0
+"Sutton County, Texas",48435,3869,0.0,0.0,0,1
+"Suwannee County, Florida",12121,43794,11.0,2.5117596017719323e-05,0,0
+"Swain County, North Carolina",37173,14346,0.0,0.0,0,1
+"Sweet Grass County, Montana",30097,3623,0.0,0.0,0,1
+"Sweetwater County, Wyoming",56037,44165,12.0,2.717083663534473e-05,0,0
+"Swift County, Minnesota",27151,9419,0.0,0.0,0,1
+"Swisher County, Texas",48437,7466,0.0,0.0,0,1
+"Switzerland County, Indiana",18155,10527,0.0,0.0,0,1
+"Talbot County, Georgia",13263,6171,0.0,0.0,0,1
+"Talbot County, Maryland",24041,37278,11.0,2.9508020816567412e-05,0,0
+"Taliaferro County, Georgia",13265,1593,0.0,0.0,0,1
+"Talladega County, Alabama",1121,80103,21.0,2.6216246582525e-05,0,0
+"Tallahatchie County, Mississippi",28135,14394,0.0,0.0,0,1
+"Tallapoosa County, Alabama",1123,40727,10.0,2.4553735850909716e-05,0,0
+"Tama County, Iowa",19171,17319,0.0,0.0,0,1
+"Taney County, Missouri",29213,54735,25.0,4.567461404951128e-05,0,0
+"Tangipahoa Parish, Louisiana",22105,130710,28.0,2.142146737051488e-05,0,0
+"Taos County, New Mexico",35055,33065,28.0,8.468168758505973e-05,1,0
+"Tarrant County, Texas",48439,2016872,826.0,4.095450777243177e-05,0,0
+"Tate County, Mississippi",28137,28201,0.0,0.0,0,1
+"Tattnall County, Georgia",13267,25092,11.0,4.383867368085446e-05,0,0
+"Taylor County, Florida",12123,22175,0.0,0.0,0,1
+"Taylor County, Georgia",13269,8232,0.0,0.0,0,1
+"Taylor County, Iowa",19173,6216,0.0,0.0,0,1
+"Taylor County, Kentucky",21217,25397,0.0,0.0,0,1
+"Taylor County, Texas",48441,136535,61.0,4.467718899915773e-05,0,0
+"Taylor County, West Virginia",54091,16859,0.0,0.0,0,1
+"Taylor County, Wisconsin",55119,20439,0.0,0.0,0,1
+"Tazewell County, Illinois",17179,134385,56.0,4.1671317483350076e-05,0,0
+"Tazewell County, Virginia",51185,42150,14.0,3.3214709371293e-05,0,0
+"Tehama County, California",6103,63276,38.0,6.005436500410898e-05,0,0
+"Telfair County, Georgia",13271,15965,0.0,0.0,0,1
+"Teller County, Colorado",8119,24043,0.0,0.0,0,1
+"Tensas Parish, Louisiana",22107,4597,0.0,0.0,0,1
+"Terrebonne Parish, Louisiana",22109,113220,27.0,2.384737678855326e-05,0,0
+"Terrell County, Georgia",13273,8967,0.0,0.0,0,1
+"Terrell County, Texas",48443,812,0.0,0.0,0,1
+"Terry County, Texas",48445,12799,0.0,0.0,0,1
+"Teton County, Idaho",16081,10960,0.0,0.0,0,1
+"Teton County, Montana",30099,6056,0.0,0.0,0,1
+"Teton County, Wyoming",56039,23191,0.0,0.0,0,1
+"Texas County, Missouri",29215,25775,0.0,0.0,0,1
+"Texas County, Oklahoma",40139,21098,0.0,0.0,0,1
+"Thayer County, Nebraska",31169,5101,0.0,0.0,0,1
+"Thomas County, Georgia",13275,45248,0.0,0.0,0,1
+"Thomas County, Kansas",20193,7892,0.0,0.0,0,1
+"Thomas County, Nebraska",31171,716,0.0,0.0,0,1
+"Throckmorton County, Texas",48447,1533,0.0,0.0,0,1
+"Thurston County, Nebraska",31173,7127,0.0,0.0,0,1
+"Thurston County, Washington",53067,275222,153.0,5.5591486145729626e-05,0,0
+"Tift County, Georgia",13277,40828,0.0,0.0,0,1
+"Tillamook County, Oregon",41057,26143,12.0,4.590138851700264e-05,0,0
+"Tillman County, Oklahoma",40141,7465,0.0,0.0,0,1
+"Tioga County, New York",36107,48760,12.0,2.461033634126333e-05,0,0
+"Tioga County, Pennsylvania",42117,41467,11.0,2.6527117949212628e-05,0,0
+"Tippah County, Mississippi",28139,22190,0.0,0.0,0,1
+"Tippecanoe County, Indiana",18157,188059,72.0,3.828585709803838e-05,0,0
+"Tipton County, Indiana",18159,15182,0.0,0.0,0,1
+"Tipton County, Tennessee",47167,61303,20.0,3.262483075869044e-05,0,0
+"Tishomingo County, Mississippi",28141,19491,0.0,0.0,0,1
+"Titus County, Texas",48449,32592,0.0,0.0,0,1
+"Todd County, Kentucky",21219,12295,0.0,0.0,0,1
+"Todd County, Minnesota",27153,24233,11.0,4.539264639128461e-05,0,0
+"Todd County, South Dakota",46121,10155,51.0,0.0005022156573116692,1,0
+"Tolland County, Connecticut",9013,151118,89.0,5.889437393295306e-05,0,0
+"Tom Green County, Texas",48451,118386,58.0,4.899227949250756e-05,0,0
+"Tompkins County, New York",36109,104871,45.0,4.290986068598564e-05,0,0
+"Tooele County, Utah",49045,64833,34.0,5.244242900991779e-05,0,0
+"Toole County, Montana",30101,4977,0.0,0.0,0,1
+"Toombs County, Georgia",13279,27196,0.0,0.0,0,1
+"Torrance County, New Mexico",35057,15302,0.0,0.0,0,1
+"Towner County, North Dakota",38095,2263,0.0,0.0,0,1
+"Towns County, Georgia",13281,11391,0.0,0.0,0,1
+"Traill County, North Dakota",38097,8030,0.0,0.0,0,1
+"Transylvania County, North Carolina",37175,33482,10.0,2.9866794098321488e-05,0,0
+"Traverse County, Minnesota",27155,3356,0.0,0.0,0,1
+"Travis County, Texas",48453,1199323,642.0,5.3530199954474315e-05,0,0
+"Treasure County, Montana",30103,692,0.0,0.0,0,1
+"Trego County, Kansas",20195,2872,0.0,0.0,0,1
+"Trempealeau County, Wisconsin",55121,29633,14.0,4.724462592380117e-05,0,0
+"Treutlen County, Georgia",13283,6637,0.0,0.0,0,1
+"Trigg County, Kentucky",21221,14264,0.0,0.0,0,1
+"Trimble County, Kentucky",21223,8620,0.0,0.0,0,1
+"Trinity County, California",6105,12782,0.0,0.0,0,1
+"Trinity County, Texas",48455,14442,0.0,0.0,0,1
+"Tripp County, South Dakota",46123,5492,0.0,0.0,0,1
+"Troup County, Georgia",13285,70005,14.0,1.9998571530604958e-05,0,0
+"Trousdale County, Tennessee",47169,8271,0.0,0.0,0,1
+"Trumbull County, Ohio",39155,201825,135.0,6.688963210702341e-05,0,0
+"Tucker County, West Virginia",54093,6926,0.0,0.0,0,1
+"Tulare County, California",6107,460437,177.0,3.8441741215410576e-05,0,0
+"Tulsa County, Oklahoma",40143,642940,445.0,6.921330139670886e-05,1,0
+"Tunica County, Mississippi",28143,10234,0.0,0.0,0,1
+"Tuolumne County, California",6109,53804,25.0,4.646494684410081e-05,0,0
+"Turner County, Georgia",13287,8030,0.0,0.0,0,1
+"Turner County, South Dakota",46125,8317,0.0,0.0,0,1
+"Tuscaloosa County, Alabama",1125,206102,32.0,1.5526292806474464e-05,0,0
+"Tuscarawas County, Ohio",39157,92420,22.0,2.380437134819303e-05,0,0
+"Tuscola County, Michigan",26157,53338,18.0,3.374704713337583e-05,0,0
+"Twiggs County, Georgia",13289,8171,0.0,0.0,0,1
+"Twin Falls County, Idaho",16083,83514,61.0,7.304164571209617e-05,1,0
+"Tyler County, Texas",48457,21320,14.0,6.566604127579737e-05,0,0
+"Tyler County, West Virginia",54095,8972,0.0,0.0,0,1
+"Tyrrell County, North Carolina",37177,4141,0.0,0.0,0,1
+"Uinta County, Wyoming",56041,20773,0.0,0.0,0,1
+"Uintah County, Utah",49047,36373,20.0,5.498584114590493e-05,0,0
+"Ulster County, New York",36111,179225,85.0,4.7426419305342444e-05,0,0
+"Umatilla County, Oregon",41059,76456,28.0,3.662237103693628e-05,0,0
+"Unicoi County, Tennessee",47171,17719,0.0,0.0,0,1
+"Union County, Arkansas",5139,39887,12.0,3.0084990097024094e-05,0,0
+"Union County, Florida",12125,15142,0.0,0.0,0,1
+"Union County, Georgia",13291,22928,0.0,0.0,0,1
+"Union County, Illinois",17181,17212,0.0,0.0,0,1
+"Union County, Indiana",18161,7212,0.0,0.0,0,1
+"Union County, Iowa",19175,12420,0.0,0.0,0,1
+"Union County, Kentucky",21225,14880,11.0,7.39247311827957e-05,1,0
+"Union County, Mississippi",28145,28311,0.0,0.0,0,1
+"Union County, New Jersey",34039,555630,230.0,4.13944531432788e-05,0,0
+"Union County, New Mexico",35059,4183,0.0,0.0,0,1
+"Union County, North Carolina",37179,226606,68.0,3.000803156138849e-05,0,0
+"Union County, Ohio",39159,55457,0.0,0.0,0,1
+"Union County, Oregon",41061,26087,0.0,0.0,0,1
+"Union County, Pennsylvania",42119,45565,17.0,3.730933830791177e-05,0,0
+"Union County, South Carolina",45087,27673,0.0,0.0,0,1
+"Union County, South Dakota",46127,14934,0.0,0.0,0,1
+"Union County, Tennessee",47173,19140,0.0,0.0,0,1
+"Union Parish, Louisiana",22111,22487,0.0,0.0,0,1
+"Upshur County, Texas",48459,40969,18.0,4.393565866874954e-05,0,0
+"Upshur County, West Virginia",54097,24658,0.0,0.0,0,1
+"Upson County, Georgia",13293,26335,0.0,0.0,0,1
+"Upton County, Texas",48461,3673,0.0,0.0,0,1
+"Utah County, Utah",49049,592299,312.0,5.267609771416126e-05,0,0
+"Uvalde County, Texas",48463,27285,10.0,3.665017408832692e-05,0,0
+"Val Verde County, Texas",48465,48881,10.0,2.045784660706614e-05,0,0
+"Valdez-Cordova Census Area, Alaska",2261,9355,0.0,0.0,0,1
+"Valencia County, New Mexico",35061,75626,57.0,7.537090418639093e-05,1,0
+"Valley County, Idaho",16085,10496,0.0,0.0,0,1
+"Valley County, Montana",30105,7539,0.0,0.0,0,1
+"Valley County, Nebraska",31175,4184,0.0,0.0,0,1
+"Van Buren County, Arkansas",5141,16628,0.0,0.0,0,1
+"Van Buren County, Iowa",19177,7271,0.0,0.0,0,1
+"Van Buren County, Michigan",26159,75223,36.0,4.7857703096127515e-05,0,0
+"Van Buren County, Tennessee",47175,5689,0.0,0.0,0,1
+"Van Wert County, Ohio",39161,28362,10.0,3.5258444397433186e-05,0,0
+"Van Zandt County, Texas",48467,54355,18.0,3.311562873700672e-05,0,0
+"Vance County, North Carolina",37181,44244,0.0,0.0,0,1
+"Vanderburgh County, Indiana",18163,181721,189.0,0.00010400559098838329,1,0
+"Venango County, Pennsylvania",42121,52582,16.0,3.0428663801300826e-05,0,0
+"Ventura County, California",6111,849738,527.0,6.201911648060931e-05,0,0
+"Vermilion County, Illinois",17183,78111,33.0,4.224757076468103e-05,0,0
+"Vermilion Parish, Louisiana",22113,60205,17.0,2.823685740387011e-05,0,0
+"Vermillion County, Indiana",18165,15645,0.0,0.0,0,1
+"Vernon County, Missouri",29217,20723,0.0,0.0,0,1
+"Vernon County, Wisconsin",55123,30814,0.0,0.0,0,1
+"Vernon Parish, Louisiana",22115,50569,20.0,3.954992188890427e-05,0,0
+"Victoria County, Texas",48469,92467,43.0,4.6503076773335355e-05,0,0
+"Vigo County, Indiana",18167,107931,76.0,7.041535796017826e-05,1,0
+"Vilas County, Wisconsin",55125,21435,13.0,6.0648472125029155e-05,0,0
+"Vinton County, Ohio",39163,12921,0.0,0.0,0,1
+"Virginia Beach city, Virginia",51810,452602,230.0,5.081727433816024e-05,0,0
+"Volusia County, Florida",12127,529364,432.0,8.16073627976213e-05,1,0
+"Wabash County, Illinois",17185,11492,0.0,0.0,0,1
+"Wabash County, Indiana",18169,31762,0.0,0.0,0,1
+"Wabasha County, Minnesota",27157,21273,0.0,0.0,0,1
+"Wabaunsee County, Kansas",20197,6891,0.0,0.0,0,1
+"Wadena County, Minnesota",27159,13761,0.0,0.0,0,1
+"Wagoner County, Oklahoma",40145,77679,28.0,3.604577813823556e-05,0,0
+"Wahkiakum County, Washington",53069,4139,0.0,0.0,0,1
+"Wake County, North Carolina",37183,1046791,412.0,3.935838195016961e-05,0,0
+"Wakulla County, Florida",12129,31893,0.0,0.0,0,1
+"Waldo County, Maine",23027,39364,10.0,2.540392236561325e-05,0,0
+"Walker County, Alabama",1127,64967,63.0,9.697230901842473e-05,1,0
+"Walker County, Georgia",13295,67896,28.0,4.123954283021091e-05,0,0
+"Walker County, Texas",48471,71484,45.0,6.295114990767164e-05,0,0
+"Walla Walla County, Washington",53071,60340,28.0,4.640371229698376e-05,0,0
+"Wallace County, Kansas",20199,1497,0.0,0.0,0,1
+"Waller County, Texas",48473,50115,14.0,2.7935747780105756e-05,0,0
+"Wallowa County, Oregon",41063,6946,0.0,0.0,0,1
+"Walsh County, North Dakota",38099,10904,0.0,0.0,0,1
+"Walthall County, Mississippi",28147,14599,0.0,0.0,0,1
+"Walton County, Florida",12131,65889,23.0,3.490719239933828e-05,0,0
+"Walton County, Georgia",13297,90184,25.0,2.772110352168899e-05,0,0
+"Walworth County, South Dakota",46129,5610,0.0,0.0,0,1
+"Walworth County, Wisconsin",55127,102959,40.0,3.885041618508338e-05,0,0
+"Wapello County, Iowa",19179,34982,13.0,3.716196901263507e-05,0,0
+"Ward County, North Dakota",38101,70210,31.0,4.415325452214784e-05,0,0
+"Ward County, Texas",48475,11600,0.0,0.0,0,1
+"Ware County, Georgia",13299,35738,11.0,3.077956237058593e-05,0,0
+"Warren County, Georgia",13301,5442,0.0,0.0,0,1
+"Warren County, Illinois",17187,17378,14.0,8.056162964667971e-05,1,0
+"Warren County, Indiana",18171,8166,0.0,0.0,0,1
+"Warren County, Iowa",19181,49691,12.0,2.4149242317522288e-05,0,0
+"Warren County, Kentucky",21227,125532,31.0,2.4694898511933212e-05,0,0
+"Warren County, Mississippi",28149,47140,14.0,2.9698769622401358e-05,0,0
+"Warren County, Missouri",29219,33802,0.0,0.0,0,1
+"Warren County, New Jersey",34041,106617,43.0,4.033127925190167e-05,0,0
+"Warren County, New York",36113,64567,27.0,4.1817027273994454e-05,0,0
+"Warren County, North Carolina",37185,19907,0.0,0.0,0,1
+"Warren County, Ohio",39165,227063,108.0,4.756389195950023e-05,0,0
+"Warren County, Pennsylvania",42123,40025,0.0,0.0,0,1
+"Warren County, Tennessee",47177,40516,15.0,3.702241089939777e-05,0,0
+"Warren County, Virginia",51187,39155,12.0,3.06474268931171e-05,0,0
+"Warrick County, Indiana",18173,62498,21.0,3.36010752344075e-05,0,0
+"Wasatch County, Utah",49051,30528,0.0,0.0,0,1
+"Wasco County, Oregon",41065,26115,0.0,0.0,0,1
+"Waseca County, Minnesota",27161,18911,0.0,0.0,0,1
+"Washakie County, Wyoming",56043,8235,0.0,0.0,0,1
+"Washburn County, Wisconsin",55129,15648,0.0,0.0,0,1
+"Washington County, Alabama",1129,16756,0.0,0.0,0,1
+"Washington County, Arkansas",5143,228049,108.0,4.735824318457875e-05,0,0
+"Washington County, Colorado",8121,4908,0.0,0.0,0,1
+"Washington County, Florida",12133,24569,0.0,0.0,0,1
+"Washington County, Georgia",13303,20457,0.0,0.0,0,1
+"Washington County, Idaho",16087,10172,0.0,0.0,0,1
+"Washington County, Illinois",17189,14154,0.0,0.0,0,1
+"Washington County, Indiana",18175,27670,0.0,0.0,0,1
+"Washington County, Iowa",19183,22281,0.0,0.0,0,1
+"Washington County, Kansas",20201,5546,0.0,0.0,0,1
+"Washington County, Kentucky",21229,12189,0.0,0.0,0,1
+"Washington County, Maine",23029,31450,10.0,3.179650238473768e-05,0,0
+"Washington County, Maryland",24043,150292,58.0,3.8591541798632e-05,0,0
+"Washington County, Minnesota",27163,253117,111.0,4.38532378307265e-05,0,0
+"Washington County, Mississippi",28151,47231,0.0,0.0,0,1
+"Washington County, Missouri",29221,24839,11.0,4.428519666653247e-05,0,0
+"Washington County, Nebraska",31177,20603,0.0,0.0,0,1
+"Washington County, New York",36115,61800,35.0,5.663430420711974e-05,0,0
+"Washington County, North Carolina",37187,12195,0.0,0.0,0,1
+"Washington County, Ohio",39167,60610,16.0,2.639828411153275e-05,0,0
+"Washington County, Oklahoma",40147,52087,24.0,4.607675619636378e-05,0,0
+"Washington County, Oregon",41067,582779,369.0,6.331731239457839e-05,0,0
+"Washington County, Pennsylvania",42125,207981,87.0,4.183074415451412e-05,0,0
+"Washington County, Rhode Island",44009,126288,75.0,5.938806537438236e-05,0,0
+"Washington County, Tennessee",47179,127440,52.0,4.0803515379786566e-05,0,0
+"Washington County, Texas",48477,35056,0.0,0.0,0,1
+"Washington County, Utah",49053,160245,101.0,6.302848762831913e-05,0,0
+"Washington County, Vermont",50023,58504,22.0,3.7604266374948725e-05,0,0
+"Washington County, Virginia",51191,54214,15.0,2.7668130003320175e-05,0,0
+"Washington County, Wisconsin",55131,134296,59.0,4.393280514683982e-05,0,0
+"Washington Parish, Louisiana",22117,46310,0.0,0.0,0,1
+"Washita County, Oklahoma",40149,11447,0.0,0.0,0,1
+"Washoe County, Nevada",32031,453616,395.0,8.707805721138584e-05,1,0
+"Washtenaw County, Michigan",26161,364709,156.0,4.277382790114859e-05,0,0
+"Watauga County, North Carolina",37189,53922,12.0,2.2254367419606097e-05,0,0
+"Watonwan County, Minnesota",27165,10908,10.0,9.167583425009168e-05,1,0
+"Waukesha County, Wisconsin",55133,398424,218.0,5.471557938276811e-05,0,0
+"Waupaca County, Wisconsin",55135,51533,21.0,4.0750587002503254e-05,0,0
+"Waushara County, Wisconsin",55137,24162,0.0,0.0,0,1
+"Wayne County, Georgia",13305,30104,10.0,3.321817698644698e-05,0,0
+"Wayne County, Illinois",17191,16396,0.0,0.0,0,1
+"Wayne County, Indiana",18177,66568,21.0,3.1546689099867804e-05,0,0
+"Wayne County, Iowa",19185,6452,0.0,0.0,0,1
+"Wayne County, Kentucky",21231,20453,0.0,0.0,0,1
+"Wayne County, Michigan",26163,1749366,1007.0,5.756371165325038e-05,0,0
+"Wayne County, Mississippi",28153,20480,0.0,0.0,0,1
+"Wayne County, Missouri",29223,13139,0.0,0.0,0,1
+"Wayne County, Nebraska",31179,9365,0.0,0.0,0,1
+"Wayne County, New York",36117,90798,34.0,3.744575871715236e-05,0,0
+"Wayne County, North Carolina",37191,124150,22.0,1.7720499395892068e-05,0,0
+"Wayne County, Ohio",39169,116470,43.0,3.6919378380698895e-05,0,0
+"Wayne County, Pennsylvania",42127,50710,14.0,2.7607966870439755e-05,0,0
+"Wayne County, Tennessee",47181,16713,0.0,0.0,0,1
+"Wayne County, Utah",49055,2702,0.0,0.0,0,1
+"Wayne County, West Virginia",54099,40531,13.0,3.207421479854926e-05,0,0
+"Waynesboro city, Virginia",51820,21887,10.0,4.568922191255083e-05,0,0
+"Weakley County, Tennessee",47183,33507,12.0,3.581341212284e-05,0,0
+"Webb County, Texas",48479,271193,79.0,2.913054540493302e-05,0,0
+"Weber County, Utah",49057,247560,213.0,8.603974793989336e-05,1,0
+"Webster County, Georgia",13307,2599,0.0,0.0,0,1
+"Webster County, Iowa",19187,36769,11.0,2.991650575212815e-05,0,0
+"Webster County, Kentucky",21233,13316,0.0,0.0,0,1
+"Webster County, Mississippi",28155,9767,0.0,0.0,0,1
+"Webster County, Missouri",29225,38106,20.0,5.248517293864483e-05,0,0
+"Webster County, Nebraska",31181,3603,0.0,0.0,0,1
+"Webster County, West Virginia",54101,8646,0.0,0.0,0,1
+"Webster Parish, Louisiana",22119,39710,0.0,0.0,0,1
+"Weld County, Colorado",8123,294932,179.0,6.0691956111917326e-05,0,0
+"Wells County, Indiana",18179,27949,0.0,0.0,0,1
+"Wells County, North Dakota",38103,4098,0.0,0.0,0,1
+"West Baton Rouge Parish, Louisiana",22121,25795,0.0,0.0,0,1
+"West Carroll Parish, Louisiana",22123,11114,0.0,0.0,0,1
+"West Feliciana Parish, Louisiana",22125,15344,11.0,7.168925964546402e-05,1,0
+"Westchester County, New York",36119,974542,476.0,4.884345672120853e-05,0,0
+"Westmoreland County, Pennsylvania",42129,355458,178.0,5.007623966825898e-05,0,0
+"Westmoreland County, Virginia",51193,17592,0.0,0.0,0,1
+"Weston County, Wyoming",56045,7236,0.0,0.0,0,1
+"Wetzel County, West Virginia",54103,15640,0.0,0.0,0,1
+"Wexford County, Michigan",26165,33163,17.0,5.126194855712692e-05,0,0
+"Wharton County, Texas",48481,41735,10.0,2.3960704444710675e-05,0,0
+"Whatcom County, Washington",53073,216800,124.0,5.719557195571956e-05,0,0
+"Wheatland County, Montana",30107,2117,0.0,0.0,0,1
+"Wheeler County, Georgia",13309,7978,0.0,0.0,0,1
+"Wheeler County, Nebraska",31183,776,0.0,0.0,0,1
+"Wheeler County, Oregon",41069,1344,0.0,0.0,0,1
+"Wheeler County, Texas",48483,5546,0.0,0.0,0,1
+"White County, Arkansas",5145,79263,26.0,3.280219017700566e-05,0,0
+"White County, Georgia",13311,28884,0.0,0.0,0,1
+"White County, Illinois",17193,14292,0.0,0.0,0,1
+"White County, Indiana",18181,23999,0.0,0.0,0,1
+"White County, Tennessee",47185,26653,12.0,4.5023074325591863e-05,0,0
+"White Pine County, Nevada",32033,9682,0.0,0.0,0,1
+"Whiteside County, Illinois",17195,56536,36.0,6.367624168671288e-05,0,0
+"Whitfield County, Georgia",13313,104589,14.0,1.338572890074482e-05,0,0
+"Whitley County, Indiana",18183,33449,14.0,4.1854763969027474e-05,0,0
+"Whitley County, Kentucky",21235,36096,12.0,3.324468085106383e-05,0,0
+"Whitman County, Washington",53075,48851,0.0,0.0,0,1
+"Wibaux County, Montana",30109,1093,0.0,0.0,0,1
+"Wichita County, Kansas",20203,2112,0.0,0.0,0,1
+"Wichita County, Texas",48485,131838,74.0,5.612949225564708e-05,0,0
+"Wicomico County, Maryland",24045,102577,23.0,2.242218041081334e-05,0,0
+"Wilbarger County, Texas",48487,12892,0.0,0.0,0,1
+"Wilcox County, Alabama",1131,10986,0.0,0.0,0,1
+"Wilcox County, Georgia",13315,8761,0.0,0.0,0,1
+"Wilkes County, Georgia",13317,9805,0.0,0.0,0,1
+"Wilkes County, North Carolina",37193,68740,13.0,1.8911841722432354e-05,0,0
+"Wilkin County, Minnesota",27167,6358,0.0,0.0,0,1
+"Wilkinson County, Georgia",13319,9104,0.0,0.0,0,1
+"Wilkinson County, Mississippi",28157,9047,0.0,0.0,0,1
+"Will County, Illinois",17197,689529,364.0,5.278965786790693e-05,0,0
+"Willacy County, Texas",48489,21810,0.0,0.0,0,1
+"Williams County, North Dakota",38105,34337,12.0,3.494772402947258e-05,0,0
+"Williams County, Ohio",39171,37017,14.0,3.782046086933031e-05,0,0
+"Williamsburg County, South Carolina",45089,31955,0.0,0.0,0,1
+"Williamsburg city, Virginia",51830,15214,0.0,0.0,0,1
+"Williamson County, Illinois",17199,67560,28.0,4.144464179988159e-05,0,0
+"Williamson County, Tennessee",47187,219107,59.0,2.6927482919304268e-05,0,0
+"Williamson County, Texas",48491,528718,180.0,3.4044613574722254e-05,0,0
+"Wilson County, Kansas",20205,8723,0.0,0.0,0,1
+"Wilson County, North Carolina",37195,81661,13.0,1.591947196336072e-05,0,0
+"Wilson County, Tennessee",47189,132781,46.0,3.464351074325393e-05,0,0
+"Wilson County, Texas",48493,48480,0.0,0.0,0,1
+"Winchester city, Virginia",51840,27516,0.0,0.0,0,1
+"Windham County, Connecticut",9015,116192,68.0,5.8523822638391626e-05,0,0
+"Windham County, Vermont",50025,43145,34.0,7.880403291227257e-05,1,0
+"Windsor County, Vermont",50027,55496,19.0,3.423670174426986e-05,0,0
+"Winkler County, Texas",48495,7893,0.0,0.0,0,1
+"Winn Parish, Louisiana",22127,14376,0.0,0.0,0,1
+"Winnebago County, Illinois",17201,285873,209.0,7.310938773511315e-05,1,0
+"Winnebago County, Iowa",19189,10631,0.0,0.0,0,1
+"Winnebago County, Wisconsin",55139,169886,106.0,6.239478238348069e-05,0,0
+"Winneshiek County, Iowa",19191,20561,0.0,0.0,0,1
+"Winona County, Minnesota",27169,50948,16.0,3.1404569364842585e-05,0,0
+"Winston County, Alabama",1133,23805,11.0,4.6208779668136946e-05,0,0
+"Winston County, Mississippi",28159,18160,0.0,0.0,0,1
+"Wirt County, West Virginia",54105,5806,0.0,0.0,0,1
+"Wise County, Texas",48497,64455,14.0,2.1720580249786674e-05,0,0
+"Wise County, Virginia",51195,39228,14.0,3.568879371877231e-05,0,0
+"Wolfe County, Kentucky",21237,7159,0.0,0.0,0,1
+"Wood County, Ohio",39173,130219,44.0,3.37892319861157e-05,0,0
+"Wood County, Texas",48499,44227,10.0,2.261062247043661e-05,0,0
+"Wood County, West Virginia",54107,85643,37.0,4.320259682636059e-05,0,0
+"Wood County, Wisconsin",55141,73107,32.0,4.377145827348954e-05,0,0
+"Woodbury County, Iowa",19193,102779,43.0,4.1837340312709795e-05,0,0
+"Woodford County, Illinois",17203,39140,26.0,6.642820643842616e-05,0,0
+"Woodford County, Kentucky",21239,26124,0.0,0.0,0,1
+"Woodruff County, Arkansas",5147,6641,0.0,0.0,0,1
+"Woods County, Oklahoma",40151,9201,0.0,0.0,0,1
+"Woodson County, Kansas",20207,3165,0.0,0.0,0,1
+"Woodward County, Oklahoma",40153,20814,0.0,0.0,0,1
+"Worcester County, Maryland",24047,51444,11.0,2.1382474146644896e-05,0,0
+"Worcester County, Massachusetts",25027,819589,502.0,6.125021199650069e-05,0,0
+"Worth County, Georgia",13321,20748,0.0,0.0,0,1
+"Worth County, Iowa",19195,7572,0.0,0.0,0,1
+"Worth County, Missouri",29227,2024,0.0,0.0,0,1
+"Wrangell City and Borough, Alaska",2275,2411,0.0,0.0,0,1
+"Wright County, Iowa",19197,12779,0.0,0.0,0,1
+"Wright County, Minnesota",27171,132550,47.0,3.545831761599396e-05,0,0
+"Wright County, Missouri",29229,18286,0.0,0.0,0,1
+"Wyandot County, Ohio",39175,22118,0.0,0.0,0,1
+"Wyandotte County, Kansas",20209,163831,89.0,5.4324273183951755e-05,0,0
+"Wyoming County, New York",36121,40791,19.0,4.657890220882057e-05,0,0
+"Wyoming County, Pennsylvania",42131,27521,11.0,3.996947785327568e-05,0,0
+"Wyoming County, West Virginia",54109,21763,0.0,0.0,0,1
+"Wythe County, Virginia",51197,29016,0.0,0.0,0,1
+"Yadkin County, North Carolina",37197,37532,0.0,0.0,0,1
+"Yakima County, Washington",53077,249636,121.0,4.847057315451297e-05,0,0
+"Yakutat City and Borough, Alaska",2282,601,0.0,0.0,0,1
+"Yalobusha County, Mississippi",28161,12471,0.0,0.0,0,1
+"Yamhill County, Oregon",41071,105035,40.0,3.808254391393345e-05,0,0
+"Yancey County, North Carolina",37199,17678,0.0,0.0,0,1
+"Yankton County, South Dakota",46135,22616,11.0,4.863813229571985e-05,0,0
+"Yates County, New York",36123,24923,10.0,4.012358062833527e-05,0,0
+"Yavapai County, Arizona",4025,225562,234.0,0.0001037408783394366,1,0
+"Yazoo County, Mississippi",28163,27264,0.0,0.0,0,1
+"Yell County, Arkansas",5149,21552,11.0,5.103934669636229e-05,0,0
+"Yellow Medicine County, Minnesota",27173,9935,0.0,0.0,0,1
+"Yellowstone County, Montana",30111,158437,114.0,7.195288979215713e-05,1,0
+"Yoakum County, Texas",48501,8488,0.0,0.0,0,1
+"Yolo County, California",6113,215802,80.0,3.707101880427429e-05,0,0
+"York County, Maine",23031,202343,133.0,6.572997336206343e-05,0,0
+"York County, Nebraska",31185,13794,0.0,0.0,0,1
+"York County, Pennsylvania",42133,443744,268.0,6.0395182808105574e-05,0,0
+"York County, South Carolina",45091,258526,106.0,4.1001678747978926e-05,0,0
+"York County, Virginia",51199,67976,22.0,3.2364363893138757e-05,0,0
+"Young County, Texas",48503,18152,0.0,0.0,0,1
+"Yuba County, California",6115,75275,36.0,4.7824642975755566e-05,0,0
+"Yukon-Koyukuk Census Area, Alaska",2290,5526,14.0,0.0002533478103510677,1,0
+"Yuma County, Arizona",4027,205631,62.0,3.0151095895074186e-05,0,0
+"Yuma County, Colorado",8125,10103,0.0,0.0,0,1
+"Zapata County, Texas",48505,14349,0.0,0.0,0,1
+"Zavala County, Texas",48507,12023,0.0,0.0,0,1
+"Ziebach County, South Dakota",46137,2801,0.0,0.0,0,1
