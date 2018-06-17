@@ -1,0 +1,107 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "hconcat": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_posterior.csv",
+        "format": {"type": "csv"}
+      },
+      "mark": {"type": "point", "opacity": 0.2, "size": 10},
+      "encoding": {
+        "color": {
+          "condition": {
+            "type": "nominal",
+            "field": "dem_or_gop",
+            "scale": {
+              "domain": ["GOP", "DEM"],
+              "range": ["firebrick", "dodgerblue"]
+            },
+            "title": "Party",
+            "selection": "selector005"
+          },
+          "value": "gray"
+        },
+        "tooltip": [
+          {"type": "nominal", "field": "County"},
+          {"type": "quantitative", "field": "Deaths_gun"},
+          {"type": "quantitative", "field": "Deaths_other"}
+        ],
+        "x": {
+          "type": "quantitative",
+          "field": "Population",
+          "scale": {"type": "log"}
+        },
+        "y": {
+          "type": "quantitative",
+          "field": "post_rate_hyp_pty_gun",
+          "title": "Posterior Death rate (by guns)"
+        }
+      },
+      "height": 300,
+      "selection": {
+        "selector005": {
+          "type": "interval",
+          "resolve": "global",
+          "on": "[mousedown, window:mouseup] > window:mousemove!",
+          "encodings": ["x", "y"],
+          "translate": "[mousedown, window:mouseup] > window:mousemove!",
+          "zoom": "wheel!",
+          "mark": {"fill": "#333", "fillOpacity": 0.125, "stroke": "white"}
+        }
+      },
+      "width": 300
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_posterior.csv",
+        "format": {"type": "csv"}
+      },
+      "mark": {"type": "point", "opacity": 0.2, "size": 10},
+      "encoding": {
+        "color": {
+          "condition": {
+            "type": "nominal",
+            "field": "dem_or_gop",
+            "scale": {
+              "domain": ["GOP", "DEM"],
+              "range": ["firebrick", "dodgerblue"]
+            },
+            "title": "Party",
+            "selection": "selector005"
+          },
+          "value": "gray"
+        },
+        "tooltip": [
+          {"type": "nominal", "field": "County"},
+          {"type": "quantitative", "field": "Deaths_gun"},
+          {"type": "quantitative", "field": "Deaths_other"}
+        ],
+        "x": {
+          "type": "quantitative",
+          "field": "Population",
+          "scale": {"type": "log"}
+        },
+        "y": {
+          "type": "quantitative",
+          "field": "post_rate_hyp_pty_other",
+          "title": "Posterior Death rate (by other)"
+        }
+      },
+      "height": 300,
+      "selection": {
+        "selector005": {
+          "type": "interval",
+          "resolve": "global",
+          "on": "[mousedown, window:mouseup] > window:mousemove!",
+          "encodings": ["x", "y"],
+          "translate": "[mousedown, window:mouseup] > window:mousemove!",
+          "zoom": "wheel!",
+          "mark": {"fill": "#333", "fillOpacity": 0.125, "stroke": "white"}
+        }
+      },
+      "width": 300
+    }
+  ],
+  "resolve": {"scale": {"y": "shared", "x": "independent", "color": "shared"}},
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.3.json"
+}

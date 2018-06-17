@@ -12,6 +12,7 @@ permalink: /blog/:year/:month/:day/:title
 theme: minima
 plugins:
   - "disqus-for-jekyll"
+  - jekyll-feed
 
 header_pages:
   - resume.md

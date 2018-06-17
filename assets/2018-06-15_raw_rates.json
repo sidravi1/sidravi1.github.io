@@ -8,7 +8,14 @@
       },
       "mark": "geoshape",
       "encoding": {
-        "color": {"type": "quantitative", "field": "rate", "legend": null},
+        "color": {
+          "type": "quantitative",
+          "field": "log_rate",
+          "legend": null,
+          "scale": {
+            "range": ["#1770ab", "#94c6da", "#cccccc", "#f3a583", "#c30d24"]
+          }
+        },
         "tooltip": [
           {"type": "nominal", "field": "County"},
           {"type": "quantitative", "field": "Population"},
@@ -27,7 +34,7 @@
               "format": {"type": "csv"}
             },
             "key": "id2",
-            "fields": ["County", "rate", "Population"]
+            "fields": ["County", "log_rate", "Deaths", "rate", "Population"]
           }
         }
       ],
@@ -40,7 +47,7 @@
       },
       "mark": "geoshape",
       "encoding": {
-        "color": {"type": "quantitative", "field": "rate", "legend": null},
+        "color": {"type": "quantitative", "field": "log_rate", "legend": null},
         "tooltip": [
           {"type": "nominal", "field": "County"},
           {"type": "quantitative", "field": "Population"},
@@ -59,7 +66,7 @@
               "format": {"type": "csv"}
             },
             "key": "id2",
-            "fields": ["County", "rate", "Deaths", "Population"]
+            "fields": ["County", "log_rate", "rate", "Deaths", "Population"]
           }
         }
       ],
