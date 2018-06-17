@@ -1,0 +1,158 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "data": {
+            "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+            "format": {"feature": "counties", "type": "topojson"}
+          },
+          "mark": "geoshape",
+          "encoding": {
+            "color": {
+              "type": "quantitative",
+              "field": "high_rate",
+              "legend": null,
+              "scale": {"domain": [0, 1], "range": ["lightgray", "teal"]}
+            },
+            "tooltip": [
+              {"type": "nominal", "field": "County"},
+              {"type": "quantitative", "field": "Population"}
+            ]
+          },
+          "height": 250,
+          "projection": {"type": "albersUsa"},
+          "title": "Gun suicides rates (highest 5%)",
+          "transform": [
+            {
+              "lookup": "id",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_gun_raw.csv",
+                  "format": {"type": "csv"}
+                },
+                "key": "id2",
+                "fields": ["County", "high_rate", "low_rate", "Population"]
+              }
+            }
+          ],
+          "width": 400
+        },
+        {
+          "data": {
+            "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+            "format": {"feature": "counties", "type": "topojson"}
+          },
+          "mark": "geoshape",
+          "encoding": {
+            "color": {
+              "type": "quantitative",
+              "field": "low_rate",
+              "legend": null,
+              "scale": {"domain": [0, 1], "range": ["lightgray", "teal"]}
+            },
+            "tooltip": [
+              {"type": "nominal", "field": "County"},
+              {"type": "quantitative", "field": "Population"}
+            ]
+          },
+          "height": 250,
+          "projection": {"type": "albersUsa"},
+          "title": "Gun suicides rates (lowest 5%)",
+          "transform": [
+            {
+              "lookup": "id",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_gun_raw.csv",
+                  "format": {"type": "csv"}
+                },
+                "key": "id2",
+                "fields": ["County", "high_rate", "low_rate", "Population"]
+              }
+            }
+          ],
+          "width": 400
+        }
+      ]
+    },
+    {
+      "vconcat": [
+        {
+          "data": {
+            "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+            "format": {"feature": "counties", "type": "topojson"}
+          },
+          "mark": "geoshape",
+          "encoding": {
+            "color": {
+              "type": "quantitative",
+              "field": "high_rate",
+              "legend": null,
+              "scale": {"domain": [0, 1], "range": ["lightgray", "teal"]}
+            },
+            "tooltip": [
+              {"type": "nominal", "field": "County"},
+              {"type": "quantitative", "field": "Population"}
+            ]
+          },
+          "height": 250,
+          "projection": {"type": "albersUsa"},
+          "title": "Other suicides rates (highest 5%)",
+          "transform": [
+            {
+              "lookup": "id",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_other_raw.csv",
+                  "format": {"type": "csv"}
+                },
+                "key": "id2",
+                "fields": ["County", "high_rate", "low_rate", "Population"]
+              }
+            }
+          ],
+          "width": 400
+        },
+        {
+          "data": {
+            "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+            "format": {"feature": "counties", "type": "topojson"}
+          },
+          "mark": "geoshape",
+          "encoding": {
+            "color": {
+              "type": "quantitative",
+              "field": "low_rate",
+              "legend": null,
+              "scale": {"domain": [0, 1], "range": ["lightgray", "teal"]}
+            },
+            "tooltip": [
+              {"type": "nominal", "field": "County"},
+              {"type": "quantitative", "field": "Population"}
+            ]
+          },
+          "height": 250,
+          "projection": {"type": "albersUsa"},
+          "title": "Other suicides rates (lowest 5%)",
+          "transform": [
+            {
+              "lookup": "id",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_other_raw.csv",
+                  "format": {"type": "csv"}
+                },
+                "key": "id2",
+                "fields": ["County", "high_rate", "low_rate", "Population"]
+              }
+            }
+          ],
+          "width": 400
+        }
+      ]
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.3.json"
+}

@@ -1,0 +1,70 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "hconcat": [
+    {
+      "data": {
+        "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+        "format": {"feature": "counties", "type": "topojson"}
+      },
+      "mark": "geoshape",
+      "encoding": {
+        "color": {"type": "quantitative", "field": "rate", "legend": null},
+        "tooltip": [
+          {"type": "nominal", "field": "County"},
+          {"type": "quantitative", "field": "Population"},
+          {"type": "quantitative", "field": "Deaths"}
+        ]
+      },
+      "height": 250,
+      "projection": {"type": "albersUsa"},
+      "title": "Rate of suicide by guns",
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_gun_raw.csv",
+              "format": {"type": "csv"}
+            },
+            "key": "id2",
+            "fields": ["County", "rate", "Population"]
+          }
+        }
+      ],
+      "width": 400
+    },
+    {
+      "data": {
+        "url": "https://vega.github.io/vega-datasets/data/us-10m.json",
+        "format": {"feature": "counties", "type": "topojson"}
+      },
+      "mark": "geoshape",
+      "encoding": {
+        "color": {"type": "quantitative", "field": "rate", "legend": null},
+        "tooltip": [
+          {"type": "nominal", "field": "County"},
+          {"type": "quantitative", "field": "Population"},
+          {"type": "quantitative", "field": "Deaths"}
+        ]
+      },
+      "height": 250,
+      "projection": {"type": "albersUsa"},
+      "title": "Rate of suicide by other means",
+      "transform": [
+        {
+          "lookup": "id",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/sidravi1/sidravi1.github.io/master/assets/suicides_other_raw.csv",
+              "format": {"type": "csv"}
+            },
+            "key": "id2",
+            "fields": ["County", "rate", "Deaths", "Population"]
+          }
+        }
+      ],
+      "width": 400
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.4.3.json"
+}
