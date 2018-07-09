@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Fader Hardie CLV"
+title: "Implementing Fader Hardie (2011) in pymc3 "
 date: "2018-07-08 00:11"
 comments: true
 use_math: true
