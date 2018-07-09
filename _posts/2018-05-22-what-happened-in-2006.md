@@ -141,3 +141,7 @@ There are a few models to compare:
 - It's a bit of both: There is a year trend and a venue effect.
 
 And in many of these cases, we can have a fully pooled or a partially pooled model. I'll do a separate post for this and properly compare these models.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

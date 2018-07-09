@@ -194,3 +194,7 @@ The mean values for $\alpha, r, a, b$ are around what Fader and Hardie find in t
 The cost is speed. Fader and Hardie use the optimizer in Excel to maximize the likelihood. In Python that would take you seconds and you have your pick of the latest optimizers. Running MCMC to draw samples from the posterior is slow. One option around it is to use variational inference to get approximations (check out the end of the [notebook](https://github.com/sidravi1/Blog/blob/master/nbs/Fader_Hardie.ipynb)).
 
 There are also other ways to get around this problem. You could use a ["coreset"](https://github.com/trevorcampbell/bayesian-coresets/). Or you could assume hypers don't change and just do a forward pass with new $x$ and $t_x$ and re-run the full model once every few months.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

@@ -276,3 +276,7 @@ This is a good starting point to do some deeper analysis.
 It would be interesting to model the suicides in a county a little differently. Opponents of gun-laws often claim that people will find another way to commit suicide and having access to guns doesn't really increase that rate.
 
 We could setup a mixture model and see if this is indeed true. But may be for another time. These last two posts have been pretty morose and I need to model ice cream or puppies for a bit.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
