@@ -1,12 +1,12 @@
 ---
 layout: "post"
-title: "Implementing Fader Hardie (2011) in pymc3 "
+title: "Implementing Fader Hardie (2005) in pymc3 "
 date: "2018-07-08 00:11"
 comments: true
 use_math: true
 ---
 
-This posts gives the [Fader and Hardie (2011)](http://brucehardie.com/papers/018/fader_et_al_mksc_05.pdf) model the full Bayesian treatment. You can check out the [notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/Fader_Hardie.ipynb).
+This posts gives the [Fader and Hardie (2005)](http://brucehardie.com/papers/018/fader_et_al_mksc_05.pdf) model the full Bayesian treatment. You can check out the [notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/Fader_Hardie.ipynb).
 
 Here's the first paragraph from the introduction introducing the problem:
 
