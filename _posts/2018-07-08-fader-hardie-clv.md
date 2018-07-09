@@ -145,9 +145,9 @@ with model:
 
 Remember that each customer $i$ has her own $p_i$ and $\lambda_i$. So let's look at what the hyper-parameters look like:
 
-The mean value for each of these hyper-parameters is what Fader and Hardie get but we have the entire distribution.
-
 ![Posterior Predictive Checks]({{"/assets/2018-07-08_fader_posteriors.png" | absolute_url}})
+
+The mean value for each of these hyper-parameters is what Fader and Hardie get but we have the entire distribution.
 
 ## Model Checks
 
