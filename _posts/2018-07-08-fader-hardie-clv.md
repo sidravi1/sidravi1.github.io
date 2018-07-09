@@ -111,13 +111,10 @@ with pm.Model() as model:
 
     # Hypers for Beta params  
     alpha = pm.HalfCauchy('alpha',4)
-    beta = pm.HalfCauchy('beta',4)
+    [id]: url "title" = pm.HalfCauchy('beta',4)
 
-    lam = pm.Gamma('lam', alpha, beta, shape=n_vals)
+    lam = pm.Gamma('lam', alpha, r, shape=n_vals)
     p = pm.Beta('p', a, b, shape=n_vals)
-
-    expected_all = pm.Deterministic('expected_all',
-                              (1/p) - (1/p) * tt.exp(-lam * p * 39))
 
     def logp(x, t_x, T, x_zero):
 
@@ -143,6 +140,14 @@ and let's run it:
 with model:
     trace = pm.sample(draws=6000, target_accept = 0.95, tune=3000)
 {% endhighlight %}
+
+## Hyper-parameters
+
+Remember that each customer $i$ has her own $p_i$ and $\lambda_i$. So let's look at what the hyper-parameters look like:
+
+The mean value for each of these hyper-parameters is what Fader and Hardie get but we have the entire distribution.
+
+![Posterior Predictive Checks]({{"/assets/2018-07-08_fader_posteriors.png" | absolute_url}})
 
 ## Model Checks
 
