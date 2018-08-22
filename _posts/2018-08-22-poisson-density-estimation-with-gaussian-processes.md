@@ -10,7 +10,7 @@ I have been slowly working my way through Efron & Hastie's [Computer Age Statist
 
 In chapter 8, E&H show an example of a Poisson density estimation from a spatially truncated sample. Here, I implement the example using pymc3 and in addition to the latent linear model, I explore Gaussian Processes for the latent variable.
 
-You can get the notebook from here.
+You can get the notebook [from here](https://github.com/sidravi1/Blog/blob/master/nbs/GP_Poisson_density_estimation.ipynb).
 
 ## The Problem
 
@@ -39,7 +39,7 @@ So each observation comes from a Poisson with a mean $\mu_i$. Actually, what we'
 
 ## Using Linear latent variable
 
-The way Efron & Hastie model $lambda$ is:
+The way Efron & Hastie model $\lambda$ is:
 
 $$
 \mathbf{\lambda}(\alpha)= \mathbf{X}\,\alpha
@@ -53,7 +53,7 @@ $$
 
 Where $\mathbf{r^2}$ is the vector whose components are the square of $\textbf{r}$'s etc. If we think that the true density is bivariate normal, then this makes sense. The log density of a bivariate normal is of this form.
 
-Let's setup this model in pymc3
+Let's setup this model in pymc3:
 
 {% highlight python %}
 with pm.Model() as basic_model:
@@ -74,29 +74,30 @@ Let's see what our density looks like:
 
 ![Linear Model]({{"/assets/2018_08_22_linear_model.png" | absolute_url}})
 
-Because we setup a Bayesian GLM, not only do we have the mean values for $\mu$, we have the full distribution. The plot on the right shows the the standard deviation and as you might have expected, it's high in the region where we didn't get any data.
+Because we setup a Bayesian GLM, not only do we have the mean values for $\mu$, we have the full distribution. The plot on the right shows the the standard deviation and as you might have expected, it's high in the region where we didn't have any data.
 
 
 ## Using a Gaussian Process
 
-If we are comfortable being agnostic of the functional form (and since I am not an astrophysicist, I'm quite comfortable), we can use a 2-d gaussian process. You should check out the previous posts on Gaussian Processes:
+If we are comfortable being agnostic of the functional form -- and since I am not an astrophysicist, I'm quite comfortable -- we can use a 2-d gaussian process. You may want to out the previous posts on Gaussian Processes:
 
 1. [Intro to gaussian processes]({{ site.baseurl }}{% post_url 2018-04-03-gaussian-processes %})
 2. [Latent GP and binomial likelihood]({{ site.baseurl }}{% post_url 2018-05-15-latent-gp-and-binomial-likelihood %})
 
-So now our lambda is a GP
+So now our lambda is:
+
 $$
-\mathbf{\lambda()} = f^* (x)
+\mathbf{\lambda_i} = f^* (x_i)
 $$
 
 Here $x$ is $(r, m)$, a point on the grid and $f(x)$ is a Gaussian Process:
 
 $$
-f(x) ~ GP(m(x), k(x, x'))\\
+f(x) \sim GP(m(x), k(x, x'))\\
 f^* (x) = f(x) | y
 $$
 
-(Sorry about the loose notation; I've never been very good at formal mathy write-ups).
+(Sorry about the loose notation).
 
 Here's the model in pymc3:
 
@@ -141,7 +142,7 @@ def deviance_resid(y, mu):
     return np.sign(y - mu) * np.sqrt(D(y, mu))
 {% endhighlight %}
 
-and comparing the sum of squares of the residual, we get 109.7 for the GP model and 134.1 for the linear model. This next plot shows you where these residual lie on our $r \times m$ space.
+Comparing the sum of squares of the residual, we get 109.7 for the GP model and 134.1 for the linear model. This next plot shows these residuals.
 
 <div id="vis3"></div>
 
@@ -153,10 +154,14 @@ and comparing the sum of squares of the residual, we get 109.7 for the GP model 
   }).catch(console.error);
 </script>
 
-Looks like the GP model fit the top left corner better than the linear model but it also fits that stray bottom right dot that makes me worry that it might be overfitting. One way around it would be to use a different implementation of GP that allows for additive noise.
+Looks like the GP model fits the top left corner better than the linear model but it also fits that stray bottom right dot that makes me worry that it might be overfitting. One way around it would be to use a different implementation of GP that allows for additive noise.
 
-We can check for overfitting with WAIC for the two using pymc3's `compareplot`:
+We can check for overfitting by looking at WAIC for the two using pymc3's `compareplot`:
 
 ![Linear Model]({{"/assets/2018_08_22_compare_plot.png" | absolute_url}})
 
-Looks like the GP-model is indeed the better model! Check out the notebook and let me know if there are ways you would improve this. How can we implement this using `gp.marginal` or `gp.conditional` so that we can include additive noise?
+Looks like the GP-model is the better model. Check out [the notebook ](https://github.com/sidravi1/Blog/blob/master/nbs/GP_Poisson_density_estimation.ipynb) and let me know if there are ways you would improve this. How can we implement this using `gp.marginal` or `gp.conditional` so that we can include additive noise?
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
