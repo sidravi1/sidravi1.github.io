@@ -4,3 +4,5 @@ gem "jekyll-paginate"
 gem 'disqus-for-jekyll'
 gem 'jekyll-feed'
 
+
+gem "jekyll", "~> 3.7"
