@@ -9,7 +9,7 @@ Data scientist and researcher with over 5 years of technology consulting and 4 y
 <br>
 ### MASTER IN PUBLIC ADMINISTRATION in INTERNATIONAL DEVELOPMENT 	 (2016)
 Harvard Kennedy School of Government, MA<br>
-*Econometrics, macroeconomics, microeconomics, data science/machine learning*
+*econometrics, macroeconomics, microeconomics, data science, statistics, machine learning*
 
 ###  BACHELOR OF ENGINEERING (ELEC.) /BACHELOR OF SCIENCE (COMP.) (Hons) 	2004
 University of Melbourne, Australia
