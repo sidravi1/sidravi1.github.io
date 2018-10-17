@@ -1,0 +1,1268 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "hconcat": [
+    {
+      "data": {"name": "data-467b8c935655e24b7b98b3871f7862ed"},
+      "mark": "circle",
+      "encoding": {
+        "color": {
+          "condition": {
+            "type": "nominal",
+            "field": "group1990",
+            "title": "WB Classification",
+            "selection": "selector111"
+          },
+          "value": "gray"
+        },
+        "size": {
+          "type": "quantitative",
+          "field": "mad_pop",
+          "scale": {"range": [20, 1500]}
+        },
+        "tooltip": [
+          {"type": "nominal", "field": "country", "title": "Country"},
+          {
+            "type": "quantitative",
+            "field": "mad_initial",
+            "format": "0.2f",
+            "title": "Intial GDPCC"
+          },
+          {
+            "type": "quantitative",
+            "field": "mad_outcome",
+            "format": "0.2f",
+            "title": "Change in GDPCC"
+          }
+        ],
+        "x": {
+          "type": "quantitative",
+          "field": "mad_initial",
+          "scale": {"zero": false},
+          "title": "Initial"
+        },
+        "y": {
+          "type": "quantitative",
+          "field": "mad_outcome",
+          "title": "Outcome"
+        }
+      },
+      "height": 300,
+      "selection": {
+        "selector111": {
+          "type": "interval",
+          "resolve": "global",
+          "on": "[mousedown, window:mouseup] > window:mousemove!",
+          "encodings": ["x", "y"],
+          "translate": "[mousedown, window:mouseup] > window:mousemove!",
+          "zoom": "wheel!",
+          "mark": {"fill": "#333", "fillOpacity": 0.125, "stroke": "white"}
+        }
+      },
+      "title": "Maddison Tables",
+      "width": 400
+    },
+    {
+      "data": {"name": "data-467b8c935655e24b7b98b3871f7862ed"},
+      "mark": "circle",
+      "encoding": {
+        "color": {
+          "condition": {
+            "type": "nominal",
+            "field": "group1990",
+            "title": "WB Classification",
+            "selection": "selector111"
+          },
+          "value": "gray"
+        },
+        "size": {
+          "type": "quantitative",
+          "field": "pwt_pop",
+          "scale": {"range": [20, 1500]},
+          "title": "Population (mil)"
+        },
+        "tooltip": [
+          {"type": "nominal", "field": "country", "title": "Country"},
+          {
+            "type": "quantitative",
+            "field": "pwt_initial",
+            "format": "0.2f",
+            "title": "Intial GDPCC"
+          },
+          {
+            "type": "quantitative",
+            "field": "pwt_outcome",
+            "format": "0.2f",
+            "title": "Change in GDPCC"
+          }
+        ],
+        "x": {
+          "type": "quantitative",
+          "field": "pwt_initial",
+          "scale": {"zero": false},
+          "title": "Inital"
+        },
+        "y": {"type": "quantitative", "field": "pwt_outcome", "title": ""}
+      },
+      "height": 300,
+      "selection": {
+        "selector111": {
+          "type": "interval",
+          "resolve": "global",
+          "on": "[mousedown, window:mouseup] > window:mousemove!",
+          "encodings": ["x", "y"],
+          "translate": "[mousedown, window:mouseup] > window:mousemove!",
+          "zoom": "wheel!",
+          "mark": {"fill": "#333", "fillOpacity": 0.125, "stroke": "white"}
+        }
+      },
+      "title": "PWT Tables",
+      "width": 400
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "shared",
+      "x": "independent",
+      "color": "shared",
+      "size": "shared"
+    }
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.6.0.json",
+  "datasets": {
+    "data-467b8c935655e24b7b98b3871f7862ed": [
+      {
+        "country": "Albania",
+        "mad_initial": 8.186742787113518,
+        "mad_outcome": 0.03691893232703604,
+        "pwt_initial": 8.299374988351783,
+        "pwt_outcome": 0.03363080004845312,
+        "mad_pop": 2.957,
+        "pwt_pop": 2.966799,
+        "group1990": "..",
+        "year": 1985
+      },
+      {
+        "country": "Argentina",
+        "mad_initial": 9.418410893792872,
+        "mad_outcome": 0.013470983665107829,
+        "pwt_initial": 8.456149049222825,
+        "pwt_outcome": 0.050288583108553976,
+        "mad_pop": 30.672,
+        "pwt_pop": 30.388780999999998,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Australia",
+        "mad_initial": 10.094355815298549,
+        "mad_outcome": 0.019846066671097496,
+        "pwt_initial": 10.074747720692939,
+        "pwt_outcome": 0.020546504762171628,
+        "mad_pop": 15.695,
+        "pwt_pop": 15.791043,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Austria",
+        "mad_initial": 9.840600999480937,
+        "mad_outcome": 0.028194805380840033,
+        "pwt_initial": 9.870174987278526,
+        "pwt_outcome": 0.031153218920664354,
+        "mad_pop": 7.56,
+        "pwt_pop": 7.6005139999999995,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Burundi",
+        "mad_initial": 7.1308988302963465,
+        "mad_outcome": -0.019074608860602495,
+        "pwt_initial": 6.774742094578256,
+        "pwt_outcome": -0.004314301824882254,
+        "mad_pop": 4.914,
+        "pwt_pop": 4.774258,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Belgium",
+        "mad_initial": 9.836439217783001,
+        "mad_outcome": 0.02430639154404328,
+        "pwt_initial": 9.904002379358827,
+        "pwt_outcome": 0.026909169745301383,
+        "mad_pop": 9.858,
+        "pwt_pop": 9.893499,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Benin",
+        "mad_initial": 7.4821189235521155,
+        "mad_outcome": 0.006403822709961951,
+        "pwt_initial": 7.430114040203088,
+        "pwt_outcome": 0.004514814972098192,
+        "mad_pop": 4.03,
+        "pwt_pop": 4.287262999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Burkina Faso",
+        "mad_initial": 7.344719054149673,
+        "mad_outcome": 0.0002697698827664428,
+        "pwt_initial": 6.809560893537527,
+        "pwt_outcome": 0.01882980993285521,
+        "mad_pop": 7.171,
+        "pwt_pop": 7.727912,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Bangladesh",
+        "mad_initial": 7.097548850614793,
+        "mad_outcome": 0.031898755635773886,
+        "pwt_initial": 7.110781856788403,
+        "pwt_outcome": 0.029533661794228592,
+        "mad_pop": 99.154,
+        "pwt_pop": 93.015182,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Bulgaria",
+        "mad_initial": 9.37475250822657,
+        "mad_outcome": 0.01357290331110514,
+        "pwt_initial": 9.270919997349784,
+        "pwt_outcome": 0.01713244239825568,
+        "mad_pop": 8.944,
+        "pwt_pop": 8.960386999999999,
+        "group1990": "..",
+        "year": 1985
+      },
+      {
+        "country": "Bolivia (Plurinational State of)",
+        "mad_initial": 7.719129840906732,
+        "mad_outcome": 0.03225357044529408,
+        "pwt_initial": 7.723367007067101,
+        "pwt_outcome": 0.033733551100267815,
+        "mad_pop": 5.935,
+        "pwt_pop": 6.211549,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Brazil",
+        "mad_initial": 8.557759153162898,
+        "mad_outcome": 0.03068158208307647,
+        "pwt_initial": 8.620614743835418,
+        "pwt_outcome": 0.03401812336306421,
+        "mad_pop": 137.382,
+        "pwt_pop": 136.83643,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Botswana",
+        "mad_initial": 8.301769763117166,
+        "mad_outcome": 0.04242049088065371,
+        "pwt_initial": 8.104548092594348,
+        "pwt_outcome": 0.054713410907544884,
+        "mad_pop": 1.077,
+        "pwt_pop": 1.182942,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Central African Republic",
+        "mad_initial": 7.101675971619444,
+        "mad_outcome": -0.02172808706241443,
+        "pwt_initial": 7.098223289255058,
+        "pwt_outcome": -0.024513674727902213,
+        "mad_pop": 2.714,
+        "pwt_pop": 2.627424,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Canada",
+        "mad_initial": 10.211670537837739,
+        "mad_outcome": 0.014727860213233426,
+        "pwt_initial": 10.224476305894362,
+        "pwt_outcome": 0.014803143532117357,
+        "mad_pop": 25.942,
+        "pwt_pop": 25.848173,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Switzerland",
+        "mad_initial": 10.314669620973522,
+        "mad_outcome": 0.02315163687899883,
+        "pwt_initial": 10.384357712711276,
+        "pwt_outcome": 0.020410097071532542,
+        "mad_pop": 6.564,
+        "pwt_pop": 6.45568,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Chile",
+        "mad_initial": 8.700514248543275,
+        "mad_outcome": 0.041057392846348885,
+        "pwt_initial": 8.698178028563381,
+        "pwt_outcome": 0.044186401257165005,
+        "mad_pop": 12.068,
+        "pwt_pop": 12.108576,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "China",
+        "mad_initial": 7.745002803515839,
+        "mad_outcome": 0.05399923979263457,
+        "pwt_initial": 7.687246021402757,
+        "pwt_outcome": 0.06013918996918904,
+        "mad_pop": 1051.04,
+        "pwt_pop": 1052.62241,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Côte d'Ivoire",
+        "mad_initial": 8.106212902619962,
+        "mad_outcome": 0.003228962037872841,
+        "pwt_initial": 7.916361223753339,
+        "pwt_outcome": 0.006934000280932701,
+        "mad_pop": 10.332,
+        "pwt_pop": 10.158033,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Cameroon",
+        "mad_initial": 7.994632311431825,
+        "mad_outcome": -0.0018124761376463732,
+        "pwt_initial": 8.032746612750923,
+        "pwt_outcome": -0.004775257924281182,
+        "mad_pop": 10.191,
+        "pwt_pop": 10.381098,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "D.R. of the Congo",
+        "mad_initial": 7.450079569807499,
+        "mad_outcome": -0.023272611507187003,
+        "pwt_initial": 7.58030512263705,
+        "pwt_outcome": -0.01642088975457305,
+        "mad_pop": 33.344,
+        "pwt_pop": 29.985664999999997,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Colombia",
+        "mad_initial": 8.753213480544126,
+        "mad_outcome": 0.023117449808255367,
+        "pwt_initial": 8.767988900657398,
+        "pwt_outcome": 0.02322116924489358,
+        "mad_pop": 29.748,
+        "pwt_pop": 31.011685999999997,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Costa Rica",
+        "mad_initial": 8.888066854754783,
+        "mad_outcome": 0.021217588822871915,
+        "pwt_initial": 8.84638916506975,
+        "pwt_outcome": 0.024607097032335976,
+        "mad_pop": 2.644,
+        "pwt_pop": 2.730231,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Germany",
+        "mad_initial": 9.97007085667928,
+        "mad_outcome": 0.025304622905761454,
+        "pwt_initial": 9.894708603182567,
+        "pwt_outcome": 0.02899451980237218,
+        "mad_pop": 77.685,
+        "pwt_pop": 77.570009,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Denmark",
+        "mad_initial": 10.002744479133469,
+        "mad_outcome": 0.02305812013850061,
+        "pwt_initial": 10.072363236578914,
+        "pwt_outcome": 0.022081497904498683,
+        "mad_pop": 5.114,
+        "pwt_pop": 5.113408,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Dominican Republic",
+        "mad_initial": 8.477412321404392,
+        "mad_outcome": 0.03469891383134353,
+        "pwt_initial": 8.436285722268453,
+        "pwt_outcome": 0.03441644868494325,
+        "mad_pop": 6.379,
+        "pwt_pop": 6.488856999999999,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Egypt",
+        "mad_initial": 8.372398606513004,
+        "mad_outcome": 0.03134187581535007,
+        "pwt_initial": 7.5154883654718185,
+        "pwt_outcome": 0.05812729429474626,
+        "mad_pop": 50.052,
+        "pwt_pop": 49.373805999999995,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Spain",
+        "mad_initial": 9.353401214816834,
+        "mad_outcome": 0.03245541320639179,
+        "pwt_initial": 9.433703729963371,
+        "pwt_outcome": 0.03435898279541794,
+        "mad_pop": 38.535,
+        "pwt_pop": 38.73433,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Ethiopia",
+        "mad_initial": 6.84587987526405,
+        "mad_outcome": 0.018325497255690156,
+        "pwt_initial": 6.767969814909765,
+        "pwt_outcome": 0.014474748538341358,
+        "mad_pop": 45.169,
+        "pwt_pop": 40.775997,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Finland",
+        "mad_initial": 9.912100355634351,
+        "mad_outcome": 0.020710265818020778,
+        "pwt_initial": 9.927427465065374,
+        "pwt_outcome": 0.023419884923844007,
+        "mad_pop": 4.902,
+        "pwt_pop": 4.902219,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "France",
+        "mad_initial": 9.944149534255018,
+        "mad_outcome": 0.020030417123586355,
+        "pwt_initial": 9.960939781491758,
+        "pwt_outcome": 0.02137683461751537,
+        "mad_pop": 56.49,
+        "pwt_pop": 56.723582,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "United Kingdom",
+        "mad_initial": 9.938468521431373,
+        "mad_outcome": 0.02054818214296448,
+        "pwt_initial": 9.938121071741943,
+        "pwt_outcome": 0.022914938785750825,
+        "mad_pop": 56.62,
+        "pwt_pop": 56.415195999999995,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Ghana",
+        "mad_initial": 7.408530566894626,
+        "mad_outcome": 0.026509039749690145,
+        "pwt_initial": 7.524536377965847,
+        "pwt_outcome": 0.02261506192525421,
+        "mad_pop": 13.228,
+        "pwt_pop": 12.716237999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Guinea",
+        "mad_initial": 7.1252830915107115,
+        "mad_outcome": 0.009487015851870355,
+        "pwt_initial": 7.670611532870799,
+        "pwt_outcome": -0.014006855714350067,
+        "mad_pop": 5.227,
+        "pwt_pop": 5.078689,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Greece",
+        "mad_initial": 9.495669678844367,
+        "mad_outcome": 0.019949787111193513,
+        "pwt_initial": 9.548762897814473,
+        "pwt_outcome": 0.021266280390724687,
+        "mad_pop": 9.923,
+        "pwt_pop": 9.907831,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Guatemala",
+        "mad_initial": 8.132706489693264,
+        "mad_outcome": 0.023881977718638796,
+        "pwt_initial": 8.135037677181643,
+        "pwt_outcome": 0.024036294846963693,
+        "mad_pop": 7.581,
+        "pwt_pop": 8.117499,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "China, Hong Kong SAR",
+        "mad_initial": 9.804274767464536,
+        "mad_outcome": 0.030791696405955013,
+        "pwt_initial": 9.801239601217398,
+        "pwt_outcome": 0.03634679560363998,
+        "mad_pop": 5.316,
+        "pwt_pop": 5.41479,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Honduras",
+        "mad_initial": 7.97728198675515,
+        "mad_outcome": 0.013548416386726768,
+        "pwt_initial": 7.880634681959469,
+        "pwt_outcome": 0.017726656536010917,
+        "mad_pop": 4.077,
+        "pwt_pop": 4.237436,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Haiti",
+        "mad_initial": 7.87777633327726,
+        "mad_outcome": -0.015411832777889274,
+        "pwt_initial": 7.268152663722457,
+        "pwt_outcome": 0.0029585699903586457,
+        "mad_pop": 6.076,
+        "pwt_pop": 6.384195999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Hungary",
+        "mad_initial": 9.299906815335225,
+        "mad_outcome": 0.025414797170749834,
+        "pwt_initial": 9.291157682453967,
+        "pwt_outcome": 0.029839327647709225,
+        "mad_pop": 10.649,
+        "pwt_pop": 10.572975,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Indonesia",
+        "mad_initial": 7.8547691834991324,
+        "mad_outcome": 0.045335755591103935,
+        "pwt_initial": 7.883816042017292,
+        "pwt_outcome": 0.0447154321048829,
+        "mad_pop": 164.061,
+        "pwt_pop": 165.66921299999998,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "India",
+        "mad_initial": 6.928537818164665,
+        "mad_outcome": 0.05691792622758906,
+        "pwt_initial": 6.9413930405861315,
+        "pwt_outcome": 0.055849261483086506,
+        "mad_pop": 755,
+        "pwt_pop": 782.0851269999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Ireland",
+        "mad_initial": 9.462965052612562,
+        "mad_outcome": 0.04722342616109424,
+        "pwt_initial": 9.528280006390036,
+        "pwt_outcome": 0.04367314816344602,
+        "mad_pop": 3.54,
+        "pwt_pop": 3.560225,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Israel",
+        "mad_initial": 9.796792813865165,
+        "mad_outcome": 0.019097352323371952,
+        "pwt_initial": 9.803292686225175,
+        "pwt_outcome": 0.021004132566011947,
+        "mad_pop": 4.068,
+        "pwt_pop": 4.082781,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Italy",
+        "mad_initial": 9.896412583864164,
+        "mad_outcome": 0.018270207144999835,
+        "pwt_initial": 9.895509831066285,
+        "pwt_outcome": 0.020357776461397935,
+        "mad_pop": 56.731,
+        "pwt_pop": 56.910888,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Jamaica",
+        "mad_initial": 8.164794804244766,
+        "mad_outcome": 0.023018168915582473,
+        "pwt_initial": 8.131866404369356,
+        "pwt_outcome": 0.027035415453239987,
+        "mad_pop": 2.319,
+        "pwt_pop": 2.312337,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Jordan",
+        "mad_initial": 8.46821300919452,
+        "mad_outcome": 0.029136299455612642,
+        "pwt_initial": 8.418668747747782,
+        "pwt_outcome": 0.028836001811978935,
+        "mad_pop": 2.628,
+        "pwt_pop": 2.782885,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Japan",
+        "mad_initial": 9.853088594952276,
+        "mad_outcome": 0.02098912937624972,
+        "pwt_initial": 9.837981613915222,
+        "pwt_outcome": 0.021907287776620037,
+        "mad_pop": 120.754,
+        "pwt_pop": 119.98866299999999,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Kenya",
+        "mad_initial": 7.639161171659173,
+        "mad_outcome": 0.014068076601235005,
+        "pwt_initial": 7.625224175306744,
+        "pwt_outcome": 0.010376645875279377,
+        "mad_pop": 19.761,
+        "pwt_pop": 19.660712999999998,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Cambodia",
+        "mad_initial": 6.968850378341948,
+        "mad_outcome": 0.03661117208515629,
+        "pwt_initial": 6.723999688353339,
+        "pwt_outcome": 0.04416744229276936,
+        "mad_pop": 7.822,
+        "pwt_pop": 7.743065,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Republic of Korea",
+        "mad_initial": 8.898638793680181,
+        "mad_outcome": 0.051510357936819934,
+        "pwt_initial": 8.843586799391925,
+        "pwt_outcome": 0.055947666961270286,
+        "mad_pop": 40.806,
+        "pwt_pop": 40.501917,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Lao People's DR",
+        "mad_initial": 7.129297548929373,
+        "mad_outcome": 0.05234869836774161,
+        "pwt_initial": 7.101383850732978,
+        "pwt_outcome": 0.05238038482801017,
+        "mad_pop": 3.657,
+        "pwt_pop": 3.680145,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Lebanon",
+        "mad_initial": 9.33300038471207,
+        "mad_outcome": 0.0037102389792051382,
+        "pwt_initial": 8.738298777085996,
+        "pwt_outcome": 0.027878350497388245,
+        "mad_pop": 3.177,
+        "pwt_pop": 2.676593,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Liberia",
+        "mad_initial": 6.75343791859778,
+        "mad_outcome": -0.0037054880461696556,
+        "pwt_initial": 6.814029007779495,
+        "pwt_outcome": -0.002874276501800731,
+        "mad_pop": 2.163,
+        "pwt_pop": 2.197442,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Sri Lanka",
+        "mad_initial": 7.856319571406588,
+        "mad_outcome": 0.04709681045505893,
+        "pwt_initial": 7.85862058476924,
+        "pwt_outcome": 0.04777187099617616,
+        "mad_pop": 16.188,
+        "pwt_pop": 16.180775999999998,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Lesotho",
+        "mad_initial": 7.10002716662926,
+        "mad_outcome": 0.029397675565549227,
+        "pwt_initial": 6.911060722210867,
+        "pwt_outcome": 0.030206008192315784,
+        "mad_pop": 1.552,
+        "pwt_pop": 1.4678559999999998,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Morocco",
+        "mad_initial": 8.39479954320217,
+        "mad_outcome": 0.017510098325936835,
+        "pwt_initial": 8.106099613395092,
+        "pwt_outcome": 0.02657013610720065,
+        "mad_pop": 21.886,
+        "pwt_pop": 22.596133,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Madagascar",
+        "mad_initial": 7.098375638590786,
+        "mad_outcome": 0.0024875508075301676,
+        "pwt_initial": 7.136445981755985,
+        "pwt_outcome": -0.0005399370953617297,
+        "mad_pop": 10.029,
+        "pwt_pop": 9.981112999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Mexico",
+        "mad_initial": 9.23921933152656,
+        "mad_outcome": 0.013830185254275625,
+        "pwt_initial": 9.326953327506471,
+        "pwt_outcome": 0.011866678431153712,
+        "mad_pop": 76.767,
+        "pwt_pop": 77.322643,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Mali",
+        "mad_initial": 6.60934924316738,
+        "mad_outcome": 0.02486795307287353,
+        "pwt_initial": 6.621049175201059,
+        "pwt_outcome": 0.022305188499819998,
+        "mad_pop": 7.361,
+        "pwt_pop": 7.831891,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Myanmar",
+        "mad_initial": 7.107425474110705,
+        "mad_outcome": 0.05209650539731586,
+        "pwt_initial": 6.939920398515799,
+        "pwt_outcome": 0.056680428210700746,
+        "mad_pop": 36.346,
+        "pwt_pop": 38.508821,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Mongolia",
+        "mad_initial": 7.681099001536359,
+        "mad_outcome": 0.05271134628361835,
+        "pwt_initial": 7.6711083725563265,
+        "pwt_outcome": 0.0579755880312496,
+        "mad_pop": 1.859,
+        "pwt_pop": 1.9218849999999998,
+        "group1990": "..",
+        "year": 1985
+      },
+      {
+        "country": "Mozambique",
+        "mad_initial": 5.921578419643816,
+        "mad_outcome": 0.03997637054904785,
+        "pwt_initial": 6.345702777249849,
+        "pwt_outcome": 0.02381211007826356,
+        "mad_pop": 13.063,
+        "pwt_pop": 13.102981999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Mauritania",
+        "mad_initial": 7.4770384723196965,
+        "mad_outcome": 0.02021800776329343,
+        "pwt_initial": 7.630215902225901,
+        "pwt_outcome": 0.01737872470276864,
+        "mad_pop": 1.723,
+        "pwt_pop": 1.7668549999999998,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Mauritius",
+        "mad_initial": 8.814033201652784,
+        "mad_outcome": 0.033236809238414114,
+        "pwt_initial": 8.737592013377219,
+        "pwt_outcome": 0.03645896229392263,
+        "mad_pop": 1.021,
+        "pwt_pop": 1.015763,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Malawi",
+        "mad_initial": 7.149916836132109,
+        "mad_outcome": -0.009466285533468457,
+        "pwt_initial": 7.2745629703965555,
+        "pwt_outcome": -0.014452574455091459,
+        "mad_pop": 7.331,
+        "pwt_pop": 7.205635,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Malaysia",
+        "mad_initial": 8.89192414015454,
+        "mad_outcome": 0.036697522969107096,
+        "pwt_initial": 8.913706998580617,
+        "pwt_outcome": 0.039185893352583864,
+        "mad_pop": 15.545,
+        "pwt_pop": 15.764339999999999,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Namibia",
+        "mad_initial": 8.357493812658563,
+        "mad_outcome": 0.03268865987005321,
+        "pwt_initial": 8.507103297229401,
+        "pwt_outcome": 0.027255826890407023,
+        "mad_pop": 1.2,
+        "pwt_pop": 1.149389,
+        "group1990": "..",
+        "year": 1985
+      },
+      {
+        "country": "Niger",
+        "mad_initial": 6.879355804460439,
+        "mad_outcome": -0.0022682741424987,
+        "pwt_initial": 6.852413348632385,
+        "pwt_outcome": -0.0036290713099490527,
+        "mad_pop": 6.869,
+        "pwt_pop": 6.83817,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Nicaragua",
+        "mad_initial": 8.03689677268507,
+        "mad_outcome": 0.01465687215176333,
+        "pwt_initial": 8.456133025460405,
+        "pwt_outcome": -0.0018911563853741245,
+        "mad_pop": 3.18,
+        "pwt_pop": 3.709091,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Netherlands",
+        "mad_initial": 10.01301437706337,
+        "mad_outcome": 0.025539725306869383,
+        "pwt_initial": 10.022716101229758,
+        "pwt_outcome": 0.025526550137835034,
+        "mad_pop": 14.491,
+        "pwt_pop": 14.471591,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Norway",
+        "mad_initial": 10.265418658620565,
+        "mad_outcome": 0.031557420927334566,
+        "pwt_initial": 10.198388256458406,
+        "pwt_outcome": 0.03008716528720696,
+        "mad_pop": 4.152,
+        "pwt_pop": 4.148355,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Nepal",
+        "mad_initial": 6.82001636467413,
+        "mad_outcome": 0.03347907079540879,
+        "pwt_initial": 6.759552176782403,
+        "pwt_outcome": 0.03187850570016746,
+        "mad_pop": 16.439,
+        "pwt_pop": 16.714335,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "New Zealand",
+        "mad_initial": 9.768125914605452,
+        "mad_outcome": 0.021521473163930934,
+        "pwt_initial": 9.833230296709196,
+        "pwt_outcome": 0.021457336877663075,
+        "mad_pop": 3.324,
+        "pwt_pop": 3.268192,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Pakistan",
+        "mad_initial": 7.7226775164680035,
+        "mad_outcome": 0.027203414165086006,
+        "pwt_initial": 7.730208386295068,
+        "pwt_outcome": 0.02460240341402861,
+        "mad_pop": 99.076,
+        "pwt_pop": 92.165065,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Panama",
+        "mad_initial": 8.65591111072806,
+        "mad_outcome": 0.04263428984389568,
+        "pwt_initial": 8.749708388746258,
+        "pwt_outcome": 0.03926716319718857,
+        "mad_pop": 2.168,
+        "pwt_pop": 2.219276,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Peru",
+        "mad_initial": 8.179199798423086,
+        "mad_outcome": 0.037883056181903386,
+        "pwt_initial": 8.247860059953112,
+        "pwt_outcome": 0.03645436816047875,
+        "mad_pop": 19.432,
+        "pwt_pop": 19.54495,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Philippines",
+        "mad_initial": 7.893198869544609,
+        "mad_outcome": 0.03199441253245929,
+        "pwt_initial": 7.905845916141554,
+        "pwt_outcome": 0.03095894557693577,
+        "mad_pop": 57.706,
+        "pwt_pop": 54.323651,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Poland",
+        "mad_initial": 8.908694592507015,
+        "mad_outcome": 0.04055594014887415,
+        "pwt_initial": 8.889724872443729,
+        "pwt_outcome": 0.04286647158583516,
+        "mad_pop": 37.226,
+        "pwt_pop": 37.486104999999995,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Portugal",
+        "mad_initial": 9.188503677367008,
+        "mad_outcome": 0.033600716217139136,
+        "pwt_initial": 9.18770473795637,
+        "pwt_outcome": 0.03686632311141672,
+        "mad_pop": 9.897,
+        "pwt_pop": 9.929013999999999,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Paraguay",
+        "mad_initial": 8.175547596021026,
+        "mad_outcome": 0.028533906858858475,
+        "pwt_initial": 8.128344166467638,
+        "pwt_outcome": 0.030817235887100794,
+        "mad_pop": 3.633,
+        "pwt_pop": 3.671826,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "State of Palestine",
+        "mad_initial": 7.763871287820222,
+        "mad_outcome": 0.021015869119905654,
+        "pwt_initial": 7.6900563878149315,
+        "pwt_outcome": 0.022975702891872188,
+        "mad_pop": 1.576,
+        "pwt_pop": 1.758788,
+        "group1990": "..",
+        "year": 1985
+      },
+      {
+        "country": "Romania",
+        "mad_initial": 8.83869681234353,
+        "mad_outcome": 0.03254541880467501,
+        "pwt_initial": 8.85819089020279,
+        "pwt_outcome": 0.03742610264417113,
+        "mad_pop": 22.521,
+        "pwt_pop": 23.103637,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Rwanda",
+        "mad_initial": 6.9726062513017535,
+        "mad_outcome": 0.015793828660207603,
+        "pwt_initial": 7.06774880436534,
+        "pwt_outcome": 0.009930381175707862,
+        "mad_pop": 6.025,
+        "pwt_pop": 6.117966,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Senegal",
+        "mad_initial": 7.584264818389059,
+        "mad_outcome": 0.008297680840998507,
+        "pwt_initial": 7.639281754211402,
+        "pwt_outcome": 0.002691029675808285,
+        "mad_pop": 6.785,
+        "pwt_pop": 6.4380239999999995,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Singapore",
+        "mad_initial": 9.336267928573973,
+        "mad_outcome": 0.057382675309429365,
+        "pwt_initial": 9.647561659751933,
+        "pwt_outcome": 0.053273250851869895,
+        "mad_pop": 2.75,
+        "pwt_pop": 2.708634,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Sierra Leone",
+        "mad_initial": 7.351158226430694,
+        "mad_outcome": -0.012120783837894895,
+        "pwt_initial": 7.1832695370447865,
+        "pwt_outcome": 0.0025671040636011775,
+        "mad_pop": 3.703,
+        "pwt_pop": 3.4660439999999997,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "El Salvador",
+        "mad_initial": 7.87587915949631,
+        "mad_outcome": 0.037172246312535,
+        "pwt_initial": 6.841939354869485,
+        "pwt_outcome": 0.07329137863378775,
+        "mad_pop": 4.671,
+        "pwt_pop": 4.920932,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Sweden",
+        "mad_initial": 10.033682134193954,
+        "mad_outcome": 0.021505137021798765,
+        "pwt_initial": 10.070238714929959,
+        "pwt_outcome": 0.02190384705959048,
+        "mad_pop": 8.35,
+        "pwt_pop": 8.350814,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Syrian Arab Republic",
+        "mad_initial": 8.514990767861038,
+        "mad_outcome": -0.010913483739115552,
+        "pwt_initial": 7.504038305571698,
+        "pwt_outcome": 0.028923756405070975,
+        "mad_pop": 10.481,
+        "pwt_pop": 10.667245,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Togo",
+        "mad_initial": 7.2456550675945355,
+        "mad_outcome": 0.0025005048499656167,
+        "pwt_initial": 7.191652126153193,
+        "pwt_outcome": 0.0014081532012157037,
+        "mad_pop": 3.129,
+        "pwt_pop": 3.252995,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Thailand",
+        "mad_initial": 8.263848131368906,
+        "mad_outcome": 0.042162248882590514,
+        "pwt_initial": 8.236794222694185,
+        "pwt_outcome": 0.045092135886859085,
+        "mad_pop": 51.342,
+        "pwt_pop": 52.041467999999995,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Tunisia",
+        "mad_initial": 8.431853144249223,
+        "mad_outcome": 0.027055977679752184,
+        "pwt_initial": 8.4915263840609,
+        "pwt_outcome": 0.026024065948665086,
+        "mad_pop": 7.364,
+        "pwt_pop": 7.321877,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Turkey",
+        "mad_initial": 9.03491498187007,
+        "mad_outcome": 0.025995023895411404,
+        "pwt_initial": 9.075265644314452,
+        "pwt_outcome": 0.027216524808755967,
+        "mad_pop": 50.997,
+        "pwt_pop": 49.178079,
+        "group1990": "LM",
+        "year": 1985
+      },
+      {
+        "country": "Taiwan",
+        "mad_initial": 9.38210641483062,
+        "mad_outcome": 0.04098485510905605,
+        "pwt_initial": 9.457175389175536,
+        "pwt_outcome": 0.04283397629760889,
+        "mad_pop": 19.148,
+        "pwt_pop": 19.191509999999997,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "U.R. of Tanzania: Mainland",
+        "mad_initial": 7.67368812926773,
+        "mad_outcome": 0.005081680172147172,
+        "pwt_initial": 7.519624613354255,
+        "pwt_outcome": 0.006295032650746293,
+        "mad_pop": 21.618,
+        "pwt_pop": 21.842087,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Uganda",
+        "mad_initial": 6.80903930604298,
+        "mad_outcome": 0.024041790892992528,
+        "pwt_initial": 6.680440434299507,
+        "pwt_outcome": 0.028847200766463382,
+        "mad_pop": 14.392,
+        "pwt_pop": 14.631089,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Uruguay",
+        "mad_initial": 8.939974177289633,
+        "mad_outcome": 0.030912897038503463,
+        "pwt_initial": 8.921240879020807,
+        "pwt_outcome": 0.034545903600297835,
+        "mad_pop": 3.012,
+        "pwt_pop": 3.011907,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "United States",
+        "mad_initial": 10.404989848841234,
+        "mad_outcome": 0.015269042661892388,
+        "pwt_initial": 10.396846803081159,
+        "pwt_outcome": 0.016129560729969645,
+        "mad_pop": 238.466,
+        "pwt_pop": 240.691557,
+        "group1990": "H",
+        "year": 1985
+      },
+      {
+        "country": "Viet Nam",
+        "mad_initial": 7.044032897274685,
+        "mad_outcome": 0.053568877941171024,
+        "pwt_initial": 7.047775992132108,
+        "pwt_outcome": 0.05302452030630786,
+        "mad_pop": 60.093,
+        "pwt_pop": 61.049369999999996,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "South Africa",
+        "mad_initial": 8.99961934066053,
+        "mad_outcome": 0.012541404231910445,
+        "pwt_initial": 9.07770810299273,
+        "pwt_outcome": 0.011227543537714874,
+        "mad_pop": 34.254,
+        "pwt_pop": 32.983013,
+        "group1990": "UM",
+        "year": 1985
+      },
+      {
+        "country": "Zambia",
+        "mad_initial": 7.478734825567875,
+        "mad_outcome": 0.02234135642425341,
+        "pwt_initial": 7.592895700321979,
+        "pwt_outcome": 0.02173253930184171,
+        "mad_pop": 6.785,
+        "pwt_pop": 7.017291999999999,
+        "group1990": "L",
+        "year": 1985
+      },
+      {
+        "country": "Zimbabwe",
+        "mad_initial": 8.192847134592865,
+        "mad_outcome": -0.023791891900308854,
+        "pwt_initial": 8.132714489856818,
+        "pwt_outcome": -0.020673061188699934,
+        "mad_pop": 8.56,
+        "pwt_pop": 8.862601,
+        "group1990": "LM",
+        "year": 1985
+      }
+    ]
+  }
+}
