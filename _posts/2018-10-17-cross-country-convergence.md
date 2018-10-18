@@ -23,7 +23,7 @@ Key figure in the chart is this:
 
 ![Raw Data](https://www.cgdev.org/sites/default/files/patel-sandefur-subramanian-beta_by_series.png)
 
-So for each time period between $y$ and $y-t$, and country $c$ we have a different coefficients as follows:
+So for each time period between $y$ and $y_0$, we have different coefficients as follows:
 
 $$
 \Delta GDPPC_{c, y, y_0} = \alpha_{y, y_0} + \beta_{y, y_0} * log(GDPPC_{c, y0})
@@ -97,7 +97,7 @@ with pm.Model() as model_mad:
 
 - `nyears` is the number of years. So there are `nyears` alphas and betas and they are *linked* as per (1).
 - `year_idx` indexed to right coefficients based on $y$.
-- using PPP's convention, `outcome` is $\Delta GDPPC_{c, y, y_0}$ and `intial` is $log(GDPPC_{c, y0})$.
+- As in PSS, `outcome` is $\Delta GDPPC_{c, y, y_0}$ and `intial` is $log(GDPPC_{c, y0})$.
 
 and let's run it:
 
@@ -111,7 +111,7 @@ Let's see how alpha and beta change over the years.
 
 ![Linear Model]({{"/assets/2018_10_17_coefficient_drift_pwt_mad.png" | absolute_url}})
 
-So, PSS's conclusion is borne out here as well. We see that $beta$ used to be mildly positive and gradually shifted to negative in recent years. Our bounds look a little tighter and maybe the shape is a slightly different. You can check out [the notebook](https://github.com/sidravi1/Blog/tree/master/nbs/growth_analysis) here. I threw this together pretty quickly so I might be screwed up the data setup. Let me know if you find an error in my code.
+So, PSS's conclusion is borne out here as well. We see that $beta$ used to be mildly positive and gradually shifted to negative in recent years. Our bounds look a little tighter and maybe the shape is slightly different. You can check out [the notebook](https://github.com/sidravi1/Blog/tree/master/nbs/growth_analysis) here. I threw this together pretty quickly so I might be screwed up the data setup. Let me know if you find any errors in my code.
 
 
 {% if page.comments %}
