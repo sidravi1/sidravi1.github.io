@@ -22,8 +22,13 @@ University of Melbourne, Australia
 ---
 <br>
 
+### Senior Data Scientist (QuantumBlack, McKinsey & Company)
+*Cambridge, MA (Sep 2018 - current)*
+<BR>
+<BR> 
+
 ### Graduate Research Fellow (Centre for International Development)
-*Cambridge, MA (Nov 2016 - current)*
+*Cambridge, MA (Nov 2016 - Aug 2018)*
 
 -	**Developed Machine Learning models** to identify export sector growth opportunities at sub-national level in Colombia.
 -	Built **collaborative filtering models** to predict rural agricultural diversification and recommended possible areas for investment in Colombia.
