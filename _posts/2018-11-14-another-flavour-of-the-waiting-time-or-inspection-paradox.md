@@ -27,7 +27,7 @@ McKay doesn't directly provide a solution but instead cheekily just presents you
 
 # The inspection paradox
 
-The solution is that when you ask passengers, you oversample the ones on crowded bus. More people are waiting for delayed buses therefore more people get on overcrowded buses. There was a great post by [Allen Downey on the inspection problem](http://allendowney.blogspot.com/2015/08/the-inspection-paradox-is-everywhere.html). He looks at a number of examples of the inspection paradox including something similar to the *Poissonville buses* problem that McKay.
+The solution is that when you ask passengers, you oversample the ones on crowded buses. More people are waiting for delayed buses therefore more people get on the delayed buses and therefore delayed buses are overcrowded. There was a great post by [Allen Downey on the inspection problem](http://allendowney.blogspot.com/2015/08/the-inspection-paradox-is-everywhere.html). He looks at a number of examples of the inspection paradox including something similar to the *Poissonville buses* problem that McKay poses.
 
 Jake VanderPlas also had [a great post recently](https://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/) looking at the bus example in real life. He summarizes the inspection paradox quite nicely:
 
@@ -169,9 +169,9 @@ Let's just look a small sample and see what's going on. The figure below shows 1
 
 ![Sub-sample]({{"/assets/2018_11_14_window.png" | absolute_url}})
 
-The mean space between sixes in just this sample shown is 5.9 and the mean of the window around the clock strike (green plus blue) is 11.9 rolls. We see that clock strikes seem to be in wide windows i.e. there is a large gap between sixes. So something similar to a the bus example is occuring.
+The mean window between sixes in just this sample shown is 5.9 and the mean of the window around the clock strike (green plus blue) is 11.9 rolls. We see that clock strikes seem to be in wide windows i.e. there is a large gap between sixes. So something similar to a the bus example is occuring.
 
-The clock strike is more likely to occur between large gaps. It hurts my head to think about it this way since clock strike is predetermined (it strikes at 1). It's not a random variable. But the way to think about it is that **there are more events happening in large windows**. Not just the clock striking but the dog barking, phone ringing, baby crying. There are just more seconds between in those longer gaps for things to happen. So when looking from the perspective of some event occurring, it appears that the window is wider than average.
+The clock strike is more likely to occur between large gaps. It hurts my head to think about it this way since clock strike is predetermined (it strikes at 1). It's not a random variable. But the way to think about it is that **there are more events happening in large windows**. Not just the clock striking but the dog barking, phone ringing, baby crying. There are just more seconds in those longer gaps for things to happen. So when looking from the perspective of some event occurring, it appears that the window is wider than average.
 
 The probability of number of throws experienced around the event is not only related to the $P(r)$ but also to $r$; the longer the window between throws, the larger the probability that some event will happen within it. Let's call the probability of the number of throws experienced around the event be $P'(r)$. The math is as follows (similar to the logic Jake VP has in his blog post):
 
