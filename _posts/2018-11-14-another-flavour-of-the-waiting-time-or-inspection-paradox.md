@@ -16,7 +16,7 @@ use_math: true
 > (e) Is your answer to (d) different from the your answer to (a)? Explain.<BR>
 
 - **(a)** is easy enough. Anyone who has played any game requiring dice will tell you it's 6.
-- **(b)** may seem a little puzzling to some. When people ask "what's the clock striking one got to do with it?", I put on a devilish grin and saying "Nothing!". But if you are familiar with Poisson processes, you have heard this sort of stuff many times. You note that throws are memoryless i.e. Probability of a 6 in throw $T$. $P(T)$ does not depend on any throws $t$ where $t < T$. And you say, *"These throw is memoryless so it is still 6"*. And you'd be right (even my mum, who is not a student of probability, got it right).
+- **(b)** may seem a little puzzling to some. When people ask "what's the clock striking one got to do with it?", I put on a devilish grin and saying "Nothing!". But if you are familiar with Poisson processes, you have heard this sort of stuff many times. You note that throws are memoryless i.e. Probability of a 6 in throw $T$. $P(T)$ does not depend on any throws $t$ where $t < T$. And you say, *"These throws are memoryless so it is still 6"*. And you'd be right (even my mum, who is not a student of probability, got it right).
 - For **(c)** you are thinking *"Ok so it's memoryless. Does directionality of time matter? It really shouldn't right?"* and you again correctly guess 6.
 - **(d)** leads you down a trap; you add the two together and minus one (so you aren't counting the 1/2 second) and say 11.
 - **(e)** Closes the trap on you. Just because an unrelated event like a clock striking one happened, why should the expected number of rolls be almost double?
