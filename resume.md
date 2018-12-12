@@ -14,8 +14,8 @@ Harvard Kennedy School of Government, MA<br>
 ###  BACHELOR OF ENGINEERING (ELEC.) /BACHELOR OF SCIENCE (COMP.) (Hons) 	2004
 University of Melbourne, Australia
 
-**Tools:** Python (incl. pymc3, pytorch), R, Stata, Scala, Perl, Unix, LaTeX<br>
-**Skills:** Bayesian Analysis, Optimization, Machine Learning, Econometrics, Scripting/programming
+**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, Perl, Unix, LaTeX<br>
+**Skills:** Bayesian Inference, Statistics, Machine Learning, Econometrics, Scripting/programming
 
 <br>
 ## Experience
@@ -25,7 +25,7 @@ University of Melbourne, Australia
 ### Senior Data Scientist (QuantumBlack, McKinsey & Company)
 *Cambridge, MA (Sep 2018 - current)*
 <BR>
-<BR> 
+<BR>
 
 ### Graduate Research Fellow (Centre for International Development)
 *Cambridge, MA (Nov 2016 - Aug 2018)*
