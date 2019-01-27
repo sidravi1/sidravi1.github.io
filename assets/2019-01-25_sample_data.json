@@ -1,0 +1,852 @@
+{
+  "config": {"view": {"width": 400, "height": 300}},
+  "vconcat": [
+    {
+      "layer": [
+        {
+          "data": {"name": "data-7728edee446007d98a06e3b38fa2b248"},
+          "mark": "circle",
+          "encoding": {
+            "color": {"type": "nominal", "field": "states", "title": "State"},
+            "tooltip": [
+              {"type": "quantitative", "field": "vals", "title": "Value"},
+              {"type": "quantitative", "field": "index", "title": "Timestamp"}
+            ],
+            "x": {
+              "type": "quantitative",
+              "field": "index",
+              "title": "Timestamp"
+            },
+            "y": {"type": "quantitative", "field": "vals", "title": "Value"}
+          },
+          "width": 800
+        },
+        {
+          "data": {"name": "data-7728edee446007d98a06e3b38fa2b248"},
+          "mark": "line",
+          "encoding": {
+            "size": {"value": 1},
+            "x": {"type": "quantitative", "field": "index"},
+            "y": {"type": "quantitative", "field": "vals"}
+          }
+        }
+      ]
+    },
+    {
+      "data": {"name": "data-7728edee446007d98a06e3b38fa2b248"},
+      "mark": "line",
+      "encoding": {
+        "color": {"value": "green"},
+        "size": {"value": 2},
+        "x": {"type": "quantitative", "field": "index", "title": "Timestamp"},
+        "y": {"type": "quantitative", "field": "states", "title": "Value"}
+      },
+      "width": 800
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.6.0.json",
+  "datasets": {
+    "data-7728edee446007d98a06e3b38fa2b248": [
+      {
+        "index": 0,
+        "vals": 5,
+        "states": 0,
+        "inferred_states": 0.311,
+        "low": -0.614805595144035,
+        "high": 1.2368055951440349
+      },
+      {
+        "index": 1,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.832,
+        "low": 0.08426742748493776,
+        "high": 1.5797325725150622
+      },
+      {
+        "index": 2,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.932,
+        "low": 0.42850819271809526,
+        "high": 1.4354918072819047
+      },
+      {
+        "index": 3,
+        "vals": 15,
+        "states": 1,
+        "inferred_states": 0.996,
+        "low": 0.8697621292955238,
+        "high": 1.1222378707044762
+      },
+      {
+        "index": 4,
+        "vals": 11,
+        "states": 1,
+        "inferred_states": 0.989,
+        "low": 0.7803951103161766,
+        "high": 1.1976048896838234
+      },
+      {
+        "index": 5,
+        "vals": 14,
+        "states": 1,
+        "inferred_states": 0.993,
+        "low": 0.8262546852232434,
+        "high": 1.1597453147767567
+      },
+      {
+        "index": 6,
+        "vals": 5,
+        "states": 0,
+        "inferred_states": 0.478,
+        "low": -0.5210315310339307,
+        "high": 1.4770315310339308
+      },
+      {
+        "index": 7,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.588,
+        "low": -0.3963901665498304,
+        "high": 1.5723901665498303
+      },
+      {
+        "index": 8,
+        "vals": 7,
+        "states": 0,
+        "inferred_states": 0.396,
+        "low": -0.5821288258711064,
+        "high": 1.3741288258711064
+      },
+      {
+        "index": 9,
+        "vals": 1,
+        "states": 0,
+        "inferred_states": 0.019,
+        "low": -0.25404944607158647,
+        "high": 0.2920494460715865
+      },
+      {
+        "index": 10,
+        "vals": 2,
+        "states": 0,
+        "inferred_states": 0.008,
+        "low": -0.17016845961056126,
+        "high": 0.18616845961056128
+      },
+      {
+        "index": 11,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.072,
+        "low": -0.44497582148491216,
+        "high": 0.5889758214849121
+      },
+      {
+        "index": 12,
+        "vals": 8,
+        "states": 0,
+        "inferred_states": 0.357,
+        "low": -0.6012296175760915,
+        "high": 1.3152296175760916
+      },
+      {
+        "index": 13,
+        "vals": 5,
+        "states": 0,
+        "inferred_states": 0.137,
+        "low": -0.5506946997032971,
+        "high": 0.8246946997032971
+      },
+      {
+        "index": 14,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.046,
+        "low": -0.37297016600230704,
+        "high": 0.464970166002307
+      },
+      {
+        "index": 15,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.013,
+        "low": -0.21354800815720928,
+        "high": 0.2395480081572093
+      },
+      {
+        "index": 16,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.019,
+        "low": -0.2540494460715865,
+        "high": 0.29204944607158656
+      },
+      {
+        "index": 17,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.028,
+        "low": -0.30194545003681805,
+        "high": 0.3579454500368181
+      },
+      {
+        "index": 18,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.092,
+        "low": -0.4860519007840036,
+        "high": 0.6700519007840036
+      },
+      {
+        "index": 19,
+        "vals": 9,
+        "states": 0,
+        "inferred_states": 0.586,
+        "low": -0.39909694954354613,
+        "high": 1.571096949543546
+      },
+      {
+        "index": 20,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.356,
+        "low": -0.6016304088739007,
+        "high": 1.3136304088739008
+      },
+      {
+        "index": 21,
+        "vals": 14,
+        "states": 1,
+        "inferred_states": 0.964,
+        "low": 0.5914198072897585,
+        "high": 1.3365801927102414
+      },
+      {
+        "index": 22,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.74,
+        "low": -0.1372684879784487,
+        "high": 1.6172684879784487
+      },
+      {
+        "index": 23,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.697,
+        "low": -0.22211043950115317,
+        "high": 1.6161104395011532
+      },
+      {
+        "index": 24,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.816,
+        "low": 0.041031613548014434,
+        "high": 1.5909683864519855
+      },
+      {
+        "index": 25,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.857,
+        "low": 0.15685430087731256,
+        "high": 1.5571456991226875
+      },
+      {
+        "index": 26,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.957,
+        "low": 0.5512858148893482,
+        "high": 1.3627141851106517
+      },
+      {
+        "index": 27,
+        "vals": 1,
+        "states": 0,
+        "inferred_states": 0.119,
+        "low": -0.5285770224459823,
+        "high": 0.7665770224459822
+      },
+      {
+        "index": 28,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.825,
+        "low": 0.06506579232146903,
+        "high": 1.5849342076785309
+      },
+      {
+        "index": 29,
+        "vals": 18,
+        "states": 1,
+        "inferred_states": 1,
+        "low": 1,
+        "high": 1
+      },
+      {
+        "index": 30,
+        "vals": 11,
+        "states": 1,
+        "inferred_states": 0.984,
+        "low": 0.733049805738269,
+        "high": 1.2349501942617311
+      },
+      {
+        "index": 31,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.975,
+        "low": 0.6627501000800831,
+        "high": 1.287249899919917
+      },
+      {
+        "index": 32,
+        "vals": 11,
+        "states": 1,
+        "inferred_states": 0.971,
+        "low": 0.6353871277796378,
+        "high": 1.306612872220362
+      },
+      {
+        "index": 33,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.789,
+        "low": -0.027036763877713477,
+        "high": 1.6050367638777137
+      },
+      {
+        "index": 34,
+        "vals": 5,
+        "states": 1,
+        "inferred_states": 0.502,
+        "low": -0.49799199996800203,
+        "high": 1.501991999968002
+      },
+      {
+        "index": 35,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.715,
+        "low": -0.18782888744212956,
+        "high": 1.6178288874421294
+      },
+      {
+        "index": 36,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.823,
+        "low": 0.05966259098613702,
+        "high": 1.5863374090138629
+      },
+      {
+        "index": 37,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.77,
+        "low": -0.07166501650002544,
+        "high": 1.6116650165000255
+      },
+      {
+        "index": 38,
+        "vals": 6,
+        "states": 0,
+        "inferred_states": 0.373,
+        "low": -0.594204218353077,
+        "high": 1.340204218353077
+      },
+      {
+        "index": 39,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.129,
+        "low": -0.5413998806682552,
+        "high": 0.7993998806682552
+      },
+      {
+        "index": 40,
+        "vals": 8,
+        "states": 0,
+        "inferred_states": 0.521,
+        "low": -0.4781176106945636,
+        "high": 1.5201176106945637
+      },
+      {
+        "index": 41,
+        "vals": 6,
+        "states": 0,
+        "inferred_states": 0.505,
+        "low": -0.4949499987499315,
+        "high": 1.5049499987499315
+      },
+      {
+        "index": 42,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.712,
+        "low": -0.19366218867743246,
+        "high": 1.6176621886774325
+      },
+      {
+        "index": 43,
+        "vals": 4,
+        "states": 1,
+        "inferred_states": 0.162,
+        "low": -0.5749016216565158,
+        "high": 0.8989016216565159
+      },
+      {
+        "index": 44,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.134,
+        "low": -0.54730463083704,
+        "high": 0.81530463083704
+      },
+      {
+        "index": 45,
+        "vals": 6,
+        "states": 1,
+        "inferred_states": 0.417,
+        "low": -0.5691257526299596,
+        "high": 1.4031257526299596
+      },
+      {
+        "index": 46,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.906,
+        "low": 0.3223425662256987,
+        "high": 1.4896574337743014
+      },
+      {
+        "index": 47,
+        "vals": 18,
+        "states": 1,
+        "inferred_states": 1,
+        "low": 1,
+        "high": 1
+      },
+      {
+        "index": 48,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.844,
+        "low": 0.1182893138446961,
+        "high": 1.5697106861553038
+      },
+      {
+        "index": 49,
+        "vals": 7,
+        "states": 0,
+        "inferred_states": 0.729,
+        "low": -0.15995219219033785,
+        "high": 1.6179521921903377
+      },
+      {
+        "index": 50,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.797,
+        "low": -0.007465039638145821,
+        "high": 1.6014650396381458
+      },
+      {
+        "index": 51,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.684,
+        "low": -0.24582579013490513,
+        "high": 1.6138257901349053
+      },
+      {
+        "index": 52,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.681,
+        "low": -0.25117809457206763,
+        "high": 1.6131780945720677
+      },
+      {
+        "index": 53,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.794,
+        "low": -0.014860927477649555,
+        "high": 1.6028609274776495
+      },
+      {
+        "index": 54,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.714,
+        "low": -0.18977873398304146,
+        "high": 1.6177787339830414
+      },
+      {
+        "index": 55,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.509,
+        "low": -0.49083798687587976,
+        "high": 1.5088379868758799
+      },
+      {
+        "index": 56,
+        "vals": 5,
+        "states": 0,
+        "inferred_states": 0.223,
+        "low": -0.6095166664998409,
+        "high": 1.055516666499841
+      },
+      {
+        "index": 57,
+        "vals": 6,
+        "states": 0,
+        "inferred_states": 0.201,
+        "low": -0.6004961010510312,
+        "high": 1.0024961010510314
+      },
+      {
+        "index": 58,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.108,
+        "low": -0.5127608235061214,
+        "high": 0.7287608235061214
+      },
+      {
+        "index": 59,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.844,
+        "low": 0.11828931384469388,
+        "high": 1.569710686155306
+      },
+      {
+        "index": 60,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.886,
+        "low": 0.25037747050627246,
+        "high": 1.5216225294937276
+      },
+      {
+        "index": 61,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.915,
+        "low": 0.3572366093046282,
+        "high": 1.4727633906953719
+      },
+      {
+        "index": 62,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.985,
+        "low": 0.7418950843771329,
+        "high": 1.2281049156228672
+      },
+      {
+        "index": 63,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.995,
+        "low": 0.8539326402033418,
+        "high": 1.1360673597966582
+      },
+      {
+        "index": 64,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.991,
+        "low": 0.8021190851356339,
+        "high": 1.179880914864366
+      },
+      {
+        "index": 65,
+        "vals": 7,
+        "states": 0,
+        "inferred_states": 0.63,
+        "low": -0.33560861636585804,
+        "high": 1.595608616365858
+      },
+      {
+        "index": 66,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.246,
+        "low": -0.6153570688164173,
+        "high": 1.1073570688164174
+      },
+      {
+        "index": 67,
+        "vals": 15,
+        "states": 1,
+        "inferred_states": 0.98,
+        "low": 0.6999999999999986,
+        "high": 1.2600000000000013
+      },
+      {
+        "index": 68,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.886,
+        "low": 0.25037747050627257,
+        "high": 1.5216225294937273
+      },
+      {
+        "index": 69,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.164,
+        "low": -0.5765511461067292,
+        "high": 0.9045511461067293
+      },
+      {
+        "index": 70,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.076,
+        "low": -0.4539962264016562,
+        "high": 0.6059962264016562
+      },
+      {
+        "index": 71,
+        "vals": 6,
+        "states": 0,
+        "inferred_states": 0.218,
+        "low": -0.6077747876994106,
+        "high": 1.0437747876994106
+      },
+      {
+        "index": 72,
+        "vals": 7,
+        "states": 0,
+        "inferred_states": 0.253,
+        "low": -0.6164619025581253,
+        "high": 1.1224619025581253
+      },
+      {
+        "index": 73,
+        "vals": 3,
+        "states": 0,
+        "inferred_states": 0.032,
+        "low": -0.3200000000000025,
+        "high": 0.38400000000000245
+      },
+      {
+        "index": 74,
+        "vals": 1,
+        "states": 0,
+        "inferred_states": 0.026,
+        "low": -0.2922703253525176,
+        "high": 0.34427032535251767
+      },
+      {
+        "index": 75,
+        "vals": 12,
+        "states": 1,
+        "inferred_states": 0.945,
+        "low": 0.4890394753928777,
+        "high": 1.4009605246071222
+      },
+      {
+        "index": 76,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.93,
+        "low": 0.41970596711307895,
+        "high": 1.4402940328869211
+      },
+      {
+        "index": 77,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.994,
+        "low": 0.8395461233895399,
+        "high": 1.14845387661046
+      },
+      {
+        "index": 78,
+        "vals": 12,
+        "states": 1,
+        "inferred_states": 0.992,
+        "low": 0.8138315403894386,
+        "high": 1.1701684596105615
+      },
+      {
+        "index": 79,
+        "vals": 15,
+        "states": 1,
+        "inferred_states": 0.995,
+        "low": 0.8539326402033418,
+        "high": 1.1360673597966582
+      },
+      {
+        "index": 80,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.15,
+        "low": -0.5641428428542773,
+        "high": 0.8641428428542773
+      },
+      {
+        "index": 81,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.072,
+        "low": -0.44497582148491205,
+        "high": 0.588975821484912
+      },
+      {
+        "index": 82,
+        "vals": 5,
+        "states": 0,
+        "inferred_states": 0.102,
+        "low": -0.5032966215005603,
+        "high": 0.7072966215005603
+      },
+      {
+        "index": 83,
+        "vals": 4,
+        "states": 0,
+        "inferred_states": 0.163,
+        "low": -0.5757313449421189,
+        "high": 0.9017313449421189
+      },
+      {
+        "index": 84,
+        "vals": 12,
+        "states": 1,
+        "inferred_states": 0.947,
+        "low": 0.49893304071824585,
+        "high": 1.395066959281754
+      },
+      {
+        "index": 85,
+        "vals": 10,
+        "states": 1,
+        "inferred_states": 0.926,
+        "low": 0.4024582156121588,
+        "high": 1.4495417843878413
+      },
+      {
+        "index": 86,
+        "vals": 7,
+        "states": 1,
+        "inferred_states": 0.731,
+        "low": -0.1558799242287533,
+        "high": 1.6178799242287534
+      },
+      {
+        "index": 87,
+        "vals": 6,
+        "states": 1,
+        "inferred_states": 0.656,
+        "low": -0.29408210171542704,
+        "high": 1.606082101715427
+      },
+      {
+        "index": 88,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.89,
+        "low": 0.2642204861135192,
+        "high": 1.5157795138864807
+      },
+      {
+        "index": 89,
+        "vals": 13,
+        "states": 1,
+        "inferred_states": 0.985,
+        "low": 0.7418950843771335,
+        "high": 1.2281049156228665
+      },
+      {
+        "index": 90,
+        "vals": 8,
+        "states": 1,
+        "inferred_states": 0.873,
+        "low": 0.20705405624780093,
+        "high": 1.538945943752199
+      },
+      {
+        "index": 91,
+        "vals": 9,
+        "states": 1,
+        "inferred_states": 0.888,
+        "low": 0.2572670929783323,
+        "high": 1.5187329070216677
+      },
+      {
+        "index": 92,
+        "vals": 8,
+        "states": 0,
+        "inferred_states": 0.701,
+        "low": -0.21463966711802174,
+        "high": 1.6166396671180217
+      },
+      {
+        "index": 93,
+        "vals": 6,
+        "states": 1,
+        "inferred_states": 0.391,
+        "low": -0.5849487691472347,
+        "high": 1.3669487691472346
+      },
+      {
+        "index": 94,
+        "vals": 5,
+        "states": 1,
+        "inferred_states": 0.216,
+        "low": -0.6070285535751526,
+        "high": 1.0390285535751527
+      },
+      {
+        "index": 95,
+        "vals": 7,
+        "states": 0,
+        "inferred_states": 0.264,
+        "low": -0.6175985480931709,
+        "high": 1.145598548093171
+      },
+      {
+        "index": 96,
+        "vals": 2,
+        "states": 0,
+        "inferred_states": 0.02,
+        "low": -0.26000000000000173,
+        "high": 0.30000000000000177
+      },
+      {
+        "index": 97,
+        "vals": 2,
+        "states": 0,
+        "inferred_states": 0.036,
+        "low": -0.33658019271024253,
+        "high": 0.4085801927102425
+      },
+      {
+        "index": 98,
+        "vals": 10,
+        "states": 0,
+        "inferred_states": 0.689,
+        "low": -0.23680559514403454,
+        "high": 1.6148055951440345
+      },
+      {
+        "index": 99,
+        "vals": 6,
+        "states": 0,
+        "inferred_states": 0.498,
+        "low": -0.5019919999680026,
+        "high": 1.4979919999680025
+      }
+    ]
+  }
+}
