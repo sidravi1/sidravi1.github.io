@@ -317,7 +317,7 @@ How do we do with the super process? Here's the mean of the posterior of the sta
 
 # Final words
 
-Why do we do such a poor of identifying the sub-processes? We have 100 observations for each sub-process, same as the simple model, but there are more degrees of freedom since it is a mixture of the sub-process and the super-process. Maybe we'd do better if we have had a larger sample size to train the model? Or maybe we should just train two models - a 'simple' HMM for each of the sub-processes and then a 'hierarchical' one for the super-process. Though I do like the cleanliness of having just one model and if the data-generating process is indeed hierarchical, it would perform better. But before deciding on a model, you'd want to do some model checking to see how well the hierarchical one fits your data.
+Why do we do such a poor of identifying the sub-processes? We have 100 observations for each sub-process, same as the simple model, but there are more degrees of freedom since it is a mixture of two processes. Maybe we'd do better if we have had a larger sample size to train the model? Or maybe we should just train two models - a 'simple' HMM for each of the sub-processes and then a 'hierarchical' one for the super-process. Though I do like the cleanliness of having just one model and if the data-generating process is indeed hierarchical, it would perform better. But before deciding on a model, you'd want to do some model checking to see how well the hierarchical one fits your data.
 
 I tried a few different parameterizations for the mixture model but none seem to resolve the divergences. Would love to hear from you if you have any suggestions.
 
