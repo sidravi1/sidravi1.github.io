@@ -54,7 +54,7 @@
       "data": {"name": "data-7728edee446007d98a06e3b38fa2b248"},
       "mark": "circle",
       "encoding": {
-        "color": {"type": "nominal", "field": "states", "title": "Color"},
+        "color": {"type": "nominal", "field": "states", "title": "State"},
         "tooltip": [
           {"type": "quantitative", "field": "index", "title": "Timestamp"},
           {"type": "quantitative", "field": "vals", "title": "Value"}
