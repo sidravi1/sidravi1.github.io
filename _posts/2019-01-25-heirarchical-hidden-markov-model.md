@@ -321,6 +321,10 @@ Why do we do such a poor of identifying the sub-processes? We have 100 observati
 
 I tried a few different parameterizations for the mixture model but none seem to resolve the divergences. Would love to hear from you if you have any suggestions for this.
 
-Last thing, in IRL the world is changing underneath your feet. In our model, we assumed that the transition matrix is fixed at all times but you can imagine one that gradually drifts. We may want to model it as time-varying (Gaussian random-walk maybe?). Also, you may want to model the stage *n* process as a zero-inflated Poisson. It fits the data a lot better. Many days there are no tickets but when there are, there are a bunch.
+Last thing, in IRL the world is changing underneath your feet. In our model, we assumed that the transition matrix is fixed at all times but you can imagine one that gradually drifts. We may want to model it as time-varying. Also, you may want to model the stage *n* process as a zero-inflated Poisson. It fits the data a lot better. Many days there are no tickets but when there are, there are a bunch.
 
 Finally, I found [this repository](https://github.com/hstrey/Hidden-Markov-Models-pymc3) quite useful when building these models. So a lot of the credit should go to Mr. Strey. You can find [my notebook](https://github.com/sidravi1/Blog/blob/master/nbs/hmm_simple_sid.ipynb) with these results [here](https://github.com/sidravi1/Blog/blob/master/nbs/hmm_simple_sid.ipynb). Thanks for reading.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
