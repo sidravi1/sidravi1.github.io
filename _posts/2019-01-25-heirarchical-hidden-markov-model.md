@@ -153,7 +153,7 @@ We look at the mean of our `states` RV with +/- 2 standard deviations (not the b
   }).catch(console.error);
 </script>
 
-Not too bad. We nail most of states. We don't get timestamp 43 right but that was always going to be tricky one.
+Not too bad. We nailed most of states. We don't get timestamp 43 right but that was always going to be tricky one.
 
 Since it is a kind of classification problem, let's see what the ROC looks like:
 
@@ -313,7 +313,7 @@ Not fantastic. The ROCs agree. We are not quite nailing it as we did earlier but
 How do we do with the super process? Here's the mean of the posterior of the states. We get a few things wrong but overall pretty decent.
 
 ![Super processes results]({{"/assets/2019-01-25_hier_super_results.png" | absolute_url}})
-![Super processes ROC]({{"/assets/2019-01-25_hier_super_ROC.png" | absolute_url}})
+![Super processes ROC]({{"/assets/2019-01-25_hier_super_roc.png" | absolute_url}})
 
 # Final words
 
