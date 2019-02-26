@@ -28,7 +28,7 @@ We're just going to look at the first two: *filtering* and *smoothing*. Then use
 
 ## Generate data
 
-We'll use the utility classes from the last post to generate some dataset:
+We'll use the utility classes from the last post to generate some data:
 
 {% highlight python %}
 n_samples = 100
@@ -83,7 +83,7 @@ def forward_pass(y, t, dists, init, trans_mat):
         return c_tm1 + c, np.row_stack([alpha_tm1, normed])
 {% endhighlight %}
 
-Here's the normalize function called above that we'll use again. Pretty straightforward stuff:
+Here's the normalize function that is called in `forward_pass` that we'll use again. Pretty straightforward stuff:
 
 {% highlight python %}
 def normalize(mat, axis=None):
@@ -100,7 +100,7 @@ Here's what our filtered signal looks like.
 
 ![filtered]({{"/assets/2019-02-25_smoothed.png" | absolute_url}})
 
-And the results are pretty good. You could make the problem a little harder by making the two lambdas closer together or throwing in some noise.
+The results are pretty good. You could make the problem a little harder by making the two lambdas closer together or throwing in some noise.
 
 ## Smoothing - The forwards-backwards algorithm
 
@@ -116,7 +116,7 @@ $$
 \beta_t(j) &= AO_{t+1}\beta_{t+1}\\
 \\
 \gamma_t(j) &= P(x_t = j | y_{1:T})\\
-\gamma_t(j) &= \alpha_t(j) \beta_t(j)\\
+\gamma_t(j) &\propto  \alpha_t(j) \beta_t(j)\\
 \end{aligned}
 $$
 
@@ -138,7 +138,6 @@ def backward_pass(y, T, t, dists, init, trans_mat):
     if t == T:
         c, normed = normalize(np.ones(2))
         return 0, normed.reshape(1, -1)
-        #return 0, np.ones(2).reshape(1, -1)
     else:
 
         c_tm1, beta_tp1 = backward_pass(y, T, t+1, dists, init, trans_mat)
@@ -161,7 +160,7 @@ def gamma_pass(y, T, t, dists, init, trans_mat):
     return gamma
 {% endhighlight %}
 
-We are already doing quite well but this improve the AUC even further.
+We were already doing quite well but this improves the AUC even further.
 
 ![Smoothed]({{"/assets/2019-02-25_smoothed.png" | absolute_url}})
 
@@ -173,7 +172,7 @@ We'll do that again using the EM algorithm.
 
 ### Two-slice distributions
 
-We are going to define the two-slice distribution since it's about to come in handy. It is defined as follows:
+We are going to code up the two-slice distribution since it's about to come in handy. It is defined as follows:
 
 $$
 \xi_{t-1,t|T}(i, j) = P(X_{t-1} = i, X_t = j | y_{1:T})
@@ -185,7 +184,7 @@ $$
 \xi_{t-1,t|T}(i, j) = A \circ (\alpha_t (O_{t+1} \circ \beta_{t+1})^T)
 $$
 
-(Note: I formula in Murphy's thesis didn't make sense to me so this is going off his book.)
+(Note: The formula in Murphy's thesis didn't make sense to me so this is going off his book.)
 
 So let's do it:
 
@@ -208,6 +207,8 @@ def two_slice(y, T, t, dists, init, trans_mat):
 ### E-step
 
 Ugh. There is a tonne of latex here to write. So I'm going take the easy way out and just paste it from the book. Sorry Mr. Murphy if this breaks any laws. Let me know and I'll remove it immediately. Also, I'm a big fan of your work.
+
+This also means that the notation is a little different. $z$ is the hidden state and $\mathbf{x}$ is the observation. 
 
 ![Murphy E-step]({{"/assets/2019_02_25_EStep.png" | absolute_url}})
 
