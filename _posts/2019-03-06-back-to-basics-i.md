@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Back to Basics (I)"
+title: "Back to Basics with David MacKay"
 date: "2019-03-06 22:25"
 comments: true
 use_math: true
@@ -8,7 +8,7 @@ use_math: true
 
 There are two ways of learning and building intuition. From the top down, like [fast.ai](https://www.fast.ai/2016/10/08/teaching-philosophy/) believes, and the bottom up, like Andrew Ng's deep learning course on coursera. I'm not sure what mine preferred strategy is.
 
-While learning Bayesian analysis, I've gone back and forth. David MacKay has a great lecture where he introduces Bayesian inference using a very small dataset of 8 data points. It was a cool way to introduce the topic so I decided to implement it. I learnt a tonne of stuff -- not the least, animating 3d plots -- doing it and refined my intuition.
+While learning Bayesian analysis, I've gone back and forth. David MacKay has [a great lecture](http://videolectures.net/mackay_course_10/) where he introduces Bayesian inference using a very small dataset of 8 data points. It was a cool way to introduce the topic so I decided to implement it. I learnt a tonne of stuff -- not the least, animating 3d plots -- doing it and refined my intuition. You can find the [notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/MacKay_bayesian_exp.ipynb).
 
 ## Problem setup
 
