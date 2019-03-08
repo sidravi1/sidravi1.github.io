@@ -208,7 +208,7 @@ def two_slice(y, T, t, dists, init, trans_mat):
 
 Ugh. There is a tonne of latex here to write. So I'm going take the easy way out and just paste it from the book. Sorry Mr. Murphy if this breaks any laws. Let me know and I'll remove it immediately. Also, I'm a big fan of your work.
 
-This also means that the notation is a little different. $z$ is the hidden state and $\mathbf{x}$ is the observation. 
+This also means that the notation is a little different. $z$ is the hidden state and $\mathbf{x}$ is the observation.
 
 ![Murphy E-step]({{"/assets/2019_02_25_EStep.png" | absolute_url}})
 
@@ -297,3 +297,7 @@ And here's what the smoothed signal looks like:
 ## Conclusion
 
 I enjoyed that a lot. Check out the [notebook here](https://github.com/sidravi1/Blog/blob/master/nbs/hmm_em.ipynb). Might do a Kalman Filter one next.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
