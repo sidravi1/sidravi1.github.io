@@ -258,7 +258,7 @@ def update_step_softv4(xs, assignments, n, curr_sigmas, curr_centroids):
 
 Here are the results:
 
-![covariance]({{"/assets/20190327_variable_sizes.png" | absolute_url}})
+![covariance]({{"/assets/20190327_covariance.png" | absolute_url}})
 
 Not too bad, I think. Datasets 2 and 4 look ok. Circle ones are still rubbish. The last ones with long clusters is perfect. Dataset 5 is a bit weird but sure that is valid way of clustering.
 
