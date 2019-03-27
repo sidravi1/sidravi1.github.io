@@ -37,7 +37,10 @@ $$
 
 $x$ is given, so let's see what this looks like
 
+<div style="text-align: center">
 <img src="/assets/2019_03_06_one_process.png" align="middle" alt="one process" width="600"/>
+</div>
+<br>
 
 *N.B: Why is the plot black? Idk. I spent too long replicating David Mackay's style -- then discovered that it is just the classic gnuplot colors. But it looks nice I think.*
 
@@ -75,7 +78,7 @@ $$
 
 So for a given vector $k$, we can get the likelihood for all combinations of $\lambda_0$ and $\lambda_1$. Since $\vert k \vert$ is 8, there are $2^8$ possible $k$ vectors. We can just iterate over all of these $k$ vectors and calculate the likelihood. The seizure-inducing gif below shows the likelihood for all combinations of $\lambda_0$ and $\lambda_1$ for every possible $k$ - all $2^8$ of them.
 
-<img align="left" src="/assets/2019_03_06_two_process_anim.gif" />
+<img align="middle" src="/assets/2019_03_06_two_process_anim.gif" />
 
 Mackay asks us to imagine these as a stack of pancakes. So each pancake is $P(\mathbf{x}\vert \lambda_0, \lambda_1, \mathbf{k})$ for a possible value of $\mathbf{k})$.
 
@@ -96,13 +99,19 @@ This is also the posterior distribution if you:
 
 And you get this:
 
-<img src="/assets/2019_03_06_two_process.png" align="middle" alt="one process" width="600"/>
 
+<div style="text-align: center">
+<img src="/assets/2019_03_06_two_process.png" align="middle" alt="one process" width="600"/>
+</div>
+<br>
 We get two distinct peaks, so there are indeed two distinct exponential processes. And if you wanted to know the best process assignment vector, $\mathbf{k}^* $, you could just look at the maximum likelihood for each $\mathbf{k}$ and normalize.
 
+<div style="text-align: center">
 <img src="/assets/2019_03_06_two_process_k.png" align="middle" alt="one process" width="700"/>
+</div>
 
-Wunderbar! So the best k is 114 or $[0, 1, 1, 1, 0, 0, 1, 0]$ and it's twin 141 or $[1, 0, 0, 0, 1, 1, 0, 1]$ depending if $\lambda_0$ > $\lambda_1$ or $\lambda_1$ > $\lambda_0$. Label-switching is pretty annoying when working with mixture models. We won't worry about it here and just pick one.
+<br>
+Wunderbar! So the best k is 114 or $[0, 1, 1, 1, 0, 0, 1, 0]$ and its twin 141 or $[1, 0, 0, 0, 1, 1, 0, 1]$ depending if $\lambda_0$ > $\lambda_1$ or $\lambda_1$ > $\lambda_0$. Label-switching is pretty annoying when working with mixture models. We won't worry about it here and just pick one.
 
 ### The evidence
 
