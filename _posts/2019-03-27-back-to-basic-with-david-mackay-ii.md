@@ -10,11 +10,11 @@ Following David Mackay's book along with his videos online have been a real joy.
 
 ## The datasets
 
-All the sample data used in his lecture and the book can be found on his [website here](http://www.inference.org.uk/itprnn/code/kmeans/). It also has octave for the algorithms but we'll do implement them again.
+All the sample data used in his lecture and the book can be found on his [website here](http://www.inference.org.uk/itprnn/code/kmeans/). It also has octave code for the algorithms but we'll  implement them again in python.
 
 ## The simple k-means
 
-This is now a classic data-science interview question and you probably know how to do this in your sleep. Here's my simple implementation of it. You can make this a lot more efficient by using numpy's vectorized functions but I don't bother with it here.
+This is now a classic data science interview question and you probably know how to do this in your sleep. Here's my simple implementation of it. You can make this a lot more efficient by using numpy's vectorized functions but I don't bother with it here.
 
 {% highlight python %}
 def assigment_step(centroids, xs):
@@ -82,11 +82,11 @@ We're going to look at the 7 different datasets and see how this code does in pi
 
 ![simple]({{"/assets/20190327_simple.png" | absolute_url}})
 
-it does a fine job with the first ones but struggle with the rest. One problem is that we dichotomize the allocation for each either - it either belongs on to cluster 1 or cluster 2. Some point may be ambiguous and we want to take that into account. Let's fix that in the next section.
+It does a fine job with the first ones but struggles with the rest. One problem is that we dichotomize the allocation for each point - it either belongs to cluster 1 or cluster 2. Some points may be ambiguous and we want to take that into account. Let's fix that in the next section.
 
 ## Simple k-means with soft-thresholding
 
-Now each cluster has a "responsibility" for each point. The total responsibility for the points adds up to 1. We do a softmax instead of the hard threshold in the assignment step. And when updating the cluster center, we weight the points based on this responsbility.
+Now each cluster has a "responsibility" for each point. The total responsibility for a point adds up to 1. We do a softmax instead of the hard threshold in the assignment step. And when updating the cluster center, we weight the points based on this responsibility.
 
 {% highlight python %}
 def assignment_step_soft(centroids, xs, beta):
@@ -113,17 +113,17 @@ def update_step_soft(xs, assignments, n):
     return np.row_stack(all_centroid)
 {% endhighlight %}
 
-Note the new parameter `beta` that we now need to set. The high the `beta`, the more hard the thresholding. In it's limit, it approaches the basic k-means algorithm.
+Note the new parameter `beta` that we now need to set. The higher the `beta`, the more hard the thresholding. In its limit, it approaches the basic k-means algorithm.
 
 Here are the results with `beta` set to 2:
 
 ![simple soft]({{"/assets/20190327_simple_soft.png" | absolute_url}})
 
-Do we do any better? Well not really. Though we are able to identify the ones we are uncertain about - the circles in light-blue. And we now have an additional parameter, `beta`, to set. The other limitation of the algorithm is that each cluster is assumed to be the same size. We see from the data that this is not always true. Let's allow fo variable sizes in the next section.
+Do we do any better? Well, not really. Though we are able to identify the ones we are uncertain about - the circles in light-blue, we now have an additional parameter, `beta`, to set. The other limitation of the algorithm is that each cluster is assumed to be the same size. We see from the data that this is not always true. Let's allow for variable sizes in the next section.
 
 ## K-means with variable cluster sizes
 
-Now we are going to think of each cluster as a gaussian. They can be of varying sizes i.e. variance. So the distance of each point to the gaussian center is the likelihood of observing that point given the gaussian parameters weighted my the cluster's importance (`pi`). And what is importance? The total amount of relative responsibility of the cluster across all the points.
+Now we are going to think of each cluster as a gaussian. They can be of varying sizes i.e. different variances. So the distance of each point to the gaussian center is the likelihood of observing that point given the gaussian parameters weighted by the cluster's importance (`pi`). And what is importance? The total amount of relative responsibility of the cluster across all the points.
 
 {% highlight python %}
 def gaussian_dist(c, sigma, x, pi):
@@ -133,7 +133,7 @@ def gaussian_dist(c, sigma, x, pi):
 
 {% endhighlight %}
 
-So we are still keeping the idea of responsibility around but *look ma, no betas!*. Our *update* and *assignment* steps now need to keep track of importance and also update the variance or size for each of the clusters.
+So we are still keeping the idea of responsibility around but *look ma, no beta!*. Our *update* and *assignment* steps now need to keep track of importance and also update the variance or size for each of the clusters.
 
 {% highlight python %}
 def assignment_step_softv2(centroids, xs, sigmas, pis):
@@ -198,12 +198,12 @@ So what did we get for all this hard work?
 
 Good news is that all the ambiguity in the second and fourth dataset is now gone - we have a small cluster and a large cluster. Bad news is that there is a little more ambiguity about the some of the peripheral points in the first dataset since the blue cluster is now larger and more important. It still does a shitty job of the circles and the last dataset with skinny clusters.
 
-We  can't do much about the circles unless we change coordinates and I'll leave that out for now. Another reason t use HDBSCAN or Spectral Clustering if this is a real life problem. But we can do something about the skinny clusters. So far we have kept the cluster round - i.e. the variance in the two dimensions are constrained to be equal. Let's relax that in the next section.
+We  can't do much about the circles unless we change coordinate systems / do some transformations and I'll leave that out for now (another reason to use HDBSCAN or Spectral Clustering if this is a real life problem). But we can do something about the skinny clusters. So far we have kept the cluster round - i.e. the variance in the two dimensions are constrained to be equal. Let's relax that in the next section.
 
 
 ## K-means with adaptive covariance
 
-I'm adding a try/except since the covariance matrix becomes invalid under some scenarios (well, the same ones as above). In these cases, we just pick a tiny round cluster.
+I'm adding a try/except since the covariance matrix becomes invalid under some scenarios (the same ones as above). In these cases, we just pick a tiny round cluster.
 
 {% highlight python %}
 def gaussian_dist_v4(c, cov, x, pi):
@@ -260,7 +260,7 @@ Here are the results:
 
 ![covariance]({{"/assets/20190327_covariance.png" | absolute_url}})
 
-Not too bad, I think. Datasets 2 and 4 look ok. Circle ones are still rubbish. The last ones with long clusters is perfect. Dataset 5 is a bit weird but sure that is valid way of clustering.
+Not too bad, I think. Datasets 2 and 4 look ok. Circle ones are still rubbish. The last one with long clusters is perfect. Dataset 5 is a bit weird, but sure! That is valid way of clustering.
 
 ## Conclusions
 
@@ -270,7 +270,7 @@ Here are all the results together.
 
 ![all results]({{"/assets/20190327_all_results.png" | absolute_url}})
 
-As always you can find [the notebook](https://github.com/sidravi1/Blog/blob/master/nbs/Mackay_kmeans.ipynb) with the code online.
+As always you can find [the notebook](https://github.com/sidravi1/Blog/blob/master/nbs/Mackay_kmeans.ipynb) with the code online. You may want to try these again with three clusters.
 
 {% highlight python %}
 {% endhighlight %}
