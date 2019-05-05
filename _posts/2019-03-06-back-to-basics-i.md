@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Back to Basics with David MacKay"
+title: "Back to Basics with David MacKay #1 "
 date: "2019-03-06 22:25"
 comments: true
 use_math: true

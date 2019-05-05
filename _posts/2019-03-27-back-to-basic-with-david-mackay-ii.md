@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Back to Basic with David Mackay - II"
+title: "Back to Basics with David Mackay #2: Fancy k-means"
 date: "2019-03-27 10:24"
 comments: true
 use_math: true
