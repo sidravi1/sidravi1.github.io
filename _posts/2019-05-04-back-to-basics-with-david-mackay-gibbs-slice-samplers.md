@@ -220,9 +220,9 @@ Here are some where Gibbs does better than slice:
 And some where slice does better than Gibbs:
 ![slice over gibbs]({{"/assets/20190504_slice_over_gibbs.png" | absolute_url}})
 
-So if we have a multimodal distribution distribution, slice does better than Gibbs. There may be a better Gibbs sampler that overcomes thing but this makes sense for our implementation. The multinomial draw is very unlikely to shift you to the other gaussian if you stuck in one.
+For multimodal distributions, slice does better than Gibbs. There may be a better Gibbs sampler that overcomes this but this makes sense for our implementation. The multinomial draw is very unlikely to shift you to the other far away gaussians if you stuck in one.
 
-But if you have little covariance and the distribution is unimodal (and you have the conditionals) the Gibbs rocks it. The covariance thing is not a deal breaker though (see overrelaxation) but not sure how I'd get over the multimodal problem in my example.
+So if you have little covariance and the distribution is unimodal (and you have the conditionals!) the Gibbs rocks it. The covariance thing is not a deal breaker though (see overrelaxation) but not sure how I'd get over the multimodal problem in my example.
 
 {% if page.comments %}
   {%- include disqus_tags.html -%}
