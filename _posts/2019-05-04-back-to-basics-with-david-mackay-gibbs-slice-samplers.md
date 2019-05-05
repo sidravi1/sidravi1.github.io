@@ -77,6 +77,32 @@ So, not easy ones; Some islands, some covariance, some corner. Now let's write o
 Here's a 2d slice sampler - we create two auxiliary variables. The code is based off the pseudo-code in Mackay's book. Note that the proposal boxes are squares and shrunk at the same rate. Not great since we know there is a lot of covariance. In a later post, we might check out some of the more advanced techniques to improve our proposal.
 
 {% highlight python %}
+
+def get_interval(x, dist, u, w = 0.1):
+
+    r = np.random.uniform(0, 1)
+    xl = x - r*w
+    xr = x + (1 - r) * w
+
+    while (dist.pdf(xl) > u).any():
+        xl = xl - w
+
+    while (dist.pdf(xr) > u).any():
+        xr = xr + w
+
+    return xl, xr
+
+def modify_interval(x, x_prime, xl, xr):
+
+    dims = x.shape[0]
+    for d in range(dims):
+        if x_prime[d] > x[d]:
+            xr[d] = x_prime[d]
+        else:
+            xl[d] = x_prime[d]
+
+    return xl, xr
+
 def slice_sampler2d(dist, n=1000, x_init = np.array([2, 1]), w = 0.5):
 
     x_prime = x_init
