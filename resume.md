@@ -24,15 +24,16 @@ University of Melbourne, Australia
 
 ### Senior Data Scientist (QuantumBlack, McKinsey & Company)
 *Cambridge, MA (Sep 2018 - current)*
-<BR>
-<BR>
+- **Pharma** - Mined electronic medical records to understand causes of patient switching behavior.
+- **Disaster Recover** - Developed Monte Carlo models to quantify uncertainty in key milestones to inform mitigation strategies.
+- **[IN PROGRESS] Chemical manufacturing** - Explained causes of variability in yield. Red R&D process through principled exploration using Bayesian optimization.
 
 ### Graduate Research Fellow (Centre for International Development)
 *Cambridge, MA (Nov 2016 - Aug 2018)*
 
 -	**Developed Machine Learning models** to identify export sector growth opportunities at sub-national level in Colombia.
 -	Built **collaborative filtering models** to predict rural agricultural diversification and recommended possible areas for investment in Colombia.
--	**[In Progress] Using Collaborative Filtering and network analysis** to understand patterns and predict changes in global tourism using credit card transactions data.
+-	**Using Collaborative Filtering and network analysis** to understand patterns and predict changes in global tourism using credit card transactions data.
 
 ### Team Member/Economist  (Office of the Chief Economic Advisor, Ministry of Finance)
 *New Delhi, India (June 2015 – Aug 2015 / Dec 2015 – Feb 2015)*
