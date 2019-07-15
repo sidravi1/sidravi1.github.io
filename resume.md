@@ -2,7 +2,7 @@
 layout: resume
 title: Resume
 ---
-Data scientist and researcher with over 5 years of technology consulting and 4 years of overseas development experience. Thrives in fast-paced, results driven environments with focus on data modelling, machine learning, and computer science.
+Data scientist and researcher with a background in Computer Science and Econometrics. Loves building bespoke machine learning models to inform business decision. 
 
 ## Education
 ---
