@@ -10,7 +10,7 @@ Following David Mackay's book along with his videos online have been a real joy.
 
 ## The datasets
 
-All the sample data used in his lecture and the book can be found on his [website here](http://www.inference.org.uk/itprnn/code/kmeans/). It also has octave code for the algorithms but we'll  implement them again in python.
+All the sample data used in his lectures and the book can be found on his [website here](http://www.inference.org.uk/itprnn/code/kmeans/). It also has octave code for the algorithms but we'll implement them again in python.
 
 ## The simple k-means
 
@@ -78,7 +78,7 @@ def run_simulation(xs, n_clusters):
     return assignments, new_centroids, []
 {% endhighlight %}
 
-We're going to look at the 7 different datasets and see how this code does in pickup the clusters.
+We're going to look at the 7 different datasets and see how this code does in picking up the clusters.
 
 ![simple]({{"/assets/20190327_simple.png" | absolute_url}})
 
@@ -119,7 +119,7 @@ Here are the results with `beta` set to 2:
 
 ![simple soft]({{"/assets/20190327_simple_soft.png" | absolute_url}})
 
-Do we do any better? Well, not really. Though we are able to identify the ones we are uncertain about - the circles in light-blue, we now have an additional parameter, `beta`, to set. The other limitation of the algorithm is that each cluster is assumed to be the same size. We see from the data that this is not always true. Let's allow for variable sizes in the next section.
+Do we do any better? Well, not really. Though we are able to identify the ones we are uncertain about - the circles in light-blue - we now have an additional parameter, `beta`, to set. The other limitation of the algorithm is that each cluster is assumed to be the same size. We see from the data that this is not always true. Let's allow for variable sizes in the next section.
 
 ## K-means with variable cluster sizes
 
@@ -198,7 +198,7 @@ So what did we get for all this hard work?
 
 Good news is that all the ambiguity in the second and fourth dataset is now gone - we have a small cluster and a large cluster. Bad news is that there is a little more ambiguity about the some of the peripheral points in the first dataset since the blue cluster is now larger and more important. It still does a shitty job of the circles and the last dataset with skinny clusters.
 
-We  can't do much about the circles unless we change coordinate systems / do some transformations and I'll leave that out for now (another reason to use HDBSCAN or Spectral Clustering if this is a real life problem). But we can do something about the skinny clusters. So far we have kept the cluster round - i.e. the variance in the two dimensions are constrained to be equal. Let's relax that in the next section.
+We can't do much about the circles unless we change coordinate systems / do some transformations and I'll leave that out for now (another reason to use HDBSCAN or Spectral Clustering if this is a real life problem). But we can do something about the skinny clusters. So far we have kept the cluster round - i.e. the variance in the two dimensions are constrained to be equal. Let's relax that in the next section.
 
 
 ## K-means with adaptive covariance

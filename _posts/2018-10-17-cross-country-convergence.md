@@ -31,7 +31,7 @@ $$
 
 Going forward we will drop $y_0$ from the notation for clarity.
 
-This implicit assumption here is that $\beta_{y}$ is independent from  $\beta_{y + 1}$. But we know that's not entirely true. If you have me $\beta_{y}$, I'd expect to $\beta_{y + 1}$ to be pretty similar and deviate only slightly.
+This implicit assumption here is that $\beta_{y}$ is independent from  $\beta_{y + 1}$. But we know that's not entirely true. If you gave me $\beta_{y}$, I'd expect $\beta_{y + 1}$ to be pretty similar and deviate only slightly.
 
 We can make this explicit and put a gaussian random-walk prior on beta.
 

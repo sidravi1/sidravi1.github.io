@@ -14,7 +14,7 @@ The code for the HMC animation (uses minimc) can be [found here](https://gist.gi
 
 ## Hamlitonian Monte Carlo
 
-I would recommend heading over to Colin's blog and reading the introduction to HMC he has posted up there and then come back and watch these videos. Note the Metropolis proposals where the sampler jumps in momentum space to a new energy level. Then it takes a bunch of leapfrog steps and then takes a samples.
+I would recommend heading over to Colin's blog and reading the introduction to HMC he has posted up there and then come back and watch these videos. Note the Metropolis proposals where the sampler jumps in momentum space to a new energy level. Then it takes a bunch of leapfrog steps and then takes a sample.
 
 {% include youtube.html id="po0Obe04Nfs" %}
 

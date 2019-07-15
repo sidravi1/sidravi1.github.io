@@ -14,8 +14,8 @@ Harvard Kennedy School of Government, MA<br>
 ###  BACHELOR OF ENGINEERING (ELEC.) /BACHELOR OF SCIENCE (COMP.) (Hons) 	2004
 University of Melbourne, Australia
 
-**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, Perl, Unix, LaTeX<br>
-**Skills:** Bayesian Inference, Statistics, Machine Learning, Econometrics, Scripting/programming
+**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks
+**Skills:** Bayesian Inference, Optimization, Causal Inference, Statistical modelling, Machine Learning, Econometrics.
 
 <br>
 ## Experience
@@ -24,9 +24,10 @@ University of Melbourne, Australia
 
 ### Senior Data Scientist (QuantumBlack, McKinsey & Company)
 *Cambridge, MA (Sep 2018 - current)*
-- **Pharma** - Mined electronic medical records to understand causes of patient switching behavior.
-- **Disaster Recover** - Developed Monte Carlo models to quantify uncertainty in key milestones to inform mitigation strategies.
-- **[IN PROGRESS] Chemical manufacturing** - Explained causes of variability in yield. Red R&D process through principled exploration using Bayesian optimization.
+- **Pharma** - Mined electronic medical records to understand causes of patient switching behavior. Analytics was used to improve targeting for various marketing channels.  
+- **Disaster Recover** - Developed Monte Carlo models to quantify uncertainty in key milestones to inform mitigation strategies. Models were used to better understand possible states of the world prepare contingency plans.
+- **[IN PROGRESS] Chemical manufacturing** - Identified root cause of of variability in production yields. Identified levers that can used to improve yield. Refined R&D process through principled exploration using Bayesian optimization.
+- **Internal R&D** - Contributed to an internal package for causal inference using Bayesian Networks.
 
 ### Graduate Research Fellow (Centre for International Development)
 *Cambridge, MA (Nov 2016 - Aug 2018)*
@@ -38,8 +39,8 @@ University of Melbourne, Australia
 ### Team Member/Economist  (Office of the Chief Economic Advisor, Ministry of Finance)
 *New Delhi, India (June 2015 – Aug 2015 / Dec 2015 – Feb 2015)*
 
-- **Contributing writer for the 2016 Economic Survey** – Conducted analysis and wrote the chapter on fertilizer sector in the 2016 Indian Economic Survey.
--	**Policy reform for fertilizer** – Used existing datasets to show how current policy leads to shortages and black markets. Worked with Ministry of Fertilizer & Chemicals to design a new policy that is currently being presented to the cabinet.
+- **Contributing writer for the 2016 Economic Survey** – Conducted analysis and wrote the chapter on fertilizer subsidy in the 2016 Indian Economic Survey.
+-	**Policy reform for fertilizer** – Used existing datasets to show how current policy leads to shortages and black markets. Worked with Ministry of Fertilizer & Chemicals to design a new policy that was presented to the cabinet.
 -	**Created analytics on social and economic development** – Analysed recently released SECC census data to highlight variation in various metrics of welfare in India for presentation to the Finance Minister.
 
 ### Senior Associate, Global Markets Team (Clinton Health Access Initiative)
@@ -52,7 +53,7 @@ University of Melbourne, Australia
 ### Access to medicines/UNITAID Analyst (Clinton Health Access Initiative)
 *Kampala, Uganda (Jul 2011 – Aug 2012)*
 
--	**Increased uptake of a new drug, Atazanavir/Ritonavir (ATV/r)** by 14% in one quarter by driving policy change at Ministry of Health and assisting major implementation partners with the transition. ATV/r is a new drug with lower cost, lower pill burden, and reduced side effects compared to other drugs in its class.
+-	**Increased uptake of a new drug, Atazanavir/Ritonavir (ATV/r)** by 14% in one quarter by driving policy change at Ministry of Health and assisting major implementation partners with the transition.
 - **Analysed consumption and issues data to forecast demand** for paediatric and second line anti-retroviral medications (ARVs) in country to determine national need for ARVs.
 - On behalf of the Ministry of Health, **performed a quantification of the national need** for all critical lab reagents and consumables to inform national diagnostic budget.
 
