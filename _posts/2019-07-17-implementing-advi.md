@@ -23,7 +23,7 @@ With Automatic Differentiation Variational Inference (ADVI), you don't need to w
 We're going to fit a simple linear regression model.
 
 $$
-Y ~ N(X'\beta, 2.5)
+Y \sim N(X'\beta, 2.5)
 $$
 
 We're going to choose $\beta$ to be [5, -3.5]. We'll generate $y$ and see if we can recover these betas.
