@@ -88,7 +88,8 @@ The first bit on the RHS is your likelihood and the second bit is the prior. Bot
 # Prior
 def log_p_theta(self, betas, sigma):
     beta_prior = spa.stats.norm.logpdf(betas, self.betas_mu, self.betas_sd).sum()
-    sigma_prior = spa.stats.gamma.logpdf(sigma/self.sigma_scale, self.sigma_shape) - npa.log(self.sigma_scale)
+    sigma_prior = spa.stats.gamma.logpdf(sigma/self.sigma_scale,
+                                         self.sigma_shape) - npa.log(self.sigma_scale)
 
     return beta_prior + sigma_prior
 
@@ -158,6 +159,6 @@ Here's an animation of the optimization process. Enjoy!
 
 You can get [the code here](https://github.com/sidravi1/Blog/tree/master/src/advi). If you really want the animation code, then ping me and I'll clean up the notebook and throw it up somewhere.
 
-Full-rank doesn't look hard to do. That would be a nice extension if you want to do it. I did play around with other transformations, especially the $\log(\exp(\theta) - 1)$ and at least for this example, I didn't find much of a difference. If you do that, don't forget to use `logaddexp` when writing the inverse transform - else you will get undeflow/overflow.
+Full-rank doesn't look hard too do. That would be a nice extension if you want to do it. I did play around with other transformations, especially the $\log(\exp(\theta) - 1)$ and at least for this example, I didn't find much of a difference. If you do that, don't forget to use `logaddexp` when writing the inverse transform - else you will get underflow/overflow.
 
-Choosing the base learning rate took a little tuning. Also, my biggest time sink was not realizing that you shouldn't transform (well you can't take the log of a negative!) the latent params that already have a support over all reals.
+Choosing the base learning rate took a little tuning. Also, my biggest time sink was not realizing that you shouldn't transform (well you can't take the log of a negative!) the latent params that already have a support over all reals. Oof.
