@@ -159,6 +159,6 @@ Here's an animation of the optimization process. Enjoy!
 
 You can get [the code here](https://github.com/sidravi1/Blog/tree/master/src/advi). If you really want the animation code, then ping me and I'll clean up the notebook and throw it up somewhere.
 
-Full-rank doesn't look hard too do. That would be a nice extension if you want to do it. I did play around with other transformations, especially the $\log(\exp(\theta) - 1)$ and at least for this example, I didn't find much of a difference. If you do that, don't forget to use `logaddexp` when writing the inverse transform - else you will get underflow/overflow.
+Full-rank doesn't look too hard to do. That would be a nice extension if you want to do it. I did play around with other transformations, especially the $\log(\exp(\theta) - 1)$ and at least for this example, I didn't find much of a difference. If you do that, don't forget to use `logaddexp` when writing the inverse transform - else you will get underflow/overflow.
 
 Choosing the base learning rate took a little tuning. Also, my biggest time sink was not realizing that you shouldn't transform (well you can't take the log of a negative!) the latent params that already have a support over all reals. Oof.
