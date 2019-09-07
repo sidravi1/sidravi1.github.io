@@ -1,7 +1,7 @@
 name: Sid Ravinutala's blog
 title: Sid Ravinutala
 url: https://sidravi1.github.io
-baseurl: ""
+baseurl: "/"
 show_excerpts: true
 twitter_username: sidinusofaiii
 github_username: sidravi1

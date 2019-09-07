@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: resume 
 title: Resume
 ---
 Data scientist and researcher with a background in Computer Science and Econometrics. Loves building bespoke machine learning models designed to inform business actions. Enjoys learning, experimentation, and building things.
