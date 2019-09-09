@@ -11,11 +11,11 @@ email: sid.ravi1@gmail.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: texture
-gems:
-  - jekyll-seo-tag
+
 plugins:
   - "disqus-for-jekyll"
   - jekyll-feed
+  - jekyll-seo-tag
 
 header_pages:
   - resume.md
