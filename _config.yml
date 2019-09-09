@@ -10,7 +10,8 @@ author: Sid Ravinutala
 email: sid.ravi1@gmail.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: texture
+remote_theme: thelehhman/texture
+#theme: texture
 
 plugins:
   - "disqus-for-jekyll"
