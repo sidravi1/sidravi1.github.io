@@ -2,7 +2,6 @@ name: Sid Ravinutala's blog
 title: Sid Ravinutala
 url: https://sidravi1.github.io
 baseurl: ""
-show_excerpts: true
 twitter_username: sidinusofaiii
 github_username: sidravi1
 description: On machine learning, bayesian inference, python, and maybe squash
@@ -10,7 +9,7 @@ author: Sid Ravinutala
 email: sid.ravi1@gmail.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme: texture
+theme: minima
 plugins:
   - "disqus-for-jekyll"
   - jekyll-feed
@@ -19,17 +18,3 @@ header_pages:
   - resume.md
   - blog/index.html
   - index.html
-
-sass:
-  sass_dir: _sass
-
-texture:
-  title: Sid Ravinutala
-  tagline: Data Scientist
-  date_format: "%b %-d, %Y"
-  style: red
-  showNav: true
-  social_links:
-    twitter: sidinusofaiii
-    github:  sidravi1
-    linkedIn: in/siddharth-ravinutala-8640427 # format: locale/username

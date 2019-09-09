@@ -14,7 +14,7 @@ Harvard Kennedy School of Government, MA<br>
 ###  BACHELOR OF ENGINEERING (ELEC.) /BACHELOR OF SCIENCE (COMP.) (Hons) 	2004
 University of Melbourne, Australia
 
-**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks<br>
+**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks
 **Skills:** Bayesian Inference, Optimization, Causal Inference, Statistical modelling, Machine Learning, Econometrics.
 
 <br>
