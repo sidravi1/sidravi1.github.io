@@ -5,6 +5,9 @@ date: "2018-06-15 14:34"
 comments: true
 use_math: true
 ---
+
+In [chapter 2 of BDA3](https://www.amazon.com/gp/product/1439840954/), the authors provide an example where they regularize the cancer rates in counties in the US using an empirical Bayesian model. In this post, I repeat the exercise using county level data on suicides using firearms and other means.
+
 <div id="vis3"></div>
 
 <script type="text/javascript">
@@ -16,8 +19,6 @@ use_math: true
 </script>
 
 (maps won't work if you have an ad-blocker. Disable it or allow this page for pretty maps: https://vega.github.io/vega-datasets/data/us-10m.json)
-
-In [chapter 2 of BDA3](https://www.amazon.com/gp/product/1439840954/), the authors provide an example where they regularize the cancer rates in counties in the US using an empirical Bayesian model. In this post, I repeat the exercise using county level data on suicides using firearms and other means.
 
 A lot of the methodology here is borrowed from BDA3. You should pick up that book if you want to check out the math at a deeper here. Unlike McElreath's, you can't easily read it cover to cover; it's sometimes a little dense but I found it to be a good reference book. If you have the book (or check out the notebook), you'll see that it has a 10 floating around. It's so that we talk about 1 year death rates instead of the 10 years we have in the data. I've skipped that in the model specification below for clarity.
 

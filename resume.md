@@ -1,5 +1,5 @@
 ---
-layout: resume 
+layout: resume
 title: Resume
 ---
 Data scientist and researcher with a background in Computer Science and Econometrics. Loves building bespoke machine learning models designed to inform business actions. Enjoys learning, experimentation, and building things.
@@ -14,7 +14,7 @@ Harvard Kennedy School of Government, MA<br>
 ###  BACHELOR OF ENGINEERING (ELEC.) /BACHELOR OF SCIENCE (COMP.) (Hons) 	2004
 University of Melbourne, Australia
 
-**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks
+**Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks<br>
 **Skills:** Bayesian Inference, Optimization, Causal Inference, Statistical modelling, Machine Learning, Econometrics.
 
 <br>

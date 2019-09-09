@@ -6,8 +6,6 @@ comments: true
 use_math: true
 ---
 
-# Causal inference
-
 If you want to measure the causal effect of a treatment what you need is a counterfactual. What would have happened to the units if they had *not* got the treatment? Unless your unit is Gwyneth Paltrow in Sliding Doors, you only observe one state of the world. So the key to causal inference is to reconstruct the *untreated* state of the world. Athey et al. in [their paper](https://arxiv.org/pdf/1710.10251.pdf) show how matrix completion can be used to estimate this unobserved counterfactual world. You can treat the unobserved (untreated) states of the treated units as missing and use a penalized SVD to reconstruct these from the rest of the dataset. If you are familiar with the econometric literature on synthetic controls, fixed effects, or unconfoundedness you should definitely read the paper; it shows these as special cases of matrix completion with the missing data of a specific form. Actually, you should read the paper anyway. Most of it is quite approachable and it's very insightful.
 
 Also, check out [this great twitter thread](https://twitter.com/causalinf/status/1067126856070168579) by Scott Cunningham and [Cyrus Samii's notes](http://cyrussamii.com/?p=2712)] on it.

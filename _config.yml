@@ -1,7 +1,7 @@
 name: Sid Ravinutala's blog
 title: Sid Ravinutala
 url: https://sidravi1.github.io
-baseurl: "/"
+baseurl: ""
 show_excerpts: true
 twitter_username: sidinusofaiii
 github_username: sidravi1
@@ -27,7 +27,7 @@ texture:
   title: Sid Ravinutala
   tagline: Data Scientist
   date_format: "%b %-d, %Y"
-  style: blue
+  style: red
   showNav: true
   social_links:
     twitter: sidinusofaiii
