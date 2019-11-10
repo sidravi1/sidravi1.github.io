@@ -241,9 +241,11 @@ I've trimmed the values greater than 1.0 for readability.
 So Gibbs does better than slice with lower KL divergence scores. But not always.
 
 Here are some where Gibbs does better than slice:
+
 ![gibbs over slice]({{"/assets/20190504_gibbs_over_slice.png" | absolute_url}})
 
 And some where slice does better than Gibbs:
+
 ![slice over gibbs]({{"/assets/20190504_slice_over_gibbs.png" | absolute_url}})
 
 For multimodal distributions, slice does better than Gibbs. There may be a better Gibbs sampler that overcomes this but this makes sense for our implementation. The multinomial draw is very unlikely to shift you to the other far away gaussians if you stuck in one.

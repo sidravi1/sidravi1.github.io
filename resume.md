@@ -2,11 +2,10 @@
 layout: resume
 title: Resume
 ---
-Data scientist and researcher with a background in Computer Science and Econometrics. Loves building bespoke machine learning models designed to inform business actions. Enjoys learning, experimentation, and building things.
+*Data scientist and researcher with a background in Computer Science and Econometrics. Loves building bespoke machine learning models designed to inform business actions. Enjoys learning, experimentation, and building things.*
 
 ## Education
 ---
-<br>
 ### MASTER IN PUBLIC ADMINISTRATION in INTERNATIONAL DEVELOPMENT 	 (2016)
 Harvard Kennedy School of Government, MA<br>
 *econometrics, macroeconomics, microeconomics, data science, statistics, machine learning*
@@ -17,16 +16,14 @@ University of Melbourne, Australia
 **Tools:** Python (incl. pymc3, pytorch, pyspark), R, Stata, Scala, AWS/EC2, DataBricks<br>
 **Skills:** Bayesian Inference, Optimization, Causal Inference, Statistical modelling, Machine Learning, Econometrics.
 
-<br>
 ## Experience
 ---
-<br>
 
 ### Senior Data Scientist (QuantumBlack, McKinsey & Company)
 *Cambridge, MA (Sep 2018 - current)*
 - **Pharma** - Mined electronic medical records to understand causes of patient switching behavior. Analytics was used to improve targeting for various marketing channels.  
 - **Disaster Recover** - Developed Monte Carlo models to quantify uncertainty in key milestones to inform mitigation strategies. Models were used to better understand possible states of the world prepare contingency plans.
-- **[IN PROGRESS] Chemical manufacturing** - Identified root cause of variability in production yields. Identified levers that can used to improve yield. Refined R&D process through principled exploration using Bayesian optimization.
+- **Chemical manufacturing** - Identified root cause of variability in production yields. Identified levers that can used to improve yield. Optimized manufacturing process using genetic algorithms.
 - **Internal R&D** - Contributed to an internal package for causal inference using Bayesian Networks.
 
 ### Graduate Research Fellow (Centre for International Development)
@@ -63,10 +60,8 @@ University of Melbourne, Australia
 -	**Analysed business and technical barriers, and designed solutions** for numerous organizations in public and private sectors including Commonwealth Bank of Australia, Telstra and the Australia Tax Office.
 -	**Managed large budgets and lead teams** up to 22 people to deliver on tight deadlines.
 
-<br>
 ## Publications and Presentations
 ---
-<br>
 - Redesigning India's Urea Policy, Harvard Kennedy School, MPA/ID Final Capstone Paper
 -	Economic survey of India, Ministry of Finance, February 2016
 -	An overview of the antiretroviral market, Current Opinion in HIV/AIDS, November 2013 - Volume 8 - Issue 6
