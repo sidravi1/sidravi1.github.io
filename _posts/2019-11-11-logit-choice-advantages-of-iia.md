@@ -6,17 +6,17 @@ comments: true
 use_math: true
 ---
 
-In the [last post]({{ site.baseurl }}{% post_url 2019-11-10-logit-choice-model %}), we talked about how this property of Independence from Irrelevant Alternatives may not be realistic (see red bus / blue bus example). But, say you are comfortable with it the proportional substitution that it implies, you get to use some nice tricks.
+In the [last post]({{ site.baseurl }}{% post_url 2019-11-10-logit-choice-model %}), we talked about how this property of Independence from Irrelevant Alternatives (IIA) may not be realistic (see red bus / blue bus example). But, say you are comfortable with it and the proportional substitution that it implies, you get to use some nice tricks.
 
-The first advantage is when the researcher only cares about a subset of alternatives. There are many ways to get to work - walk, bike, train, skateboard, skydive, helicopter etc. But if we only care about walk, bike, and train ?(and are ok with the IIA assumption)- we can just select the people who chose these and drop all the other records.
+The first advantage is when the researcher only cares about a subset of alternatives. There are many ways to get to work - walk, bike, train, skateboard, skydive, helicopter etc. But if we only care about walk, bike, and train (and are ok with the IIA assumption) we can just select the people who chose these and drop all the other records. Neat.
 
-The second one is that you can estimate model parameters, our $\beta$s from the last post, consistently on a subset of alternatives for each decision maker. In an experimental design, if there are 100 alternatives and the researchers can provide a randomly selected set of 10 alternatives to each sampled decision maker. Or model the decision maker's choice set as the one they actually selected and nine other randomly chosen alternatives. You can see how this makes like easier.
+The second one is that you can estimate model parameters, our $\beta$s from the last post, consistently on a subset of alternatives for each decision maker. In an experimental design, if there are 100 alternatives, the researcher can just provide a randomly selected set of 10 alternatives to each sampled decision maker. Or if you are using an existing dataset, model the decision maker's choice set as the one they actually selected and nine other randomly chosen alternatives. You can see how this makes life easier.
 
 Let's demonstrate the second one with some fake data.
 
 ## Estimation from a subset of alternatives
 
-In this section I've shamelessly copied from Jim Savage's (@jim_savage_) [blog post](http://khakieconomics.github.io/2019/03/17/Putting-it-all-together.html). He did a great post on conjoint survey and you don't need a crappier python version of his post. I mainly port his R/Stan code to Python/Pymc3 and add a few comments. You should check out his series of blog posts if you are interested in this topic.
+In this section I've shamelessly copied from Jim Savage's (@jim_savage_) [blog post](http://khakieconomics.github.io/2019/03/17/Putting-it-all-together.html). He did a great post on conjoint surveys and you don't need a crappier python version of his post. I mainly ported his R/Stan code to Python/Pymc3 and added a few comments. You should check out his series of blog posts if you are interested in this topic.
 
 ### Generate some data
 
@@ -64,9 +64,9 @@ for dm, df in decisionmakers.groupby('i'):
 decisionmakers_full = pd.concat(all_df, ignore_index=True)
 {% endhighlight %}
 
-So each decision maker has a binary matrix `X` that determines the choices. Each row represents an alternatives and columns are if that alternative has that attribute or not. Then we multiply it through by the $betas$, how much decision makers value that attribute, to get the utility from each alternative. Softmax to convert to probabilities (see previous post on why you can do this) and simulate an item being chosen.
+So each decision maker has a binary matrix $X$ that determines the choices. Each row represents an alternative and columns if that alternative has that attribute or not. Then we multiply it through by the $\beta$s, how much decision makers value that attribute, to get the utility from each alternative. Softmax to convert to probabilities (see previous post on why you can do this) and generate choices using a multinomial.
 
-Then also add a row for the outside option that gives them zero utility - the `X` vector for that alternative is just a bunch of zeros.
+We also add a row for the outside option that gives them zero utility - the `X` vector for that alternative is just a bunch of zeros.
 
 Finally, let's capture the indices for where each decision maker's choice set starts and end.
 
@@ -77,7 +77,7 @@ indexes = indexes.droplevel(0, axis=1)
 
 ### Fit the model
 
-Let's get the variables as vectors.
+Let's get the variables as numpy arrays and shared vars.
 
 {% highlight python %}
 choice = decisionmakers_full['choice'].values
@@ -152,7 +152,7 @@ scaled_trace = scaled_trace / scaled_trace[:, 0].reshape(-1, 1)
 
 Voila! So the possible set of alternatives can be huge (in our case $2^p = 2^{10} = 1024$), but each decision maker only sees a small (5-10) alternatives with different features. We were able to take advantage of the IIA property and randomly select a subset of the alternatives that the decision maker sees.
 
-You can find [the notebook](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice) for this post [here](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice). The code here is not the most pythonic way of doing things. I just tried to keep it as similar to Jim's code flow as possible so you can follow along with his posts but with the python code here.
+You can find [the notebook](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice) for this post [here](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice). The code here is not the most pythonic way of doing things. I just tried to keep it as similar to Jim's code flow as possible so you can follow along with his posts but with the python code here. He also has a nice section on prior selection that I'm skipping here.
 
 {% if page.comments %}
   {%- include disqus_tags.html -%}

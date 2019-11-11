@@ -18,7 +18,7 @@ $$
 U_{nj} = V_{nj} + \epsilon_{nj}\,\,\forall j
 $$
 
-We can model $V_{nj}$ is the known bit - what we can model. $\epsilon_{nj}$ is the iid error term.
+$V_{nj}$ is the known bit - what we can model and $\epsilon_{nj}$ is the iid error term.
 
 ### Specifying $V_{nj}$
 
@@ -28,16 +28,16 @@ $$
 V_{nj} = \beta ' x_{nj}
 $$
 
-Also, as Train points out: "Under fairly general conditions, any function can be approximated arbitrarily closely by one that is linear in parameters."
+Also, as Train points out: "Under fairly general conditions, any function can be approximated arbitrarily closely by one that is linear in parameters." You can get fancier though if you like and use something flexible like Cobb-Douglas if you like.
 
 
 ### Gumbel errors
 
-We get the logit model by assuming that that $\epsilon_{nj}$ follows a Gumbel distribution. Train claims this is not that hard a pill to swallow - it's nearly the same as assuming the errors are independently normal. It just give fatter tails than a normal so allows the decision maker to be a little more wild.
+We get the logit model by assuming that that $\epsilon_{nj}$ follows a Gumbel distribution. Train claims this is not that hard a pill to swallow - it's nearly the same as assuming the errors are independently normal. It just give fatter tails than a normal so allows the decision maker to get a little more wild.
 
 ![Normal vs Gumbel]({{"/assets/20191110_normal_v_gumbel.png" | absolute_url}})
 
-But we *are* comfortable with this assumption, then the difference of two Gumbel distributions:
+But if we *are* comfortable with this assumption, then the difference of two Gumbel distributions:
 
 $$
 \epsilon^* _ {nji} = \epsilon_{nj} - \epsilon_{ni}
@@ -51,7 +51,7 @@ $$
 
 ![Diff of gumbels]({{"/assets/20191110_gumbel_logistic.png" | absolute_url}})
 
-What might be harder to swallow is that the errors are iid. We are saying that the errors for a decision maker *between* alternatives are independent. Train doesn't stress about this too much though; he claims that if you do a good job of specifying $V_{nj}$, then the rest is basically white noise.
+What might be harder tmo swallow is that the errors are iid. We are saying that the errors for a decision maker <u>between</u> alternatives are independent. Train doesn't stress about this too much though; he claims that if you do a good job of specifying $V_{nj}$, then the rest is basically white noise.
 
 But the key takeaway here is:
 
@@ -59,23 +59,25 @@ But the key takeaway here is:
     effect when estimating average preferences that when
     forecasting substitution patterns.* (pg. 36)
 
-Nice. We'll do an experiment later to test this out as well.
+Nice. We'll do an experiment later to test one of these violations as well.
 
 ### From utility to probabilities
 
-You can check out the book for the derivation. I'll just outline the key bits that will b relevant when we do some simulations.
+You can check out the book for the derivation. I'll just outline the key bits that will be relevant when we do some simulations.
 
 The probability that the decision maker chooses alternative $i$ over $j$ is:
 
 $$
 \begin{aligned}
 P_{ni} &= Prob(V_{ni} + \epsilon_{ni} \gt V_{nj} + \epsilon_{nj} \,\, \forall j \ne i) \\
+& ...\\
 &<insert\,\, math>\\
+& ...\\
 P_{ni} &= \frac{exp(\beta' x_{ni})}{\sum_j exp(\beta' x_{nj})}
 \end{aligned}
 $$
 
-The key thing is how that decision is made. A decision maker is simply comparing two utilities and picking the one that is higher.
+A decision maker is simply comparing two utilities and picking the one that is higher. We don't get to see those idiosyncratic errors but the decision maker experiences them.
 
 ## Power and Limitations of the Logit
 
@@ -87,19 +89,19 @@ $$
 U_{ni} = \beta_1 x_{1,ni} + \beta_2 x_{2,ni} + \epsilon_{ni}
 $$
 
-Then the ratio of $\beta_1 / \beta_2$ has meaning. So if $x_1$ represents price and $x_2$ is operating cost, $\beta_1 / \beta_2$ represents the decision maker's willingness to pay for operating cost reductions in up front price. Scale of the parameters doesn't really matter - and this is also makes fitting them a little tricky sometimes.
+Then the ratio of $\beta_1 / \beta_2$ has meaning. For example, if $x_1$ represents price and $x_2$ is operating cost, $\beta_1 / \beta_2$ represents the decision maker's willingness to pay for operating cost reductions in up front price. Scale of the individual parameters doesn't really matter - and this is also makes fitting them a little tricky sometimes.
 
 ### Taste variation
 
 Finally, some modelling.
 
-Utility can be based on features of the car AND the household. Here's the two param example from the book. Reminder that $n$ represents the decision maker and $j$ the alternative.
+Utility can be based on features of the car AND the household i.e we can model taste variation amongst the decision makers. Here's the two param example from the book. Reminder that $n$ represents the decision maker and $j$ the alternative. Here ${PP}_{j}$ is the purchase price for car $j$, and ${SR}_{j}$ is the shoulder room in the car.
 
 $$
 U_{nj} = \alpha_n {SR}_j + \beta_n{PP}_j + \epsilon_{nj}
 $$
 
-Each household has it's own $\alpha$ and $\beta$ based on some features $M_n$ (say, size of family) and $I_n$ (income).
+Each household has it's own $\alpha$ and $\beta$ i.e. how much weight they put on these features of the car, based on some characteristics of the household - $M_n$ (size of family) and $I_n$ (income).
 
 $$
 \alpha_n = \rho M_n\\
@@ -114,7 +116,7 @@ $$
 
 So we are down to estimating $\rho$ and $\theta$. The rest of the $V_{nj}$ part of the utility are features of the car and household that are given.
 
-We're going to make up some data for households choosing between three cars. It's similar to the example in the book but instead of 2 params ($\rho$ and $\theta$), let's do 10 (we'll call them $\beta$s). Because computers.
+We're going to make up some data for households choosing between three cars. It's similar to the example in the book but instead of 2 params ($\rho$ and $\theta$), let's do 10 - because computers - and we'll call them $\beta$s.
 
 {% highlight python %}
 utility = (betas * households) @ cars.T + errors
@@ -173,9 +175,9 @@ That last line is "de-scaling" it. As we mentioned above, we'll only look at the
 
 ![Taste variation results]({{"/assets/20191110_taste_variation.png" | absolute_url}})
 
-:)
+:D
 
-You can try to dial up the gumbel noise and try to break it. I found it to be pretty robust.
+You can dial up the gumbel noise and try to break it. I found it to be pretty robust.
 
 **When taste change randomly**
 
@@ -199,22 +201,22 @@ U_{nj} &= \rho (M_n {SR}_j) + \theta ({PP}_j/I_n) + \tilde{\epsilon}_{nj}
 \end{aligned}
 $$
 
-$\epsilon_{nj}$ is no longer iid since they are correlated within the same decision maker, $n$. Let's simulate this data:
+$\tilde{\epsilon}_{nj}$ is no longer iid since they are correlated within the same decision maker, $n$. Let's simulate this data:
 
 {% highlight python %}
 taste_errors = np.random.normal(4, 4, size = (n_households, n_params))
 utility = (betas * households + taste_errors) @ cars.T + errors
 {% endhighlight %}  
 
-We'll skip the rest of the code here.
+We'll skip the rest of the code here which is basically the same as above and go straight to the results.
 
 ![Random taste variation]({{"/assets/20191110_random_taste.png" | absolute_url}})
 
-We get some large credible intervals but still not terrible. The actual value (mostly) lies within the 95% CI. I do another experiment where I model the taste errors as well it does a little better - it's in the notebook if you're interested.
+We get some large credible intervals but still not terrible. The actual value (mostly) lies within the 95% CI. In the notebook, I do another experiment where I model the taste errors as well it does a little better.
 
 ### Substitution patterns
 
-A feature (or bug) of the logit model is how substitution occurs. It can be seen in two ways.
+A feature (or bug if you're not ok with the implications) of the logit model is how substitution occurs. It can be seen in two ways.
 
 **Independence from Irrelevant Alternatives (IIA)**
 
@@ -227,7 +229,7 @@ $$
 \end{aligned}
 $$
 
-No other alternatives but $k$, and $i$ enter this. So if some other alternative $l$ changes, it will effect the absolution probabilities of picking $k$ and $i$ but not the *ratio* of their probabilities.
+No other alternatives but $k$, and $i$ enter this. So if some other alternative $l$ changes, it will effect the absolute probabilities of picking $k$ and $i$ but not the <u>*ratio*</u> of their probabilities.
 
 Let's check this out in our example (in logs to avoid overflow):
 
@@ -237,7 +239,6 @@ p_base = sp.special.softmax(utility, axis=1)
 p_base_ratio_12 = np.log(p_base[:, 1]) - np.log(p_base[:, 2])
 
 # let's "improve" car 0
-
 cars_0_improved = cars.copy()
 cars_0_improved[0] = cars_0_improved[0] * 2
 
@@ -246,10 +247,10 @@ p_car0_imp = sp.special.softmax(utility_car0_imp, axis=1)
 p_car0imp_diff12 = np.log(p_car0_imp[:, 1]) / np.log(p_car0_imp[:, 2])
 
 np.all(np.isclose(p_car0imp_ratio_12, p_base_ratio_12))
-# True
+#> True
 {% endhighlight %}  
 
-This might not always make sense. The book provides the blue bus, red bus example. There are two modes of transport - is a blue bus and a car. Then a red bus gets introduced that traveler considers to be the same as the blue bus. The ratio of probabilities of blue bus and the car will clearly change. Half the people using the blue bus will switch to the red bus but none of the car drivers will.
+This might not always make sense. The book provides the blue bus, red bus example. Say there are two modes of transport available - a blue bus and a car. Then a red bus gets introduced that travellers consider to be the same as the blue bus. The ratio of probabilities of blue bus and the car will clearly change. Half the people using the blue bus will switch to the red bus but none of the car drivers will. If you have this sort of situation, logit might not the right model.
 
 ### Proportional Substitution
 
@@ -265,7 +266,7 @@ diff_imp_car1_prop = diff_imp_car0 * p_base[:, 1]/(p_base[:, 1] + p_base[:, 2])
 diff_imp_car1 = p_base[:, 1] - p_car0_imp[:, 1]
 
 np.all(np.isclose(diff_imp_car1_prop, diff_imp_car1))
-# True
+#> True
 {% endhighlight %}
 
 ## Next up - advantages of IIA
