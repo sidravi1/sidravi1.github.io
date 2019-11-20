@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Logit choice - Advantages of IIA"
+title: "Logit Choice Model - Advantages of IIA"
 date: "2019-11-11 08:46"
 comments: true
 use_math: true
