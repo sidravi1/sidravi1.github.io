@@ -150,7 +150,7 @@ scaled_trace = scaled_trace / scaled_trace[:, 0].reshape(-1, 1)
 
 ![conjoint studies]({{"/assets/20191110_subset_alternatives.png" | absolute_url}})
 
-Voila! So the possible set of alternatives can be huge (in our case $2^p = 2^{10} = 1024$), but each decision maker only sees a small (5-10) alternatives with different features. We were able to take advantage of the IIA property and randomly select a subset of the alternatives that the decision maker sees.
+Voila! So the possible set of alternatives can be huge (in our case $2^p = 2^{10} = 1024$), but each decision maker only sees a small (5-10) number of alternatives with different features. We were able to take advantage of the IIA property and randomly select a subset of the alternatives to present to the decision maker.
 
 You can find [the notebook](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice) for this post [here](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice). The code here is not the most pythonic way of doing things. I just tried to keep it as similar to Jim's code flow as possible so you can follow along with his posts but with the python code here. He also has a nice section on prior selection that I'm skipping here.
 
