@@ -6,7 +6,7 @@ comments: true
 use_math: true
 ---
 
-Following David Mackay's book along with his videos online have been a real joy. In [lecture 11](http://videolectures.net/mackay_course_11/), as an example of an inference problem, he goes over many variations of the k-means algorithm. Let's check these out.
+Following David Mackay's book along with his videos online has been a real joy. In [lecture 11](http://videolectures.net/mackay_course_11/), as an example of an inference problem, he goes over many variations of the k-means algorithm. Let's check these out.
 
 ## The datasets
 
