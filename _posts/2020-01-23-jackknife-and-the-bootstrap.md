@@ -217,7 +217,7 @@ $$
 x_i^* \sim \mathcal{N}_5(\bar{x}, \hat{\Sigma} )
 $$
 
-where $\bar{x}$ and $\hat{\Sigma}$ are MLE estimates of the mean and covariance of the data.
+where $\bar{x}$ and $\hat{\Sigma}$ are MLEs of the mean and covariance of the data.
 
 The code is pretty straightforward:
 
@@ -284,7 +284,7 @@ The last line looks like hocus-pocus but it's basically taking the derivative wi
 
 These "unbounded" IFs make $\bar{x}$ unstable. One thing we can do is to calculate the *trimmed* mean. We throw away the portion of $F$ that is above a certain percentile. What does bootstrap tell us about the standard error if we do this?
 
-Here's are functions to trim and get the IF it:
+Here's are functions to trim and get the IF:
 
 {% highlight python %}
 
