@@ -14,7 +14,7 @@ remote_theme: thelehhman/texture
 #theme: texture
 
 # Google Analytics
-google_analytics: UA—157344899-1
+google_analytics: True
 
 plugins:
   - "disqus-for-jekyll"
