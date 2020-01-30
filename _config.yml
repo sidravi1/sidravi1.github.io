@@ -13,6 +13,9 @@ permalink: /blog/:year/:month/:day/:title
 remote_theme: thelehhman/texture
 #theme: texture
 
+# Google Analytics
+google_analytics: UA—157344899-1
+
 plugins:
   - "disqus-for-jekyll"
   - jekyll-feed
