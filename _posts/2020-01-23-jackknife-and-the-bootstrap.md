@@ -354,3 +354,7 @@ Check out the notebook for all the [code here](https://github.com/sidravi1/CASI_
 <a name="footnote1"><sup>1</sup></a> Yes - i know, only for homoscedastic errors.
 
 <a name="footnote2"><sup>2</sup></a> if you're looking for confidence intervals, this is not a great way to do it. It assumes normality for each of the estimates which is obviously not true -- support is only positive numbers. Bias corrected confidence intervals are explored in Chapter 11 of CASI.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

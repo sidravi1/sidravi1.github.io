@@ -201,3 +201,7 @@ Hit the inference button, and you have the $\beta$ parameters recovered.
 ## Final words
 
 You can find the [notebook here](https://github.com/sidravi1/Blog/tree/master/nbs/logit_choice). The ones for the previous posts are up there as well. Next up the GEV model.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
