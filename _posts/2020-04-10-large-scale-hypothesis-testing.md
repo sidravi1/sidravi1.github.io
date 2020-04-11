@@ -198,15 +198,14 @@ $$
 
 the last line is because $pi_0$ is close to 1.
 
+## Final words
+
 So when you are using the Benjamini-Hochberg algorithm, you are rejecting the cases where the posterior of coming from the null distribution is too small.
 
-
-There are other things to talk about. With the Bayesian framework, why look at $Pr(\text{case i is null} | z_i > z0)$ when we can do $Pr(\text{case i is null} | z_i = z0)$. It makes a lot more sense. These lead us to *local* false-discovery rates and another blog post.
+There are other things to talk about. With the Bayesian framework, why look at $ Pr(\text{case i is null} \vert z_i > z0)$ when we can do $Pr(\text{case i is null} \vert z_i = z0)$. It makes a lot more sense. These lead us to *local* false-discovery rates and another blog post.
 
 Thanks for reading.
 
 {% if page.comments %}
   {%- include disqus_tags.html -%}
 {% endif %}
-
-## Final words
