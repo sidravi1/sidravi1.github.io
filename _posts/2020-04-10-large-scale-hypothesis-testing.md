@@ -183,7 +183,7 @@ $$
 Now here's the fun bit. Note that the p-value for $i$ is the probability that you observe something this or more extreme given the null hypothesis. That's exactly what $S_0(z_i)$ is. So we have:
 
 $$
-\pi_i = S_0(z_i)
+p_i = S_0(z_i)
 $$
 
 and $\hat{S}(z_i) = i / N$ if $z_i$ are sorted and $i$ is the index. Sub these into the equation in step 2 above and you get:
@@ -196,7 +196,7 @@ S_0(z_i) &\leq \hat{S}(z_i)\cdot q\\
 \end{aligned}
 $$
 
-the last line is because $pi_0$ is close to 1.
+the last line is by multiplying $\pi_0$ on both sides.
 
 ## Final words
 
@@ -204,7 +204,7 @@ So when you are using the Benjamini-Hochberg algorithm, you are rejecting the ca
 
 There are other things to talk about. With the Bayesian framework, why look at $ Pr(\text{case i is null} \vert z_i > z0)$ when we can do $Pr(\text{case i is null} \vert z_i = z0)$. It makes a lot more sense. These lead us to *local* false-discovery rates and another blog post.
 
-Thanks for reading.
+The untidy notebook can be found [here](The notebook can be found [here](https://github.com/sidravi1/CASI_Examples/blob/master/nbs/Ch15_Large_Scale_Testing.ipynb).). Thanks for reading.
 
 {% if page.comments %}
   {%- include disqus_tags.html -%}
