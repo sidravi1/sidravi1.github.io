@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Large-Scale Hypothesis Testing"
+title: "Large-Scale Hypothesis Testing (Part 1)"
 date: "2020-04-10 17:38"
 comments: true
 use_math: true
