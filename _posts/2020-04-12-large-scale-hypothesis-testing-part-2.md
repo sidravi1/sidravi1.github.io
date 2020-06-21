@@ -140,3 +140,7 @@ You probably been Bonferroni-ing it like me. And that's perfecting fine in most 
 The notebook can be found [here](https://github.com/sidravi1/CASI_Examples/blob/master/nbs/Ch15_Large_Scale_Testing.ipynb). I stopped cleaning up notebooks at some stage. It has a lot of failed experiments and other extensions but it's messy and badly commented. Don't judge me.
 
 Thanks for reading. Happy hunting.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

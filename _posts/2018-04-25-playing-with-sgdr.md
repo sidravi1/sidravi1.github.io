@@ -6,11 +6,11 @@ comments: true
 use_math: true
 ---
 
-This is an implementation of SDGR based on [this paper](https://arxiv.org/abs/1608.03983) by Loshchilov and Hutter. Though the cosine annealing is built into PyTorch now which handles the learning rate (LR) decay, the restart schedule and with it the decay rate update is not (though PyTorch 0.4 came out yesterday and I haven't played with it yet). The notebook that generates the figures in this can be found here.
+This is an implementation of SGDR based on [this paper](https://arxiv.org/abs/1608.03983) by Loshchilov and Hutter. Though the cosine annealing is built into PyTorch now which handles the learning rate (LR) decay, the restart schedule and with it the decay rate update is not (though PyTorch 0.4 came out yesterday and I haven't played with it yet). The notebook that generates the figures in this can be found here.
 
 Let's talk about what SGDR is and then look at how it compares with step LR decay. Finally, we'll look at how varying the two hyper-parameters, T<sub>i</sub> and T<sub>mult</sub>, affects performance.
 
-## SDGR intro
+## SGDR intro
 
 If you have done any sort of gradient descent type optimization, you'll agree that tuning the learning rate is a pain. Techniques that use adaptive learning rates, like Adam, make life a little easier but [some papers have suggested](https://arxiv.org/abs/1705.08292) that they converge to a less optimal minima than SGD with momentum.
 
