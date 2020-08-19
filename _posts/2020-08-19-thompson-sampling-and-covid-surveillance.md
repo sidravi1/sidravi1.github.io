@@ -21,7 +21,7 @@ The problem above can be cast as a multi-armed bandit (MAB), or more specificall
 ### Algorithm
 
 TS uses the actions and the observed outcome to get the posterior distribution for each ward. Here's a simple example with 3 wards. The algorithm goes as follows:
-1. Generate a prior for each ward, w: $$\f_w = beta(\alpha_w, \beta_w)$$ where we set $\alpha_w$ and $\beta_w$ both to 1. <sup>2</sup>.
+1. Generate a prior for each ward, w: $f_w = beta(\alpha_w, \beta_w)$ where we set $\alpha_w$ and $\beta_w$ both to 1. <sup>2</sup>.
 2. For each ward, sample from this distribution:
     $$
     \begin{aligned}
