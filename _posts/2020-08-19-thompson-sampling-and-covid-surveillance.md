@@ -23,11 +23,11 @@ The problem above can be cast as a multi-armed bandit (MAB), or more specificall
 TS uses the actions and the observed outcome to get the posterior distribution for each ward. Here's a simple example with 3 wards. The algorithm goes as follows:
 1. Generate a prior for each ward, w: $f_w = beta(\alpha_w, \beta_w)$ where we set $\alpha_w$ and $\beta_w$ both to 1. <sup>2</sup>.
 2. For each ward, sample from this distribution:
+
     $$
-    \begin{aligned}
     \Theta_w \sim beta(\alpha_w, \beta_w)
-    \end{aligned}
     $$
+    
 3. Let $\tilde{w}$ be the ward with the largest $\Theta$.
 4. Sample in ward $\tilde{w}$ and get outcome $y_{\tilde{w}}$. $y_{\tilde{w}}$ is 1 if the sample was positive, 0 if not.
 5. Update $\alpha_{\tilde{w}} \leftarrow \alpha_{\tilde{w}} + y_{\tilde{w}}$ and $\beta_{\tilde{w}} \leftarrow \beta_{\tilde{w}} + (1 - y_{\tilde{w}})$
