@@ -54,7 +54,7 @@ For example, let's say the true prevalence is as follows:
 
 ![prev_delhi]({{"/assets/20200819_Delhi_prev.png" | absolute_url}})
 
-And we do varying number of samples - somewhere between 100 and 1000 for each - and then calculate the prevalence by just just looking at number of successes / number of trials.
+And we take varying number of samples - somewhere between 100 and 1000 for each - and then calculate the prevalence by just looking at `number of successes` / `number of trials`.
 
 {% highlight python %}
 df['trials'] = np.random.randint(100, 1000, size= df.actual_prevalence.shape[0])
@@ -71,7 +71,7 @@ Pretty noisy. There is that general trend of high positivity in the north east b
 
 ### Gaussian Smoothing
 
-I wouldn't go into the theory of GPs here. Check out these previous posts is you are interested:
+I won't go into the theory of GPs here. Check out these previous posts is you are interested:
 
 1. [Gaussian Process Regressions](https://sidravi1.github.io/blog/2018/04/03/gaussian-processes)
 2. [Latent GP and Binomial Likelihood](https://sidravi1.github.io/blog/2018/05/15/latent-gp-and-binomial-likelihood)
