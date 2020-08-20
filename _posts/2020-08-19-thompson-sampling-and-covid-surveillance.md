@@ -15,7 +15,7 @@ Notebooks are [up here](https://github.com/sidravi1/Blog/tree/master/nbs/covid_e
 ## Thompson Sampling (TS)
 
 The problem above can be cast as a multi-armed bandit (MAB), or more specifically a Bernoulli bandit, where there are $W$ actions available. Each action $a_w$ corresponding to doing the test in a ward $w$. Reward is finding a positive case and each ward has some unknown positivity rate. We need to trade off exploration and exploitation:
-* Exploration: Testing in other ward to learn it's positivity rate in case it's higher.
+* Exploration: Testing in other wards to learn their positivity rate in case it's higher.
 * Exploitation: Doing more testing in the wards you have found so far to have high positivity rates
 
 ### Algorithm
@@ -44,9 +44,9 @@ If you want to play around with your own distributions, [check out this notebook
 
 ## Back to COVID testing
 
-We can now do Thompson sampling to figure out which wards to test in but there is one more complication. In step 5, we update the parameters for just the ward where we sampled. But since neighbouring wards are similar, this also tells something about those. We should really be updating their parameters as well.
+We can now do Thompson sampling to figure out which wards to test in but there is one more complication. In step 5, we update the parameters for just the ward where we sampled. But since neighbouring wards are similar, this also tells us something about those. We should really be updating their parameters as well.
 
-How do we do that? How similar are neighbouring wards really? We'll use our old friend gaussian processes (GPs) to non-paramterically figure this out for us.
+How do we do that? How similar are neighbouring wards really? We'll use our old friend gaussian processes (GPs) to non-parametrically figure this out for us.
 
 ### Naive estimates
 
