@@ -130,11 +130,11 @@ That's not bad at all. You can run your mouse over and see the three figures. No
 
 ### What's next
 
-We aren't quite done yet but I'll leave the rest to the reader. We need to draw from the posterior distributions we just generated and sample again. And since we used bayesian inference, we actually have a posterior distribution (or rather samples from it) to draw from.
+We aren't quite done yet but I'll leave the rest to the reader. We need to draw from the posterior distributions we just generated and sample again. And since we used Bayesian inference, we actually have a posterior distribution (or rather samples from it) to draw from.
 
-GPs take a lot of time fit since it involves a matrix inversion (see [other post](https://sidravi1.github.io/blog/2018/04/03/gaussian-processes)). This took me ~30 mins to sample. Even if you were doing this for realz, this might not be such a deal breaker - doubt you're looking to come up with new testing strategies every 30 mins.
+GPs take a lot of time fit since they involve a matrix inversion (see [other post](https://sidravi1.github.io/blog/2018/04/03/gaussian-processes)). This took me ~30 mins to sample. Even if you were doing this for realz, this might not be such a deal breaker - doubt you're looking to come up with new testing strategies every 30 mins.
 
-The notebook for this is [up here](https://github.com/sidravi1/Blog/blob/master/nbs/covid_experiments/thompson_sampling_delhi.ipynb) if you'd like to play around with it yourself.
+The notebook for this is [up here](https://github.com/sidravi1/Blog/blob/master/nbs/covid_experiments/thompson_sampling_delhi.ipynb) if you'd like to play around with it yourself. Thanks for reading.
 
 ## Footnotes
 
