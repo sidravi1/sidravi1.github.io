@@ -107,10 +107,6 @@ In python:
 def getPO(A, O):
 
     A_out = np.zeros_like(A)
-
-    row_idx = O[:, 0]
-    col_idx = O[:, 1]
-
     A_out[tuple(O.T)] = A[tuple(O.T)]
 
     return A_out
@@ -118,10 +114,6 @@ def getPO(A, O):
 def getPOinv(A, O):
 
     A_out = A.copy()
-
-    row_idx = O[:, 0]
-    col_idx = O[:, 1]
-
     A_out[tuple(O.T)] = 0
 
     return A_out
@@ -151,7 +143,7 @@ def run_MCNNM(Y_obs, O, lambd = 10, threshold = 0.01, print_every= 200, max_iter
     iters = 0
 
     while (change > threshold) and (iters < max_iters):
-        lam = (len(ids) * lambd) / 2
+        
         PO = getPO(Y_obs, O)
         PO_inv = getPOinv(L_prev, O)
 
