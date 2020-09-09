@@ -6,7 +6,7 @@ comments: true
 use_math: true
 ---
 
-We've been doing some work with Delhi on COVID response and thinking a lot about positivity rate and optimal testing. Say you want to catch the maximum number of positive cases but you have no idea what the positive rates are in each ward within the city but you expect wards close to each other to have similar rate. You have a limited number of tests. How do you optimally allocate these to each ward to maximise the number of positive cases you catch?
+We've been doing some work with Delhi on COVID response and thinking a lot about positivity rate and optimal testing. Say you want to catch the maximum number of positive cases but you have no idea what the positivity rates are in each ward within the city but you expect wards close to each other to have similar rates. You have a limited number of tests. How do you optimally allocate these to each ward to maximise the number of positive cases you catch?
 
 A lot of this is theoretical since IRL you are constrained by state capacity, implementation challenges, and politics <sup>1</sup>. But I hope that doesn't stop you from enjoying this as much as I did.
 
