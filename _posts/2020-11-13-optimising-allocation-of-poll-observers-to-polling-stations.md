@@ -199,7 +199,7 @@ Here's what the final allocation looks like:
 It's a lot better than the spaghetti allocation we had at the start -- but not perfect. Check out those polling stations in the bottom left. If the allocations were swapped, total distance travelled would go down but the observer on the right may be slightly worse off.
 
 There are some nice things about this algorithm:
-1. It is a _truthful mechanism_: If you don't tell the truth about your preferences, you will only do worse. In our case, we are calculating the distance between the observer's house and the polling station and using that to objectively rank their preferences. If we were to ask them to rank their preferences, there would be a bad idea for them to misrepresent it.
+1. It is a _truthful mechanism_: If you don't tell the truth about your preferences, you will only do worse. In our case, we are calculating the distance between the observer's house and the polling station and using that to objectively rank their preferences. If we were to ask them to rank their preferences, it would be a bad idea for them to misrepresent it.
 2. It is _core stable_: You can't form a coalition (a subset of observers breaking off to do their own swapping) and do better than you would do if you stayed in the system.
 3. Solution is _pareto optimal_: You can't make any observer better off without making someone else worse off.
 
@@ -208,3 +208,7 @@ There are some nice things about this algorithm:
 Extensions of this won Alvin Roth and Lloyd Shapley the [Nobel prize](https://www.nytimes.com/2012/10/16/business/economy/alvin-roth-and-lloyd-shapley-win-nobel-in-economic-science.html#:~:text=Two%20Americans%2C%20Alvin%20E.,to%20jobs%20to%20organ%20donations.). It has been used in many markets where the items do not have a price and but we want to allow for swapping. Kidney exchange is one such market.
 
 I spent some time trying to adapt this to allow doctors to exchange shifts. Then life happened. Maybe I should pick that back up.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}

@@ -141,3 +141,7 @@ The notebook for this is [up here](https://github.com/sidravi1/Blog/blob/master/
 <sup>1</sup> And random sampling, and actually finding the people, and so many other thing. Also, note that positivity rate is not fixed and will change over time as you catch more positive cases and as the environment changes. We're getting into the realm of reinforcement learning so will ignore that for now.
 
 <sup>2</sup> You will note that this is a uniform distribution. We're using this for simplicity but it is obviously not the right one. We don't think wards are equally likely to have a 90% and a 10% positivity rate.
+
+{% if page.comments %}
+  {%- include disqus_tags.html -%}
+{% endif %}
