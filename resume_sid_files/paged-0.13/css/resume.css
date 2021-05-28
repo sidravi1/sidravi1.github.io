@@ -14,7 +14,7 @@
   --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
   --root-font-size: 12pt;
   --sidebar-width: 15rem;
-  --sidebar-background-color: #fefefe;
+  --sidebar-background-color: #f2f2f2;
   --main-width: calc(var(--content-width) - var(--sidebar-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -119,7 +119,6 @@ h1, h2{
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: #630000;
 }
 
 #title h3{
@@ -281,6 +280,10 @@ h1, h2{
   margin: 0.18in 0 0.1in 0;
 }
 
+.main-block:not(.concise) .details div:empty {
+  margin: 0;
+}
+
 .main-block:not(.concise) .blocks:last-child .details div{
   margin-bottom: 0;
 }
@@ -341,9 +344,6 @@ h1, h2{
   margin-left: 0 !important;
 }
 
-a {
-      color: #4d0026;
-  }
 
 
 /* sidebar */
@@ -394,6 +394,16 @@ a {
   font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
+}
+
+/* Page breaks */
+
+h2 {
+  break-after: avoid;
+}
+
+.blocks {
+  break-inside: avoid;
 }
 
 /* Paged.js viewer */
