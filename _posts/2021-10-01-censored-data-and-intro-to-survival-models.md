@@ -6,7 +6,7 @@ comments: true
 use_math: true
 ---
 
-I recently gave a short intro to survival models to our data scientists. The goal was to motivate why we should care about censored models.
+I recently gave a short intro to survival models to the team as part of a knowledge share session. The goal was to motivate why we should care about censored models.
 
 ## Discussion on censoring
 
