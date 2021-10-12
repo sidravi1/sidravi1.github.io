@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Censored data and intro to survival models"
+title: "[Survival models] Censored data and intro to survival models"
 date: "2021-10-01 11:51"
 comments: true
 use_math: true
