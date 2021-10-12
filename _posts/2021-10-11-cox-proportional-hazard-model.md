@@ -6,7 +6,7 @@ comments: true
 use_math: true
 ---
 
-In the previous blogpost, we talked about the *hazard* function - the probability that the event happens at time $t$ given that you it hasn't till time $t$. In the Cox proportional hazard model, we assume the hazard function is:
+In the [previous blogpost]({{ site.baseurl }}{% post_url 2021-10-01-censored-data-and-intro-to-survival-models %}), we talked about the *hazard* function - the probability that the event happens at time $t$ given that you it hasn't till time $t$. In the Cox proportional hazard model, we assume the hazard function is:
 
 $$
 h(t) = h_0(t) \times exp(b_1x_1 + b_2x_2 + ... + b_px_p)
