@@ -53,12 +53,15 @@ Note that we are assuming that all lambdas are equally likely (flat prior). We k
 The evidence is given by :
 
 $$
-P(x) = \int_0^{\infty} P(x|\lambda)\, d \lambda\\
-\hat{P}(x) = \sum_{i=1}^{N} P(x|\lambda_i)\,P(\lambda)\\
-\hat{P}(x) = \frac{1}{N} \sum_{i=1}^{N} P(x|\lambda_i)\\  
+\begin{align}
+P(x) = \int_0^{\infty} P(x|\lambda)\, d \lambda \\
+\hat{P}(x) = \sum_{i=1}^{N} P(x|\lambda_i)\,P(\lambda) \\
+\hat{P}(x) = \frac{1}{N} \sum_{i=1}^{N} P(x|\lambda_i) \\  
+\end{align}
 $$
 
-That just taking the mean of all the likelihoods:
+That just taking the mean of all the likelihoods since we are assuming a
+flat prior on lambda:
 
 ```
 evidence1 = all_likelihoods.mean()
@@ -139,7 +142,7 @@ $$
 p(H_1) = p(H_2) = 0.5
 $$
 
-So posterior for p(H_1 \vert x) is just:
+So posterior for $p(H_1 \vert x)$ is just:
 
 $$
 p(H_1 \vert x) = \frac{p (x | H_1) \cdot p (H_1)}{p (x | H_1) \cdot  p (H_1)  + p (x | H_2) \cdot  p (H_2)}
@@ -155,8 +158,10 @@ PosteriorProbOfH1 = evidence1  / (evidence1 + evidence2)
 which gives:
 
 $$
-p(H_2 \vert x) = 0.93\\
+\begin{align}
+p(H_2 \vert x) = 0.93 \\
 p(H_1 \vert x) = 0.07
+\end{align}
 $$
 
 ## Conclusion
